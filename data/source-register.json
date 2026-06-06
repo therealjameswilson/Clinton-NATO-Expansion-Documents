@@ -1983,6 +1983,115 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-packet extraction retained outside displayed FRUS note: Extracted from source packet PDF pages 15-16; 2 document pages counted. Review PDF includes a packet annotation sheet."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-nato-summit-1993-06-30",
+    "title": "NATO Summit",
+    "date": "1993-06-30",
+    "year": 1993,
+    "documentType": "NSC action memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 8-9. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "8-9",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato summit",
+      "nacc",
+      "nato expansion",
+      "central and eastern europe"
+    ],
+    "topics": [
+      "NATO Summit",
+      "NACC",
+      "NATO expansion",
+      "Central and Eastern Europe",
+      "U.S.-EC summit",
+      "Russia"
+    ],
+    "people": [
+      "Jenonne Walker",
+      "Anthony Lake",
+      "Boris Yeltsin",
+      "Manfred Woerner"
+    ],
+    "countries": [
+      "Russia",
+      "United States",
+      "Central and Eastern Europe"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Document ID 9304887; Walker recommends a back-to-back NATO/NACC summit so Central and Eastern European leaders are treated as partners, not objects of alliance decisions."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-nato-summit-timing-venue-1993-06-30",
+    "title": "The NATO Summit: Timing and Venue",
+    "date": "1993-06-30",
+    "year": 1993,
+    "documentType": "State Department draft memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 10-12. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "10-12",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato summit",
+      "nacc",
+      "state draft",
+      "central and eastern europe"
+    ],
+    "topics": [
+      "NATO Summit",
+      "NACC",
+      "U.S.-EC summit",
+      "CSCE",
+      "Central and Eastern Europe",
+      "Russia"
+    ],
+    "people": [
+      "Marc Grossman",
+      "Anthony Lake",
+      "Manfred Woerner"
+    ],
+    "countries": [
+      "Russia",
+      "United States",
+      "Central and Eastern Europe"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The State draft appears as Tab A to Walker's June 30, 1993 action memorandum and lays out summit options that include the NACC participants."
+  },
+  {
     "id": "clinton-nato-balkans-pcdc-1993-09-01-bosnia-principals-summary",
     "title": "Summary of Conclusions, NSC Principals Committee Meeting on Bosnia",
     "date": "1993-09-01",
@@ -2206,6 +2315,70 @@
     "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The withdrawal sheet places this released cable in the October 18, 1993 NATO Summit Principals Committee folder."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-visegrad-four-nato-expansion-1993-09-23",
+    "title": "The Visegrad Four and NATO Expansion",
+    "date": "1993-09-23",
+    "year": 1993,
+    "documentType": "NSC information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 17-18. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "17-18",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "visegrad",
+      "nato expansion",
+      "slocombe",
+      "security talks"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Visegrad",
+      "Bilateral security talks",
+      "CSCE",
+      "Peacekeeping",
+      "Russia"
+    ],
+    "people": [
+      "Daniel Fried",
+      "Jenonne Walker",
+      "Anthony Lake",
+      "Samuel Berger",
+      "Walter Slocombe",
+      "Alexander Vershbow",
+      "Alexandr Vondra",
+      "Janos Martonyi",
+      "Geza Jeszenszky",
+      "Vladimir Meciar"
+    ],
+    "countries": [
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Slovakia",
+      "Russia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Document ID 9307242; Fried reports on the September 14-22, 1993 Slocombe-led interagency bilateral security talks with Poland, the Czech Republic, Hungary, and Slovakia."
+  },
+  {
     "id": "clinton-library-doc-2015-0768-m-two-january-summits",
     "title": "Russia, NATO and the Two January Summits",
     "date": "1993-09-29",
@@ -2412,6 +2585,64 @@
     "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The withdrawal sheet places this released cable in the October 18, 1993 NATO Summit Principals Committee folder."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-nsc-memos-for-christopher-1993-10-19",
+    "title": "NSC Memos for Meeting with Secretary Christopher",
+    "date": "1993-10-19",
+    "year": 1993,
+    "documentType": "White House cover memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 24-25.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "24-25",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "secretary christopher",
+      "nato summit",
+      "partnership for peace",
+      "presidential briefing"
+    ],
+    "topics": [
+      "NATO Summit",
+      "Partnership for Peace",
+      "Secretary Christopher trip",
+      "Russia",
+      "Ukraine",
+      "Europe's East"
+    ],
+    "people": [
+      "John Podesta",
+      "Todd Stern",
+      "Bill Clinton",
+      "Anthony Lake",
+      "Warren Christopher",
+      "Strobe Talbott",
+      "Leonid Kravchuk"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The cover memo frames Lake's NATO/PFP decision memo for the President's meeting with Secretary Christopher."
+  },
+  {
     "id": "clinton-nato-balkans-pcdc-1993-10-19-bosnia-principals-summary",
     "title": "Summary of Conclusions, NSC Principals Committee Meeting on Bosnia",
     "date": "1993-10-19",
@@ -2457,6 +2688,67 @@
       "id": "balkans-pcdc-1993-10-19-bosnia-principals-summary"
     },
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-packet extraction retained outside displayed FRUS note: Extracted from source packet PDF pages 28; 1 document page counted. Review PDF includes a packet annotation sheet."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-nato-summit-europes-east-1993-10-19",
+    "title": "The NATO Summit and Europe's East",
+    "date": "1993-10-19",
+    "year": 1993,
+    "documentType": "Presidential decision memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 26-27. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "26-27",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "principals committee",
+      "partnership for peace",
+      "nato expansion",
+      "presidential decision"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Partnership for Peace",
+      "Principals Committee",
+      "Russia",
+      "Ukraine",
+      "NACC",
+      "SHAPE"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Anthony Lake",
+      "Warren Christopher",
+      "Les Aspin",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "Slovakia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Principals Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Document ID 9308072; the memorandum tells the President the Principals Committee agreed on a PFP-centered approach while stating that NATO membership will grow to include new democracies. Packet pages 28-30 carry a staff/draft copy and are not promoted separately in this tranche."
   },
   {
     "id": "clinton-nato-balkans-pcdc-1993-10-28-bosnia-deputies-summary",
@@ -2505,6 +2797,59 @@
       "id": "balkans-pcdc-1993-10-28-bosnia-deputies-summary"
     },
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-packet extraction retained outside displayed FRUS note: Extracted from source packet PDF pages 29-30; 2 document pages counted. Review PDF includes a packet annotation sheet."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-nato-and-us-influence-1993-11-03",
+    "title": "NATO and U.S. Influence",
+    "date": "1993-11-03",
+    "year": 1993,
+    "documentType": "NSC information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 36-38. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "36-38",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "partnership for peace",
+      "us influence",
+      "nato mission",
+      "csce"
+    ],
+    "topics": [
+      "NATO mission",
+      "Partnership for Peace",
+      "U.S. troops in Europe",
+      "CSCE",
+      "Bosnia",
+      "European security"
+    ],
+    "people": [
+      "Jenonne Walker",
+      "Anthony Lake",
+      "Sam Nunn"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Document ID 9308663; Walker links NATO's post-Cold War mission, the Partnership for Peace, and the future of U.S. influence in Europe."
   },
   {
     "id": "clinton-nato-balkans-pcdc-1993-11-16-bosnia-deputies-summary",
@@ -18706,6 +19051,140 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-note detail moved from displayed citation: Page count audit: 8 actual conversation pages from 165-172; non-conversation pages and duplicate copies excluded. Source marking extraction: Secret found by PDF text extraction. Source page span retained outside displayed FRUS note: pages 165-172; 8 conversation pages."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-nato-summit-communications-objectives-1997-06-23",
+    "title": "NATO Summit - Communications Objectives, Themes, Events, Roll Out",
+    "date": "1997-06-23",
+    "year": 1997,
+    "documentType": "NSC information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 497-502. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "497-502",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "madrid summit",
+      "communications plan",
+      "nato enlargement",
+      "nato-russia"
+    ],
+    "topics": [
+      "Madrid Summit",
+      "NATO enlargement",
+      "NATO-Russia",
+      "NATO-Ukraine",
+      "EAPC",
+      "Partnership for Peace",
+      "Open door",
+      "Public diplomacy"
+    ],
+    "people": [
+      "Antony Blinken",
+      "David Leavy",
+      "Samuel Berger",
+      "Sylvia Mathews",
+      "Don Baer",
+      "Ann Lewis",
+      "James Steinberg",
+      "Jeremy Rosner",
+      "Anne Luzzatto",
+      "Bill Clinton",
+      "Javier Solana"
+    ],
+    "countries": [
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "Romania",
+      "Russia",
+      "Ukraine",
+      "Denmark",
+      "Spain",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memo lays out the White House communications strategy for Madrid, including how to invite first-round members, reassure non-invitees, and emphasize NATO-Russia, NATO-Ukraine, EAPC, and PFP."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-communications-plan-nato-summit-1997-06-30",
+    "title": "Communications Plan for the NATO Summit",
+    "date": "1997-06-30",
+    "year": 1997,
+    "documentType": "Presidential action memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 508-512. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "508-512",
+    "pageCount": 5,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "madrid summit",
+      "presidential action",
+      "nato enlargement",
+      "ratification"
+    ],
+    "topics": [
+      "Madrid Summit",
+      "NATO enlargement",
+      "Ratification strategy",
+      "NATO-Russia",
+      "NATO-Ukraine",
+      "EAPC",
+      "Partnership for Peace",
+      "Open door"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Samuel Berger",
+      "Don Baer",
+      "Jacques Chirac",
+      "Javier Solana"
+    ],
+    "countries": [
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "Romania",
+      "Russia",
+      "Ukraine",
+      "Denmark",
+      "Spain",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The President saw the action memorandum, which asks approval of the major Madrid trip events and messages and links summit communications to the U.S. ratification debate."
+  },
+  {
     "id": "clinton-nato-strobe-C09000041",
     "title": "July 1, 1997 Letter From Strobe Talbott To Livia Sylva w/Attachment(s)",
     "date": "1997-07-01",
@@ -19192,6 +19671,84 @@
       "id": "russia-cross-contact-1998-02-02-telcon-50"
     },
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-note detail moved from displayed citation: Page count audit: 4 actual conversation pages from 236-239; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: Duplicate packet pages 240-243 were excluded. Source marking extraction: Confidential found by PDF OCR. Source page span retained outside displayed FRUS note: pages 236-239; 4 conversation pages."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-committee-expand-nato-dinner-1998-02-09",
+    "title": "Committee to Expand NATO Dinner IHO Polish, Czech and Hungarian Foreign Ministers",
+    "date": "1998-02-09",
+    "year": 1998,
+    "documentType": "NSC information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 527-531. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "527-531",
+    "pageCount": 5,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "senate ratification",
+      "committee to expand nato",
+      "open door",
+      "accession protocols"
+    ],
+    "topics": [
+      "Senate ratification",
+      "NATO enlargement",
+      "Committee to Expand NATO",
+      "Open door",
+      "Costs",
+      "Accession protocols",
+      "Second round"
+    ],
+    "people": [
+      "Samuel Berger",
+      "Stephen Flanagan",
+      "Donald Bandler",
+      "Susan Braden",
+      "Nancy McEldowney",
+      "Laszlo Kovacs",
+      "Bronislaw Geremek",
+      "Jaroslav Sedivy",
+      "Madeleine Albright",
+      "Jeremy Rosner",
+      "Sam Nunn",
+      "Brent Scowcroft",
+      "John Warner",
+      "Trent Lott",
+      "Julie Finley",
+      "Bruce Jackson",
+      "Stephen Hadley",
+      "Robert Zoellick",
+      "Peter Rodman"
+    ],
+    "countries": [
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Romania",
+      "Russia",
+      "United States",
+      "Canada",
+      "Norway",
+      "France",
+      "United Kingdom"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memo briefs Berger on the domestic ratification campaign, the Committee to Expand NATO, Senate vote count, cost/capability concerns, and open-door language before the February 10, 1998 dinner."
   },
   {
     "id": "clinton-nato-govinfo-PPP-1998-book1-doc-pg208",

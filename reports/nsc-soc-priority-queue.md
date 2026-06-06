@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T02:52:19.757Z
+Generated: 2026-06-06T03:00:07.970Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -19,16 +19,22 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1993-04-14 | P0 | Cable | Havel's Upcoming Meeting with the President: Security Issues on the Agenda | NSC | 4 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1993-04-19 | P0 | Release Packet | Summary of Conclusions on Bosnia |  | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-05-06 | P0 | Release Packet | Summary of Conclusions, Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1993-06-30 | P0 | NSC action memorandum | NATO Summit | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1993-06-30 | P0 | State Department draft memorandum | The NATO Summit: Timing and Venue | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-09-01 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-09-14 | P0 | Strategy paper | A Strategy for NATO's Transformation and Expansion | Deputies Committee | 9 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-20 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-09-20 | P0 | Cable | Yeltsin: NATO Expansion | Principals Committee | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-09-23 | P0 | NSC information memorandum | The Visegrad Four and NATO Expansion | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-09-29 | P0 | Cable | Russia, NATO and the Two January Summits | Principals Committee | 7 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-10 | P0 | Draft declaration language | Phased NATO Expansion: Draft Declaration Language | Principals Committee | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-10-02 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-10-08 | P0 | Cable | NATO Expansion: Now Is Not the Time | Principals Committee | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-10-19 | P0 | White House cover memorandum | NSC Memos for Meeting with Secretary Christopher | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-10-19 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 1 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1993-10-19 | P0 | Presidential decision memorandum | The NATO Summit and Europe's East | Principals Committee | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-10-28 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1993-11-03 | P0 | NSC information memorandum | NATO and U.S. Influence | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-11-16 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-12-31 | P0 | Presidential briefing memorandum | Your Trip to Prague | NSC | 8 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1993-1998 | P0 | Clinton Library MDR packet control | Declassified Documents Concerning NATO Expansion | NSC | 340 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/57563)
@@ -162,9 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-03-05 | P0 | TE | SECRETARY'S SECOND MEETING WITH YEVGINIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf)
 1997-03-06 | P0 | ME | MEMORANDUM OF CONVERSATION MEETING PRESIDENT CLINTON AND PRESIDENT YELTSIN | NSC | 17 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703521/C06703521.pdf)
 1997-03-06 | P0 | TE | OFFICIAL INFORMAL: FOR OFFICE OF THE DEPUTY SECRETARY (ERIC EDELMAN) | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703169/C06703169.pdf)
-1997-03-07 | P0 | TE | OFFICIAL INFORMAL | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703164/C06703164.pdf)
-1997-03-07 | P0 | TE | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | NSC | 8 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703179/C06703179.pdf)
-1997-03-07 | P0 | TE | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703610/C06703610.pdf)
-1997-03-07 | P0 | GC | OFFICIAL INFORMAL -- TALBOTT - LEVITTE MEETING | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703393/C06703393.pdf)
-1997-03-07 | P0 | TE | TALBOTT/CHUBAYS MEETING MARCH 6 | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702859/C06702859.pdf)
-1997-03-11 | P0 | TE | OFFICIAL INFORMAL: TALBOTT/ISCHINGER CONVERSATION | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703066/C06703066.pdf)

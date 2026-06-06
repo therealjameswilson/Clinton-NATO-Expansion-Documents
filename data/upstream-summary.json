@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-06-06T02:52:19.756Z",
-  "publicRecordCount": 1021,
+  "generatedAt": "2026-06-06T03:00:07.965Z",
+  "publicRecordCount": 1030,
   "localPrivateDriveIntakeCount": 17,
-  "allLocalRecordCount": 1038,
-  "knownPublicPages": 4222,
-  "nscSocCount": 214,
-  "p0Count": 509,
+  "allLocalRecordCount": 1047,
+  "knownPublicPages": 4252,
+  "nscSocCount": 223,
+  "p0Count": 518,
   "sourceClassCounts": {
     "clinton-digital-library": 148,
-    "clinton-library-mdr": 73,
+    "clinton-library-mdr": 82,
     "clinton-library-mdr-packet": 11,
     "frus-upstream-lead": 66,
     "nara-catalog": 46,
@@ -16,14 +16,14 @@
     "state-foia": 417
   },
   "priorityCounts": {
-    "P0": 509,
+    "P0": 518,
     "P1": 164,
     "P2": 73,
     "P3": 275
   },
   "inclusionStatusCounts": {
     "context-candidate": 254,
-    "include-candidate": 155,
+    "include-candidate": 164,
     "pending-promotion": 288,
     "unreviewed": 324
   }

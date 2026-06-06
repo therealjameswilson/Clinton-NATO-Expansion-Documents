@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T02:52:31.967Z
+Generated: 2026-06-06T03:00:12.858Z
 
 ## What This Pass Proves
 
@@ -34,6 +34,15 @@ Generated: 2026-06-06T02:52:31.967Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1997-03-18 | 40 | 6 | SECRETARY'S MARCH 10 CONSULTATION WITH UK FOREIGN SECRETARY RIFKIND | state-foia | nato-russia, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702975/C06702975.pdf)
+1994-01 | 39 | 2 | Visegrad | clinton-library-mdr | pfp, nsc-soc | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1994-01-03 | 38 | 1 | January 3, 1994 Letter From Strobe Talbott To Zbigniew Brzezinski | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Aug2021_C/F-2017-13804/DOC_0C06689961/C06689961.pdf)
+1996-01-26 | 38 | 8 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703033/C06703033.pdf)
+1996-10-29 | 38 | 3 | DEPUTY SECRETARY TALBOTT'S MEETING WITH ROMANIAN FOEIGN MINISTER TEODOR MELESCANU | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698698/C06698698.pdf)
+1997-01-18 | 38 | 2 | DEPUTY SECRETARY'S CONVERSATION WITH POLISH FOREIGN MINISTER ROSATI | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703043/C06703043.pdf)
+1997-02-21 | 38 | 2 | THE DEPUTY SECRETARY'S CONVERSATION WITH NATO SECRETARY GENERAL SOLANA | state-foia | nato-expansion, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702957/C06702957.pdf)
+1997-03-17 | 38 | 2 | DEPUTY SECRETARY'S CONVERSTAION WITH TURKISH FOREIGN MINISTRY UNDER SSECRETARY OYMEN | state-foia | nato-expansion, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702865/C06702865.pdf)
+1998-07-09 | 38 | 4 | DEPUTY SECRETARY DISCUSSES NATO ENLARGEMENT AND KOSOVO WITH DANISH DEFMIN | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771955/C06771955.pdf)
 1999-04-29 | 38 | 6 | NAC INTERVENTION 4/29/99 | state-foia | nato-russia, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000017/C09000017.pdf)
 2000-05-04 | 38 | 3 | D/S Talbott meeting with Finnish Foreign Minister Tuomioja | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815087/C06815087.pdf)
 2000-08-11 | 38 | 5 | The Deputy Secretary's meeting with EU Commissioner Patten: G8 Ministerial Miyazaki, Japan | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814898/C06814898.pdf)
@@ -85,15 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1996-07-19 | 28 | 3 | THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698359/C06698359.pdf)
 1996-11-06 | 28 | 5 | THE DEPUTY SECRETARY'S CONVERSATION WITH ROMANIAN FM MELESCANU | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698960/C06698960.pdf)
 1996-11-06 | 28 | 4 | THE DEPUTY SECRETARY'S CONVERSATION WITH ROMANIAN FOREIGN MINISTER MELESCANU | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698958/C06698958.pdf)
-1996-11-09 | 28 | 3 | THE DEPUTY SECRETARY'S CONVERSATION WITH ROMANIAN FOREIGN MINISTER MELESCANU | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698683/C06698683.pdf)
-1997-02-27 | 28 | 3 | Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-03-01 | 28 | 3 | THE DEPUTY SECRETARY'S CONVERSATION WITH TURKISH UNDER SECRETARY OYMEN | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703396/C06703396.pdf)
-1997-03-21 | 28 | 4 | Helsinki Afternoon Meeting with President Boris Yeltsin | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-03-21 | 28 | 11 | Helsinki Morning Meeting with President Boris Yeltsin | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-03-21 | 28 | 6 | Helsinki Private Dinner with President Boris Yeltsin | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-03-21 | 28 | 8 | Helsinki Working Lunch with President Boris Yeltsin | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-05-27 | 28 | 8 | Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-06-20 | 28 | 8 | Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 
 ## NARA Scout Promotion Queue
 

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T02:52:31.967Z",
+  "generatedAt": "2026-06-06T03:00:12.858Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -9,20 +9,20 @@
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 405,
-      "Pages": 1969,
+      "Count": 414,
+      "Pages": 1999,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 138,
+      "Count": 147,
       "Pages": "",
       "Status": "special review lane"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 37,
-      "Pages": 160,
+      "Count": 46,
+      "Pages": 190,
       "Status": "document-level rows"
     },
     {
@@ -411,6 +411,26 @@
       "packetIdentifier": "2024-0540-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-nato-summit-1993-06-30",
+      "date": "1993-06-30",
+      "title": "NATO Summit",
+      "pageCount": 2,
+      "sourcePages": "8-9",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-nato-summit-timing-venue-1993-06-30",
+      "date": "1993-06-30",
+      "title": "The NATO Summit: Timing and Venue",
+      "pageCount": 3,
+      "sourcePages": "10-12",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-nato-transformation-expansion-strategy",
       "date": "1993-09-14",
       "title": "A Strategy for NATO's Transformation and Expansion",
@@ -429,6 +449,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-visegrad-four-nato-expansion-1993-09-23",
+      "date": "1993-09-23",
+      "title": "The Visegrad Four and NATO Expansion",
+      "pageCount": 2,
+      "sourcePages": "17-18",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
     },
     {
       "id": "clinton-library-doc-2015-0768-m-two-january-summits",
@@ -459,6 +489,36 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-nsc-memos-for-christopher-1993-10-19",
+      "date": "1993-10-19",
+      "title": "NSC Memos for Meeting with Secretary Christopher",
+      "pageCount": 2,
+      "sourcePages": "24-25",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-nato-summit-europes-east-1993-10-19",
+      "date": "1993-10-19",
+      "title": "The NATO Summit and Europe's East",
+      "pageCount": 2,
+      "sourcePages": "26-27",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-nato-and-us-influence-1993-11-03",
+      "date": "1993-11-03",
+      "title": "NATO and U.S. Influence",
+      "pageCount": 3,
+      "sourcePages": "36-38",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
     },
     {
       "id": "clinton-library-doc-2024-0540-m-trip-to-prague",
@@ -699,6 +759,36 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-nato-summit-communications-objectives-1997-06-23",
+      "date": "1997-06-23",
+      "title": "NATO Summit - Communications Objectives, Themes, Events, Roll Out",
+      "pageCount": 6,
+      "sourcePages": "497-502",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-communications-plan-nato-summit-1997-06-30",
+      "date": "1997-06-30",
+      "title": "Communications Plan for the NATO Summit",
+      "pageCount": 5,
+      "sourcePages": "508-512",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-committee-expand-nato-dinner-1998-02-09",
+      "date": "1998-02-09",
+      "title": "Committee to Expand NATO Dinner IHO Polish, Czech and Hungarian Foreign Ministers",
+      "pageCount": 5,
+      "sourcePages": "527-531",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
     },
     {
       "id": "clinton-library-doc-2015-0773-m-havel-telcon-1998-05-04",
