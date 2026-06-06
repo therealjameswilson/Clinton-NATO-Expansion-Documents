@@ -280,6 +280,74 @@
     "notes": "Promoted as a visible transmittal/control document after local source-image inspection. The underlying Tab A Summary of Conclusions was not separately identified as visible text in this pass, so this row should not be cited as the full SOC text."
   },
   {
+    "id": "nara-doc-40482484-dc-soc-bosnia-1994-12-19",
+    "title": "Summary of Conclusions of Deputies Committee Meeting on Bosnia",
+    "date": "1994-12-19",
+    "year": 1994,
+    "documentType": "Summary of Conclusions",
+    "sourceClass": "nara-catalog",
+    "sourceUrl": "https://catalog.archives.gov/id/40482484",
+    "sourceNote": "Source: National Archives Catalog, Bosnia Principals Committee/Deputies Committee 1994 Meetings [2], NAID 40482484, NARA Catalog page images 10-12. Secret.",
+    "sourceNoteStatus": "Document-level provenance from official NARA page images",
+    "sourcePages": "10-12",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["summary of conclusions", "deputies committee", "nsc", "nato policy planning", "unprofor"],
+    "topics": ["Summary of Conclusions", "Deputies Committee", "Bosnia", "NATO policy planning", "NATO operations to withdraw UNPROFOR", "Contact Group", "Interagency policy process", "NSC"],
+    "people": ["Samuel Berger", "Strobe Talbott", "Richard Holbrooke", "Alexander Vershbow", "Donald Kerrick", "Leon Fuerth"],
+    "countries": ["United States", "Bosnia and Herzegovina", "Russia"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": true,
+      "committee": "Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "context-candidate",
+    "verificationStatus": "verified",
+    "upstream": {
+      "workspace": "live-nara-scout-document-extraction",
+      "id": "clinton-nato-nara-scout-40482484",
+      "naid": "40482484",
+      "packetTitle": "Bosnia Principals Committee/Deputies Committee 1994 Meetings [2]"
+    },
+    "notes": "Promoted from a NARA Scout lead after OCR and source-image inspection of official NARA Catalog page images. The associated Deputies Committee agenda in this same NARA file identifies NATO policy planning for U.S. participation in NATO operations to withdraw UNPROFOR. This is an image-only NARA release, so it is kept out of the automatic qpdf package assembly until image-page assembly support is added."
+  },
+  {
+    "id": "nara-doc-40482484-pc-soc-bosnia-1994-12-12",
+    "title": "Summary of Conclusions of Principals Committee Meeting on Bosnia",
+    "date": "1994-12-12",
+    "year": 1994,
+    "documentType": "Summary of Conclusions",
+    "sourceClass": "nara-catalog",
+    "sourceUrl": "https://catalog.archives.gov/id/40482484",
+    "sourceNote": "Source: National Archives Catalog, Bosnia Principals Committee/Deputies Committee 1994 Meetings [2], NAID 40482484, NARA Catalog page images 26-28. Secret.",
+    "sourceNoteStatus": "Document-level provenance from official NARA page images",
+    "sourcePages": "26-28",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["summary of conclusions", "principals committee", "nsc", "nato policy planning", "unprofor withdrawal"],
+    "topics": ["Summary of Conclusions", "Principals Committee", "Bosnia", "NATO policy planning", "NATO-led operation", "UNPROFOR withdrawal", "Congressional strategy", "NSC"],
+    "people": ["Anthony Lake", "Warren Christopher", "William Perry", "Madeleine Albright", "Samuel Berger", "Nancy Soderberg", "Alexander Vershbow"],
+    "countries": ["United States", "Bosnia and Herzegovina", "Russia"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": true,
+      "committee": "Principals Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "context-candidate",
+    "verificationStatus": "verified",
+    "upstream": {
+      "workspace": "live-nara-scout-document-extraction",
+      "id": "clinton-nato-nara-scout-40482484",
+      "naid": "40482484",
+      "packetTitle": "Bosnia Principals Committee/Deputies Committee 1994 Meetings [2]"
+    },
+    "notes": "Promoted from a NARA Scout lead after OCR and source-image inspection of official NARA Catalog page images. The Summary of Conclusions includes NATO policy planning for UNPROFOR withdrawal and possible Congressional authorization for U.S. participation in a NATO-led operation. This is an image-only NARA release, so it is kept out of the automatic qpdf package assembly until image-page assembly support is added."
+  },
+  {
     "id": "nara-iscap-2016-156-doc-11-clinton-yeltsin-moscow-1995-05-10",
     "title": "Summary Report on One-On-One Meeting Between Presidents Clinton and Yeltsin, May 10, 1995, Kremlin",
     "date": "1995-05-10",

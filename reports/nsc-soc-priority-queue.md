@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T05:53:05.253Z
+Generated: 2026-06-06T06:06:07.495Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 227
+- NATO-relevant NSC/SOC records: 229
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -65,7 +65,9 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1994-10-04 | P0 | NSC staff memorandum with policy papers | Moving Toward NATO Expansion | NSC | 9 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1994-10-13 | P0 | Presidential information memorandum with NSC staff paper | NATO Expansion | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1994-10-18 | P0 | ME | NESA (that's "New European Security Architecture") | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000154/C09000154.pdf)
+1994-12-12 | P0 | Summary of Conclusions | Summary of Conclusions of Principals Committee Meeting on Bosnia | Principals Committee | 3 | nara-catalog | [open](https://catalog.archives.gov/id/40482484)
 1994-12-16 | P0 | TE | DECEMBER 15 TALBOTT-RYURIKOV MEETING ON | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694734/C06694734.pdf)
+1994-12-19 | P0 | Summary of Conclusions | Summary of Conclusions of Deputies Committee Meeting on Bosnia | Deputies Committee | 3 | nara-catalog | [open](https://catalog.archives.gov/id/40482484)
 1994-12-21 | P0 | Presidential briefing memorandum | Meeting with the Vice President on Russia and NATO Expansion | NSC | 5 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-12-22 | P0 | NSC action memorandum with conceptual paper | European Security Architecture, NATO Expansion and Russia | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-12-29 | P0 | Presidential correspondence | President Yeltsin to President Clinton on NATO Enlargement | Deputies Committee | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
@@ -175,8 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-03-07 | P0 | TE | OFFICIAL INFORMAL | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703164/C06703164.pdf)
 1997-03-07 | P0 | TE | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | NSC | 8 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703179/C06703179.pdf)
 1997-03-07 | P0 | TE | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703610/C06703610.pdf)
-1997-03-07 | P0 | GC | OFFICIAL INFORMAL -- TALBOTT - LEVITTE MEETING | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703393/C06703393.pdf)
-1997-03-07 | P0 | TE | TALBOTT/CHUBAYS MEETING MARCH 6 | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702859/C06702859.pdf)
 
 ## Public Packet Controls Requiring Extraction
 

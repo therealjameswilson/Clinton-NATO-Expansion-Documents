@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T05:53:05.441Z",
+  "generatedAt": "2026-06-06T06:06:07.690Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -33,8 +33,8 @@
     },
     {
       "Lane": "NARA promoted document rows",
-      "Count": 9,
-      "Pages": 36,
+      "Count": 11,
+      "Pages": 42,
       "Status": "document-level rows after source-image inspection"
     },
     {
@@ -1773,6 +1773,24 @@
       "sourceUrl": "https://catalog.archives.gov/id/368557013",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/7585709-20170413F-002-008-2024.pdf",
       "naid": "368557013"
+    },
+    {
+      "id": "nara-doc-40482484-pc-soc-bosnia-1994-12-12",
+      "date": "1994-12-12",
+      "title": "Summary of Conclusions of Principals Committee Meeting on Bosnia",
+      "pageCount": 3,
+      "sourcePages": "26-28",
+      "sourceUrl": "https://catalog.archives.gov/id/40482484",
+      "naid": "40482484"
+    },
+    {
+      "id": "nara-doc-40482484-dc-soc-bosnia-1994-12-19",
+      "date": "1994-12-19",
+      "title": "Summary of Conclusions of Deputies Committee Meeting on Bosnia",
+      "pageCount": 3,
+      "sourcePages": "10-12",
+      "sourceUrl": "https://catalog.archives.gov/id/40482484",
+      "naid": "40482484"
     },
     {
       "id": "nara-iscap-2016-156-doc-11-clinton-yeltsin-moscow-1995-05-10",

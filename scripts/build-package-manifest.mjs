@@ -683,7 +683,8 @@ ${promotedRows.length ? table(promotedRows, ["Date", "Pages", "Count", "Record",
 
 These rows started as NARA Scout file-unit leads but were promoted only after
 local source-image inspection identified visible document text, dates, page
-spans, and stable public NARA PDF URLs.
+spans, and stable public NARA source URLs. Image-only NARA releases are kept
+out of automatic PDF assembly until image-page assembly support is added.
 
 ${naraPromotedRows.length ? table(naraPromotedRows, ["Date", "Pages", "Count", "Record", "Source ID", "Link"]) : "No NARA document rows have been promoted in this build yet."}
 

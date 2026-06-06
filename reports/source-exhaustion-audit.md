@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T05:53:05.441Z
+Generated: 2026-06-06T06:06:07.690Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -14,7 +14,7 @@ Package-ready public candidates | 505 | 2520 | available for reselection
 NSC/SOC/minutes attention queue | 245 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 9 selected; 4 package-ready deferred; 0 not ready or not ingested
 Clinton Library promoted document rows | 135 | 718 | document-level rows
-NARA promoted document rows | 9 | 36 | document-level rows after source-image inspection
+NARA promoted document rows | 11 | 42 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
 NARA Scout promotion leads | 123 |  | needs source-image inspection
@@ -164,11 +164,14 @@ Date | Pages | Count | Record | Packet | Link
 
 These rows started as NARA Scout file-unit leads but were promoted only after
 local source-image inspection identified visible document text, dates, page
-spans, and stable public NARA PDF URLs.
+spans, and stable public NARA source URLs. Image-only NARA releases are kept
+out of automatic PDF assembly until image-page assembly support is added.
 
 Date | Pages | Count | Record | Source ID | Link
 --- | --- | --- | --- | --- | ---
 1994-01-12 | 37-38 | 2 | Background: Business-Related Event at K-Mart | 368557013 | [open](https://catalog.archives.gov/id/368557013)
+1994-12-12 | 26-28 | 3 | Summary of Conclusions of Principals Committee Meeting on Bosnia | 40482484 | [open](https://catalog.archives.gov/id/40482484)
+1994-12-19 | 10-12 | 3 | Summary of Conclusions of Deputies Committee Meeting on Bosnia | 40482484 | [open](https://catalog.archives.gov/id/40482484)
 1995-05-10 | 1-16 | 16 | Summary Report on One-On-One Meeting Between Presidents Clinton and Yeltsin, May 10, 1995, Kremlin | 2016-156 | [open](https://www.archives.gov/files/declassification/iscap/pdf/2016-156-doc-11.pdf)
 1996-03-05 | 19 | 1 | Transmittal: Summary of Conclusions, Principals Committee Meeting on Bosnia, March 1, 1996 | 41051478 | [open](https://catalog.archives.gov/id/41051478)
 1996-06-25 | 15 | 1 | Transmittal: Summary of Conclusions, Deputies Committee Meeting on Bosnia, June 20, 1996 | 41051385 | [open](https://catalog.archives.gov/id/41051385)
