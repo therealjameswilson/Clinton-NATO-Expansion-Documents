@@ -1,6 +1,6 @@
 # Upstream Ingest Audit
 
-Generated: 2026-06-06T02:21:56.819Z
+Generated: 2026-06-06T02:27:21.438Z
 
 ## Inputs
 
@@ -10,17 +10,17 @@ Generated: 2026-06-06T02:21:56.819Z
 
 ## Public Register
 
-- Public records: 993
-- Known public pages: 4108
-- NSC/Summaries of Conclusions flags: 188
-- P0 records: 483
+- Public records: 996
+- Known public pages: 4128
+- NSC/Summaries of Conclusions flags: 191
+- P0 records: 485
 
 ## Source Classes
 
 Source | Count
 --- | ---
 clinton-digital-library | 148
-clinton-library-mdr | 45
+clinton-library-mdr | 48
 clinton-library-mdr-packet | 11
 frus-upstream-lead | 66
 nara-catalog | 46
@@ -31,8 +31,8 @@ state-foia | 417
 
 Priority | Count
 --- | ---
-P0 | 483
-P1 | 162
+P0 | 485
+P1 | 163
 P2 | 73
 P3 | 275
 
@@ -41,7 +41,7 @@ P3 | 275
 Status | Count
 --- | ---
 context-candidate | 254
-include-candidate | 127
+include-candidate | 130
 pending-promotion | 288
 unreviewed | 324
 

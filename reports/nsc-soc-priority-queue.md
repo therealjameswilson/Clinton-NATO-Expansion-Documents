@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T02:21:56.820Z
+Generated: 2026-06-06T02:27:21.438Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -19,6 +19,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1993-04-19 | P0 | Release Packet | Summary of Conclusions on Bosnia |  | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-05-06 | P0 | Release Packet | Summary of Conclusions, Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-09-01 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1993-09-14 | P0 | Strategy paper | A Strategy for NATO's Transformation and Expansion | Deputies Committee | 9 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-20 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-09-20 | P0 | Cable | Yeltsin: NATO Expansion | Principals Committee | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-29 | P0 | Cable | Russia, NATO and the Two January Summits | Principals Committee | 7 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
@@ -157,6 +158,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-03-15 | P0 | ME | SECRETARY ALBRIGHT'S LUNCH MEETING WITH FM PRIMAKOV: DEPARTMENT OF STATE DINING ROOM, WASHINGTON, DC, MARCH 15, 1997 | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702890/C06702890.pdf)
 1997-03-16 | P0 | ME | MEMORANDUM OF CONVERSATION BETWEEN THE SERETARY AND FM Y. M. PRIMAKOV | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703630/C06703630.pdf)
 1997-03-17 | P0 | ME | MEMRANDUM OF CONVERSATION BETWEEN THE SECRETARY AND FM Y. M. PRIMAKOV | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703634/C06703634.pdf)
+1997-06-09 | P0 | Strategy paper | A Diplomatic and Congressional Strategy for Madrid and Beyond | Principals Committee | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1999-01-11 | P0 | TE | ARMENIAN FM OSKANIAN MEETING WITH DEPUTY SECRETARY, JANUARY 8 | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771561/C06771561.pdf)
 1999-02-16 | P0 | TE | DEPSEC'S CONSULTATIONS WITH ELYSEE OFFICIALS, FEBRUARY 3, 1999 | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770333/C06770333.pdf)
 1999-02-16 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH FRENCH MOD OFFICIALS, FEBRUARY 3, 1999 | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771518/C06771518.pdf)
@@ -166,5 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN STATE SECRETARY ISCHINGER ON 2/4 | NSC | 8 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771540/C06771540.pdf)
 1999-04-06 | P0 | TE | DEPUTY SECRETARY TALBOTT'S VISIT TO ALBANIA | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814664/C06814664.pdf)
 1999-04-07 | P0 | TE | DEPUTY SECRETARY TALBOTT'S MEETING WITH GREEK DEFENSE MINISTER | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf)
-1999-04-27 | P0 | TE | SHEVARDNADZE SUPPORTS NATO'S ACTIONS IN KOSOVO | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772050/C06772050.pdf)
-1999-04-27 | P0 | TE | SHEVARDNADZE SUPPORTS NATO'S ACTIONS IN KOSOVO | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772055/C06772055.pdf)

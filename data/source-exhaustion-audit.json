@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-06T02:21:57.017Z",
+  "generatedAt": "2026-06-06T02:27:25.058Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 174,
+      "Count": 173,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 377,
-      "Pages": 1855,
+      "Count": 380,
+      "Pages": 1875,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 113,
+      "Count": 116,
       "Pages": "",
       "Status": "special review lane"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 9,
-      "Pages": 46,
+      "Count": 12,
+      "Pages": 66,
       "Status": "document-level rows"
     },
     {
@@ -274,6 +274,16 @@
   ],
   "clintonLibraryPromotedDocuments": [
     {
+      "id": "clinton-library-doc-2015-0768-m-nato-transformation-expansion-strategy",
+      "date": "1993-09-14",
+      "title": "A Strategy for NATO's Transformation and Expansion",
+      "pageCount": 9,
+      "sourcePages": "52-60",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-yeltsin-nato-expansion",
       "date": "1993-09-20",
       "title": "Yeltsin: NATO Expansion",
@@ -344,6 +354,16 @@
       "packetIdentifier": "2015-0770-M"
     },
     {
+      "id": "clinton-library-doc-2015-0768-m-madrid-diplomatic-congressional-strategy",
+      "date": "1997-06-09",
+      "title": "A Diplomatic and Congressional Strategy for Madrid and Beyond",
+      "pageCount": 8,
+      "sourcePages": "29-36",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-embedded-cjtf-concept",
       "date": "1993-08-20",
       "title": "Embedded CJTF Concept",
@@ -359,6 +379,16 @@
       "title": "Strawman Summit Declaration: Section on ESDI and Force Structure",
       "pageCount": 2,
       "sourcePages": "21-22",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-euro-atlantic-partnership-for-peace",
+      "date": "1993-08-26",
+      "title": "Agreement on a Euro-Atlantic Partnership for Peace",
+      "pageCount": 3,
+      "sourcePages": "40-42",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
