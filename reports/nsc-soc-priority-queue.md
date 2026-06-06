@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T02:43:01.269Z
+Generated: 2026-06-06T02:52:19.757Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -16,6 +16,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1993-04-03 | P0 | Memcon | Working Dinner with President Boris Yeltsin | NSC | 9 | nara-catalog | [open](https://catalog.archives.gov/id/163545404)
 1993-04-04 | P0 | Memcon | Meeting with Russian President Boris Yeltsin on Security Issues | NSC | 12 | nara-catalog | [open](https://catalog.archives.gov/id/163545404)
 1993-04-09 | P0 | Release Packet | Summary of Conclusions on Bosnia | Interagency | 1 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1993-04-14 | P0 | Cable | Havel's Upcoming Meeting with the President: Security Issues on the Agenda | NSC | 4 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1993-04-19 | P0 | Release Packet | Summary of Conclusions on Bosnia |  | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-05-06 | P0 | Release Packet | Summary of Conclusions, Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-09-01 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
@@ -29,17 +30,26 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1993-10-19 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 1 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-10-28 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-11-16 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1993-12-31 | P0 | Presidential briefing memorandum | Your Trip to Prague | NSC | 8 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1993-1998 | P0 | Clinton Library MDR packet control | Declassified Documents Concerning NATO Expansion | NSC | 340 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1993-1999 | P0 | Clinton Library MDR packet control | Declassified Documents Concerning NATO Expansion | Principals Committee | 89 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-1999 | P0 | Clinton Library MDR packet control | Declassified Documents Concerning NATO Expansion | Principals Committee | 5 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/49430)
 1993-2000 | P0 | Clinton Library MDR packet control | Declassified Documents Related to the North Atlantic Treaty Organization (NATO) | NSC | 539 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1994-01 | P0 | Presidential meeting brief | Meeting with Czech President Havel and Premier Klaus | NSC | 5 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1994-01 | P0 | Briefing paper | Partnership for Peace | NSC | 3 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1994-01 | P0 | Briefing paper | U.S. Initiatives for Prague | NSC | 2 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1994-01 | P0 | Background paper | Visegrad | NSC | 2 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1994-01 | P0 | Presidential meeting brief | Your Plenary Lunch with Visegrad Leaders | NSC | 8 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [1] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482483)
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [2] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482484)
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [3] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482485)
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [4] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482486)
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [5] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482487)
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [8] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482490)
+1994-01-07 | P0 | Cable | Prime Minister's Agenda for President's Visit to Prague | NSC | 4 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-13 | P0 | Memcon | President's dinner with President Yeltsin, January 13/14, 1994 | NSC | 11 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/101370)
+1994-01-14 | P0 | Cable | Czechs Give PFP an Enthusiastic Reception During Albright/Shalikashvili Visit | NSC | 8 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1994-01-18 | P0 | Cable | Follow-Up to the President's Visit to Prague: Building on a Good Foundation for the Future | NSC | 2 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-26 | P0 | GC | January 26, 1994 Letter to Chris | Interagency | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000170/C09000170.pdf)
 1994-02-18 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1994-02-28 | P0 | Release Packet | Summary of Conclusions on Bosnia |  | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
@@ -158,13 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-03-07 | P0 | GC | OFFICIAL INFORMAL -- TALBOTT - LEVITTE MEETING | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703393/C06703393.pdf)
 1997-03-07 | P0 | TE | TALBOTT/CHUBAYS MEETING MARCH 6 | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702859/C06702859.pdf)
 1997-03-11 | P0 | TE | OFFICIAL INFORMAL: TALBOTT/ISCHINGER CONVERSATION | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703066/C06703066.pdf)
-1997-03-12 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH FRENCH MFA POLITICAL DIRECTOR, MARCH 4 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703181/C06703181.pdf)
-1997-03-12 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH FRENCH PRESIDENT'S DIPLOMATIC ADVISOR, MARCH 4 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703449/C06703449.pdf)
-1997-03-12 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH GERMANY POLITICAL DIRECTOR, PARIS, MARCH 4 | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703345/C06703345.pdf)
-1997-03-12 | P0 | TE | OFFICIAL INFORMAL | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703614/C06703614.pdf)
-1997-03-13 | P0 | TE | SECRETARY'S MEETING WITH JOHN MAJOR, BRITISH PRIME MINISTER, LONDON, FEBRUARY 19, 1997 | NSC | 11 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703421/C06703421.pdf)
-1997-03-15 | P0 | ME | MEMORANDUM OF CONVERSATION BETWEEN SECRETART ALBRIGHT AND FOREIGN MINISTER PRIMAKOV | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703626/C06703626.pdf)
-1997-03-15 | P0 | ME | SECRETARY ALBRIGHT'S LUNCH MEETING WITH FM PRIMAKOV: DEPARTMENT OF STATE DINING ROOM, WASHINGTON, DC, MARCH 15, 1997 | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702890/C06702890.pdf)
-1997-03-16 | P0 | ME | MEMORANDUM OF CONVERSATION BETWEEN THE SERETARY AND FM Y. M. PRIMAKOV | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703630/C06703630.pdf)
-1997-03-17 | P0 | ME | MEMRANDUM OF CONVERSATION BETWEEN THE SECRETARY AND FM Y. M. PRIMAKOV | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703634/C06703634.pdf)
-1997-06-09 | P0 | Strategy paper | A Diplomatic and Congressional Strategy for Madrid and Beyond | Principals Committee | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)

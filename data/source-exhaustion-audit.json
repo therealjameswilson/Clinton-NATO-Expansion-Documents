@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-06T02:43:05.459Z",
+  "generatedAt": "2026-06-06T02:52:31.967Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 180,
+      "Count": 184,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 393,
-      "Pages": 1912,
+      "Count": 405,
+      "Pages": 1969,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 129,
+      "Count": 138,
       "Pages": "",
       "Status": "special review lane"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 25,
-      "Pages": 103,
+      "Count": 37,
+      "Pages": 160,
       "Status": "document-level rows"
     },
     {
@@ -401,6 +401,16 @@
   ],
   "clintonLibraryPromotedDocuments": [
     {
+      "id": "clinton-library-doc-2024-0540-m-havel-security-agenda-1993-04-14",
+      "date": "1993-04-14",
+      "title": "Havel's Upcoming Meeting with the President: Security Issues on the Agenda",
+      "pageCount": 4,
+      "sourcePages": "38-41",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-nato-transformation-expansion-strategy",
       "date": "1993-09-14",
       "title": "A Strategy for NATO's Transformation and Expansion",
@@ -449,6 +459,116 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-trip-to-prague",
+      "date": "1993-12-31",
+      "title": "Your Trip to Prague",
+      "pageCount": 8,
+      "sourcePages": "6-13",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-havel-klaus-meeting-brief",
+      "date": "1994-01",
+      "title": "Meeting with Czech President Havel and Premier Klaus",
+      "pageCount": 5,
+      "sourcePages": "14-18",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-partnership-for-peace",
+      "date": "1994-01",
+      "title": "Partnership for Peace",
+      "pageCount": 3,
+      "sourcePages": "33-35",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-us-initiatives-prague",
+      "date": "1994-01",
+      "title": "U.S. Initiatives for Prague",
+      "pageCount": 2,
+      "sourcePages": "31-32",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-visegrad-background",
+      "date": "1994-01",
+      "title": "Visegrad",
+      "pageCount": 2,
+      "sourcePages": "29-30",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-plenary-lunch-visegrad",
+      "date": "1994-01",
+      "title": "Your Plenary Lunch with Visegrad Leaders",
+      "pageCount": 8,
+      "sourcePages": "21-28",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-klaus-prague-agenda-1994-01-07",
+      "date": "1994-01-07",
+      "title": "Prime Minister's Agenda for President's Visit to Prague",
+      "pageCount": 4,
+      "sourcePages": "60-63",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-hungarians-upbeat-1994-01-13",
+      "date": "1994-01-13",
+      "title": "Prague Assessment: Hungarians Very Upbeat",
+      "pageCount": 4,
+      "sourcePages": "64-67",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-czechs-pfp-albright-shalikashvili-1994-01-14",
+      "date": "1994-01-14",
+      "title": "Czechs Give PFP an Enthusiastic Reception During Albright/Shalikashvili Visit",
+      "pageCount": 8,
+      "sourcePages": "68-75",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-follow-up-memcons-1994-01-18",
+      "date": "1994-01-18",
+      "title": "Follow-Up to the President's Visit to Prague: Building on a Good Foundation for the Future",
+      "pageCount": 2,
+      "sourcePages": "76-77",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-czech-mfa-assessment-1994-01-19",
+      "date": "1994-01-19",
+      "title": "Czech MFA Assessment of the President's Visit, Partnership for Peace and Visegrad Cooperation",
+      "pageCount": 7,
+      "sourcePages": "78-84",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
     },
     {
       "id": "clinton-library-doc-2017-0193-m-concept-strategy",

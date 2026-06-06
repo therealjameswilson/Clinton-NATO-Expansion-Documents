@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T02:43:05.459Z
+Generated: 2026-06-06T02:52:31.967Z
 
 ## What This Pass Proves
 
@@ -34,13 +34,19 @@ Generated: 2026-06-06T02:43:05.459Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
-1996-01-26 | 38 | 8 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703033/C06703033.pdf)
+1999-04-29 | 38 | 6 | NAC INTERVENTION 4/29/99 | state-foia | nato-russia, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000017/C09000017.pdf)
+2000-05-04 | 38 | 3 | D/S Talbott meeting with Finnish Foreign Minister Tuomioja | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815087/C06815087.pdf)
+2000-08-11 | 38 | 5 | The Deputy Secretary's meeting with EU Commissioner Patten: G8 Ministerial Miyazaki, Japan | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814898/C06814898.pdf)
+2000-11-16 | 38 | 3 | The Deputy Secretary's November 7 meeting with UK NATO Ambassador-Designate, David Manning | state-foia | nato-expansion, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815050/C06815050.pdf)
+1994-07-08 | 37 | 3 | RUSSIAN TROOP WITHDRAWAL: ESTONIAN FM LUIK'S MEETING WITH THE DEPUTY SECRETARY | state-foia | pfp, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695151/C06695151.pdf)
+1994-08-21 | 37 | 34 | August 21, 1994 Letter from Strobe to Chris | state-foia | pfp, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000147/C09000147.pdf)
 1996-04-01 | 37 | 5 | NATO: REPORT BY SYG SOLANA OF HIS MEETING WITH RUSSIAN DEFMIN GRACHEV, MARCH 20 | state-foia | nato-russia, nac-usnato, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697287/C06697287.pdf)
 1996-11-15 | 37 | 6 | DEPUTY SECRETARY MEETING WITH NATO SYG SOLANA | state-foia | nato-russia, nac-usnato, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698993/C06698993.pdf)
 1999-03-25 | 37 | 4 | TALBOTT MEETS UK SECDEF ROBERTSON | state-foia | nato-russia, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771124/C06771124.pdf)
 1999-05-05 | 37 | 10 | TFSR02: DEPUTY SECRETARY TALBOTT BRIEFS THE NAC APRIL 29 ON DISCUSSIONS WITH RUSSIAN LEADERS | state-foia | nato-russia, nac-usnato, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814702/C06814702.pdf)
 2000-03-14 | 36 | 4 | Deputy Secretary Talbott's March 10 meeting with Italian FM DINI: Iran, N. Korea and ESDI Highlighted | state-foia | nac-usnato, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814974/C06814974.pdf)
 1995-05-27 | 36 | 4 | Memorandum of Telephone Conversation - President Jacques Chirac of France | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/118528)
+1995-10-22 | 36 | 2 | Your meeting with Boris Yeltsin (II) | state-foia | nato-expansion, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835150/C06835150.pdf)
 1995-10-24 | 36 | 7 | Memorandum of Conversation - Presidents Izetbegovic and Tudjman | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/36589)
 1995-12-14 | 36 | 6 | Memorandum of Conversation - President Jacques Chirac of France | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/118556)
 1996-09-17 | 36 | 8 | PRIMAKOV: RUSSIAN DIFFERENCES WITH THE U.S. | state-foia | nato-expansion, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698212/C06698212.pdf)
@@ -48,6 +54,7 @@ Date | Score | Pages | Record | Source | Themes | Link
 1999-03-19 | 36 | 9 | DEPUTY SECRETARY TALBOTT'S MARCH 8 MEETING WITH ITALIAN MFA SECRETARY GENERAL VATTANI | state-foia | open-door-map, nac-usnato, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771576/C06771576.pdf)
 1993-08-20 | 35 | 1 | Embedded CJTF Concept | clinton-library-mdr | architecture, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-08-25 | 35 | 2 | Strawman Summit Declaration: Section on ESDI and Force Structure | clinton-library-mdr | architecture, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1994-01-19 | 35 | 7 | Czech MFA Assessment of the President's Visit, Partnership for Peace and Visegrad Cooperation | clinton-library-mdr | pfp, candidate-states | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1996-04-21 | 35 | 5 | TALKING POINTS FOR ONE-ON-ONE MEETING | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697700/C06697700.pdf)
 1996-05-14 | 35 | 5 | GEORGIAN FOREIGN MINISTER'S MEETING WITH DEPUTY SECRETARY, APRIL 29, 1996 | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697845/C06697845.pdf)
 1996-09-07 | 35 | 2 | NEW SPANISH AMBASSADOR PRESENTS CREDENTIALS | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698265/C06698265.pdf)
@@ -87,13 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1997-03-21 | 28 | 8 | Helsinki Working Lunch with President Boris Yeltsin | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-05-27 | 28 | 8 | Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-06-20 | 28 | 8 | Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-10-30 | 28 | 6 | Telephone call with President Boris Yeltsin of Russia, October 30, 1997, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-11-16 | 28 | 3 | Telephone call with President Boris Yeltsin of Russia, November 16, 1997, Malibu, California | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-11-22 | 28 | 6 | Telephone call with President Boris Yeltsin of Russia, November 22, 1997, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-12-23 | 28 | 5 | DEPSECSTATE MEETING WITH NZ DEFMIN EAST, | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jun2021_LC/F-2017-13804/DOC_0C06704065/C06704065.pdf)
-1998-02-02 | 28 | 4 | Telephone call with President Boris Yeltsin of Russia, February 2, 1998, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1998-02-23 | 28 | 4 | Telephone call with President Boris Yeltsin of Russia, February 23, 1998, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1998-04-06 | 28 | 5 | Telephone call with President Boris Yeltsin of Russia, April 6, 1998, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 
 ## NARA Scout Promotion Queue
 
