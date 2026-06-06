@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T05:13:53.684Z",
+  "generatedAt": "2026-06-06T05:26:05.750Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -9,13 +9,13 @@
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 474,
-      "Pages": 2339,
+      "Count": 481,
+      "Pages": 2385,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 212,
+      "Count": 220,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 102,
-      "Pages": 528,
+      "Count": 110,
+      "Pages": 578,
       "Status": "document-level rows"
     },
     {
@@ -983,6 +983,26 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-rosati-talbott-nato-enlargement-1996-05-11",
+      "date": "1996-05-11",
+      "title": "Polish FonMin Rosati and Acting Secretary Talbott Discuss NATO Enlargement and Regional Relations",
+      "pageCount": 5,
+      "sourcePages": "119-123",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-walesa-memcon-1996-06-03",
+      "date": "1996-06-03",
+      "title": "Memorandum of Conversation with Former President of Poland Lech Walesa",
+      "pageCount": 6,
+      "sourcePages": "124-129",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0770-m-nato-enlargement-game-plan",
       "date": "1996-06-06",
       "title": "C-P-L Item: NATO Enlargement",
@@ -1023,6 +1043,26 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-christopher-de-charette-working-luncheon-1996-09-05",
+      "date": "1996-09-05",
+      "title": "Secretary Christopher's Working Luncheon with Foreign Minister de Charette",
+      "pageCount": 6,
+      "sourcePages": "143-148",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-acting-secretary-briefs-baltics-action-plan-1996-09-07",
+      "date": "1996-09-07",
+      "title": "Acting Secretary Briefs Baltics on Action Plan",
+      "pageCount": 4,
+      "sourcePages": "139-142",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-baltic-action-plan-nato-enlargement-1996-09-17",
       "date": "1996-09-17",
       "title": "Baltic States: Baltic Action Plan and NATO Enlargement",
@@ -1033,6 +1073,16 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-copenhagen-seminar-baltic-nato-1996-10-01",
+      "date": "1996-10-01",
+      "title": "Copenhagen Seminar: Secretary Perry, UK and German Defense Ministers Say \"Not Yet\" to Baltic NATO Membership; Russians Don't Show",
+      "pageCount": 10,
+      "sourcePages": "167-176",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-troika-nato-enlargement-1996-10-04",
       "date": "1996-10-04",
       "title": "Your Meeting with the Troika on NATO Enlargement Issues",
@@ -1041,6 +1091,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-ryurikov-farewell-call-1996-10-29",
+      "date": "1996-10-29",
+      "title": "Ambassador's Farewell Call on Presidential Foreign Policy Advisor Ryurikov",
+      "pageCount": 4,
+      "sourcePages": "182-185",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
     },
     {
       "id": "clinton-library-doc-2015-0755-m-lake-chirac-1996-11-01",
@@ -1061,6 +1121,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-ukrainian-special-partnership-draft-1996-11-06",
+      "date": "1996-11-06",
+      "title": "Ukrainian Ambassador Offers Draft Agreement on \"Special Partnership\" Between NATO and Ukraine",
+      "pageCount": 8,
+      "sourcePages": "189-196",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-secretary-breakfast-solana-1996-12-04",
+      "date": "1996-12-04",
+      "title": "The Secretary's Breakfast Meeting with NATO Secretary General Solana",
+      "pageCount": 7,
+      "sourcePages": "197-203",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
     },
     {
       "id": "clinton-library-doc-2015-0755-m-talbott-fuerth-mission-1997-01-25",

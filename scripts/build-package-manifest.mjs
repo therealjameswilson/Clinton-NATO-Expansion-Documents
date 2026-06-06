@@ -159,6 +159,8 @@ function scoreRecord(record) {
     reasons: [...new Set(reasons)],
     nscSoc,
     packageReady: score > 0 &&
+      record.inclusionStatus !== "duplicate-control" &&
+      record.inclusionStatus !== "exclude" &&
       Boolean(record.pdfUrl) &&
       Number(record.pageCount) > 0 &&
       yearInScope(record) &&
