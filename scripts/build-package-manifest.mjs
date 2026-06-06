@@ -205,11 +205,11 @@ function driveQueryCounts(items) {
   return Object.fromEntries(Object.entries(counts).sort((a, b) => a[0].localeCompare(b[0])));
 }
 
-function packetCoverageStatus(promotedPages, controlPages, reviewedResidualPages = 0) {
+function packetCoverageStatus(promotedPages, controlPages, reviewedResidualPages = 0, residualCoverageStatus = "") {
   const backlogPages = Math.max(0, controlPages - promotedPages - reviewedResidualPages);
   if (!promotedPages) return "no promoted document rows yet";
   if (!controlPages) return "promoted rows present; control page count unknown";
-  if (!backlogPages && reviewedResidualPages) return "review complete; residual pages are withdrawal/control sheets or withheld markers";
+  if (!backlogPages && reviewedResidualPages) return residualCoverageStatus || "review complete; residual pages are reviewed non-package material";
   if (!backlogPages) return "promoted rows cover packet page count";
   if (backlogPages <= 1) return "near complete; review residual control or withdrawal page";
   return "partial; continue document-level extraction";
@@ -541,7 +541,7 @@ const packetCoverageRows = packetExtractionQueue.map((record) => {
     "Promoted Pages": promotedPages || "",
     "Reviewed Residual Pages": reviewedResidualPages || "",
     "Backlog Pages": backlogPages || "",
-    Status: packetCoverageStatus(promotedPages, controlPages, reviewedResidualPages),
+    Status: packetCoverageStatus(promotedPages, controlPages, reviewedResidualPages, residualForPacket?.coverageStatus || ""),
     Link: linkFor(record)
   };
 });

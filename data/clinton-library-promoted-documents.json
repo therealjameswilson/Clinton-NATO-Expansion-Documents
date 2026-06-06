@@ -1054,6 +1054,74 @@
     "notes": "Promoted from the official 2024-0540-M packet after local page-boundary inspection. This Anthony Lake memorandum frames the January 1994 Prague/Visegrad stop as part of NATO expansion and Partnership for Peace strategy."
   },
   {
+    "id": "clinton-library-doc-2024-0540-m-havel-dinner-points-nato-1995",
+    "title": "Points to Be Made at Dinner with Czech President Havel",
+    "date": "1995",
+    "year": 1995,
+    "documentType": "Presidential talking points",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, Mandatory Declassification Review 2024-0540-M, Clinton Library PDF pages 1-2. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "1-2",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato enlargement", "nato-russia", "czech republic", "nato study", "central europe"],
+    "topics": ["NATO enlargement", "NATO-Russia", "NATO Study", "Czech Republic", "Central and Eastern Europe", "European security"],
+    "people": ["Bill Clinton", "Vaclav Havel", "Boris Yeltsin"],
+    "countries": ["United States", "Czech Republic", "Russia", "Central and Eastern Europe", "NATO allies"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2024-0540-M",
+      "packetRecordId": "clinton-library-packet-2024-0540-m"
+    },
+    "notes": "Promoted from the official 2024-0540-M packet after local page-boundary inspection. No explicit date appears on the released pages; 1995 is inferred from references to the NATO Enlargement Study being briefed to partners in the fall and no decisions on 'when and who' that year."
+  },
+  {
+    "id": "clinton-library-doc-2024-0540-m-albright-havel-meeting-1998-09-14",
+    "title": "Meeting with President Vaclav Havel of the Czech Republic",
+    "date": "1998-09-14",
+    "year": 1998,
+    "documentType": "Secretary of State memorandum to the President",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, Mandatory Declassification Review 2024-0540-M, Clinton Library PDF pages 3-5. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "3-5",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["havel", "nato enlargement", "open door", "washington summit", "czech accession"],
+    "topics": ["NATO enlargement", "NATO Open Door", "Czech accession", "Washington Summit", "Central Europe", "Russia"],
+    "people": ["Madeleine Albright", "Bill Clinton", "Vaclav Havel", "Marc Grossman"],
+    "countries": ["United States", "Czech Republic", "Russia", "Slovakia"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2024-0540-M",
+      "packetRecordId": "clinton-library-packet-2024-0540-m"
+    },
+    "notes": "Promoted from the official 2024-0540-M packet after local page-boundary inspection. The State memorandum frames Havel as a pro-U.S. advocate for NATO enlargement and the Open Door as the Czech Republic approaches formal accession."
+  },
+  {
     "id": "clinton-library-doc-2024-0540-m-havel-klaus-meeting-brief",
     "title": "Meeting with Czech President Havel and Premier Klaus",
     "date": "1994-01",
@@ -1086,6 +1154,40 @@
       "packetRecordId": "clinton-library-packet-2024-0540-m"
     },
     "notes": "Promoted from the official 2024-0540-M packet after local page-boundary inspection. The brief highlights Czech support for rapid NATO expansion and the need to explain Partnership for Peace as part of the path toward membership."
+  },
+  {
+    "id": "clinton-library-doc-2024-0540-m-informal-evening-havel-prague",
+    "title": "Informal Evening in Prague with President Havel",
+    "date": "1994-01",
+    "year": 1994,
+    "documentType": "Presidential background paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, Mandatory Declassification Review 2024-0540-M, Clinton Library PDF pages 19-20. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "19-20",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P1",
+    "priorityReasons": ["central europe", "russian sphere of influence", "market democracies", "prague visit"],
+    "topics": ["Central Europe", "Russian sphere of influence", "Market democracies", "European security", "U.S. engagement", "Prague visit"],
+    "people": ["Bill Clinton", "Vaclav Havel", "Vaclav Klaus"],
+    "countries": ["United States", "Czech Republic", "Russia", "Central and Eastern Europe"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "review"
+    },
+    "inclusionStatus": "context-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2024-0540-M",
+      "packetRecordId": "clinton-library-packet-2024-0540-m"
+    },
+    "notes": "Promoted from the official 2024-0540-M packet after local page-boundary inspection. The backgrounder does not use NATO-expansion terminology, but it directly frames the Prague visit around Central Europe, Russian veto/sphere concerns, and U.S. engagement with post-communist democracies."
   },
   {
     "id": "clinton-library-doc-2024-0540-m-plenary-lunch-visegrad",
@@ -1256,6 +1358,74 @@
       "packetRecordId": "clinton-library-packet-2024-0540-m"
     },
     "notes": "Promoted from the official 2024-0540-M packet after local page-boundary inspection. The cable previews Havel's April 1993 security agenda and Czech arguments for NATO membership as protection of shared democratic values."
+  },
+  {
+    "id": "clinton-library-doc-2024-0540-m-havel-same-man-different-role-1993-04-15",
+    "title": "Vaclav Havel: Same Man, Different Role",
+    "date": "1993-04-15",
+    "year": 1993,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, Mandatory Declassification Review 2024-0540-M, Clinton Library PDF pages 42-47. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "42-47",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P2",
+    "priorityReasons": ["havel", "nato values", "czech foreign policy", "central europe"],
+    "topics": ["Vaclav Havel", "NATO values", "Czech foreign policy", "Central Europe", "Democratic transition"],
+    "people": ["Vaclav Havel", "Vaclav Klaus", "Vladimir Meciar"],
+    "countries": ["Czech Republic", "Slovakia", "United States", "NATO allies"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "review"
+    },
+    "inclusionStatus": "context-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2024-0540-M",
+      "packetRecordId": "clinton-library-packet-2024-0540-m"
+    },
+    "notes": "Promoted from the official 2024-0540-M packet after local page-boundary inspection. The cable is mainly a Havel political profile, but it preserves Embassy Prague's assessment that Havel's values-based view of NATO usefully complemented narrower alliance arguments."
+  },
+  {
+    "id": "clinton-library-doc-2024-0540-m-zieleniec-havel-washington-agenda-1993-04-15",
+    "title": "Czech Foreign Minister on Havel's Washington Agenda, Invitation to the Secretary to Visit Prague, Debate Looming in Czech Government over Foreign Policy",
+    "date": "1993-04-15",
+    "year": 1993,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, Mandatory Declassification Review 2024-0540-M, Clinton Library PDF pages 48-52. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "48-52",
+    "pageCount": 5,
+    "pageCountStatus": "known",
+    "priority": "P2",
+    "priorityReasons": ["havel washington agenda", "nacc", "czech foreign policy", "regional security"],
+    "topics": ["Havel Washington agenda", "NACC", "Czech foreign policy", "Regional security", "Visegrad"],
+    "people": ["Josef Zieleniec", "Vaclav Havel", "Warren Christopher", "Madeleine Albright", "Vaclav Klaus", "Jiri Dienstbier"],
+    "countries": ["Czech Republic", "United States", "Poland", "Hungary", "Slovakia"],
+    "nscSoc": {
+      "isNscRecord": false,
+      "isSummaryOfConclusions": false,
+      "committee": "",
+      "queuePriority": ""
+    },
+    "inclusionStatus": "context-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2024-0540-M",
+      "packetRecordId": "clinton-library-packet-2024-0540-m"
+    },
+    "notes": "Promoted from the official 2024-0540-M packet after local page-boundary inspection. This is a weaker context row, retained for Havel visit/NACC/Czech foreign-policy background rather than direct NATO-expansion argument."
   },
   {
     "id": "clinton-library-doc-2024-0540-m-klaus-prague-agenda-1994-01-07",

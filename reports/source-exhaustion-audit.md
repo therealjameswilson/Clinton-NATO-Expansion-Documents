@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T06:28:23.926Z
+Generated: 2026-06-06T06:35:32.186Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,11 +9,11 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 171 | 1000 | assembled locally
-Package-ready public candidates | 508 | 2536 | available for reselection
-NSC/SOC/minutes attention queue | 248 |  | special review lane
+Selected package records | 172 | 1000 | assembled locally
+Package-ready public candidates | 513 | 2554 | available for reselection
+NSC/SOC/minutes attention queue | 252 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 9 selected; 4 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 138 | 734 | document-level rows
+Clinton Library promoted document rows | 143 | 752 | document-level rows
 NARA promoted document rows | 11 | 42 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -64,6 +64,7 @@ Date | Pages | Count | Record | Packet | Link
 1994-12-21 | 103-107 | 5 | Meeting with the Vice President on Russia and NATO Expansion | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-12-22 | 116-121 | 6 | European Security Architecture, NATO Expansion and Russia | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-12-29 | 64-66 | 3 | President Yeltsin to President Clinton on NATO Enlargement | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995 | 1-2 | 2 | Points to Be Made at Dinner with Czech President Havel | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1995-01-06 | 68-69 | 2 | President Clinton to President Yeltsin on NATO Expansion and Chechnya | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-23 | 3-8 | 6 | Secretary's Meeting with UK Foreign Secretary | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-01-25 | 9-14 | 6 | NATO Expansion: Getting From Here to There | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
@@ -153,6 +154,7 @@ Date | Pages | Count | Record | Packet | Link
 1998-01-26 | 24-26 | 3 | NATO-Russia Relations | 2013-0804-M | [open](https://clinton.presidentiallibraries.us/items/show/49412)
 1998-02-09 | 527-531 | 5 | Committee to Expand NATO Dinner IHO Polish, Czech and Hungarian Foreign Ministers | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1998-05-04 | 127-128 | 2 | Telcon with President Havel of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101537)
+1998-09-14 | 3-5 | 3 | Meeting with President Vaclav Havel of the Czech Republic | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1998-09-15 | 138-140,142 | 4 | Summary Points to Be Made for Meeting with Czech President Havel | 2015-0773-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
 1998-09-16 | 177-181 | 5 | Expanded Meeting with President Vaclav Havel of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101539)
 1998-09-16 | 174-176 | 3 | Restricted Meeting with President Vaclav Havel of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101539)
@@ -161,7 +163,10 @@ Date | Pages | Count | Record | Packet | Link
 1993-08-26 | 40-42 | 3 | Agreement on a Euro-Atlantic Partnership for Peace | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-08-26 | 2-5 | 4 | East European and CIS Forces for Peacekeeping | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/49430)
 1993-09-13 | 61 | 1 | Effects of Expanding Membership on NATO Military Activities | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1994-01 | 19-20 | 2 | Informal Evening in Prague with President Havel | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1998-01-22 | 21-23 | 3 | NATO Adaptation/Gibraltar | 2013-0804-M | [open](https://clinton.presidentiallibraries.us/items/show/49412)
+1993-04-15 | 48-52 | 5 | Czech Foreign Minister on Havel's Washington Agenda, Invitation to the Secretary to Visit Prague, Debate Looming in Czech Government over Foreign Policy | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1993-04-15 | 42-47 | 6 | Vaclav Havel: Same Man, Different Role | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 
 ## NARA Promoted Document Rows
 
@@ -231,16 +236,16 @@ remaining extraction queue.
 Packet | Control Pages | Promoted Rows | Promoted Pages | Reviewed Residual Pages | Backlog Pages | Status | Link
 --- | --- | --- | --- | --- | --- | --- | ---
 2015-0772-M | 539 | 22 | 124 |  | 415 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/101137)
-2015-0768-M | 89 | 19 | 66 | 23 |  | review complete; residual pages are withdrawal/control sheets or withheld markers | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+2015-0768-M | 89 | 19 | 66 | 23 |  | review complete; residual pages are withdrawal/control sheets, withheld markers, or duplicate fragments | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 2013-0804-M | 148 | 4 | 11 |  | 137 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/49412)
-2024-0540-M | 91 | 12 | 57 |  | 34 | partial; continue document-level extraction | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+2024-0540-M | 91 | 17 | 75 | 16 |  | review complete; residual pages are off-topic RFE/RL, UNSC, schedule, or Czech domestic-politics material | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 2015-0773-M | 239 | 7 | 31 |  | 208 | partial; continue document-level extraction | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
 2015-0755-M | 340 | 15 | 126 |  | 214 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 2015-0771-M | 164 | 3 | 13 |  | 151 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/100538)
-2015-0768-M | 5 | 1 | 4 | 1 |  | review complete; residual pages are withdrawal/control sheets or withheld markers | [open](https://clinton.presidentiallibraries.us/items/show/49430)
+2015-0768-M | 5 | 1 | 4 | 1 |  | review complete; residual page is an administrative release marker | [open](https://clinton.presidentiallibraries.us/items/show/49430)
 2017-0193-M | 12 | 2 | 12 |  |  | promoted rows cover packet page count | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 2015-0792-M | 203 | 34 | 196 | 7 |  | review complete; residual pages are withdrawal/control sheets or withheld markers | [open](https://clinton.presidentiallibraries.us/items/show/101829)
-2015-0770-M | 14 | 1 | 13 | 1 |  | review complete; residual pages are withdrawal/control sheets or withheld markers | [open](https://clinton.presidentiallibraries.us/items/show/57565)
+2015-0770-M | 14 | 1 | 13 | 1 |  | review complete; residual page is a withdrawal/control sheet | [open](https://clinton.presidentiallibraries.us/items/show/57565)
 
 ## Known Gap Signals From Upstream FRUS Workbench
 

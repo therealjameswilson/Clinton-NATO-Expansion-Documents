@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T06:28:23.926Z",
+  "generatedAt": "2026-06-06T06:35:32.186Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 171,
+      "Count": 172,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 508,
-      "Pages": 2536,
+      "Count": 513,
+      "Pages": 2554,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 248,
+      "Count": 252,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 138,
-      "Pages": 734,
+      "Count": 143,
+      "Pages": 752,
       "Status": "document-level rows"
     },
     {
@@ -308,7 +308,7 @@
       "Promoted Pages": 66,
       "Reviewed Residual Pages": 23,
       "Backlog Pages": "",
-      "Status": "review complete; residual pages are withdrawal/control sheets or withheld markers",
+      "Status": "review complete; residual pages are withdrawal/control sheets, withheld markers, or duplicate fragments",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/118449)"
     },
     {
@@ -324,11 +324,11 @@
     {
       "Packet": "2024-0540-M",
       "Control Pages": 91,
-      "Promoted Rows": 12,
-      "Promoted Pages": 57,
-      "Reviewed Residual Pages": "",
-      "Backlog Pages": 34,
-      "Status": "partial; continue document-level extraction",
+      "Promoted Rows": 17,
+      "Promoted Pages": 75,
+      "Reviewed Residual Pages": 16,
+      "Backlog Pages": "",
+      "Status": "review complete; residual pages are off-topic RFE/RL, UNSC, schedule, or Czech domestic-politics material",
       "Link": "[open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)"
     },
     {
@@ -368,7 +368,7 @@
       "Promoted Pages": 4,
       "Reviewed Residual Pages": 1,
       "Backlog Pages": "",
-      "Status": "review complete; residual pages are withdrawal/control sheets or withheld markers",
+      "Status": "review complete; residual page is an administrative release marker",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/49430)"
     },
     {
@@ -398,7 +398,7 @@
       "Promoted Pages": 13,
       "Reviewed Residual Pages": 1,
       "Backlog Pages": "",
-      "Status": "review complete; residual pages are withdrawal/control sheets or withheld markers",
+      "Status": "review complete; residual page is a withdrawal/control sheet",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/57565)"
     }
   ],
@@ -408,6 +408,7 @@
       "packetIdentifier": "2015-0792-M",
       "reviewedResidualPages": "1-2, 27, 40, 94-96",
       "reviewedResidualPageCount": 7,
+      "coverageStatus": "review complete; residual pages are withdrawal/control sheets or withheld markers",
       "status": "reviewed residual pages; no package-ready declassified document text",
       "notes": "Pages 1-2 and 95-96 are Clinton Library withdrawal/redaction sheets for packet control. Pages 27, 40, and 94 are withdrawal/redaction markers for fully withheld documents: 'NATO Enlargement Study: Where Are We?', 'NATO: NMA Contributions to Chapter III, V', and 'NATO Enlargement: September 28 Collective Briefing to Partners.'"
     },
@@ -416,6 +417,7 @@
       "packetIdentifier": "2015-0770-M",
       "reviewedResidualPages": "1",
       "reviewedResidualPageCount": 1,
+      "coverageStatus": "review complete; residual page is a withdrawal/control sheet",
       "status": "reviewed residual page; no package-ready declassified document text",
       "notes": "Page 1 is the Clinton Library withdrawal/redaction sheet for the C-P-L Item: NATO Enlargement record. The released document text is already promoted as PDF pages 2-14."
     },
@@ -424,6 +426,7 @@
       "packetIdentifier": "2015-0768-M",
       "reviewedResidualPages": "1-2, 23, 25-28, 37-39, 43-46, 50-51, 62-63, 67, 70-71, 82-83",
       "reviewedResidualPageCount": 23,
+      "coverageStatus": "review complete; residual pages are withdrawal/control sheets, withheld markers, or duplicate fragments",
       "status": "reviewed residual pages; no additional package-ready declassified document text",
       "notes": "Pages 1, 25, 37, 50, 62, 70, and 82 are Clinton Library administrative markers. Pages 2, 26, 38-39, 51, 63, 71, and 83 are withdrawal/redaction sheets listing withheld PC/DC agendas, memoranda, papers, and Summaries of Conclusions. Pages 23 and 67 are withdrawal/redaction markers for partial releases already promoted on adjacent pages. Pages 27-28 are an incomplete duplicate fragment of 'A Diplomatic and Congressional Strategy for Madrid and Beyond,' whose complete released copy is promoted on pages 29-36. Pages 43-46 contain a withdrawal marker and duplicate released copies of the Embedded CJTF Concept and Strawman Summit Declaration papers already promoted from this packet."
     },
@@ -432,8 +435,18 @@
       "packetIdentifier": "2015-0768-M",
       "reviewedResidualPages": "1",
       "reviewedResidualPageCount": 1,
+      "coverageStatus": "review complete; residual page is an administrative release marker",
       "status": "reviewed residual page; no package-ready declassified document text",
       "notes": "Page 1 is the Clinton Library administrative release marker for the 2016 2015-0768-M partial release. The released list runs on PDF pages 2-5 and is promoted as a document-level row."
+    },
+    {
+      "packetRecordId": "clinton-library-packet-2024-0540-m",
+      "packetIdentifier": "2024-0540-M",
+      "reviewedResidualPages": "36-37, 53-59, 85-91",
+      "reviewedResidualPageCount": 16,
+      "coverageStatus": "review complete; residual pages are off-topic RFE/RL, UNSC, schedule, or Czech domestic-politics material",
+      "status": "reviewed residual pages; no package-ready NATO-expansion document text",
+      "notes": "Pages 36-37 are RFE/RL background; pages 53-57 are the Czech UNSC seat candidacy cable; pages 58-59 are the January 1994 presidential trip schedule cable; pages 85-91 are the 'Czech It Out - I' domestic-politics cable. These released pages were reviewed and are not package-ready NATO-expansion document text."
     }
   ],
   "clintonLibraryMeetingControls": [
@@ -957,6 +970,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-havel-dinner-points-nato-1995",
+      "date": "1995",
+      "title": "Points to Be Made at Dinner with Czech President Havel",
+      "pageCount": 2,
+      "sourcePages": "1-2",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
     },
     {
       "id": "clinton-library-doc-2015-0768-m-clinton-to-yeltsin-1995-01-06",
@@ -1849,6 +1872,16 @@
       "packetIdentifier": "2015-0773-M"
     },
     {
+      "id": "clinton-library-doc-2024-0540-m-albright-havel-meeting-1998-09-14",
+      "date": "1998-09-14",
+      "title": "Meeting with President Vaclav Havel of the Czech Republic",
+      "pageCount": 3,
+      "sourcePages": "3-5",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0773-m-havel-accession-open-door-talking-points-1998-09-15",
       "date": "1998-09-15",
       "title": "Summary Points to Be Made for Meeting with Czech President Havel",
@@ -1929,6 +1962,16 @@
       "packetIdentifier": "2015-0768-M"
     },
     {
+      "id": "clinton-library-doc-2024-0540-m-informal-evening-havel-prague",
+      "date": "1994-01",
+      "title": "Informal Evening in Prague with President Havel",
+      "pageCount": 2,
+      "sourcePages": "19-20",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
       "id": "clinton-library-doc-2013-0804-m-nato-adaptation-gibraltar-1998-01-22",
       "date": "1998-01-22",
       "title": "NATO Adaptation/Gibraltar",
@@ -1937,6 +1980,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
       "packetIdentifier": "2013-0804-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-zieleniec-havel-washington-agenda-1993-04-15",
+      "date": "1993-04-15",
+      "title": "Czech Foreign Minister on Havel's Washington Agenda, Invitation to the Secretary to Visit Prague, Debate Looming in Czech Government over Foreign Policy",
+      "pageCount": 5,
+      "sourcePages": "48-52",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-havel-same-man-different-role-1993-04-15",
+      "date": "1993-04-15",
+      "title": "Vaclav Havel: Same Man, Different Role",
+      "pageCount": 6,
+      "sourcePages": "42-47",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "packetIdentifier": "2024-0540-M"
     }
   ],
   "naraPromotedDocuments": [
