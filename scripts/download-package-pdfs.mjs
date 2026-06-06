@@ -9,6 +9,7 @@ const manifestPath = path.join(repoRoot, "data", "package-manifest.json");
 const outputRoot = path.join(repoRoot, "private", "package-pdfs");
 const sourceRoot = path.join(outputRoot, "sources");
 const packagePdfPath = path.join(outputRoot, "clinton-nato-expansion-bernstein-1000-page-package.pdf");
+const normalizedPackagePdfPath = path.join(outputRoot, "clinton-nato-expansion-bernstein-1000-page-package.normalized.pdf");
 const localAuditPath = path.join(repoRoot, "reports", "package-local-build-audit.md");
 const dryRun = process.argv.includes("--dry-run");
 const assemble = process.argv.includes("--assemble");
@@ -112,6 +113,8 @@ if (assemble && !dryRun) {
     throw new Error(`Refusing to assemble: downloaded ${downloaded.length} of ${manifest.selected.length} records.`);
   }
   execFileSync("qpdf", qpdfArgs, { stdio: "inherit" });
+  execFileSync("qpdf", ["--warning-exit-0", "--object-streams=generate", packagePdfPath, normalizedPackagePdfPath], { stdio: "inherit" });
+  fs.renameSync(normalizedPackagePdfPath, packagePdfPath);
   execFileSync("qpdf", ["--warning-exit-0", "--check", packagePdfPath], { stdio: "inherit" });
   const info = pdfInfo(packagePdfPath);
   const sourceBytes = downloaded.reduce((sum, item) => sum + Number(item.bytes || 0), 0);
@@ -152,6 +155,9 @@ recipe.
 - \`qpdf --warning-exit-0\` is intentional. A small number of archival PDFs can
   emit repairable cross-reference warnings during assembly even when the final
   file validates and \`pdfinfo\` reads the expected page count.
+- The assembled package is normalized with \`qpdf --object-streams=generate\`
+  before the final integrity check to clear repairable stream warnings inherited
+  from archival source PDFs.
 - Re-run \`npm run download:package -- --assemble\` after any manifest change.
 - Do not commit files under \`private/\`.
 

@@ -2652,6 +2652,40 @@
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum weighs naming Romania and Slovenia, setting a second-round review date, or preserving the no-names Open Door formula for Madrid."
   },
   {
+    "id": "clinton-library-doc-2015-0782-m-2-yeltsin-telcon-1996-07-05",
+    "title": "Telephone Conversation with Russian President Yeltsin",
+    "date": "1996-07-05",
+    "year": 1996,
+    "documentType": "Memorandum of telephone conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, Meetings and Telephone Calls with Foreign Leaders, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 49-51. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "49-51",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato-russia", "nato enlargement", "yeltsin reelection", "chernomyrdin-gore", "primakov-christopher"],
+    "topics": ["NATO-Russia", "NATO enlargement", "Yeltsin reelection", "Gore-Chernomyrdin Commission", "Primakov-Christopher channel", "U.S.-Russia partnership", "Investment in Russia"],
+    "people": ["Bill Clinton", "Boris Yeltsin", "Al Gore", "Viktor Chernomyrdin", "Yevgeniy Primakov", "Warren Christopher", "Helmut Kohl", "Jacques Chirac", "Yuriy Mamedov"],
+    "countries": ["United States", "Russia", "Germany", "France"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC Records Management",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
+    },
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. In the first Clinton-Yeltsin call after Yeltsin's reelection, Yeltsin says he has spoken with Kohl and Chirac about NATO and believes the sides can find a solution that does not put Clinton in an uncomfortable position, while Clinton points to Gore-Chernomyrdin and Mamedov follow-up. Packet pages 54-56 contain a duplicate marked-up copy and are not promoted separately."
+  },
+  {
     "id": "clinton-library-doc-2015-0782-m-2-yeltsin-telcon-1997-02-27",
     "title": "Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House",
     "date": "1997-02-27",

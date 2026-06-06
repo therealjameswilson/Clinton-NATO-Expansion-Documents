@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T04:36:37.744Z
+Generated: 2026-06-06T04:43:57.065Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 175
+- NATO-relevant NSC/SOC records: 176
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -98,6 +98,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1996-06-06 | P0 | NSC email with attached policy paper | C-P-L Item: NATO Enlargement | NSC | 13 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57565)
 1996-06-29 | P0 | ME | MEETING WITH PRIME MINISTER CHERNOMYRDIN | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf)
 1996-07-01 | P0 | TE | MEETING WITH PRESIDENTS MERI OF ESTONIA, ULMANIS OF LATVIA AND BRAZAUSKAS OF LITHUANIA | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698302/C06698302.pdf)
+1996-07-05 | P0 | Memorandum of telephone conversation | Telephone Conversation with Russian President Yeltsin | NSC Records Management | 3 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1996-07-09 | P0 | TE | "CHANGED" KARIMOV ASKS FOR USG SUPPORT | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698306/C06698306.pdf)
 1996-07-09 | P0 | Memorandum of conversation | The President's Meeting with Deputy Foreign Minister Georgiy Mamedov of Russia | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1996-07-16 | P0 | TE | MEMORANDUM OF CONVERSATION WITH PRESIDENT KWASNIESKI OF POLAND | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698307/C06698307.pdf)
@@ -176,7 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1999-11-23 | P0 | TE | The Deputy Secretary's meeting with Ilham Aliyev and PM Rasizade | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06814798/C06814798.pdf)
 2000-02-02 | P0 | Source Lead | Secretary Albright's Meeting with Acting President Putin | NSC |  | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000064/C09000064.pdf)
 2000-02-03 | P0 | TE | DFM Berdennikov's meeting with S/NIS Sestanovich on N-K | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814791/C06814791.pdf)
-2000-03-14 | P0 | TE | Deputy Secretary Talbott's March 10 meeting with Italian FM DINI: Iran, N. Korea and ESDI Highlighted | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814974/C06814974.pdf)
 
 ## Public Packet Controls Requiring Extraction
 
