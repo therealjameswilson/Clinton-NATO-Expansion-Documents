@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T04:01:19.958Z
+Generated: 2026-06-06T04:08:20.362Z
 
 ## What This Pass Proves
 
@@ -34,11 +34,14 @@ Generated: 2026-06-06T04:01:19.958Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
-1994-10-20 | 53 | 4 | October 20, 1994 Eyes only To The Secretary From Strobe Talbott | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000140/C09000140.pdf)
+1997-01-23 | 54 | 12 | TALBOTT-FUERTH DELEGATION MEETING WITH ANATOLIY CHUBAIS, CHIEF OF THE RUSSIAN PRESIDENTIAL ADMINISTRATION | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703698/C06703698.pdf)
+1994-09-23 | 53 | 3 | MAMEDOV'S THOUGHTS ON YOUR CONVERSATION WITH YELTSIN | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695261/C06695261.pdf)
+1994-10-20 | 53 | 3 | October 20, 1994 Letter from Strobe Talbott to Chris | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000141/C09000141.pdf)
 1996-10-02 | 53 | 5 | DEPUTY SECRETATY'S 9/16 AND 9/19 MEETING WITH UKRAINIAN NSDC SECRETARY HORBULYN | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698651/C06698651.pdf)
 1996-10-29 | 53 | 4 | THE DEPUTY SECRETARY'S MEETING WITH SLOVAK FOREIGN MINISTER PAVOL HAMZIK | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698702/C06698702.pdf)
 1997-01-28 | 53 | 5 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703023/C06703023.pdf)
 1997-03-18 | 53 | 4 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN MFA POLITICAL DIRECTOR ISCHINGER | state-foia | nato-expansion, nac-usnato, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702857/C06702857.pdf)
+1997-03-18 | 53 | 2 | THE DEPUTY SECRETARY'S CONVERSATION WITH BRITTISH MFA POLITICAL DIRECTOR JEREMY GREENSTOCK | state-foia | nato-expansion, nac-usnato, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702896/C06702896.pdf)
 1999-07-26 | 53 | 5 | Deputy Secretarys meeting with Finnish Dep State Secretary Blomberg July 21, 1999 | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814644/C06814644.pdf)
 1993-04-04 | 52 | 12 | Meeting with Russian President Boris Yeltsin on Security Issues | nara-catalog | nato-russia, candidate-states, nsc-soc | [open](https://catalog.archives.gov/id/163545404)
 1994-08-27 | 52 | 3 | August 27, 1994 Letter from Strobe to Chris | state-foia | nato-expansion, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000155/C09000155.pdf)
@@ -91,9 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1997-03-18 | 40 | 6 | SECRETARY'S MARCH 10 CONSULTATION WITH UK FOREIGN SECRETARY RIFKIND | state-foia | nato-russia, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702975/C06702975.pdf)
 1994-01 | 39 | 2 | Visegrad | clinton-library-mdr | pfp, nsc-soc | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-03 | 38 | 1 | January 3, 1994 Letter From Strobe Talbott To Zbigniew Brzezinski | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Aug2021_C/F-2017-13804/DOC_0C06689961/C06689961.pdf)
-1996-01-26 | 38 | 8 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703033/C06703033.pdf)
-1996-10-29 | 38 | 3 | DEPUTY SECRETARY TALBOTT'S MEETING WITH ROMANIAN FOEIGN MINISTER TEODOR MELESCANU | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698698/C06698698.pdf)
-1997-01-18 | 38 | 2 | DEPUTY SECRETARY'S CONVERSATION WITH POLISH FOREIGN MINISTER ROSATI | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703043/C06703043.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 

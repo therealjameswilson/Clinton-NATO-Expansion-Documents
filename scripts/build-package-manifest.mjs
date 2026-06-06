@@ -124,9 +124,9 @@ function scoreRecord(record) {
     score += 5;
     reasons.push("Clinton Library primary source");
   }
-  if (record.sourceClass === "nara-catalog") {
+  if (record.sourceClass === "nara-catalog" || record.sourceClass === "nara-iscap") {
     score += 5;
-    reasons.push("NARA Catalog primary source");
+    reasons.push("NARA primary source");
   }
   if (record.sourceClass === "nara-scout-lead" || /scout lead/i.test(record.documentType || "")) {
     score -= 100;
@@ -219,7 +219,7 @@ const hardGapTriage = readJson(hardGapTriagePath, { rows: [] });
 const hardGapLocalIds = new Set((hardGapTriage.rows || []).map((row) => `clinton-nato-${row.record_id}`));
 const hardGapPdfUrls = new Set((hardGapTriage.rows || []).map((row) => row.pdf_url).filter(Boolean));
 const promotedClintonDocs = publicRecords.filter((record) => record.upstream?.workspace === "live-clinton-library-document-extraction");
-const promotedNaraDocs = publicRecords.filter((record) => record.upstream?.workspace === "live-nara-scout-document-extraction");
+const promotedNaraDocs = publicRecords.filter((record) => record.upstream?.workspace?.startsWith("live-nara-"));
 const evaluated = publicRecords.map((record) => ({ ...record, package: scoreRecord(record) }));
 const candidates = evaluated.filter((record) => record.package.packageReady).sort(sortCandidates);
 const attentionQueue = evaluated
@@ -527,7 +527,7 @@ const naraPromotedRows = promotedNaraDocs.map((record) => ({
   Pages: record.sourcePages,
   Count: record.pageCount,
   Record: record.title,
-  NAID: record.upstream?.naid || "",
+  "Source ID": record.upstream?.naid || record.upstream?.caseNumber || record.upstream?.id || "",
   Link: linkFor(record)
 }));
 
@@ -683,7 +683,7 @@ These rows started as NARA Scout file-unit leads but were promoted only after
 local source-image inspection identified visible document text, dates, page
 spans, and stable public NARA PDF URLs.
 
-${naraPromotedRows.length ? table(naraPromotedRows, ["Date", "Pages", "Count", "Record", "NAID", "Link"]) : "No NARA Scout file-unit leads have been promoted in this build yet."}
+${naraPromotedRows.length ? table(naraPromotedRows, ["Date", "Pages", "Count", "Record", "Source ID", "Link"]) : "No NARA document rows have been promoted in this build yet."}
 
 ## Clinton Library Withheld Meeting And SOC Controls
 

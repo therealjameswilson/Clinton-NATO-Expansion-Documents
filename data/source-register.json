@@ -11077,6 +11077,71 @@
     "notes": "Presidential Daily Diary context record; use for chronology and to identify likely memcon, telcon, briefing, trip, or summit files rather than as a substitute for the substantive conversation text. Source page span retained outside displayed FRUS note: pages 67-73."
   },
   {
+    "id": "nara-iscap-2016-156-doc-11-clinton-yeltsin-moscow-1995-05-10",
+    "title": "Summary Report on One-On-One Meeting Between Presidents Clinton and Yeltsin, May 10, 1995, Kremlin",
+    "date": "1995-05-10",
+    "year": 1995,
+    "documentType": "Summary report",
+    "sourceClass": "nara-iscap",
+    "sourceUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2016-156-doc-11.pdf",
+    "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2016-156-doc-11.pdf",
+    "sourceNote": "Source: National Archives, Interagency Security Classification Appeals Panel, ISCAP Appeal No. 2016-156, document no. 11, Clinton Library photocopy, PDF pages 1-16. Declassified March 5, 2018.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "1-16",
+    "pageCount": 16,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato expansion",
+      "nato-russia",
+      "partnership for peace",
+      "1996 elections",
+      "nac ministerial"
+    ],
+    "topics": [
+      "NATO expansion",
+      "NATO-Russia dialogue",
+      "Partnership for Peace",
+      "Pan-European security",
+      "1996 Russian election",
+      "G-7/G-8",
+      "post-COCOM regime",
+      "CFE",
+      "NAC Ministerial"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Boris Yeltsin",
+      "Andrei Kozyrev",
+      "Dmitriy Ryurikov",
+      "Al Gore",
+      "Viktor Chernomyrdin"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "Ukraine",
+      "Kazakhstan",
+      "Belarus",
+      "Central Europe"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC Records Management",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-nara-iscap-document-extraction",
+      "id": "iscap-2016-156-doc-11",
+      "caseNumber": "2016-156",
+      "packetTitle": "ISCAP Appeal No. 2016-156, document no. 11"
+    },
+    "notes": "Promoted after matching a local private Drive clue to the official archives.gov ISCAP release. The summary report records Yeltsin's request to postpone NATO expansion, Clinton's explanation of the no speed-up/no slow-down process, Russia's PFP implementation, and the launch of the NATO-Russia dialogue before the May 1995 NAC Ministerial."
+  },
+  {
     "id": "clinton-nato-balkans-pcdc-1995-05-23-bosnia-principals-summary",
     "title": "Summary of Conclusions, NSC Principals Committee Meeting on Bosnia",
     "date": "1995-05-23",

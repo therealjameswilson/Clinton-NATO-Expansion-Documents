@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T04:01:19.958Z",
+  "generatedAt": "2026-06-06T04:08:20.362Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 174,
+      "Count": 172,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 451,
-      "Pages": 2219,
+      "Count": 452,
+      "Pages": 2235,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 189,
+      "Count": 190,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -33,8 +33,8 @@
     },
     {
       "Lane": "NARA promoted document rows",
-      "Count": 8,
-      "Pages": 20,
+      "Count": 9,
+      "Pages": 36,
       "Status": "document-level rows after source-image inspection"
     },
     {
@@ -1223,6 +1223,16 @@
       "sourceUrl": "https://catalog.archives.gov/id/368557013",
       "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/7585709-20170413F-002-008-2024.pdf",
       "naid": "368557013"
+    },
+    {
+      "id": "nara-iscap-2016-156-doc-11-clinton-yeltsin-moscow-1995-05-10",
+      "date": "1995-05-10",
+      "title": "Summary Report on One-On-One Meeting Between Presidents Clinton and Yeltsin, May 10, 1995, Kremlin",
+      "pageCount": 16,
+      "sourcePages": "1-16",
+      "sourceUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2016-156-doc-11.pdf",
+      "pdfUrl": "https://www.archives.gov/files/declassification/iscap/pdf/2016-156-doc-11.pdf",
+      "naid": ""
     },
     {
       "id": "nara-doc-41051478-pc-soc-transmittal-bosnia",

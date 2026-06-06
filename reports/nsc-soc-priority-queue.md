@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T03:59:08.716Z
+Generated: 2026-06-06T04:05:09.365Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -131,6 +131,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1995-03-07 | P0 | Memorandum of conversation | Meeting with NATO Secretary General Willy Claes | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1995-04-03 | P0 | Options paper | Elements of a NATO-Russia Relationship | Deputies Committee | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-05-09 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1995-05-10 | P0 | Summary report | Summary Report on One-On-One Meeting Between Presidents Clinton and Yeltsin, May 10, 1995, Kremlin | NSC Records Management | 16 | nara-iscap | [open](https://www.archives.gov/files/declassification/iscap/pdf/2016-156-doc-11.pdf)
 1995-05-23 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1995-06-12 | P0 | ME | Your Meeting with Yeltsin in Halifax | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835149/C06835149.pdf)
 1995-06-16 | P0 | NSC information memorandum with strategy papers | Troika Meeting on European Security/NATO Enlargement | NSC | 17 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
@@ -167,4 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1996-07-09 | P0 | Memorandum of conversation | The President's Meeting with Deputy Foreign Minister Georgiy Mamedov of Russia | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1996-07-16 | P0 | TE | MEMORANDUM OF CONVERSATION WITH PRESIDENT KWASNIESKI OF POLAND | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698307/C06698307.pdf)
 1996-07-19 | P0 | TE | OFFICIAL - INFORMAL FOR D STAFF ONLY | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698224/C06698224.pdf)
-1996-07-30 | P0 | TE | DEPUTY SECRETARY REVIEWS SECURITY, ECONOMIC ISSUES WITH UKRAINIAN FOREIGN MINISTER, JULY 26, 1996 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698247/C06698247.pdf)

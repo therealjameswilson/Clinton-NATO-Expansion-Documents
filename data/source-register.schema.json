@@ -21,6 +21,7 @@
         "clinton-digital-library",
         "clinton-library-mdr",
         "nara-catalog",
+        "nara-iscap",
         "nara-scout-lead",
         "state-foia",
         "frus-upstream-lead",
@@ -94,4 +95,3 @@
     "notes": { "type": "string" }
   }
 }
-
