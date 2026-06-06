@@ -2448,6 +2448,40 @@
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The briefing prepares Clinton for Gore's report on Moscow talks with Yeltsin and Chernomyrdin after Russian objections to the December 1994 NATO expansion process."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-european-security-architecture-nato-expansion-russia-1994-12-22",
+    "title": "European Security Architecture, NATO Expansion and Russia",
+    "date": "1994-12-22",
+    "year": 1994,
+    "documentType": "NSC action memorandum with conceptual paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 116-121. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "116-121",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato expansion", "russia", "european security architecture", "christopher-kozyrev", "interagency", "pfp"],
+    "topics": ["NATO expansion", "European security architecture", "NATO-Russia relationship", "Partnership for Peace", "Christopher-Kozyrev meeting", "OSCE/CSCE", "Ukraine", "Baltic states", "Central and Eastern Europe"],
+    "people": ["Anthony Lake", "Samuel Berger", "Alexander Vershbow", "Nicholas Burns", "Richard Schifter", "Daniel Fried", "Strobe Talbott", "Richard Holbrooke", "Warren Christopher", "Andrei Kozyrev", "Al Gore", "Boris Yeltsin"],
+    "countries": ["United States", "Russia", "Ukraine", "Baltic states", "Romania", "Bulgaria", "Central and Eastern Europe"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The action memorandum asks Lake and Berger to approve restricted interagency circulation of an NSC conceptual paper written after the Gore Moscow trip, the President's December 21 discussion, the December NAC communique, and Russia's reaction; the attachment sets the 1995 parallel tracks for NATO expansion, a NATO-Russia relationship, PFP, OSCE/CSCE, Ukraine, and CEE consultations."
+  },
+  {
     "id": "clinton-library-doc-2015-0772-m-lake-european-security-nato-enlargement-1995-06-16",
     "title": "Troika Meeting on European Security/NATO Enlargement",
     "date": "1995-06-16",

@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T04:23:29.601Z
+Generated: 2026-06-06T04:32:12.500Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,11 +9,11 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 173 | 1000 | assembled locally
-Package-ready public candidates | 453 | 2238 | available for reselection
-NSC/SOC/minutes attention queue | 191 |  | special review lane
+Selected package records | 172 | 1000 | assembled locally
+Package-ready public candidates | 454 | 2244 | available for reselection
+NSC/SOC/minutes attention queue | 192 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 13 selected; 0 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 81 | 427 | document-level rows
+Clinton Library promoted document rows | 82 | 433 | document-level rows
 NARA promoted document rows | 9 | 36 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -60,6 +60,7 @@ Date | Pages | Count | Record | Packet | Link
 1994-10-04 | 55-63 | 9 | Moving Toward NATO Expansion | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1994-10-13 | 71-76 | 6 | NATO Expansion | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1994-12-21 | 103-107 | 5 | Meeting with the Vice President on Russia and NATO Expansion | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1994-12-22 | 116-121 | 6 | European Security Architecture, NATO Expansion and Russia | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-12-29 | 64-66 | 3 | President Yeltsin to President Clinton on NATO Enlargement | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-06 | 68-69 | 2 | President Clinton to President Yeltsin on NATO Expansion and Chechnya | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-25 | 9-14 | 6 | NATO Expansion: Getting From Here to There | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)

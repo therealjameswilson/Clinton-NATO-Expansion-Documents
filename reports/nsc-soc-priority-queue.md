@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T04:23:23.402Z
+Generated: 2026-06-06T04:32:09.443Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 173
+- NATO-relevant NSC/SOC records: 174
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -65,6 +65,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1994-10-18 | P0 | ME | NESA (that's "New European Security Architecture") | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000154/C09000154.pdf)
 1994-12-16 | P0 | TE | DECEMBER 15 TALBOTT-RYURIKOV MEETING ON | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694734/C06694734.pdf)
 1994-12-21 | P0 | Presidential briefing memorandum | Meeting with the Vice President on Russia and NATO Expansion | NSC | 5 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1994-12-22 | P0 | NSC action memorandum with conceptual paper | European Security Architecture, NATO Expansion and Russia | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-12-29 | P0 | Presidential correspondence | President Yeltsin to President Clinton on NATO Enlargement | Deputies Committee | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-06 | P0 | Presidential message cable | President Clinton to President Yeltsin on NATO Expansion and Chechnya | Deputies Committee | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-25 | P0 | Cable | NATO Expansion: Getting From Here to There | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
@@ -176,7 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 2000-02-03 | P0 | TE | DFM Berdennikov's meeting with S/NIS Sestanovich on N-K | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814791/C06814791.pdf)
 2000-03-14 | P0 | TE | Deputy Secretary Talbott's March 10 meeting with Italian FM DINI: Iran, N. Korea and ESDI Highlighted | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814974/C06814974.pdf)
 2000-04-20 | P0 | TE | Deputy Secretary Talbott and NSC Senior Director Hill Meet with General Sir Rupert Smith, D/Saceur, on Apr 18, 2000 | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815096/C06815096.pdf)
-2000-05-04 | P0 | GC | The Deputy Secretary's Conversation with Georgian President Shevardnadze | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06815084/C06815084.pdf)
 
 ## Public Packet Controls Requiring Extraction
 
