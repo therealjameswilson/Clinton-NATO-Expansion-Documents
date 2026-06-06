@@ -1,6 +1,6 @@
 # Local Package Build Audit
 
-Generated: 2026-06-06T03:42:59.502Z
+Generated: 2026-06-06T03:49:09.179Z
 
 This audit records a local private build of the Bernstein NATO expansion package.
 The assembled PDF and downloaded source PDFs live under `private/`, which is
@@ -9,13 +9,13 @@ recipe.
 
 ## Result
 
-- Manifest generated: 2026-06-06T03:42:19.024Z
-- Selected records: 179
+- Manifest generated: 2026-06-06T03:48:09.360Z
+- Selected records: 176
 - Expected selected pages: 1000
-- Downloaded source PDFs: 179
-- Downloaded source bytes: 766511485
+- Downloaded source PDFs: 176
+- Downloaded source bytes: 872133295
 - Assembled PDF pages: 1000
-- Assembled PDF bytes: 60956681
+- Assembled PDF bytes: 61169461
 - Assembled PDF version: 1.7
 - Local assembled path: `private/package-pdfs/clinton-nato-expansion-bernstein-1000-page-package.pdf`
 - Integrity check: `qpdf --warning-exit-0 --check` found no syntax or stream encoding errors.

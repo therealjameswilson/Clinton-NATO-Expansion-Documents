@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T03:42:19.024Z",
+  "generatedAt": "2026-06-06T03:48:09.360Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 179,
+      "Count": 176,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 446,
-      "Pages": 2179,
+      "Count": 451,
+      "Pages": 2219,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 179,
+      "Count": 184,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 70,
-      "Pages": 350,
+      "Count": 75,
+      "Pages": 390,
       "Status": "document-level rows"
     },
     {
@@ -753,6 +753,16 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-gore-russia-nato-expansion-1994-12-21",
+      "date": "1994-12-21",
+      "title": "Meeting with the Vice President on Russia and NATO Expansion",
+      "pageCount": 5,
+      "sourcePages": "103-107",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-yeltsin-to-clinton-1994-12-29",
       "date": "1994-12-29",
       "title": "President Yeltsin to President Clinton on NATO Enlargement",
@@ -893,6 +903,16 @@
       "packetIdentifier": "2015-0768-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-lake-european-security-nato-enlargement-1995-06-16",
+      "date": "1995-06-16",
+      "title": "Troika Meeting on European Security/NATO Enlargement",
+      "pageCount": 17,
+      "sourcePages": "131-147",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0773-m-havel-1995-10-21",
       "date": "1995-10-21",
       "title": "Meeting with Vaclav Havel, President of the Czech Republic",
@@ -953,6 +973,16 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-nato-russia-founding-act-1997-05-15",
+      "date": "1997-05-15",
+      "title": "The NATO-Russia Founding Act",
+      "pageCount": 2,
+      "sourcePages": "421-422",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-madrid-diplomatic-congressional-strategy",
       "date": "1997-06-09",
       "title": "A Diplomatic and Congressional Strategy for Madrid and Beyond",
@@ -961,6 +991,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-madrid-membership-decision-1997-06-09",
+      "date": "1997-06-09",
+      "title": "Deciding Which Countries to Support for NATO Membership at the Madrid Summit",
+      "pageCount": 8,
+      "sourcePages": "440-447",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-second-round-open-door-1997-06-23",
+      "date": "1997-06-23",
+      "title": "Achieving Allied Consensus on NATO Enlargement: Whether to Set a Date or Name Names for the Second Round",
+      "pageCount": 8,
+      "sourcePages": "485-492",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-nato-summit-communications-objectives-1997-06-23",

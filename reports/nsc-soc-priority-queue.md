@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T03:42:15.531Z
+Generated: 2026-06-06T03:48:03.284Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -99,6 +99,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1994-12-12 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1994-12-16 | P0 | TE | DECEMBER 15 TALBOTT-RYURIKOV MEETING ON | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694734/C06694734.pdf)
 1994-12-19 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1994-12-21 | P0 | Presidential briefing memorandum | Meeting with the Vice President on Russia and NATO Expansion | NSC | 5 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-12-29 | P0 | Presidential correspondence | President Yeltsin to President Clinton on NATO Enlargement | Deputies Committee | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1995 Meetings [2] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482494)
 1995-01-01 | P0 | Scout Lead | PC/DC [Principals Committee/Deputies Committee] Meetings on Bosnia, April 1995 [1] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/41051297)
@@ -132,6 +133,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1995-05-09 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1995-05-23 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1995-06-12 | P0 | ME | Your Meeting with Yeltsin in Halifax | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835149/C06835149.pdf)
+1995-06-16 | P0 | NSC information memorandum with strategy papers | Troika Meeting on European Security/NATO Enlargement | NSC | 17 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-07-09 | P0 | MI | TALBOTT-MAMEDOV MEETING IN BUENOS AIRES ON THE MARGINS OF MENEM INAUGURAL | Interagency | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698191/C06698191.pdf)
 1995-07-28 | P0 | Context | Presidential Daily Diary reference: conference call with Boris Yeltsin | NSC |  | nara-catalog | [open](https://catalog.archives.gov/id/147870839)
 1995-08-01 | P0 | Release Packet | Summary of Conclusions on Bosnia |  | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
@@ -166,5 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1996-07-16 | P0 | TE | MEMORANDUM OF CONVERSATION WITH PRESIDENT KWASNIESKI OF POLAND | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698307/C06698307.pdf)
 1996-07-19 | P0 | TE | OFFICIAL - INFORMAL FOR D STAFF ONLY | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698224/C06698224.pdf)
 1996-07-30 | P0 | TE | DEPUTY SECRETARY REVIEWS SECURITY, ECONOMIC ISSUES WITH UKRAINIAN FOREIGN MINISTER, JULY 26, 1996 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698247/C06698247.pdf)
-1996-09-07 | P0 | TE | ACTING SECRETARY BRIEFS BALTICS ON ACTION PLAN | Interagency | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698268/C06698268.pdf)
-1996-09-11 | P0 | MI | PARIS ST-MAMEDOV | Interagency | 22 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698220/C06698220.pdf)

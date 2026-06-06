@@ -1,6 +1,6 @@
 # 1000-Page Assembly Plan
 
-Generated: 2026-06-06T03:42:15.531Z
+Generated: 2026-06-06T03:48:03.285Z
 
 Current selected page budget: 1096 pages across 38
 records. This is an automated first pass, not a final scholarly selection.

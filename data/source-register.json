@@ -8670,6 +8670,69 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 38."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-gore-russia-nato-expansion-1994-12-21",
+    "title": "Meeting with the Vice President on Russia and NATO Expansion",
+    "date": "1994-12-21",
+    "year": 1994,
+    "documentType": "Presidential briefing memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 103-107. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "103-107",
+    "pageCount": 5,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato expansion",
+      "russia",
+      "vice president",
+      "yeltsin",
+      "pfp",
+      "nac"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Russia",
+      "Vice President briefing",
+      "Partnership for Peace",
+      "NAC communique",
+      "Clinton-Yeltsin assurances",
+      "U.S.-Russia relationship"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Al Gore",
+      "Boris Yeltsin",
+      "Viktor Chernomyrdin",
+      "Warren Christopher",
+      "William Perry",
+      "Samuel Berger",
+      "Strobe Talbott",
+      "Leon Fuerth",
+      "Nicholas Burns"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The briefing prepares Clinton for Gore's report on Moscow talks with Yeltsin and Chernomyrdin after Russian objections to the December 1994 NATO expansion process."
+  },
+  {
     "id": "clinton-library-doc-2015-0768-m-yeltsin-to-clinton-1994-12-29",
     "title": "President Yeltsin to President Clinton on NATO Enlargement",
     "date": "1994-12-29",
@@ -11217,6 +11280,67 @@
       "manifestPath": "data/manifest.json"
     },
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 57."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-lake-european-security-nato-enlargement-1995-06-16",
+    "title": "Troika Meeting on European Security/NATO Enlargement",
+    "date": "1995-06-16",
+    "year": 1995,
+    "documentType": "NSC information memorandum with strategy papers",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 131-147. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "131-147",
+    "pageCount": 17,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato enlargement",
+      "roadmap for 1996",
+      "accession talks",
+      "nac",
+      "pfp",
+      "nato-russia"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "European security",
+      "Roadmap for 1996",
+      "Accession talks",
+      "Partnership for Peace",
+      "NATO-Russia relationship",
+      "December 1996 NAC",
+      "Public strategy"
+    ],
+    "people": [
+      "Anthony Lake",
+      "Coit Blacker",
+      "Daniel Fried",
+      "Alexander Vershbow",
+      "Strobe Talbott",
+      "Richard Holbrooke"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "Central and Eastern Europe"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum and attachments set a 1996 enlargement road map, including the half-step after the December 1995 NAC, pre-accession talks, ratification timing, and a parallel NATO-Russia track."
   },
   {
     "id": "state-foia-C06835181",
@@ -20156,6 +20280,62 @@
     "notes": "Public record context; use for chronology, public explanation, and annotation rather than as a declassified archival source."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-nato-russia-founding-act-1997-05-15",
+    "title": "The NATO-Russia Founding Act",
+    "date": "1997-05-15",
+    "year": 1997,
+    "documentType": "Presidential information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 421-422. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "421-422",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato-russia",
+      "founding act",
+      "permanent joint council",
+      "enlargement context",
+      "cfe"
+    ],
+    "topics": [
+      "NATO-Russia Founding Act",
+      "NATO enlargement",
+      "Permanent Joint Council",
+      "Nuclear deployments",
+      "Conventional forces",
+      "CFE adaptation"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Samuel Berger",
+      "Javier Solana",
+      "Yevgeny Primakov",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum explains how the Founding Act preserved NATO decision-making while giving Russia a consultative forum during the enlargement process."
+  },
+  {
     "id": "clinton-nato-russia-cross-contact-1997-05-27-memcon-45",
     "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
     "date": "1997-05-27",
@@ -20339,6 +20519,78 @@
     "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. Packet pages 27-28 are an incomplete released copy; the complete released copy runs on PDF pages 29-36. The same folder's agenda and who/open-door papers remain listed only as packet-control evidence because they are withheld."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-madrid-membership-decision-1997-06-09",
+    "title": "Deciding Which Countries to Support for NATO Membership at the Madrid Summit",
+    "date": "1997-06-09",
+    "year": 1997,
+    "documentType": "Presidential action memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 440-447. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "440-447",
+    "pageCount": 8,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "madrid summit",
+      "accession talks",
+      "principals committee",
+      "poland",
+      "hungary",
+      "czech republic",
+      "open door"
+    ],
+    "topics": [
+      "Madrid Summit",
+      "NATO enlargement",
+      "Accession talks",
+      "First tranche",
+      "Open Door policy",
+      "Principals Committee",
+      "Allied consensus",
+      "Senate ratification"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Samuel Berger",
+      "John Schmidt",
+      "Alexander Vershbow",
+      "Dan Fried",
+      "Robert Hunter",
+      "Javier Solana",
+      "Jacques Chirac",
+      "Tony Blair",
+      "Helmut Kohl"
+    ],
+    "countries": [
+      "United States",
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "Romania",
+      "Slovenia",
+      "France",
+      "United Kingdom",
+      "Germany"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Principals Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The action memorandum records the Principals' recommendation that Clinton support Poland, Hungary, and the Czech Republic as the first invitees at Madrid while holding a robust open door."
+  },
+  {
     "id": "clinton-nato-russia-cross-contact-1997-06-20-memcon-46",
     "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
     "date": "1997-06-20",
@@ -20389,6 +20641,69 @@
       "id": "russia-cross-contact-1997-06-20-memcon-46"
     },
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-note detail moved from displayed citation: Page count audit: 8 actual conversation pages from 165-172; non-conversation pages and duplicate copies excluded. Source marking extraction: Secret found by PDF text extraction. Source page span retained outside displayed FRUS note: pages 165-172; 8 conversation pages."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-second-round-open-door-1997-06-23",
+    "title": "Achieving Allied Consensus on NATO Enlargement: Whether to Set a Date or Name Names for the Second Round",
+    "date": "1997-06-23",
+    "year": 1997,
+    "documentType": "Presidential information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 485-492. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "485-492",
+    "pageCount": 8,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "open door",
+      "madrid summit",
+      "second round",
+      "romania",
+      "slovenia",
+      "baltic states",
+      "ratification"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Open Door policy",
+      "Second round",
+      "Madrid Summit Declaration",
+      "Atlantic Dialogues",
+      "Senate ratification",
+      "Allied consensus"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Samuel Berger",
+      "Strobe Talbott"
+    ],
+    "countries": [
+      "United States",
+      "Romania",
+      "Slovenia",
+      "Baltic states",
+      "Bulgaria",
+      "France",
+      "United Kingdom",
+      "Russia"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum weighs naming Romania and Slovenia, setting a second-round review date, or preserving the no-names Open Door formula for Madrid."
   },
   {
     "id": "clinton-library-doc-2015-0772-m-nato-summit-communications-objectives-1997-06-23",

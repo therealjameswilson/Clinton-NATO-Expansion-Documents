@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T03:42:19.024Z
+Generated: 2026-06-06T03:48:09.360Z
 
 ## What This Pass Proves
 
@@ -34,8 +34,16 @@ Generated: 2026-06-06T03:42:19.024Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1996-09-25 | 55 | 10 | JFC/GEM CONVERSATION | state-foia | nato-expansion, nac-usnato, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698207/C06698207.pdf)
+1994-08-27 | 52 | 3 | August 27, 1994 Letter from Strobe to Chris | state-foia | nato-expansion, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000155/C09000155.pdf)
+1994-09-28 | 52 | 6 | Second Clinton/Yeltsin One-on-One | nara-catalog | nato-russia, candidate-states, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101758)
+1996-09-24 | 52 | 4 | MEETING WHIT FOREIGN MINISTER OF RUSSIA YEVGENIY PRIMAKOV | state-foia | nato-expansion, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699025/C06699025.pdf)
+1997-02-10 | 52 | 2 | THE DEPUTY SECRETARY'S CONVERSATION WITH NATO SECRETARY GENERAL SOLANA | state-foia | nato-expansion, nac-usnato, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702843/C06702843.pdf)
 1998-10-08 | 52 | 5 | Deputy Foreign Minister's October 6 Meeting with the Acting Secretary | state-foia | nato-expansion, open-door-map, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06782268/C06782268.pdf)
+1997-02-27 | 51 | 8 | SECRETARYVS MEETING WITH JAVIER SOLANA, NATO SECRETARY GENERAL, FEBRUARY 18, BRUSSELS, BELGIUM | state-foia | madrid-summit, nac-usnato, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702829/C06702829.pdf)
+1994-01-13 | 51 | 4 | Prague Assessment: Hungarians Very Upbeat | clinton-library-mdr | nato-russia, pfp, candidate-states | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1996-09-26 | 51 | 19 | HERE IS A DRAFT MEMCON, FOR YOUR EYES ONLY. | state-foia | nato-expansion, nato-russia, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698205/C06698205.pdf)
+1997-01-09 | 51 | 3 | MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND PORTUGUESE PRIME MINISTER GUTERRES | state-foia | nato-expansion, nato-russia, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698843/C06698843.pdf)
 1993-06-30 | 50 | 3 | The NATO Summit: Timing and Venue | clinton-library-mdr | nato-russia, cfe-osce, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-10-23 | 50 | 5 | Memorandum of Conversation - Lunch with President Boris Yeltsin | nara-catalog | nato-russia, nsc-soc | [open](https://catalog.archives.gov/id/163545436)
 1999-02-19 | 50 | 8 | DEPSEC MEETING WITH GERMAN STATE SECRETARY ISCHINGER ON 2/4 | state-foia | open-door-map, nac-usnato, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771540/C06771540.pdf)
@@ -86,14 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 2000-08-11 | 38 | 5 | The Deputy Secretary's meeting with EU Commissioner Patten: G8 Ministerial Miyazaki, Japan | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814898/C06814898.pdf)
 2000-11-16 | 38 | 3 | The Deputy Secretary's November 7 meeting with UK NATO Ambassador-Designate, David Manning | state-foia | nato-expansion, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815050/C06815050.pdf)
 1994-07-08 | 37 | 3 | RUSSIAN TROOP WITHDRAWAL: ESTONIAN FM LUIK'S MEETING WITH THE DEPUTY SECRETARY | state-foia | pfp, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695151/C06695151.pdf)
-1994-08-21 | 37 | 34 | August 21, 1994 Letter from Strobe to Chris | state-foia | pfp, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000147/C09000147.pdf)
-1996-04-01 | 37 | 5 | NATO: REPORT BY SYG SOLANA OF HIS MEETING WITH RUSSIAN DEFMIN GRACHEV, MARCH 20 | state-foia | nato-russia, nac-usnato, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697287/C06697287.pdf)
-1996-11-15 | 37 | 6 | DEPUTY SECRETARY MEETING WITH NATO SYG SOLANA | state-foia | nato-russia, nac-usnato, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698993/C06698993.pdf)
-1999-03-25 | 37 | 4 | TALBOTT MEETS UK SECDEF ROBERTSON | state-foia | nato-russia, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771124/C06771124.pdf)
-1999-05-05 | 37 | 10 | TFSR02: DEPUTY SECRETARY TALBOTT BRIEFS THE NAC APRIL 29 ON DISCUSSIONS WITH RUSSIAN LEADERS | state-foia | nato-russia, nac-usnato, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814702/C06814702.pdf)
-2000-03-14 | 36 | 4 | Deputy Secretary Talbott's March 10 meeting with Italian FM DINI: Iran, N. Korea and ESDI Highlighted | state-foia | nac-usnato, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814974/C06814974.pdf)
-1995-05-27 | 36 | 4 | Memorandum of Telephone Conversation - President Jacques Chirac of France | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/118528)
-1995-10-22 | 36 | 2 | Your meeting with Boris Yeltsin (II) | state-foia | nato-expansion, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835150/C06835150.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 
