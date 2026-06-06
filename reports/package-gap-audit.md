@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T01:58:24.271Z
+Generated: 2026-06-06T02:09:37.862Z
 
 ## What This Pass Proves
 
@@ -11,6 +11,8 @@ Generated: 2026-06-06T01:58:24.271Z
 - NSC, Principals Committee, Deputies Committee, minutes, and Summaries of
   Conclusions receive special queueing when they also carry a NATO expansion or
   allied-security signal.
+- Official Clinton Library MDR packets are now represented as packet controls,
+  but are blocked from automatic selection until split into document-level rows.
 - Private Google Drive items are used for local matching only and are not
   exposed as public provenance.
 
@@ -18,6 +20,8 @@ Generated: 2026-06-06T01:58:24.271Z
 
 - Re-run the local download/assembly recipe after any package-manifest change
   and keep the assembled PDF and source PDFs out of Git.
+- Split the official Clinton Library MDR packet controls into document-level
+  rows before treating their 1,844 pages as selected package evidence.
 - Inspect repeated release packets and any page-range records to avoid duplicate
   packet pages when the same public PDF contains many separate records.
 - Promote high-value NARA Scout file-unit leads only after image-level review.

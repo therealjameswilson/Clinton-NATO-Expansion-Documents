@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T01:44:22.930Z
+Generated: 2026-06-06T02:09:37.660Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -24,6 +24,10 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1993-10-19 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 1 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-10-28 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-11-16 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1993-1998 | P0 | Clinton Library MDR packet control | Declassified Documents Concerning NATO Expansion | NSC | 340 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1993-1999 | P0 | Clinton Library MDR packet control | Declassified Documents Concerning NATO Expansion | Principals Committee | 89 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-1999 | P0 | Clinton Library MDR packet control | Declassified Documents Concerning NATO Expansion | Principals Committee | 5 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/49430)
+1993-2000 | P0 | Clinton Library MDR packet control | Declassified Documents Related to the North Atlantic Treaty Organization (NATO) | NSC | 539 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [1] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482483)
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [2] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482484)
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [3] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482485)
@@ -47,6 +51,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1994-08-17 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1994-08-21 | P0 | GC | August 21, 1994 Letter from Strobe to Chris | NSC | 34 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000147/C09000147.pdf)
 1994-08-24 | P0 | TE | OFFICIAL - INFORMAL | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694851/C06694851.pdf)
+1994-09 | P0 | Clinton Library MDR packet control | Declassified Documents Regarding NATO Expansion | NSC | 12 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 1994-09-11 | P0 | GC | September 11, 1994 Letter to Chris | Interagency | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000146/C09000146.pdf)
 1994-09-12 | P0 | TE | TALBOTT: RYURIKOV MEETING | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695297/C06695297.pdf)
 1994-09-12 | P0 | ME | THE FUTURE OF EUROPEAN SECURITY | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000145/C09000145.pdf)
@@ -118,6 +123,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1996-11-01 | P0 | TE | GEORGIAN FOREIGN MINISTER MENAGHARAISHVILL'S MEETING IN WASHINGTON | Interagency | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698684/C06698684.pdf)
 1996-11-15 | P0 | TE | DEPUTY SECRETARY MEETING WITH UKRAINIAN FOREIGN MINISTER UDOVENKO | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698688/C06698688.pdf)
 1996-12-04 | P0 | GC | MEETING WITH PRIMAKOV IN LONDON | NSC | 12 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699013/C06699013.pdf)
+1996-1997 | P0 | Clinton Library MDR packet control | Declassified Documents Concerning NATO Expansion | NSC | 14 | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/57565)
 1997-01-17 | P0 | TE | DEPUTY SECRETARY'S CONVERSATION WITH NATO SYG SOLANA | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702754/C06702754.pdf)
 1997-01-18 | P0 | TE | DEPUTY SECRETARY'S CONVERSATION WITH NATO SYG SOLANA | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703173/C06703173.pdf)
 1997-02-10 | P0 | TE | THE DEPUTY SECRETARY'S CONVERSATION WITH NATO SECRETARY GENERAL SOLANA | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702843/C06702843.pdf)
@@ -162,9 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 2000-02-02 | P0 | Source Lead | Secretary Albright's Meeting with Acting President Putin | NSC |  | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000064/C09000064.pdf)
 2000-02-03 | P0 | TE | DFM Berdennikov's meeting with S/NIS Sestanovich on N-K | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814791/C06814791.pdf)
 2000-03-14 | P0 | TE | Deputy Secretary Talbott's March 10 meeting with Italian FM DINI: Iran, N. Korea and ESDI Highlighted | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814974/C06814974.pdf)
-2000-04-17 | P0 | TE | Deputy Secretary's meeting with Ukrainian Defense Minister Kuzmuk | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814972/C06814972.pdf)
-2000-04-20 | P0 | TE | Deputy Secretary Talbott and NSC Senior Director Hill Meet with General Sir Rupert Smith, D/Saceur, on Apr 18, 2000 | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815096/C06815096.pdf)
-2000-05-04 | P0 | GC | The Deputy Secretary's Conversation with Georgian President Shevardnadze | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06815084/C06815084.pdf)
-2000-10-13 | P0 | TE | MOLDOVAN PRIME MINISTER BRAGHIS'S MEETINGS IN THE DEPARTMENT | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814966/C06814966.pdf)
-2020-02-07 | P0 | ME | TALBOTT-CHIRAC MEETING IN PARIS | NSC | 10 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702762/C06702762.pdf)
-2021-02-01 | P0 | MI | Gore Debrief on One-on-One w/Yeltsin | Interagency | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835143/C06835143.pdf)

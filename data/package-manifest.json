@@ -1,13 +1,15 @@
 {
-  "generatedAt": "2026-06-06T01:58:24.271Z",
+  "generatedAt": "2026-06-06T02:09:37.862Z",
   "targetPages": 1000,
   "selectedPageTotal": 1001,
   "selectedCount": 175,
   "candidateCount": 368,
   "candidatePageTotal": 1809,
-  "nscSocCandidateCount": 95,
+  "nscSocCandidateCount": 104,
   "naraScoutPromotionLeadCount": 123,
-  "privateGoogleDriveIntakeCount": 9,
+  "clintonLibraryPacketControlCount": 11,
+  "clintonLibraryPacketControlPages": 1844,
+  "privateGoogleDriveIntakeCount": 17,
   "sourceClassCounts": {
     "clinton-digital-library": 5,
     "nara-catalog": 5,
@@ -9966,6 +9968,58 @@
       "packageSelected": false
     },
     {
+      "id": "clinton-library-packet-2015-0772-m",
+      "date": "1993-2000",
+      "title": "Declassified Documents Related to the North Atlantic Treaty Organization (NATO)",
+      "documentType": "Clinton Library MDR packet control",
+      "sourceClass": "clinton-library-mdr-packet",
+      "pageCount": 539,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "nsc-soc"
+      ],
+      "relevanceScore": -34,
+      "packageSelected": false
+    },
+    {
+      "id": "clinton-library-packet-2015-0768-m-rmo-2022",
+      "date": "1993-1999",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "documentType": "Clinton Library MDR packet control",
+      "sourceClass": "clinton-library-mdr-packet",
+      "pageCount": 89,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "nsc-soc"
+      ],
+      "relevanceScore": -46,
+      "packageSelected": false
+    },
+    {
+      "id": "clinton-library-packet-2013-0804-m",
+      "date": "1997-2000",
+      "title": "Declassified Documents Concerning British Prime Minister Tony Blair",
+      "documentType": "Clinton Library MDR packet control",
+      "sourceClass": "clinton-library-mdr-packet",
+      "pageCount": 148,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+      "themes": [
+        "nato-expansion",
+        "open-door-map",
+        "nsc-soc"
+      ],
+      "relevanceScore": -48,
+      "packageSelected": false
+    },
+    {
       "id": "state-foia-C06834875",
       "date": "2021-02-01",
       "title": "Here is the memo that I wrote to Chris during my vacation",
@@ -9979,6 +10033,102 @@
         "nsc-soc"
       ],
       "relevanceScore": -55,
+      "packageSelected": false
+    },
+    {
+      "id": "clinton-library-packet-2015-0755-m",
+      "date": "1993-1998",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "documentType": "Clinton Library MDR packet control",
+      "sourceClass": "clinton-library-mdr-packet",
+      "pageCount": 340,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "packageSelected": false
+    },
+    {
+      "id": "clinton-library-packet-2015-0771-m",
+      "date": "1993-1998",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "documentType": "Clinton Library MDR packet control",
+      "sourceClass": "clinton-library-mdr-packet",
+      "pageCount": 164,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "packageSelected": false
+    },
+    {
+      "id": "clinton-library-packet-2015-0768-m-rmo-2016",
+      "date": "1993-1999",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "documentType": "Clinton Library MDR packet control",
+      "sourceClass": "clinton-library-mdr-packet",
+      "pageCount": 5,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49430",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/d7309797f261e4d4498490c4087830c3.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "packageSelected": false
+    },
+    {
+      "id": "clinton-library-packet-2017-0193-m",
+      "date": "1994-09",
+      "title": "Declassified Documents Regarding NATO Expansion",
+      "documentType": "Clinton Library MDR packet control",
+      "sourceClass": "clinton-library-mdr-packet",
+      "pageCount": 12,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118731",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/3a5e05a367487bd0097cd36c04a644c6.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "packageSelected": false
+    },
+    {
+      "id": "clinton-library-packet-2015-0792-m",
+      "date": "1995-1996",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "documentType": "Clinton Library MDR packet control",
+      "sourceClass": "clinton-library-mdr-packet",
+      "pageCount": 203,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "packageSelected": false
+    },
+    {
+      "id": "clinton-library-packet-2015-0770-m",
+      "date": "1996-1997",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "documentType": "Clinton Library MDR packet control",
+      "sourceClass": "clinton-library-mdr-packet",
+      "pageCount": 14,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57565",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ae02d8219b6f90d0e5fc7a41f099bdce.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
       "packageSelected": false
     },
     {
@@ -11334,6 +11484,234 @@
       ],
       "relevanceScore": -153,
       "nextAction": "Promote this file-unit lead only after source-image inspection identifies document dates, page spans, markings, and source-note provenance."
+    }
+  ],
+  "clintonLibraryPacketExtractionQueue": [
+    {
+      "id": "clinton-library-packet-2015-0772-m",
+      "date": "1993-2000",
+      "title": "Declassified Documents Related to the North Atlantic Treaty Organization (NATO)",
+      "pageCount": 539,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "nsc-soc"
+      ],
+      "relevanceScore": -34,
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    },
+    {
+      "id": "clinton-library-packet-2015-0768-m-rmo-2022",
+      "date": "1993-1999",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "pageCount": 89,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "nsc-soc"
+      ],
+      "relevanceScore": -46,
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "Principals Committee",
+        "queuePriority": "front-of-queue"
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    },
+    {
+      "id": "clinton-library-packet-2013-0804-m",
+      "date": "1997-2000",
+      "title": "Declassified Documents Concerning British Prime Minister Tony Blair",
+      "pageCount": 148,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+      "themes": [
+        "nato-expansion",
+        "open-door-map",
+        "nsc-soc"
+      ],
+      "relevanceScore": -48,
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "review"
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    },
+    {
+      "id": "clinton-library-packet-2024-0540-m",
+      "date": "1994-01",
+      "title": "Mandatory Declassification Review 2024-0540-M",
+      "pageCount": 91,
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "themes": [
+        "nato-expansion",
+        "pfp",
+        "candidate-states"
+      ],
+      "relevanceScore": -54,
+      "nscSoc": {
+        "isNscRecord": false,
+        "isSummaryOfConclusions": false,
+        "committee": "",
+        "queuePriority": ""
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    },
+    {
+      "id": "clinton-library-packet-2015-0773-m",
+      "date": "1995-1996",
+      "title": "Case Number: 2015-0773-M",
+      "pageCount": 239,
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "themes": [
+        "nato-expansion",
+        "pfp",
+        "candidate-states"
+      ],
+      "relevanceScore": -54,
+      "nscSoc": {
+        "isNscRecord": false,
+        "isSummaryOfConclusions": false,
+        "committee": "",
+        "queuePriority": ""
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    },
+    {
+      "id": "clinton-library-packet-2015-0755-m",
+      "date": "1993-1998",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "pageCount": 340,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    },
+    {
+      "id": "clinton-library-packet-2015-0771-m",
+      "date": "1993-1998",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "pageCount": 164,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "review"
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    },
+    {
+      "id": "clinton-library-packet-2015-0768-m-rmo-2016",
+      "date": "1993-1999",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "pageCount": 5,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49430",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/d7309797f261e4d4498490c4087830c3.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "Principals Committee",
+        "queuePriority": "front-of-queue"
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    },
+    {
+      "id": "clinton-library-packet-2017-0193-m",
+      "date": "1994-09",
+      "title": "Declassified Documents Regarding NATO Expansion",
+      "pageCount": 12,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118731",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/3a5e05a367487bd0097cd36c04a644c6.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    },
+    {
+      "id": "clinton-library-packet-2015-0792-m",
+      "date": "1995-1996",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "pageCount": 203,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "review"
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    },
+    {
+      "id": "clinton-library-packet-2015-0770-m",
+      "date": "1996-1997",
+      "title": "Declassified Documents Concerning NATO Expansion",
+      "pageCount": 14,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57565",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ae02d8219b6f90d0e5fc7a41f099bdce.pdf",
+      "themes": [
+        "nato-expansion",
+        "nsc-soc"
+      ],
+      "relevanceScore": -62,
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      },
+      "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
     }
   ]
 }

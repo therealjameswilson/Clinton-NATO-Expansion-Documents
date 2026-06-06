@@ -1,6 +1,6 @@
 # Bernstein 1000-Page Package Manifest
 
-Generated: 2026-06-06T01:58:24.271Z
+Generated: 2026-06-06T02:09:37.862Z
 
 This is the focused package candidate set for Professor Barton Bernstein. It is
 separate from the broader public source register: records here are selected for
@@ -15,9 +15,11 @@ closely related NSC/meeting records.
 - Selected records: 175
 - Package-ready public candidates: 368
 - Package-ready public candidate pages: 1809
-- NSC/Summaries/minutes attention candidates: 95
+- NSC/Summaries/minutes attention candidates: 104
 - NARA Scout promotion leads: 123
-- Private Google Drive intake items, not published as provenance: 9
+- Clinton Library MDR packet controls: 11
+- Clinton Library packet-control pages awaiting extraction: 1844
+- Private Google Drive intake items, not published as provenance: 17
 
 ## Selected Source Classes
 

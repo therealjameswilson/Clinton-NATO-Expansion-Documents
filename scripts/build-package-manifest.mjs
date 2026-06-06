@@ -8,6 +8,9 @@ const targetPages = 1000;
 
 const publicRegisterPath = path.join(repoRoot, "data", "source-register.json");
 const privateDrivePath = path.join(repoRoot, "private", "google-drive-intake.json");
+const coverageMatrixPath = path.join(repoRoot, "..", "Clinton-NATO-European-Security", "reports", "coverage-matrix.json");
+const promotionQueuePath = path.join(repoRoot, "..", "Clinton-NATO-European-Security", "reports", "promotion-queue.json");
+const hardGapTriagePath = path.join(repoRoot, "..", "Clinton-NATO-European-Security", "reports", "hard-gap-pdf-triage.json");
 
 const topicRules = [
   ["nato-expansion", 24, /nato\s+expansion|nato\s+enlargement|expansion\s+of\s+nato|enlargement\s+of\s+nato|(expand|expanding|expanded|enlarge|enlarging|enlarged)\s+nato/i],
@@ -123,6 +126,10 @@ function scoreRecord(record) {
     score -= 100;
     reasons.push("file-unit lead needs promotion");
   }
+  if (record.sourceClass === "clinton-library-mdr-packet" || /packet control/i.test(record.documentType || "")) {
+    score -= 100;
+    reasons.push("packet needs document-level extraction");
+  }
   if (!record.pdfUrl) {
     score -= 40;
     reasons.push("no package PDF URL");
@@ -145,7 +152,12 @@ function scoreRecord(record) {
     themes: [...new Set(themes)],
     reasons: [...new Set(reasons)],
     nscSoc,
-    packageReady: score > 0 && Boolean(record.pdfUrl) && Number(record.pageCount) > 0 && yearInScope(record) && record.sourceClass !== "nara-scout-lead"
+    packageReady: score > 0 &&
+      Boolean(record.pdfUrl) &&
+      Number(record.pageCount) > 0 &&
+      yearInScope(record) &&
+      record.sourceClass !== "nara-scout-lead" &&
+      record.sourceClass !== "clinton-library-mdr-packet"
   };
 }
 
@@ -175,6 +187,15 @@ function themeCounts(items) {
   return Object.fromEntries(Object.entries(counts).sort((a, b) => a[0].localeCompare(b[0])));
 }
 
+function driveQueryCounts(items) {
+  const counts = {};
+  for (const item of items) {
+    const key = item.query || "unlabeled Drive intake";
+    counts[key] = (counts[key] || 0) + 1;
+  }
+  return Object.fromEntries(Object.entries(counts).sort((a, b) => a[0].localeCompare(b[0])));
+}
+
 function table(rows, headers) {
   return [
     headers.join(" | "),
@@ -185,6 +206,9 @@ function table(rows, headers) {
 
 const publicRecords = readJson(publicRegisterPath, []);
 const privateDriveItems = readJson(privateDrivePath, []);
+const coverageMatrix = readJson(coverageMatrixPath, { rows: [] });
+const upstreamPromotionQueue = readJson(promotionQueuePath, { rows: [] });
+const hardGapTriage = readJson(hardGapTriagePath, { rows: [] });
 const evaluated = publicRecords.map((record) => ({ ...record, package: scoreRecord(record) }));
 const candidates = evaluated.filter((record) => record.package.packageReady).sort(sortCandidates);
 const attentionQueue = evaluated
@@ -193,6 +217,15 @@ const attentionQueue = evaluated
 const promotionQueue = evaluated
   .filter((record) => record.sourceClass === "nara-scout-lead" && record.package.themes.length)
   .sort(sortCandidates);
+const packetExtractionQueue = evaluated
+  .filter((record) => record.sourceClass === "clinton-library-mdr-packet")
+  .sort(sortCandidates);
+const officialPacketPageTotal = packetExtractionQueue.reduce((sum, record) => sum + Number(record.pageCount || 0), 0);
+const gapRows = (coverageMatrix.rows || [])
+  .filter((row) => row.status === "gap" || Number(row.document_records || 0) < Number(row.direct_document_minimum || 0))
+  .slice(0, 12);
+const hardGapRows = (hardGapTriage.rows || [])
+  .slice(0, 20);
 
 let selectedPageTotal = 0;
 const selected = [];
@@ -244,6 +277,8 @@ const manifest = {
   candidatePageTotal: candidates.reduce((sum, record) => sum + Number(record.pageCount || 0), 0),
   nscSocCandidateCount: attentionQueue.length,
   naraScoutPromotionLeadCount: promotionQueue.length,
+  clintonLibraryPacketControlCount: packetExtractionQueue.length,
+  clintonLibraryPacketControlPages: officialPacketPageTotal,
   privateGoogleDriveIntakeCount: privateDriveItems.length,
   sourceClassCounts: countBy(selected, (record) => record.sourceClass),
   yearCounts: countBy(selected, (record) => String(record.year || "unknown")),
@@ -281,6 +316,18 @@ const manifest = {
     themes: record.package.themes,
     relevanceScore: record.package.score,
     nextAction: "Promote this file-unit lead only after source-image inspection identifies document dates, page spans, markings, and source-note provenance."
+  })),
+  clintonLibraryPacketExtractionQueue: packetExtractionQueue.map((record) => ({
+    id: record.id,
+    date: record.date,
+    title: record.title,
+    pageCount: record.pageCount,
+    sourceUrl: record.sourceUrl,
+    pdfUrl: record.pdfUrl,
+    themes: record.package.themes,
+    relevanceScore: record.package.score,
+    nscSoc: record.nscSoc,
+    nextAction: "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
   }))
 };
 
@@ -343,6 +390,42 @@ const scoutRows = manifest.naraScoutPromotionQueue.slice(0, 60).map((record) => 
   Link: linkFor(record)
 }));
 
+const packetRows = manifest.clintonLibraryPacketExtractionQueue.map((record) => ({
+  Date: record.date,
+  Pages: record.pageCount,
+  Record: record.title,
+  Link: linkFor(record),
+  Action: record.nextAction
+}));
+
+const exhaustionRows = [
+  { Lane: "Selected package records", Count: manifest.selectedCount, Pages: manifest.selectedPageTotal, Status: "assembled locally" },
+  { Lane: "Package-ready public candidates", Count: manifest.candidateCount, Pages: manifest.candidatePageTotal, Status: "available for reselection" },
+  { Lane: "NSC/SOC/minutes attention queue", Count: manifest.nscSocCandidateCount, Pages: "", Status: "special review lane" },
+  { Lane: "Clinton Library MDR packet controls", Count: manifest.clintonLibraryPacketControlCount, Pages: manifest.clintonLibraryPacketControlPages, Status: "needs document-level extraction" },
+  { Lane: "NARA Scout promotion leads", Count: manifest.naraScoutPromotionLeadCount, Pages: "", Status: "needs source-image inspection" },
+  { Lane: "Private Google Drive matching clues", Count: manifest.privateGoogleDriveIntakeCount, Pages: "", Status: "ignored local intake only" }
+];
+
+const gapSignalRows = gapRows.map((row) => ({
+  Gap: row.label || row.id,
+  Total: row.total_records ?? "",
+  Documents: row.document_records ?? "",
+  Minimum: row.direct_document_minimum ?? "",
+  Action: row.next_action || ""
+}));
+
+const hardGapRowsForReport = hardGapRows.map((row) => ({
+  Order: row.triage_order,
+  Lane: row.promotion_lane,
+  Record: row.title,
+  Pages: row.page_count || "",
+  Decision: row.recommended_decision || "",
+  Link: row.pdf_url ? `[open](${row.pdf_url})` : ""
+}));
+
+const driveRows = Object.entries(driveQueryCounts(privateDriveItems)).map(([Query, Count]) => ({ Query, Count }));
+
 writeText("reports/package-manifest.md", `# Bernstein 1000-Page Package Manifest
 
 Generated: ${manifest.generatedAt}
@@ -362,6 +445,8 @@ closely related NSC/meeting records.
 - Package-ready public candidate pages: ${manifest.candidatePageTotal}
 - NSC/Summaries/minutes attention candidates: ${attentionQueue.length}
 - NARA Scout promotion leads: ${promotionQueue.length}
+- Clinton Library MDR packet controls: ${packetExtractionQueue.length}
+- Clinton Library packet-control pages awaiting extraction: ${officialPacketPageTotal}
 - Private Google Drive intake items, not published as provenance: ${privateDriveItems.length}
 
 ## Selected Source Classes
@@ -394,6 +479,8 @@ Generated: ${manifest.generatedAt}
 - NSC, Principals Committee, Deputies Committee, minutes, and Summaries of
   Conclusions receive special queueing when they also carry a NATO expansion or
   allied-security signal.
+- Official Clinton Library MDR packets are now represented as packet controls,
+  but are blocked from automatic selection until split into document-level rows.
 - Private Google Drive items are used for local matching only and are not
   exposed as public provenance.
 
@@ -401,6 +488,8 @@ Generated: ${manifest.generatedAt}
 
 - Re-run the local download/assembly recipe after any package-manifest change
   and keep the assembled PDF and source PDFs out of Git.
+- Split the official Clinton Library MDR packet controls into document-level
+  rows before treating their 1,844 pages as selected package evidence.
 - Inspect repeated release packets and any page-range records to avoid duplicate
   packet pages when the same public PDF contains many separate records.
 - Promote high-value NARA Scout file-unit leads only after image-level review.
@@ -417,5 +506,88 @@ ${table(deferredRows, ["Date", "Score", "Pages", "Record", "Source", "Themes", "
 
 ${table(scoutRows, ["Score", "Record", "Themes", "Link"])}
 `);
+
+writeText("reports/source-exhaustion-audit.md", `# Source Exhaustion Audit
+
+Generated: ${manifest.generatedAt}
+
+This audit tracks whether the Bernstein NATO expansion package is exhausting
+the major declassified source lanes, not merely reaching 1000 pages.
+
+## Current Coverage Lanes
+
+${table(exhaustionRows, ["Lane", "Count", "Pages", "Status"])}
+
+## Clinton Library MDR Packet Controls
+
+These official packets are public and page-counted, but they remain controls
+until individual documents are promoted with actual dates, source pages,
+markings, and duplicate checks.
+
+${table(packetRows, ["Date", "Pages", "Record", "Link", "Action"])}
+
+## Known Gap Signals From Upstream FRUS Workbench
+
+${gapSignalRows.length ? table(gapSignalRows, ["Gap", "Total", "Documents", "Minimum", "Action"]) : "No upstream coverage-matrix gap rows were available in this build environment."}
+
+## Hard-Gap Source Leads
+
+${hardGapRowsForReport.length ? table(hardGapRowsForReport, ["Order", "Lane", "Record", "Pages", "Decision", "Link"]) : "No upstream hard-gap triage rows were available in this build environment."}
+
+## Private Drive Matching Clues
+
+Private Google Drive hits are counted only as local matching clues. They are not
+published as public provenance.
+
+${driveRows.length ? table(driveRows, ["Query", "Count"]) : "No private Drive intake was present in this build environment."}
+
+## Current Next Actions
+
+- Promote Clinton Library PC/DC and NATO-expansion MDR packets into
+  document-level rows, starting with 2015-0768-M, 2015-0770-M, 2017-0193-M,
+  and 2015-0772-M.
+- Promote NARA Scout leads only after source-image inspection supplies actual
+  document dates, page spans, markings, and source-note paths.
+- Use the CFE and NAC/USNATO hard-gap leads to rebalance the first package away
+  from overreliance on broad State FOIA release packets.
+- Keep Drive copies private unless each one is matched to an official public
+  source.
+`);
+
+writeJson("data/source-exhaustion-audit.json", {
+  generatedAt: manifest.generatedAt,
+  lanes: exhaustionRows,
+  clintonLibraryPacketControls: manifest.clintonLibraryPacketExtractionQueue,
+  upstreamCoverageGapSignals: gapRows.map((row) => ({
+    id: row.id,
+    label: row.label,
+    totalRecords: row.total_records,
+    documentRecords: row.document_records,
+    directDocumentMinimum: row.direct_document_minimum,
+    status: row.status,
+    nextAction: row.next_action
+  })),
+  hardGapSourceLeads: hardGapRows.map((row) => ({
+    order: row.triage_order,
+    recordId: row.record_id,
+    promotionLane: row.promotion_lane,
+    directGapCredit: row.direct_gap_credit,
+    recommendedDecision: row.recommended_decision,
+    date: row.date,
+    title: row.title,
+    pageCount: row.page_count || null,
+    pdfUrl: row.pdf_url || ""
+  })),
+  privateDriveIntake: {
+    count: privateDriveItems.length,
+    queryCounts: driveQueryCounts(privateDriveItems),
+    publicMetadataPublished: false
+  },
+  upstreamPromotionQueue: {
+    candidateCount: upstreamPromotionQueue.candidateCount || null,
+    scoutLeadCount: upstreamPromotionQueue.scoutLeadCount || null,
+    sourceLeadCount: upstreamPromotionQueue.sourceLeadCount || null
+  }
+});
 
 console.log(`Selected ${selected.length} records and ${selectedPageTotal} pages from ${candidates.length} package-ready public candidates.`);

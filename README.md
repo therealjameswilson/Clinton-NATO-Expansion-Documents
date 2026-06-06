@@ -53,10 +53,15 @@ Target corpus:
   package.
 - `data/package-manifest.json` and `data/package-manifest.csv` - focused
   1000-page Bernstein package manifest.
+- `data/clinton-library-packet-controls.json` - official Clinton Library MDR
+  packet controls awaiting document-level extraction.
+- `data/source-exhaustion-audit.json` - structured source-lane and gap audit.
 - `reports/package-manifest.md` - readable selected package sequence.
 - `reports/package-gap-audit.md` - remaining gaps before final handoff.
 - `reports/package-local-build-audit.md` - local private PDF assembly result
   for the selected 1000-page package.
+- `reports/source-exhaustion-audit.md` - public audit of source lanes still
+  requiring extraction or promotion.
 - `scripts/build-seed-register.mjs` - imports the existing Clinton NATO
   workbench and the local Strobe Talbott FOIA manifest.
 - `scripts/build-package-manifest.mjs` - builds the focused package manifest
@@ -120,5 +125,7 @@ ignored `private/package-pdfs/` and refreshes the public local-build audit.
 3. Promote Scout/NARA file-unit leads only after document-level inspection:
    actual date, title, page span, release status, classification/handling, and
    source image.
-4. Count pages only from verified source images or trusted release metadata.
-5. Defer duplicate public copies to the most canonical official source.
+4. Treat Clinton Library MDR packets as packet controls until split into
+   document-level rows with page spans and markings.
+5. Count pages only from verified source images or trusted release metadata.
+6. Defer duplicate public copies to the most canonical official source.
