@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T06:06:07.690Z",
+  "generatedAt": "2026-06-06T06:12:55.972Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -9,13 +9,13 @@
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 505,
-      "Pages": 2520,
+      "Count": 506,
+      "Pages": 2523,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 245,
+      "Count": 246,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 135,
-      "Pages": 718,
+      "Count": 136,
+      "Pages": 721,
       "Status": "document-level rows"
     },
     {
@@ -288,6 +288,107 @@
         "queuePriority": "front-of-queue"
       },
       "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    }
+  ],
+  "clintonLibraryPacketExtractionCoverage": [
+    {
+      "Packet": "2015-0772-M",
+      "Control Pages": 539,
+      "Promoted Rows": 22,
+      "Promoted Pages": 124,
+      "Remaining Pages": 415,
+      "Status": "partial; continue document-level extraction",
+      "Link": "[open](https://clinton.presidentiallibraries.us/items/show/101137)"
+    },
+    {
+      "Packet": "2015-0768-M",
+      "Control Pages": 89,
+      "Promoted Rows": 19,
+      "Promoted Pages": 66,
+      "Remaining Pages": 23,
+      "Status": "partial; continue document-level extraction",
+      "Link": "[open](https://clinton.presidentiallibraries.us/items/show/118449)"
+    },
+    {
+      "Packet": "2013-0804-M",
+      "Control Pages": 148,
+      "Promoted Rows": 4,
+      "Promoted Pages": 11,
+      "Remaining Pages": 137,
+      "Status": "partial; continue document-level extraction",
+      "Link": "[open](https://clinton.presidentiallibraries.us/items/show/49412)"
+    },
+    {
+      "Packet": "2024-0540-M",
+      "Control Pages": 91,
+      "Promoted Rows": 12,
+      "Promoted Pages": 57,
+      "Remaining Pages": 34,
+      "Status": "partial; continue document-level extraction",
+      "Link": "[open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)"
+    },
+    {
+      "Packet": "2015-0773-M",
+      "Control Pages": 239,
+      "Promoted Rows": 7,
+      "Promoted Pages": 31,
+      "Remaining Pages": 208,
+      "Status": "partial; continue document-level extraction",
+      "Link": "[open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)"
+    },
+    {
+      "Packet": "2015-0755-M",
+      "Control Pages": 340,
+      "Promoted Rows": 15,
+      "Promoted Pages": 126,
+      "Remaining Pages": 214,
+      "Status": "partial; continue document-level extraction",
+      "Link": "[open](https://clinton.presidentiallibraries.us/items/show/57563)"
+    },
+    {
+      "Packet": "2015-0771-M",
+      "Control Pages": 164,
+      "Promoted Rows": 3,
+      "Promoted Pages": 13,
+      "Remaining Pages": 151,
+      "Status": "partial; continue document-level extraction",
+      "Link": "[open](https://clinton.presidentiallibraries.us/items/show/100538)"
+    },
+    {
+      "Packet": "2015-0768-M",
+      "Control Pages": 5,
+      "Promoted Rows": 0,
+      "Promoted Pages": "",
+      "Remaining Pages": 5,
+      "Status": "no promoted document rows yet",
+      "Link": "[open](https://clinton.presidentiallibraries.us/items/show/49430)"
+    },
+    {
+      "Packet": "2017-0193-M",
+      "Control Pages": 12,
+      "Promoted Rows": 2,
+      "Promoted Pages": 12,
+      "Remaining Pages": "",
+      "Status": "promoted rows cover packet page count",
+      "Link": "[open](https://clinton.presidentiallibraries.us/items/show/118731)"
+    },
+    {
+      "Packet": "2015-0792-M",
+      "Control Pages": 203,
+      "Promoted Rows": 33,
+      "Promoted Pages": 187,
+      "Remaining Pages": 16,
+      "Status": "partial; continue document-level extraction",
+      "Link": "[open](https://clinton.presidentiallibraries.us/items/show/101829)"
+    },
+    {
+      "Packet": "2015-0770-M",
+      "Control Pages": 14,
+      "Promoted Rows": 1,
+      "Promoted Pages": 13,
+      "Remaining Pages": 1,
+      "Status": "near complete; review residual control or withdrawal page",
+      "Link": "[open](https://clinton.presidentiallibraries.us/items/show/57565)"
     }
   ],
   "clintonLibraryMeetingControls": [
@@ -1761,6 +1862,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2013-0804-m-nato-adaptation-gibraltar-1998-01-22",
+      "date": "1998-01-22",
+      "title": "NATO Adaptation/Gibraltar",
+      "pageCount": 3,
+      "sourcePages": "21-23",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+      "packetIdentifier": "2013-0804-M"
     }
   ],
   "naraPromotedDocuments": [

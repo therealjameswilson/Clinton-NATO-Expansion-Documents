@@ -1,6 +1,6 @@
 # Source Register Assembly Diagnostic
 
-Generated: 2026-06-06T06:06:07.496Z
+Generated: 2026-06-06T06:11:45.826Z
 
 Current diagnostic page budget: 1001 pages across 173
 records. This source-register diagnostic is not the canonical Bernstein package

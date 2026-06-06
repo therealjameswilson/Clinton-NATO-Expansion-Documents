@@ -204,6 +204,14 @@ function driveQueryCounts(items) {
   return Object.fromEntries(Object.entries(counts).sort((a, b) => a[0].localeCompare(b[0])));
 }
 
+function packetCoverageStatus(promotedPages, controlPages) {
+  if (!promotedPages) return "no promoted document rows yet";
+  if (!controlPages) return "promoted rows present; control page count unknown";
+  if (promotedPages >= controlPages) return "promoted rows cover packet page count";
+  if (controlPages - promotedPages <= 1) return "near complete; review residual control or withdrawal page";
+  return "partial; continue document-level extraction";
+}
+
 function table(rows, headers) {
   return [
     headers.join(" | "),
@@ -515,6 +523,22 @@ const packetRows = manifest.clintonLibraryPacketExtractionQueue.map((record) => 
   Action: record.nextAction
 }));
 
+const packetCoverageRows = packetExtractionQueue.map((record) => {
+  const promotedForPacket = promotedClintonDocs.filter((doc) => doc.upstream?.packetRecordId === record.id);
+  const promotedPages = promotedForPacket.reduce((sum, doc) => sum + Number(doc.pageCount || 0), 0);
+  const controlPages = Number(record.pageCount || 0);
+  const remainingPages = Math.max(0, controlPages - promotedPages);
+  return {
+    Packet: record.upstream?.identifier || record.id,
+    "Control Pages": controlPages || "",
+    "Promoted Rows": promotedForPacket.length,
+    "Promoted Pages": promotedPages || "",
+    "Remaining Pages": remainingPages || "",
+    Status: packetCoverageStatus(promotedPages, controlPages),
+    Link: linkFor(record)
+  };
+});
+
 const promotedRows = promotedClintonDocs.map((record) => ({
   Date: record.date,
   Pages: record.sourcePages,
@@ -704,6 +728,15 @@ markings, and duplicate checks.
 
 ${table(packetRows, ["Date", "Pages", "Record", "Link", "Action"])}
 
+## Clinton Library Packet Extraction Coverage
+
+This table compares each packet control with the document-level rows already
+promoted from that same control. A small residual count can be a withdrawal
+sheet, cover page, or duplicate fragment; larger residuals are still extraction
+backlog.
+
+${table(packetCoverageRows, ["Packet", "Control Pages", "Promoted Rows", "Promoted Pages", "Remaining Pages", "Status", "Link"])}
+
 ## Known Gap Signals From Upstream FRUS Workbench
 
 ${gapSignalRows.length ? table(gapSignalRows, ["Gap", "Total", "Documents", "Minimum", "Action"]) : "No upstream coverage-matrix gap rows were available in this build environment."}
@@ -737,6 +770,7 @@ writeJson("data/source-exhaustion-audit.json", {
   generatedAt: manifest.generatedAt,
   lanes: exhaustionRows,
   clintonLibraryPacketControls: manifest.clintonLibraryPacketExtractionQueue,
+  clintonLibraryPacketExtractionCoverage: packetCoverageRows,
   clintonLibraryMeetingControls: clintonMeetingControls,
   clintonLibraryPromotedDocuments: promotedClintonDocs.map((record) => ({
     id: record.id,

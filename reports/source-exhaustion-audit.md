@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T06:06:07.690Z
+Generated: 2026-06-06T06:12:55.972Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -10,10 +10,10 @@ the major declassified source lanes, not merely reaching 1000 pages.
 Lane | Count | Pages | Status
 --- | --- | --- | ---
 Selected package records | 171 | 1000 | assembled locally
-Package-ready public candidates | 505 | 2520 | available for reselection
-NSC/SOC/minutes attention queue | 245 |  | special review lane
+Package-ready public candidates | 506 | 2523 | available for reselection
+NSC/SOC/minutes attention queue | 246 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 9 selected; 4 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 135 | 718 | document-level rows
+Clinton Library promoted document rows | 136 | 721 | document-level rows
 NARA promoted document rows | 11 | 42 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -159,6 +159,7 @@ Date | Pages | Count | Record | Packet | Link
 1993-08-25 | 21-22 | 2 | Strawman Summit Declaration: Section on ESDI and Force Structure | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-08-26 | 40-42 | 3 | Agreement on a Euro-Atlantic Partnership for Peace | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-13 | 61 | 1 | Effects of Expanding Membership on NATO Military Activities | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1998-01-22 | 21-23 | 3 | NATO Adaptation/Gibraltar | 2013-0804-M | [open](https://clinton.presidentiallibraries.us/items/show/49412)
 
 ## NARA Promoted Document Rows
 
@@ -216,6 +217,27 @@ Date | Pages | Record | Link | Action
 1994-09 | 12 | Declassified Documents Regarding NATO Expansion | [open](https://clinton.presidentiallibraries.us/items/show/118731) | Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection.
 1995-1996 | 203 | Declassified Documents Concerning NATO Expansion | [open](https://clinton.presidentiallibraries.us/items/show/101829) | Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection.
 1996-1997 | 14 | Declassified Documents Concerning NATO Expansion | [open](https://clinton.presidentiallibraries.us/items/show/57565) | Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection.
+
+## Clinton Library Packet Extraction Coverage
+
+This table compares each packet control with the document-level rows already
+promoted from that same control. A small residual count can be a withdrawal
+sheet, cover page, or duplicate fragment; larger residuals are still extraction
+backlog.
+
+Packet | Control Pages | Promoted Rows | Promoted Pages | Remaining Pages | Status | Link
+--- | --- | --- | --- | --- | --- | ---
+2015-0772-M | 539 | 22 | 124 | 415 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+2015-0768-M | 89 | 19 | 66 | 23 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+2013-0804-M | 148 | 4 | 11 | 137 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/49412)
+2024-0540-M | 91 | 12 | 57 | 34 | partial; continue document-level extraction | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+2015-0773-M | 239 | 7 | 31 | 208 | partial; continue document-level extraction | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
+2015-0755-M | 340 | 15 | 126 | 214 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+2015-0771-M | 164 | 3 | 13 | 151 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+2015-0768-M | 5 | 0 |  | 5 | no promoted document rows yet | [open](https://clinton.presidentiallibraries.us/items/show/49430)
+2017-0193-M | 12 | 2 | 12 |  | promoted rows cover packet page count | [open](https://clinton.presidentiallibraries.us/items/show/118731)
+2015-0792-M | 203 | 33 | 187 | 16 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+2015-0770-M | 14 | 1 | 13 | 1 | near complete; review residual control or withdrawal page | [open](https://clinton.presidentiallibraries.us/items/show/57565)
 
 ## Known Gap Signals From Upstream FRUS Workbench
 

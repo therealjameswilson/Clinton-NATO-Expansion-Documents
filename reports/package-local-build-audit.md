@@ -1,6 +1,6 @@
 # Local Package Build Audit
 
-Generated: 2026-06-06T06:06:55.314Z
+Generated: 2026-06-06T06:13:31.558Z
 
 This audit records a local private build of the Bernstein NATO expansion package.
 The assembled PDF and downloaded source PDFs live under `private/`, which is
@@ -9,7 +9,7 @@ recipe.
 
 ## Result
 
-- Manifest generated: 2026-06-06T06:06:07.690Z
+- Manifest generated: 2026-06-06T06:12:55.972Z
 - Selected records: 171
 - Expected selected pages: 1000
 - Downloaded source PDFs: 171

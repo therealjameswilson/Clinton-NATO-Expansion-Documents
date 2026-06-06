@@ -36866,6 +36866,64 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source marking extraction: Unclassified found by PDF text extraction."
   },
   {
+    "id": "clinton-library-doc-2013-0804-m-nato-adaptation-gibraltar-1998-01-22",
+    "title": "NATO Adaptation/Gibraltar",
+    "date": "1998-01-22",
+    "year": 1998,
+    "documentType": "Issue paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, White House Staff and Office Files, Mandatory Declassification Review 2013-0804-M, Clinton Digital Library PDF pages 21-23. Confidential; declassified in part.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "21-23",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P1",
+    "priorityReasons": [
+      "nato adaptation",
+      "strategic concept",
+      "esdi",
+      "cjtf",
+      "gibraltar",
+      "tony blair"
+    ],
+    "topics": [
+      "NATO adaptation",
+      "Strategic Concept",
+      "European Security and Defense Identity",
+      "Combined Joint Task Forces",
+      "NATO command structure",
+      "Gibraltar",
+      "Clinton-Blair meeting"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Tony Blair",
+      "Madeleine Albright"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Spain",
+      "France"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "review"
+    },
+    "inclusionStatus": "context-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2013-0804-M",
+      "packetRecordId": "clinton-library-packet-2013-0804-m"
+    },
+    "notes": "Promoted from the official 2013-0804-M packet after local page-boundary and page-image inspection. The issue paper is adjacent to the ratification, NATO-Russia, and Open Door issue papers in Blair's February 1998 briefing packet and documents NATO internal adaptation, ESDI, CJTF, Strategic Concept review, and the UK-Spain Gibraltar command-structure issue."
+  },
+  {
     "id": "clinton-nato-govinfo-PPP-1998-book1-doc-pg319",
     "title": "Statement on Senate Support for NATO Enlargement",
     "date": "1998-03-03",

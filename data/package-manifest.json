@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-06T06:06:07.690Z",
+  "generatedAt": "2026-06-06T06:12:55.972Z",
   "targetPages": 1000,
   "selectedPageTotal": 1000,
   "selectedCount": 171,
-  "candidateCount": 505,
-  "candidatePageTotal": 2520,
-  "nscSocCandidateCount": 245,
+  "candidateCount": 506,
+  "candidatePageTotal": 2523,
+  "nscSocCandidateCount": 246,
   "naraScoutPromotionLeadCount": 123,
   "clintonLibraryPacketControlCount": 11,
   "clintonLibraryPacketControlPages": 1844,
@@ -7582,6 +7582,23 @@
       "relevanceScore": 57
     },
     {
+      "id": "clinton-library-doc-2013-0804-m-nato-adaptation-gibraltar-1998-01-22",
+      "date": "1998-01-22",
+      "title": "NATO Adaptation/Gibraltar",
+      "documentType": "Issue paper",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 3,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+      "themes": [
+        "nato-russia",
+        "open-door-map",
+        "architecture",
+        "nsc-soc"
+      ],
+      "relevanceScore": 57
+    },
+    {
       "id": "state-foia-C06694716",
       "date": "1994-11-29",
       "title": "CZECH DEFENSE MINISTER'S 11/29 MEETING WITH THE DEPUTY SECRETARY",
@@ -8935,21 +8952,6 @@
       "themes": [
         "nato-expansion",
         "nac-usnato"
-      ],
-      "relevanceScore": 38
-    },
-    {
-      "id": "state-foia-C06771955",
-      "date": "1998-07-09",
-      "title": "DEPUTY SECRETARY DISCUSSES NATO ENLARGEMENT AND KOSOVO WITH DANISH DEFMIN",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 4,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771955/C06771955.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771955/C06771955.pdf",
-      "themes": [
-        "nato-expansion",
-        "candidate-states"
       ],
       "relevanceScore": 38
     }

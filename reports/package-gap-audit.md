@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T06:06:07.690Z
+Generated: 2026-06-06T06:12:55.972Z
 
 ## What This Pass Proves
 
@@ -69,6 +69,7 @@ Date | Score | Pages | Record | Source | Themes | Link
 1995-10-23 | 57 | 12 | Memorandum of Conversation - Clinton-Yeltsin One-on-One at Hyde Park | nara-catalog | nato-russia, cfe-osce, nsc-soc | [open](https://catalog.archives.gov/id/163545436)
 1995-10-23 | 57 | 2 | RUSSIAN PRESIDENTIAL FOREIGN AFFAIRS ADVISOR RYURIKOV: OCTOBER 23 SUMMIT ISSUES | state-foia | nato-expansion, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698198/C06698198.pdf)
 1997-03-16 | 57 | 5 | MEMORANDUM OF CONVERSATION BETWEEN THE SERETARY AND FM Y. M. PRIMAKOV | state-foia | nato-expansion, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703630/C06703630.pdf)
+1998-01-22 | 57 | 3 | NATO Adaptation/Gibraltar | clinton-library-mdr | nato-russia, open-door-map, architecture, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/49412)
 1994-11-29 | 57 | 3 | CZECH DEFENSE MINISTER'S 11/29 MEETING WITH THE DEPUTY SECRETARY | state-foia | nato-expansion, pfp, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694716/C06694716.pdf)
 1996-07-23 | 57 | 6 | SECRETARY CHRISTOPHER'S JULY 10 BREAKFAST FOR POLISH PRESIDENT KWASNIESKI | state-foia | nato-expansion, pfp, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698299/C06698299.pdf)
 1996-05-28 | 56 | 3 | DEPUTY SECRETARY'S MEETING WITH BELARUSIAN PARLIAMENTARY SPEAKER SHARETSKY | state-foia | nato-expansion, nac-usnato, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697772/C06697772.pdf)
@@ -93,7 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1994-10-20 | 53 | 3 | October 20, 1994 Letter from Strobe Talbott to Chris | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000141/C09000141.pdf)
 1996-10-02 | 53 | 5 | DEPUTY SECRETATY'S 9/16 AND 9/19 MEETING WITH UKRAINIAN NSDC SECRETARY HORBULYN | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698651/C06698651.pdf)
 1996-10-29 | 53 | 4 | THE DEPUTY SECRETARY'S MEETING WITH SLOVAK FOREIGN MINISTER PAVOL HAMZIK | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698702/C06698702.pdf)
-1997-01-28 | 53 | 5 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703023/C06703023.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 
