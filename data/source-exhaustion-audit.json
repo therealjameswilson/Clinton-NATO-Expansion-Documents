@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T06:23:42.342Z",
+  "generatedAt": "2026-06-06T06:28:23.926Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -9,13 +9,13 @@
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 507,
-      "Pages": 2532,
+      "Count": 508,
+      "Pages": 2536,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 247,
+      "Count": 248,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 137,
-      "Pages": 730,
+      "Count": 138,
+      "Pages": 734,
       "Status": "document-level rows"
     },
     {
@@ -306,9 +306,9 @@
       "Control Pages": 89,
       "Promoted Rows": 19,
       "Promoted Pages": 66,
-      "Reviewed Residual Pages": "",
-      "Backlog Pages": 23,
-      "Status": "partial; continue document-level extraction",
+      "Reviewed Residual Pages": 23,
+      "Backlog Pages": "",
+      "Status": "review complete; residual pages are withdrawal/control sheets or withheld markers",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/118449)"
     },
     {
@@ -364,11 +364,11 @@
     {
       "Packet": "2015-0768-M",
       "Control Pages": 5,
-      "Promoted Rows": 0,
-      "Promoted Pages": "",
-      "Reviewed Residual Pages": "",
-      "Backlog Pages": 5,
-      "Status": "no promoted document rows yet",
+      "Promoted Rows": 1,
+      "Promoted Pages": 4,
+      "Reviewed Residual Pages": 1,
+      "Backlog Pages": "",
+      "Status": "review complete; residual pages are withdrawal/control sheets or withheld markers",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/49430)"
     },
     {
@@ -418,6 +418,22 @@
       "reviewedResidualPageCount": 1,
       "status": "reviewed residual page; no package-ready declassified document text",
       "notes": "Page 1 is the Clinton Library withdrawal/redaction sheet for the C-P-L Item: NATO Enlargement record. The released document text is already promoted as PDF pages 2-14."
+    },
+    {
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022",
+      "packetIdentifier": "2015-0768-M",
+      "reviewedResidualPages": "1-2, 23, 25-28, 37-39, 43-46, 50-51, 62-63, 67, 70-71, 82-83",
+      "reviewedResidualPageCount": 23,
+      "status": "reviewed residual pages; no additional package-ready declassified document text",
+      "notes": "Pages 1, 25, 37, 50, 62, 70, and 82 are Clinton Library administrative markers. Pages 2, 26, 38-39, 51, 63, 71, and 83 are withdrawal/redaction sheets listing withheld PC/DC agendas, memoranda, papers, and Summaries of Conclusions. Pages 23 and 67 are withdrawal/redaction markers for partial releases already promoted on adjacent pages. Pages 27-28 are an incomplete duplicate fragment of 'A Diplomatic and Congressional Strategy for Madrid and Beyond,' whose complete released copy is promoted on pages 29-36. Pages 43-46 contain a withdrawal marker and duplicate released copies of the Embedded CJTF Concept and Strawman Summit Declaration papers already promoted from this packet."
+    },
+    {
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2016",
+      "packetIdentifier": "2015-0768-M",
+      "reviewedResidualPages": "1",
+      "reviewedResidualPageCount": 1,
+      "status": "reviewed residual page; no package-ready declassified document text",
+      "notes": "Page 1 is the Clinton Library administrative release marker for the 2016 2015-0768-M partial release. The released list runs on PDF pages 2-5 and is promoted as a document-level row."
     }
   ],
   "clintonLibraryMeetingControls": [
@@ -1890,6 +1906,16 @@
       "sourcePages": "40-42",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-east-european-cis-peacekeeping-forces",
+      "date": "1993-08-26",
+      "title": "East European and CIS Forces for Peacekeeping",
+      "pageCount": 4,
+      "sourcePages": "2-5",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49430",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/d7309797f261e4d4498490c4087830c3.pdf",
       "packetIdentifier": "2015-0768-M"
     },
     {

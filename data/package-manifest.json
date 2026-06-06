@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-06-06T06:23:42.342Z",
+  "generatedAt": "2026-06-06T06:28:23.926Z",
   "targetPages": 1000,
   "selectedPageTotal": 1000,
   "selectedCount": 171,
-  "candidateCount": 507,
-  "candidatePageTotal": 2532,
-  "nscSocCandidateCount": 247,
+  "candidateCount": 508,
+  "candidatePageTotal": 2536,
+  "nscSocCandidateCount": 248,
   "naraScoutPromotionLeadCount": 123,
   "clintonLibraryPacketControlCount": 11,
   "clintonLibraryPacketControlPages": 1844,
@@ -8343,6 +8343,23 @@
       "relevanceScore": 50
     },
     {
+      "id": "clinton-library-doc-2015-0768-m-east-european-cis-peacekeeping-forces",
+      "date": "1993-08-26",
+      "title": "East European and CIS Forces for Peacekeeping",
+      "documentType": "List",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 4,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49430",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/d7309797f261e4d4498490c4087830c3.pdf",
+      "themes": [
+        "pfp",
+        "architecture",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 49
+    },
+    {
       "id": "clinton-library-doc-2024-0540-m-us-initiatives-prague",
       "date": "1994-01",
       "title": "U.S. Initiatives for Prague",
@@ -8943,21 +8960,6 @@
       "themes": [
         "nato-expansion",
         "candidate-states"
-      ],
-      "relevanceScore": 38
-    },
-    {
-      "id": "state-foia-C06702957",
-      "date": "1997-02-21",
-      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH NATO SECRETARY GENERAL SOLANA",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 2,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702957/C06702957.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702957/C06702957.pdf",
-      "themes": [
-        "nato-expansion",
-        "nac-usnato"
       ],
       "relevanceScore": 38
     }

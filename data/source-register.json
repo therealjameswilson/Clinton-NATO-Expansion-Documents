@@ -32644,6 +32644,71 @@
     "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The withdrawal sheet places this released statement in the September 8, 1993 NATO Summit Deputies Committee folder, which also lists a withheld Summary of Conclusions."
   },
   {
+    "id": "clinton-library-doc-2015-0768-m-east-european-cis-peacekeeping-forces",
+    "title": "East European and CIS Forces for Peacekeeping",
+    "date": "1993-08-26",
+    "year": 1993,
+    "documentType": "List",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49430",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/d7309797f261e4d4498490c4087830c3.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0054 DC Meeting on NATO Summit, September 8, 1993, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library PDF pages 2-5. Secret; declassified in part.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "2-5",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P1",
+    "priorityReasons": [
+      "partnership for peace",
+      "peacekeeping",
+      "nato summit",
+      "east european forces"
+    ],
+    "topics": [
+      "Partnership for Peace",
+      "Peacekeeping",
+      "NATO Summit",
+      "East European and CIS forces",
+      "NACC",
+      "European security architecture"
+    ],
+    "people": [],
+    "countries": [
+      "Bulgaria",
+      "Czech Republic",
+      "Hungary",
+      "Poland",
+      "Romania",
+      "Slovakia",
+      "Russia",
+      "Ukraine",
+      "Kyrgyzstan",
+      "Kazakhstan",
+      "Turkmenistan",
+      "Uzbekistan",
+      "Belarus",
+      "Armenia",
+      "Azerbaijan",
+      "Georgia",
+      "Moldova",
+      "Tajikistan"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "review"
+    },
+    "inclusionStatus": "context-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2016"
+    },
+    "notes": "Promoted from the separate official 2015-0768-M 2016 packet after local page-boundary inspection. The main 2015-0768-M withdrawal sheet identifies this four-page partial release as a DC0054 NATO Summit Deputies Committee folder document; packet page 1 is an administrative release marker."
+  },
+  {
     "id": "clinton-library-doc-2015-0768-m-effects-expanding-membership",
     "title": "Effects of Expanding Membership on NATO Military Activities",
     "date": "1993-09-13",
