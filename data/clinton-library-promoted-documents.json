@@ -748,6 +748,108 @@
     "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The DC0193 folder withdrawal sheet also lists withheld Summary of Conclusions records for NATO enlargement/NATO-Russia Deputies Committee meetings."
   },
   {
+    "id": "clinton-library-doc-2015-0773-m-lake-havel-meeting-1993-04-19",
+    "title": "Your Meeting with Vaclav Havel, 5:00 pm to 6:00 pm, April 20, 1993",
+    "date": "1993-04-19",
+    "year": 1993,
+    "documentType": "Presidential briefing memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, [Havel and Telcons], Mandatory Declassification Review 2015-0773-M, Clinton Library PDF pages 33-39. Confidential with Secret attachment.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "33-39",
+    "pageCount": 7,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["havel", "nato membership", "nacc", "czech republic", "russia"],
+    "topics": ["NATO membership", "NACC", "Czech Republic", "Central Europe", "Russia", "Regional security", "Military-to-military contacts"],
+    "people": ["Bill Clinton", "Anthony Lake", "Vaclav Havel", "Vaclav Klaus", "Boris Yeltsin"],
+    "countries": ["Czech Republic", "Slovakia", "Russia", "Poland", "Hungary", "United States"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0773-M",
+      "packetRecordId": "clinton-library-packet-2015-0773-m"
+    },
+    "notes": "Promoted from the official 2015-0773-M packet after local page-boundary inspection. Lake's briefing memorandum frames Havel's April 1993 meeting around Czech security concerns, the absence of near-term NATO enlargement, NACC, regional cooperation, and military contacts."
+  },
+  {
+    "id": "clinton-library-doc-2015-0773-m-wharton-havel-meeting-1993-04-14",
+    "title": "Meeting with Vaclav Havel, President of the Czech Republic",
+    "date": "1993-04-14",
+    "year": 1993,
+    "documentType": "Presidential briefing memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, [Havel and Telcons], Mandatory Declassification Review 2015-0773-M, Clinton Library PDF pages 40-44. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "40-44",
+    "pageCount": 5,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["havel", "nato membership", "nacc", "state department", "czech republic"],
+    "topics": ["NATO membership", "NACC", "Czech Republic", "Central Europe", "Security assistance", "Regional cooperation", "European integration"],
+    "people": ["Bill Clinton", "Clifton Wharton", "Vaclav Havel", "Vaclav Klaus", "Boris Yeltsin"],
+    "countries": ["Czech Republic", "Slovakia", "Russia", "United States", "NATO"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0773-M",
+      "packetRecordId": "clinton-library-packet-2015-0773-m"
+    },
+    "notes": "Promoted from the official 2015-0773-M packet after local page-boundary inspection. Acting Secretary Wharton's memorandum gives the President State's talking points on Czech security, NATO not being on the current enlargement agenda, NACC, defense contacts, and European integration."
+  },
+  {
+    "id": "clinton-library-doc-2015-0773-m-havel-accession-open-door-talking-points-1998-09-15",
+    "title": "Summary Points to Be Made for Meeting with Czech President Havel",
+    "date": "1998-09-15",
+    "year": 1998,
+    "documentType": "Presidential talking points",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, [Havel and Telcons], Mandatory Declassification Review 2015-0773-M, Clinton Library PDF pages 138-140 and 142. Secret; President has seen; page 141 is a duplicate/incomplete packet copy and is omitted.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "138-140,142",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["czech accession", "nato open door", "havel", "washington summit", "yeltsin"],
+    "topics": ["Czech accession", "NATO open door", "Washington Summit", "NATO enlargement", "NATO-Russia", "Czech force goals", "Kosovo"],
+    "people": ["Bill Clinton", "Vaclav Havel", "Sandy Berger", "Boris Yeltsin", "Yevgeniy Primakov", "William Cohen"],
+    "countries": ["Czech Republic", "Russia", "United States", "NATO", "Kosovo"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0773-M",
+      "packetRecordId": "clinton-library-packet-2015-0773-m"
+    },
+    "notes": "Promoted from the official 2015-0773-M packet after local page-boundary inspection. The released talking points cover Czech accession, NATO force goals, the Open Door, Yeltsin's posture on enlargement, and the Washington Summit."
+  },
+  {
     "id": "clinton-library-doc-2015-0773-m-havel-1995-10-21",
     "title": "Meeting with Vaclav Havel, President of the Czech Republic",
     "date": "1995-10-21",

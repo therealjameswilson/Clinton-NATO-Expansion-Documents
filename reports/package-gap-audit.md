@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T05:45:13.997Z
+Generated: 2026-06-06T05:53:05.441Z
 
 ## What This Pass Proves
 
@@ -34,11 +34,13 @@ Generated: 2026-06-06T05:45:13.997Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
-1994-01-14 | 65 | 8 | Czechs Give PFP an Enthusiastic Reception During Albright/Shalikashvili Visit | clinton-library-mdr | nato-russia, pfp, candidate-states, nsc-soc | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1994-01-13 | 64 | 11 | President's dinner with President Yeltsin, January 13/14, 1994 | clinton-digital-library | nato-russia, pfp, candidate-states, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101370)
+1996-05-14 | 64 | 4 | DEPUTY SECRETARY'S MEETING WITH SLOVENIAN PM DRNOVSEK | state-foia | nato-expansion, pfp, nac-usnato, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697839/C06697839.pdf)
 1996-10-07 | 64 | 5 | DEPUTY SECRETARY EXPLAINS U.S. CONCERNS TO BELARUSIAN FOREIGN MINISTER SENKO, OCTOBER 3, 1996 | state-foia | nato-expansion, open-door-map, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698741/C06698741.pdf)
 1994-12-05 | 64 | 5 | December 5, 1994 Letter From Strobe To Chris | state-foia | nato-expansion, open-door-map, pfp, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000138/C09000138.pdf)
 1994-12-19 | 64 | 9 | The Vice President's Trip to Russia | state-foia | nato-expansion, nato-russia, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000148/C09000148.pdf)
 1996-10-01 | 64 | 6 | CONVERSATION BETWEEN THE DEPUTY SECRETARY AND SLOVEN IAN FOEIGN MINISTER KRACUN | state-foia | nato-expansion, nato-russia, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698772/C06698772.pdf)
+1997-03-11 | 64 | 4 | NATO/RUSSIA: DEPUTY SECRETARY'S MARCH 10 CONVERSATION WITH UK FRG POLDIRS | state-foia | madrid-summit, nato-russia, nac-usnato, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702850/C06702850.pdf)
 1994-01 | 63 | 8 | Your Plenary Lunch with Visegrad Leaders | clinton-library-mdr | nato-expansion, pfp, nsc-soc | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-12 | 63 | 2 | Background: Business-Related Event at K-Mart | nara-catalog | nato-expansion, pfp, nsc-soc | [open](https://catalog.archives.gov/id/368557013)
 1996-07-30 | 62 | 5 | DEPUTY SECRETARY REVIEWS SECURITY, ECONOMIC ISSUES WITH UKRAINIAN FOREIGN MINISTER, JULY 26, 1996 | state-foia | nato-expansion, nac-usnato, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698247/C06698247.pdf)
@@ -85,15 +87,13 @@ Date | Score | Pages | Record | Source | Themes | Link
 1997-01-15 | 54 | 15 | MEMORANDUM OF CONVERSATION | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702796/C06702796.pdf)
 1997-01-21 | 54 | 5 | DEPUTY SECRETARY'S VISIT TO OSLO | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703046/C06703046.pdf)
 1997-01-23 | 54 | 12 | TALBOTT-FUERTH DELEGATION MEETING WITH ANATOLIY CHUBAIS, CHIEF OF THE RUSSIAN PRESIDENTIAL ADMINISTRATION | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703698/C06703698.pdf)
+1993-04-14 | 53 | 5 | Meeting with Vaclav Havel, President of the Czech Republic | clinton-library-mdr | nato-russia, candidate-states, nsc-soc | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
 1994-09-23 | 53 | 3 | MAMEDOV'S THOUGHTS ON YOUR CONVERSATION WITH YELTSIN | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695261/C06695261.pdf)
 1994-10-20 | 53 | 4 | October 20, 1994 Eyes only To The Secretary From Strobe Talbott | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000140/C09000140.pdf)
 1994-10-20 | 53 | 3 | October 20, 1994 Letter from Strobe Talbott to Chris | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000141/C09000141.pdf)
 1996-10-02 | 53 | 5 | DEPUTY SECRETATY'S 9/16 AND 9/19 MEETING WITH UKRAINIAN NSDC SECRETARY HORBULYN | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698651/C06698651.pdf)
 1996-10-29 | 53 | 4 | THE DEPUTY SECRETARY'S MEETING WITH SLOVAK FOREIGN MINISTER PAVOL HAMZIK | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698702/C06698702.pdf)
 1997-01-28 | 53 | 5 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703023/C06703023.pdf)
-1997-03-18 | 53 | 4 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN MFA POLITICAL DIRECTOR ISCHINGER | state-foia | nato-expansion, nac-usnato, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702857/C06702857.pdf)
-1997-03-18 | 53 | 2 | THE DEPUTY SECRETARY'S CONVERSATION WITH BRITTISH MFA POLITICAL DIRECTOR JEREMY GREENSTOCK | state-foia | nato-expansion, nac-usnato, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702896/C06702896.pdf)
-1999-07-26 | 53 | 5 | Deputy Secretarys meeting with Finnish Dep State Secretary Blomberg July 21, 1999 | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814644/C06814644.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 

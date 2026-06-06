@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T05:45:13.997Z",
+  "generatedAt": "2026-06-06T05:53:05.441Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -9,13 +9,13 @@
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 502,
-      "Pages": 2504,
+      "Count": 505,
+      "Pages": 2520,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 242,
+      "Count": 245,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 132,
-      "Pages": 702,
+      "Count": 135,
+      "Pages": 718,
       "Status": "document-level rows"
     },
     {
@@ -421,6 +421,26 @@
       "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
       "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0773-m-wharton-havel-meeting-1993-04-14",
+      "date": "1993-04-14",
+      "title": "Meeting with Vaclav Havel, President of the Czech Republic",
+      "pageCount": 5,
+      "sourcePages": "40-44",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "packetIdentifier": "2015-0773-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0773-m-lake-havel-meeting-1993-04-19",
+      "date": "1993-04-19",
+      "title": "Your Meeting with Vaclav Havel, 5:00 pm to 6:00 pm, April 20, 1993",
+      "pageCount": 7,
+      "sourcePages": "33-39",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "packetIdentifier": "2015-0773-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-nato-summit-1993-06-30",
@@ -1669,6 +1689,16 @@
       "pageCount": 2,
       "sourcePages": "127-128",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101537",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "packetIdentifier": "2015-0773-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0773-m-havel-accession-open-door-talking-points-1998-09-15",
+      "date": "1998-09-15",
+      "title": "Summary Points to Be Made for Meeting with Czech President Havel",
+      "pageCount": 4,
+      "sourcePages": "138-140,142",
+      "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
       "packetIdentifier": "2015-0773-M"
     },
