@@ -2092,6 +2092,61 @@
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The State draft appears as Tab A to Walker's June 30, 1993 action memorandum and lays out summit options that include the NACC participants."
   },
   {
+    "id": "clinton-library-doc-2015-0755-m-nacc-summit-1993-07-16",
+    "title": "NACC Summit",
+    "date": "1993-07-16",
+    "year": 1993,
+    "documentType": "NSC information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 7-9. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "7-9",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nacc summit",
+      "nato summit",
+      "central and eastern europe",
+      "nato expansion"
+    ],
+    "topics": [
+      "NACC",
+      "NATO Summit",
+      "NATO expansion",
+      "Central and Eastern Europe",
+      "Partnership for Peace",
+      "CSCE"
+    ],
+    "people": [
+      "Charles Kupchan",
+      "Anthony Lake",
+      "Jenonne Walker",
+      "Barry Lowenkron"
+    ],
+    "countries": [
+      "Russia",
+      "Central and Eastern Europe",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The memo argues that a NATO summit without a back-to-back NACC summit would undercut the message that Central and Eastern European states were partners in NATO's eastward evolution."
+  },
+  {
     "id": "clinton-nato-balkans-pcdc-1993-09-01-bosnia-principals-summary",
     "title": "Summary of Conclusions, NSC Principals Committee Meeting on Bosnia",
     "date": "1993-09-01",
@@ -2209,6 +2264,124 @@
       "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
     },
     "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. Packet date follows the withdrawal sheet; the final page carries a 9/10/93 drafting and clearance line."
+  },
+  {
+    "id": "clinton-library-doc-2015-0755-m-ciampi-luncheon-1993-09-17",
+    "title": "Luncheon with Prime Minister Carlo Ciampi of Italy",
+    "date": "1993-09-17",
+    "year": 1993,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 17-22. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "17-22",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "memcon",
+      "italy",
+      "nato enlargement",
+      "nato summit"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "NATO Summit",
+      "NACC",
+      "Russia",
+      "G-7",
+      "Transatlantic relations"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Al Gore",
+      "Warren Christopher",
+      "Anthony Lake",
+      "Carlo Ciampi",
+      "Boris Biancheri",
+      "Ferdinando Salleo",
+      "Jenonne Walker"
+    ],
+    "countries": [
+      "Italy",
+      "Russia",
+      "Poland",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The luncheon memcon includes discussion of NATO enlargement, Russia, the G-7 analogy, and practical near-term measures to improve NACC."
+  },
+  {
+    "id": "clinton-library-doc-2015-0755-m-ciampi-meeting-1993-09-17",
+    "title": "Meeting with Prime Minister Carlo Ciampi of Italy",
+    "date": "1993-09-17",
+    "year": 1993,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 31-35. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "31-35",
+    "pageCount": 5,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "memcon",
+      "italy",
+      "nato expansion",
+      "russia"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Russia",
+      "NATO Summit",
+      "Alliance adaptation",
+      "Transatlantic leadership",
+      "Bosnia"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Al Gore",
+      "Warren Christopher",
+      "Anthony Lake",
+      "Carlo Ciampi",
+      "Charles Kupchan"
+    ],
+    "countries": [
+      "Italy",
+      "Russia",
+      "Bosnia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. This separate Ciampi meeting memcon records Christopher's point that NATO expansion must be managed so as not to isolate Russia and Clinton's argument for continued U.S. engagement in Europe."
   },
   {
     "id": "clinton-nato-balkans-pcdc-1993-09-20-bosnia-principals-summary",
@@ -5078,6 +5251,75 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 19."
   },
   {
+    "id": "clinton-library-doc-2015-0755-m-albright-pfp-central-eastern-europe-1994-01-26",
+    "title": "PFP and Central and Eastern Europe",
+    "date": "1994-01-26",
+    "year": 1994,
+    "documentType": "Presidential mission memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 44-50. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "44-50",
+    "pageCount": 7,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "partnership for peace",
+      "central and eastern europe",
+      "albright mission",
+      "nato membership"
+    ],
+    "topics": [
+      "Partnership for Peace",
+      "Central and Eastern Europe",
+      "NATO membership",
+      "Visegrad",
+      "Ukraine",
+      "Russia",
+      "Bilateral military assistance"
+    ],
+    "people": [
+      "Madeleine Albright",
+      "Bill Clinton",
+      "Al Gore",
+      "Warren Christopher",
+      "Anthony Lake",
+      "John Shalikashvili",
+      "Lech Walesa",
+      "Andrzej Olechowski",
+      "Vaclav Klaus"
+    ],
+    "countries": [
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Slovakia",
+      "Romania",
+      "Bulgaria",
+      "Albania",
+      "Slovenia",
+      "Ukraine",
+      "Russia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. Albright reports to the President on the post-Prague PFP mission with General Shalikashvili and recommends concrete follow-up in Central and Eastern Europe."
+  },
+  {
     "id": "clinton-nato-balkans-pcdc-1994-02-18-bosnia-principals-summary",
     "title": "Summary of Conclusions, NSC Principals Committee Meeting on Bosnia",
     "date": "1994-02-18",
@@ -6970,6 +7212,73 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 32."
   },
   {
+    "id": "clinton-library-doc-2015-0755-m-moving-toward-nato-expansion-1994-10-04",
+    "title": "Moving Toward NATO Expansion",
+    "date": "1994-10-04",
+    "year": 1994,
+    "documentType": "NSC staff memorandum with policy papers",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 55-63. Secret/Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "55-63",
+    "pageCount": 9,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato expansion",
+      "nsc staff",
+      "interagency review",
+      "schifter dissent"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Interagency review",
+      "Partnership for Peace",
+      "NATO-Russia",
+      "Ukraine",
+      "Central and Eastern Europe",
+      "Fall 1994 NATO strategy"
+    ],
+    "people": [
+      "Alexander Vershbow",
+      "Anthony Lake",
+      "Daniel Fried",
+      "Nicholas Burns",
+      "Richard Schifter",
+      "Richard Holbrooke",
+      "Boris Yeltsin",
+      "Volker Ruhe"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Slovakia",
+      "Romania",
+      "Bulgaria",
+      "Baltic states",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The packet preserves both the Vershbow/Fried/Burns NSC staff paper and Richard Schifter's more cautious attached view, making this a useful internal-policy comparison before the October 1994 President-seen version."
+  },
+  {
     "id": "state-foia-C06694728",
     "title": "DEPUTY SECRETARY TALBOTT'S MEETING WITH MOLDOVAN PRESIDENT SNEGUR AND FOREIGN MINISTER POPOV",
     "date": "1994-10-12",
@@ -7070,6 +7379,73 @@
       "manifestPath": "data/manifest.json"
     },
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 45."
+  },
+  {
+    "id": "clinton-library-doc-2015-0755-m-nato-expansion-president-seen-1994-10-13",
+    "title": "NATO Expansion",
+    "date": "1994-10-13",
+    "year": 1994,
+    "documentType": "Presidential information memorandum with NSC staff paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 71-76. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "71-76",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "president has seen",
+      "nato expansion",
+      "nsc staff paper",
+      "yeltsin"
+    ],
+    "topics": [
+      "NATO expansion",
+      "President-seen memorandum",
+      "Partnership for Peace",
+      "NATO-Russia",
+      "Ukraine",
+      "Baltic states",
+      "NAC Ministerial",
+      "CSCE"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Anthony Lake",
+      "Alexander Vershbow",
+      "Daniel Fried",
+      "Nicholas Burns",
+      "Richard Schifter",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Slovakia",
+      "Romania",
+      "Bulgaria",
+      "Baltic states",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The cover says the President has seen the memorandum; it forwards an NSC staff paper reflecting Clinton's recent discussions with Yeltsin and NATO leaders. Packet pages 77-78 are email/action routing copies and are not promoted separately."
   },
   {
     "id": "state-foia-C09000154",
@@ -9435,6 +9811,75 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-packet extraction retained outside displayed FRUS note: Extracted from source packet PDF pages 77-79; 3 document pages counted. Review PDF includes a packet annotation sheet."
   },
   {
+    "id": "clinton-library-doc-2015-0755-m-dehaene-working-lunch-1995-02-11",
+    "title": "Working Lunch with Prime Minister Jean-Luc Dehaene of Belgium",
+    "date": "1995-02-11",
+    "year": 1995,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 85-104. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "85-104",
+    "pageCount": 20,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "memcon",
+      "belgium",
+      "nato enlargement",
+      "nato-russia"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Partnership for Peace",
+      "NATO-Russia",
+      "Chechnya",
+      "OSCE",
+      "CJTF",
+      "European security architecture"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Al Gore",
+      "Warren Christopher",
+      "Samuel Berger",
+      "Richard Holbrooke",
+      "Alexander Vershbow",
+      "Jean-Luc Dehaene",
+      "Frank Vandenbroucke",
+      "Boris Yeltsin",
+      "Andrei Kozyrev",
+      "Lech Walesa",
+      "Helmut Kohl"
+    ],
+    "countries": [
+      "Belgium",
+      "Russia",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "France",
+      "Germany",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The memcon records Clinton, Gore, Christopher, Dehaene, and Vandenbroucke discussing Chechnya, the 1995 NATO expansion study, PFP as both path and process, a NATO-Russia relationship, Russian membership as a theoretical possibility, and CJTF."
+  },
+  {
     "id": "clinton-nato-strobe-C09000084",
     "title": "February 21, 1995 Letter From Strobe To Juergen Chrobog",
     "date": "1995-02-21",
@@ -9533,6 +9978,69 @@
       "id": "balkans-talbott-C09000085-1995-02-23"
     },
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source marking extraction: Confidential found by PDF text extraction. Source page span retained outside displayed FRUS note: 6 pages counted."
+  },
+  {
+    "id": "clinton-library-doc-2015-0755-m-kok-working-lunch-1995-02-28",
+    "title": "The President's Working Lunch with Wim Kok, Prime Minister of the Netherlands",
+    "date": "1995-02-28",
+    "year": 1995,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 126-137. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "126-137",
+    "pageCount": 12,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "memcon",
+      "netherlands",
+      "nato enlargement",
+      "european security architecture"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "NATO-Russia",
+      "European security architecture",
+      "European defense identity",
+      "Russia",
+      "Chechnya",
+      "NATO Secretary General"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Warren Christopher",
+      "Anthony Lake",
+      "Richard Holbrooke",
+      "Wim Kok",
+      "Hans van Mierlo",
+      "Boris Yeltsin",
+      "Helmut Kohl",
+      "Willy Claes"
+    ],
+    "countries": [
+      "Netherlands",
+      "Russia",
+      "Germany",
+      "United States",
+      "Bosnia"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The packet also includes a separate Oval Office Kok memcon on pages 115-124; this row promotes the working-lunch memcon where the NATO enlargement and European security architecture discussion is concentrated."
   },
   {
     "id": "clinton-library-doc-2015-0768-m-annex-clinton-yeltsin-letter",
@@ -9797,6 +10305,72 @@
       "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
     },
     "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The DC0180 folder withdrawal sheet also lists a withheld Summary of Conclusions for a NATO expansion/NATO-Russia Deputies Committee meeting."
+  },
+  {
+    "id": "clinton-library-doc-2015-0755-m-claes-1995-03-07",
+    "title": "Meeting with NATO Secretary General Willy Claes",
+    "date": "1995-03-07",
+    "year": 1995,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 145-150. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "145-150",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "memcon",
+      "nato secretary general",
+      "nato expansion study",
+      "russia"
+    ],
+    "topics": [
+      "NATO expansion",
+      "NATO expansion study",
+      "Partnership for Peace",
+      "NATO-Russia",
+      "Russian elections",
+      "Baltic states",
+      "Bosnia"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Al Gore",
+      "Warren Christopher",
+      "William Perry",
+      "Anthony Lake",
+      "Alexander Vershbow",
+      "Donald Kerrick",
+      "Willy Claes",
+      "Klaus Scharioth",
+      "Jamie Shea"
+    ],
+    "countries": [
+      "Russia",
+      "Slovakia",
+      "Baltic states",
+      "France",
+      "Bosnia",
+      "Croatia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. Claes briefs Clinton on the expansion study, candidate consultations, NATO-Russia documents, PFP, and the danger of appearing to time NATO decisions around Russian elections."
   },
   {
     "id": "clinton-nato-pdd-17368179-19950307",
@@ -13135,6 +13709,69 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source marking extraction: Unclassified found by PDF text extraction."
   },
   {
+    "id": "clinton-library-doc-2015-0755-m-mamedov-1996-07-09",
+    "title": "The President's Meeting with Deputy Foreign Minister Georgiy Mamedov of Russia",
+    "date": "1996-07-09",
+    "year": 1996,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 165-167. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "165-167",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "memcon",
+      "russia",
+      "nato",
+      "yeltsin"
+    ],
+    "topics": [
+      "U.S.-Russia relations",
+      "NATO",
+      "START II",
+      "CTBT",
+      "Bosnia",
+      "Yeltsin reelection"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Al Gore",
+      "Warren Christopher",
+      "Leon Panetta",
+      "Strobe Talbott",
+      "Samuel Berger",
+      "Leon Fuerth",
+      "Steve Pifer",
+      "Georgiy Mamedov",
+      "Yuliy Vorontsov",
+      "Boris Yeltsin",
+      "Yevgeniy Primakov"
+    ],
+    "countries": [
+      "Russia",
+      "Bosnia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The President frames practical U.S.-Russian achievements, including continued NATO dialogue, as the agenda after Yeltsin's 1996 reelection."
+  },
+  {
     "id": "state-foia-C06698307",
     "title": "MEMORANDUM OF CONVERSATION WITH PRESIDENT KWASNIESKI OF POLAND",
     "date": "1996-07-16",
@@ -14935,6 +15572,71 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 22."
   },
   {
+    "id": "clinton-library-doc-2015-0755-m-lake-chirac-1996-11-01",
+    "title": "Lake Meeting with President Jacques Chirac of France",
+    "date": "1996-11-01",
+    "year": 1996,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 178-198. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "178-198",
+    "pageCount": 21,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "memcon",
+      "chirac",
+      "nato enlargement",
+      "nato-russia"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "NATO-Russia",
+      "Madrid Summit",
+      "France and NATO",
+      "AFSOUTH",
+      "European defense identity",
+      "Romania",
+      "Russia"
+    ],
+    "people": [
+      "Anthony Lake",
+      "Jacques Chirac",
+      "Jean-David Levitte",
+      "Pamela Harriman",
+      "Peter Tarnoff",
+      "Alexander Vershbow",
+      "Bill Clinton",
+      "Boris Yeltsin",
+      "Viktor Chernomyrdin"
+    ],
+    "countries": [
+      "France",
+      "Russia",
+      "Romania",
+      "Belgium",
+      "United States",
+      "Bosnia"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The long Lake-Chirac memcon includes a major discussion of a 1997 NATO summit, NATO enlargement, a NATO-Russia agreement, France's NATO reintegration, and how not to let Russian delay tactics derail enlargement."
+  },
+  {
     "id": "state-foia-C06698960",
     "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH ROMANIAN FM MELESCANU",
     "date": "1996-11-06",
@@ -16299,6 +17001,79 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 37."
   },
   {
+    "id": "clinton-library-doc-2015-0755-m-talbott-fuerth-mission-1997-01-25",
+    "title": "Report on Talbott/Fuerth Mission and Berger-Levitte Talks",
+    "date": "1997-01-25",
+    "year": 1997,
+    "documentType": "Presidential information memorandum with trip report",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 207-213. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "207-213",
+    "pageCount": 7,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "talbott fuerth mission",
+      "nato-russia",
+      "madrid summit",
+      "cfe"
+    ],
+    "topics": [
+      "NATO-Russia",
+      "NATO enlargement",
+      "Madrid Summit",
+      "CFE",
+      "START II",
+      "START III",
+      "Gore-Chernomyrdin Commission",
+      "France and NATO"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Al Gore",
+      "Samuel Berger",
+      "Strobe Talbott",
+      "Leon Fuerth",
+      "Jean-David Levitte",
+      "Jacques Chirac",
+      "Helmut Kohl",
+      "John Major",
+      "Viktor Chernomyrdin",
+      "Anatoly Chubais",
+      "Yevgeniy Primakov",
+      "Igor Rodionov",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "Russia",
+      "France",
+      "Germany",
+      "United Kingdom",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Ukraine",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. Berger reports that Moscow may finally be prepared to make progress before Madrid; the Talbott/Fuerth attachment lays out Russian domestic needs, NATO-Russia understandings, CFE, and diplomatic summit choreography."
+  },
+  {
     "id": "state-foia-C06703023",
     "title": "DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH",
     "date": "1997-01-28",
@@ -16399,6 +17174,75 @@
       "manifestPath": "data/manifest.json"
     },
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 45."
+  },
+  {
+    "id": "clinton-library-doc-2015-0755-m-chernomyrdin-1997-02-07",
+    "title": "Meeting with Russian Prime Minister Viktor Chernomyrdin: March Summit, GCC Results, European Security, START, Economics",
+    "date": "1997-02-07",
+    "year": 1997,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 222-228. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "222-228",
+    "pageCount": 7,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "memcon",
+      "chernomyrdin",
+      "nato enlargement",
+      "helsinki summit"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "NATO-Russia",
+      "Helsinki Summit",
+      "Gore-Chernomyrdin Commission",
+      "CFE",
+      "START II",
+      "START III",
+      "G-7/G-8"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Al Gore",
+      "Erskine Bowles",
+      "James Steinberg",
+      "Strobe Talbott",
+      "Leon Fuerth",
+      "James Collins",
+      "Steve Pifer",
+      "Viktor Chernomyrdin",
+      "Yuliy Vorontsov",
+      "Georgiy Mamedov",
+      "Boris Yeltsin",
+      "Madeleine Albright",
+      "Yevgeniy Primakov"
+    ],
+    "countries": [
+      "Russia",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The memcon records Clinton, Gore, and Chernomyrdin discussing NATO enlargement, the two-year accession lag after Madrid invitations, NATO-Russia reassurances, CFE, START, and the March Helsinki summit."
   },
   {
     "id": "state-foia-C06702847",
@@ -19332,6 +20176,71 @@
     "notes": "Public record context; use for chronology, public explanation, and annotation rather than as a declassified archival source."
   },
   {
+    "id": "clinton-library-doc-2015-0755-m-herzog-working-lunch-1997-07-24",
+    "title": "The President's Working Lunch with President Roman Herzog of Germany",
+    "date": "1997-07-24",
+    "year": 1997,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 274-283. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "274-283",
+    "pageCount": 10,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "memcon",
+      "germany",
+      "madrid summit",
+      "nato expansion"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Madrid Summit",
+      "Open door",
+      "Ukraine",
+      "Poland",
+      "Russia",
+      "Germany",
+      "European integration"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Roman Herzog",
+      "Strobe Talbott",
+      "Leon Fuerth",
+      "Jim Steinberg",
+      "Helmut Kohl",
+      "Madeleine Albright",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "Germany",
+      "Poland",
+      "Ukraine",
+      "Russia",
+      "Romania",
+      "Slovenia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. This is the complete released working-lunch copy; packet pages 286-295 are a duplicate/incomplete copy and are not promoted separately. The NATO discussion covers Madrid, the open door, Ukraine, Poland, and Kohl's role."
+  },
+  {
     "id": "clinton-nato-strobe-C09000052",
     "title": "October 17, 1997 Letter From Strobe Talbott To Lina Sarello w/Attachment(s)",
     "date": "1997-10-17",
@@ -19577,6 +20486,69 @@
       "id": "russia-cross-contact-1997-11-22-telcon-49"
     },
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-note detail moved from displayed citation: Page count audit: 6 actual conversation pages from 218-223; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: Partial duplicate packet pages 227-228 were excluded. Source marking extraction: Confidential found by PDF OCR. Source page span retained outside displayed FRUS note: pages 218-223; 6 conversation pages."
+  },
+  {
+    "id": "clinton-library-doc-2015-0755-m-ratification-strategy-1997-12-17",
+    "title": "Strategy for Completing Ratification of NATO Enlargement",
+    "date": "1997-12-17",
+    "year": 1997,
+    "documentType": "Presidential action memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 303-306.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "303-306",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "ratification",
+      "senate",
+      "nato enlargement",
+      "presidential action"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Senate ratification",
+      "Accession protocols",
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "NATO costs",
+      "NATO fiftieth anniversary"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Samuel Berger",
+      "John Hilley",
+      "Madeleine Albright",
+      "William Cohen",
+      "Henry Shelton",
+      "Trent Lott",
+      "Jesse Helms",
+      "Joe Biden"
+    ],
+    "countries": [
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The President saw the action memorandum and attached ratification end-game calendar. Packet pages 307-311 are staff-routing and draft copies and are not promoted separately."
   },
   {
     "id": "state-foia-C06704065",

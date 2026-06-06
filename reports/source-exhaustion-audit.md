@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T03:00:12.858Z
+Generated: 2026-06-06T03:09:14.587Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,10 +9,10 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 184 | 1000 | assembled locally
-Package-ready public candidates | 414 | 1999 | available for reselection
-NSC/SOC/minutes attention queue | 147 |  | special review lane
-Clinton Library promoted document rows | 46 | 190 | document-level rows
+Selected package records | 172 | 1000 | assembled locally
+Package-ready public candidates | 429 | 2125 | available for reselection
+NSC/SOC/minutes attention queue | 162 |  | special review lane
+Clinton Library promoted document rows | 61 | 316 | document-level rows
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
 NARA Scout promotion leads | 123 |  | needs source-image inspection
@@ -25,7 +25,10 @@ Date | Pages | Count | Record | Packet | Link
 1993-04-14 | 38-41 | 4 | Havel's Upcoming Meeting with the President: Security Issues on the Agenda | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1993-06-30 | 8-9 | 2 | NATO Summit | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-06-30 | 10-12 | 3 | The NATO Summit: Timing and Venue | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1993-07-16 | 7-9 | 3 | NACC Summit | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1993-09-14 | 52-60 | 9 | A Strategy for NATO's Transformation and Expansion | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-09-17 | 17-22 | 6 | Luncheon with Prime Minister Carlo Ciampi of Italy | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1993-09-17 | 31-35 | 5 | Meeting with Prime Minister Carlo Ciampi of Italy | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1993-09-20 | 16-18 | 3 | Yeltsin: NATO Expansion | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-23 | 17-18 | 2 | The Visegrad Four and NATO Expansion | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-09-29 | 9-15 | 7 | Russia, NATO and the Two January Summits | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
@@ -45,21 +48,33 @@ Date | Pages | Count | Record | Packet | Link
 1994-01-14 | 68-75 | 8 | Czechs Give PFP an Enthusiastic Reception During Albright/Shalikashvili Visit | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-18 | 76-77 | 2 | Follow-Up to the President's Visit to Prague: Building on a Good Foundation for the Future | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-19 | 78-84 | 7 | Czech MFA Assessment of the President's Visit, Partnership for Peace and Visegrad Cooperation | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1994-01-26 | 44-50 | 7 | PFP and Central and Eastern Europe | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1994-09-17 | 1-4 | 4 | NATO Expansion: Concept and Strategy | 2017-0193-M | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 1994-09-21 | 5-12 | 8 | Next Steps on NATO Expansion: Hard Questions | 2017-0193-M | [open](https://clinton.presidentiallibraries.us/items/show/118731)
+1994-10-04 | 55-63 | 9 | Moving Toward NATO Expansion | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1994-10-13 | 71-76 | 6 | NATO Expansion | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1994-12-29 | 64-66 | 3 | President Yeltsin to President Clinton on NATO Enlargement | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-06 | 68-69 | 2 | President Clinton to President Yeltsin on NATO Expansion and Chechnya | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-02-11 | 85-104 | 20 | Working Lunch with Prime Minister Jean-Luc Dehaene of Belgium | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1995-02-28 | 126-137 | 12 | The President's Working Lunch with Wim Kok, Prime Minister of the Netherlands | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1995-03 | 77-78 | 2 | Annex to Clinton-Yeltsin Letter: NATO's Evolution Since 1990 | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-03 | 81 | 1 | Elements of a Russian Reply | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-03 | 79-80 | 2 | Possible Content of a Letter from the Russian Side | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-03 | 74-76 | 3 | President Clinton to President Yeltsin on NATO-Russia Relations | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-03-02 | 72-73 | 2 | Status of NATO-Russia Process | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03-07 | 145-150 | 6 | Meeting with NATO Secretary General Willy Claes | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1995-04-03 | 84-89 | 6 | Elements of a NATO-Russia Relationship | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-10-21 | 113-117 | 5 | Meeting with Vaclav Havel, President of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101427)
 1996-06-06 | 2-14 | 13 | C-P-L Item: NATO Enlargement | 2015-0770-M | [open](https://clinton.presidentiallibraries.us/items/show/57565)
+1996-07-09 | 165-167 | 3 | The President's Meeting with Deputy Foreign Minister Georgiy Mamedov of Russia | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1996-11-01 | 178-198 | 21 | Lake Meeting with President Jacques Chirac of France | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1997-01-25 | 207-213 | 7 | Report on Talbott/Fuerth Mission and Berger-Levitte Talks | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1997-02-07 | 222-228 | 7 | Meeting with Russian Prime Minister Viktor Chernomyrdin: March Summit, GCC Results, European Security, START, Economics | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1997-06-09 | 29-36 | 8 | A Diplomatic and Congressional Strategy for Madrid and Beyond | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1997-06-23 | 497-502 | 6 | NATO Summit - Communications Objectives, Themes, Events, Roll Out | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-06-30 | 508-512 | 5 | Communications Plan for the NATO Summit | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-07-24 | 274-283 | 10 | The President's Working Lunch with President Roman Herzog of Germany | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1997-12-17 | 303-306 | 4 | Strategy for Completing Ratification of NATO Enlargement | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1998-02-09 | 527-531 | 5 | Committee to Expand NATO Dinner IHO Polish, Czech and Hungarian Foreign Ministers | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1998-05-04 | 127-128 | 2 | Telcon with President Havel of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101537)
 1998-09-16 | 177-181 | 5 | Expanded Meeting with President Vaclav Havel of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101539)

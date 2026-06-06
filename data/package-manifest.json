@@ -1,59 +1,59 @@
 {
-  "generatedAt": "2026-06-06T03:00:12.858Z",
+  "generatedAt": "2026-06-06T03:09:14.587Z",
   "targetPages": 1000,
   "selectedPageTotal": 1000,
-  "selectedCount": 184,
-  "candidateCount": 414,
-  "candidatePageTotal": 1999,
-  "nscSocCandidateCount": 147,
+  "selectedCount": 172,
+  "candidateCount": 429,
+  "candidatePageTotal": 2125,
+  "nscSocCandidateCount": 162,
   "naraScoutPromotionLeadCount": 123,
   "clintonLibraryPacketControlCount": 11,
   "clintonLibraryPacketControlPages": 1844,
   "privateGoogleDriveIntakeCount": 17,
   "exactPageAdjustment": {
     "removed": {
-      "id": "state-foia-C06702975",
-      "title": "SECRETARY'S MARCH 10 CONSULTATION WITH UK FOREIGN SECRETARY RIFKIND",
-      "pageCount": 6,
-      "relevanceScore": 40
+      "id": "state-foia-C06702980",
+      "title": "UK POLITICAL DIRECTOR GREENSTOCK'S CONSULTATIONS WITH DEPUTY SECRETARY TALBOTT OR NATO-RUSSIA",
+      "pageCount": 4,
+      "relevanceScore": 47
     },
     "added": {
-      "id": "clinton-nato-strobe-hardgap-feb2024-C09000122",
-      "title": "ST notes on Kissinger piece",
-      "pageCount": 5,
-      "relevanceScore": 38
+      "id": "state-foia-C06814682",
+      "title": "DEPUTY SECRETARY TALBOTT'S OCT. 6 MEETING WITH FCO MINISTER HOON",
+      "pageCount": 3,
+      "relevanceScore": 46
     },
-    "scoreLoss": 2,
+    "scoreLoss": 1,
     "reason": "One-record swap to hit the 1000-page target exactly."
   },
   "sourceClassCounts": {
     "clinton-digital-library": 2,
-    "clinton-library-mdr": 41,
-    "nara-catalog": 5,
-    "state-foia": 136
+    "clinton-library-mdr": 55,
+    "nara-catalog": 4,
+    "state-foia": 111
   },
   "yearCounts": {
-    "1993": 17,
-    "1994": 30,
+    "1993": 19,
+    "1994": 31,
     "1995": 20,
-    "1996": 44,
-    "1997": 49,
-    "1998": 6,
-    "1999": 12,
-    "2000": 6
+    "1996": 41,
+    "1997": 44,
+    "1998": 5,
+    "1999": 8,
+    "2000": 4
   },
   "themeCounts": {
-    "architecture": 78,
-    "candidate-states": 99,
-    "cfe-osce": 93,
-    "madrid-summit": 12,
-    "nac-usnato": 49,
-    "nato-expansion": 143,
-    "nato-russia": 99,
-    "nsc-soc": 100,
-    "open-door-map": 21,
-    "pfp": 52,
-    "ratification": 3
+    "architecture": 67,
+    "candidate-states": 103,
+    "cfe-osce": 83,
+    "madrid-summit": 15,
+    "nac-usnato": 43,
+    "nato-expansion": 145,
+    "nato-russia": 96,
+    "nsc-soc": 108,
+    "open-door-map": 20,
+    "pfp": 56,
+    "ratification": 4
   },
   "selected": [
     {
@@ -147,10 +147,185 @@
       }
     },
     {
-      "id": "clinton-library-doc-2024-0540-m-partnership-for-peace",
+      "id": "clinton-library-doc-2015-0755-m-herzog-working-lunch-1997-07-24",
       "packageOrder": 3,
       "packagePageStart": 12,
-      "packagePageEnd": 14,
+      "packagePageEnd": 21,
+      "date": "1997-07-24",
+      "year": 1997,
+      "title": "The President's Working Lunch with President Roman Herzog of Germany",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "274-283",
+      "pageCount": 10,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 274-283. Confidential.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "madrid-summit",
+        "nato-russia",
+        "open-door-map",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 114,
+      "relevanceReasons": [
+        "nato-expansion",
+        "madrid-summit",
+        "nato-russia",
+        "open-door-map",
+        "candidate-states",
+        "NSC/SOC relevance",
+        "conversation record",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-nato-expansion-president-seen-1994-10-13",
+      "packageOrder": 4,
+      "packagePageStart": 22,
+      "packagePageEnd": 27,
+      "date": "1994-10-13",
+      "year": 1994,
+      "title": "NATO Expansion",
+      "documentType": "Presidential information memorandum with NSC staff paper",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "71-76",
+      "pageCount": 6,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 71-76. Secret.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "nac-usnato",
+        "cfe-osce",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 106,
+      "relevanceReasons": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "nac-usnato",
+        "cfe-osce",
+        "candidate-states",
+        "NSC/SOC relevance",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-dehaene-working-lunch-1995-02-11",
+      "packageOrder": 5,
+      "packagePageStart": 28,
+      "packagePageEnd": 47,
+      "date": "1995-02-11",
+      "year": 1995,
+      "title": "Working Lunch with Prime Minister Jean-Luc Dehaene of Belgium",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "85-104",
+      "pageCount": 20,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 85-104. Confidential.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "architecture",
+        "cfe-osce",
+        "nsc-soc"
+      ],
+      "relevanceScore": 101,
+      "relevanceReasons": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "architecture",
+        "cfe-osce",
+        "NSC/SOC relevance",
+        "conversation record",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-lake-chirac-1996-11-01",
+      "packageOrder": 6,
+      "packagePageStart": 48,
+      "packagePageEnd": 68,
+      "date": "1996-11-01",
+      "year": 1996,
+      "title": "Lake Meeting with President Jacques Chirac of France",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "178-198",
+      "pageCount": 21,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 178-198. Secret.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "madrid-summit",
+        "nato-russia",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 100,
+      "relevanceReasons": [
+        "nato-expansion",
+        "madrid-summit",
+        "nato-russia",
+        "candidate-states",
+        "NSC/SOC relevance",
+        "conversation record",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
+      "id": "clinton-library-doc-2024-0540-m-partnership-for-peace",
+      "packageOrder": 7,
+      "packagePageStart": 69,
+      "packagePageEnd": 71,
       "date": "1994-01",
       "year": 1994,
       "title": "Partnership for Peace",
@@ -191,9 +366,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0773-m-havel-restricted-1998-09-16",
-      "packageOrder": 4,
-      "packagePageStart": 15,
-      "packagePageEnd": 17,
+      "packageOrder": 8,
+      "packagePageStart": 72,
+      "packagePageEnd": 74,
       "date": "1998-09-16",
       "year": 1998,
       "title": "Restricted Meeting with President Vaclav Havel of the Czech Republic",
@@ -233,9 +408,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-nato-transformation-expansion-strategy",
-      "packageOrder": 5,
-      "packagePageStart": 18,
-      "packagePageEnd": 26,
+      "packageOrder": 9,
+      "packagePageStart": 75,
+      "packagePageEnd": 83,
       "date": "1993-09-14",
       "year": 1993,
       "title": "A Strategy for NATO's Transformation and Expansion",
@@ -276,9 +451,9 @@
     },
     {
       "id": "clinton-library-doc-2017-0193-m-concept-strategy",
-      "packageOrder": 6,
-      "packagePageStart": 27,
-      "packagePageEnd": 30,
+      "packageOrder": 10,
+      "packagePageStart": 84,
+      "packagePageEnd": 87,
       "date": "1994-09-17",
       "year": 1994,
       "title": "NATO Expansion: Concept and Strategy",
@@ -319,9 +494,9 @@
     },
     {
       "id": "state-foia-C06698191",
-      "packageOrder": 7,
-      "packagePageStart": 31,
-      "packagePageEnd": 36,
+      "packageOrder": 11,
+      "packagePageStart": 88,
+      "packagePageEnd": 93,
       "date": "1995-07-09",
       "year": 1995,
       "title": "TALBOTT-MAMEDOV MEETING IN BUENOS AIRES ON THE MARGINS OF MENEM INAUGURAL",
@@ -362,10 +537,52 @@
       }
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-claes-1995-03-07",
+      "packageOrder": 12,
+      "packagePageStart": 94,
+      "packagePageEnd": 99,
+      "date": "1995-03-07",
+      "year": 1995,
+      "title": "Meeting with NATO Secretary General Willy Claes",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "145-150",
+      "pageCount": 6,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 145-150. Secret.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 96,
+      "relevanceReasons": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "candidate-states",
+        "NSC/SOC relevance",
+        "conversation record",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
       "id": "clinton-library-doc-2015-0773-m-havel-1995-10-21",
-      "packageOrder": 8,
-      "packagePageStart": 37,
-      "packagePageEnd": 41,
+      "packageOrder": 13,
+      "packagePageStart": 100,
+      "packagePageEnd": 104,
       "date": "1995-10-21",
       "year": 1995,
       "title": "Meeting with Vaclav Havel, President of the Czech Republic",
@@ -405,9 +622,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-clinton-to-yeltsin-1995-03",
-      "packageOrder": 9,
-      "packagePageStart": 42,
-      "packagePageEnd": 44,
+      "packageOrder": 14,
+      "packagePageStart": 105,
+      "packagePageEnd": 107,
       "date": "1995-03",
       "year": 1995,
       "title": "President Clinton to President Yeltsin on NATO-Russia Relations",
@@ -447,10 +664,51 @@
       }
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-talbott-fuerth-mission-1997-01-25",
+      "packageOrder": 15,
+      "packagePageStart": 108,
+      "packagePageEnd": 114,
+      "date": "1997-01-25",
+      "year": 1997,
+      "title": "Report on Talbott/Fuerth Mission and Berger-Levitte Talks",
+      "documentType": "Presidential information memorandum with trip report",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "207-213",
+      "pageCount": 7,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 207-213. Secret.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "madrid-summit",
+        "nato-russia",
+        "cfe-osce",
+        "nsc-soc"
+      ],
+      "relevanceScore": 90,
+      "relevanceReasons": [
+        "nato-expansion",
+        "madrid-summit",
+        "nato-russia",
+        "cfe-osce",
+        "NSC/SOC relevance",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-now-is-not-the-time",
-      "packageOrder": 10,
-      "packagePageStart": 45,
-      "packagePageEnd": 50,
+      "packageOrder": 16,
+      "packagePageStart": 115,
+      "packagePageEnd": 120,
       "date": "1993-10-08",
       "year": 1993,
       "title": "NATO Expansion: Now Is Not the Time",
@@ -489,9 +747,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0772-m-nato-summit-europes-east-1993-10-19",
-      "packageOrder": 11,
-      "packagePageStart": 51,
-      "packagePageEnd": 52,
+      "packageOrder": 17,
+      "packagePageStart": 121,
+      "packagePageEnd": 122,
       "date": "1993-10-19",
       "year": 1993,
       "title": "The NATO Summit and Europe's East",
@@ -530,9 +788,9 @@
     },
     {
       "id": "clinton-library-doc-2024-0540-m-havel-klaus-meeting-brief",
-      "packageOrder": 12,
-      "packagePageStart": 53,
-      "packagePageEnd": 57,
+      "packageOrder": 18,
+      "packagePageStart": 123,
+      "packagePageEnd": 127,
       "date": "1994-01",
       "year": 1994,
       "title": "Meeting with Czech President Havel and Premier Klaus",
@@ -571,9 +829,9 @@
     },
     {
       "id": "clinton-library-doc-2017-0193-m-hard-questions",
-      "packageOrder": 13,
-      "packagePageStart": 58,
-      "packagePageEnd": 65,
+      "packageOrder": 19,
+      "packagePageStart": 128,
+      "packagePageEnd": 135,
       "date": "1994-09-21",
       "year": 1994,
       "title": "Next Steps on NATO Expansion: Hard Questions",
@@ -611,10 +869,93 @@
       }
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-moving-toward-nato-expansion-1994-10-04",
+      "packageOrder": 20,
+      "packagePageStart": 136,
+      "packagePageEnd": 144,
+      "date": "1994-10-04",
+      "year": 1994,
+      "title": "Moving Toward NATO Expansion",
+      "documentType": "NSC staff memorandum with policy papers",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "55-63",
+      "pageCount": 9,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 55-63. Secret/Confidential.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 89,
+      "relevanceReasons": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "candidate-states",
+        "NSC/SOC relevance",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-chernomyrdin-1997-02-07",
+      "packageOrder": 21,
+      "packagePageStart": 145,
+      "packagePageEnd": 151,
+      "date": "1997-02-07",
+      "year": 1997,
+      "title": "Meeting with Russian Prime Minister Viktor Chernomyrdin: March Summit, GCC Results, European Security, START, Economics",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "222-228",
+      "pageCount": 7,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 222-228. Confidential.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "architecture",
+        "cfe-osce",
+        "nsc-soc"
+      ],
+      "relevanceScore": 89,
+      "relevanceReasons": [
+        "nato-expansion",
+        "nato-russia",
+        "architecture",
+        "cfe-osce",
+        "NSC/SOC relevance",
+        "conversation record",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-yeltsin-to-clinton-1994-12-29",
-      "packageOrder": 14,
-      "packagePageStart": 66,
-      "packagePageEnd": 68,
+      "packageOrder": 22,
+      "packagePageStart": 152,
+      "packagePageEnd": 154,
       "date": "1994-12-29",
       "year": 1994,
       "title": "President Yeltsin to President Clinton on NATO Enlargement",
@@ -653,9 +994,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-clinton-to-yeltsin-1995-01-06",
-      "packageOrder": 15,
-      "packagePageStart": 69,
-      "packagePageEnd": 70,
+      "packageOrder": 23,
+      "packagePageStart": 155,
+      "packagePageEnd": 156,
       "date": "1995-01-06",
       "year": 1995,
       "title": "President Clinton to President Yeltsin on NATO Expansion and Chechnya",
@@ -694,9 +1035,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-annex-clinton-yeltsin-letter",
-      "packageOrder": 16,
-      "packagePageStart": 71,
-      "packagePageEnd": 72,
+      "packageOrder": 24,
+      "packagePageStart": 157,
+      "packagePageEnd": 158,
       "date": "1995-03",
       "year": 1995,
       "title": "Annex to Clinton-Yeltsin Letter: NATO's Evolution Since 1990",
@@ -735,9 +1076,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0772-m-committee-expand-nato-dinner-1998-02-09",
-      "packageOrder": 17,
-      "packagePageStart": 73,
-      "packagePageEnd": 77,
+      "packageOrder": 25,
+      "packagePageStart": 159,
+      "packagePageEnd": 163,
       "date": "1998-02-09",
       "year": 1998,
       "title": "Committee to Expand NATO Dinner IHO Polish, Czech and Hungarian Foreign Ministers",
@@ -776,9 +1117,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-yeltsin-nato-expansion",
-      "packageOrder": 18,
-      "packagePageStart": 78,
-      "packagePageEnd": 80,
+      "packageOrder": 26,
+      "packagePageStart": 164,
+      "packagePageEnd": 166,
       "date": "1993-09-20",
       "year": 1993,
       "title": "Yeltsin: NATO Expansion",
@@ -817,9 +1158,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0770-m-nato-enlargement-game-plan",
-      "packageOrder": 19,
-      "packagePageStart": 81,
-      "packagePageEnd": 93,
+      "packageOrder": 27,
+      "packagePageStart": 167,
+      "packagePageEnd": 179,
       "date": "1996-06-06",
       "year": 1996,
       "title": "C-P-L Item: NATO Enlargement",
@@ -858,9 +1199,9 @@
     },
     {
       "id": "state-foia-C06699013",
-      "packageOrder": 20,
-      "packagePageStart": 94,
-      "packagePageEnd": 105,
+      "packageOrder": 28,
+      "packagePageStart": 180,
+      "packagePageEnd": 191,
       "date": "1996-12-04",
       "year": 1996,
       "title": "MEETING WITH PRIMAKOV IN LONDON",
@@ -900,9 +1241,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0772-m-visegrad-four-nato-expansion-1993-09-23",
-      "packageOrder": 21,
-      "packagePageStart": 106,
-      "packagePageEnd": 107,
+      "packageOrder": 29,
+      "packagePageStart": 192,
+      "packagePageEnd": 193,
       "date": "1993-09-23",
       "year": 1993,
       "title": "The Visegrad Four and NATO Expansion",
@@ -941,9 +1282,9 @@
     },
     {
       "id": "state-foia-C06703508",
-      "packageOrder": 22,
-      "packagePageStart": 108,
-      "packagePageEnd": 113,
+      "packageOrder": 30,
+      "packagePageStart": 194,
+      "packagePageEnd": 199,
       "date": "1997-02-22",
       "year": 1997,
       "title": "SECRETARY'S MEETING WITH RUSSIAN PRIME MINISTER CHERNOMYRDIN, FEBRUARY 20, 1997",
@@ -981,9 +1322,9 @@
     },
     {
       "id": "state-foia-C06698297",
-      "packageOrder": 23,
-      "packagePageStart": 114,
-      "packagePageEnd": 117,
+      "packageOrder": 31,
+      "packagePageStart": 200,
+      "packagePageEnd": 203,
       "date": "1996-07-24",
       "year": 1996,
       "title": "DEPUTY SECRETARY TALBOTT'S JULY 9 MEETING WITH HUNGARIAN MFA STATE SECRETARY ISTVAN SZENT-IVANYI",
@@ -1023,9 +1364,9 @@
     },
     {
       "id": "state-foia-C06698688",
-      "packageOrder": 24,
-      "packagePageStart": 118,
-      "packagePageEnd": 124,
+      "packageOrder": 32,
+      "packagePageStart": 204,
+      "packagePageEnd": 210,
       "date": "1996-11-15",
       "year": 1996,
       "title": "DEPUTY SECRETARY MEETING WITH UKRAINIAN FOREIGN MINISTER UDOVENKO",
@@ -1065,9 +1406,9 @@
     },
     {
       "id": "state-foia-C06702917",
-      "packageOrder": 25,
-      "packagePageStart": 125,
-      "packagePageEnd": 129,
+      "packageOrder": 33,
+      "packagePageStart": 211,
+      "packagePageEnd": 215,
       "date": "1997-03-05",
       "year": 1997,
       "title": "SECRETARY'S MEETING WITH YEVGENIY M. PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 20, 1997, MOSCOW`",
@@ -1107,9 +1448,9 @@
     },
     {
       "id": "state-foia-C06703393",
-      "packageOrder": 26,
-      "packagePageStart": 130,
-      "packagePageEnd": 134,
+      "packageOrder": 34,
+      "packagePageStart": 216,
+      "packagePageEnd": 220,
       "date": "1997-03-07",
       "year": 1997,
       "title": "OFFICIAL INFORMAL -- TALBOTT - LEVITTE MEETING",
@@ -1149,9 +1490,9 @@
     },
     {
       "id": "state-foia-C06703449",
-      "packageOrder": 27,
-      "packagePageStart": 135,
-      "packagePageEnd": 139,
+      "packageOrder": 35,
+      "packagePageStart": 221,
+      "packagePageEnd": 225,
       "date": "1997-03-12",
       "year": 1997,
       "title": "DEPUTY SECRETARY'S MEETING WITH FRENCH PRESIDENT'S DIPLOMATIC ADVISOR, MARCH 4",
@@ -1191,9 +1532,9 @@
     },
     {
       "id": "state-foia-C06698709",
-      "packageOrder": 28,
-      "packagePageStart": 140,
-      "packagePageEnd": 143,
+      "packageOrder": 36,
+      "packagePageStart": 226,
+      "packagePageEnd": 229,
       "date": "1996-10-29",
       "year": 1996,
       "title": "ACTING SECRETARY AND LITHUANIAN FONMIN ON NATO ENLARGEMENT",
@@ -1233,9 +1574,9 @@
     },
     {
       "id": "state-foia-C06814913",
-      "packageOrder": 29,
-      "packagePageStart": 144,
-      "packagePageEnd": 148,
+      "packageOrder": 37,
+      "packagePageStart": 230,
+      "packagePageEnd": 234,
       "date": "2000-01-28",
       "year": 2000,
       "title": "Official - Informal",
@@ -1274,10 +1615,50 @@
       }
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-kok-working-lunch-1995-02-28",
+      "packageOrder": 38,
+      "packagePageStart": 235,
+      "packagePageEnd": 246,
+      "date": "1995-02-28",
+      "year": 1995,
+      "title": "The President's Working Lunch with Wim Kok, Prime Minister of the Netherlands",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "126-137",
+      "pageCount": 12,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 126-137. Confidential.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "architecture",
+        "nsc-soc"
+      ],
+      "relevanceScore": 82,
+      "relevanceReasons": [
+        "nato-expansion",
+        "nato-russia",
+        "architecture",
+        "NSC/SOC relevance",
+        "conversation record",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
       "id": "clinton-library-doc-2015-0773-m-havel-expanded-1998-09-16",
-      "packageOrder": 30,
-      "packagePageStart": 149,
-      "packagePageEnd": 153,
+      "packageOrder": 39,
+      "packagePageStart": 247,
+      "packagePageEnd": 251,
       "date": "1998-09-16",
       "year": 1998,
       "title": "Expanded Meeting with President Vaclav Havel of the Czech Republic",
@@ -1315,9 +1696,9 @@
     },
     {
       "id": "state-foia-C06815096",
-      "packageOrder": 31,
-      "packagePageStart": 154,
-      "packagePageEnd": 155,
+      "packageOrder": 40,
+      "packagePageStart": 252,
+      "packagePageEnd": 253,
       "date": "2000-04-20",
       "year": 2000,
       "title": "Deputy Secretary Talbott and NSC Senior Director Hill Meet with General Sir Rupert Smith, D/Saceur, on Apr 18, 2000",
@@ -1355,9 +1736,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-madrid-diplomatic-congressional-strategy",
-      "packageOrder": 32,
-      "packagePageStart": 156,
-      "packagePageEnd": 163,
+      "packageOrder": 41,
+      "packagePageStart": 254,
+      "packagePageEnd": 261,
       "date": "1997-06-09",
       "year": 1997,
       "title": "A Diplomatic and Congressional Strategy for Madrid and Beyond",
@@ -1394,9 +1775,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0773-m-havel-telcon-1998-05-04",
-      "packageOrder": 33,
-      "packagePageStart": 164,
-      "packagePageEnd": 165,
+      "packageOrder": 42,
+      "packagePageStart": 262,
+      "packagePageEnd": 263,
       "date": "1998-05-04",
       "year": 1998,
       "title": "Telcon with President Havel of the Czech Republic",
@@ -1434,9 +1815,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-two-january-summits",
-      "packageOrder": 34,
-      "packagePageStart": 166,
-      "packagePageEnd": 172,
+      "packageOrder": 43,
+      "packagePageStart": 264,
+      "packagePageEnd": 270,
       "date": "1993-09-29",
       "year": 1993,
       "title": "Russia, NATO and the Two January Summits",
@@ -1473,9 +1854,9 @@
     },
     {
       "id": "clinton-library-doc-2024-0540-m-trip-to-prague",
-      "packageOrder": 35,
-      "packagePageStart": 173,
-      "packagePageEnd": 180,
+      "packageOrder": 44,
+      "packagePageStart": 271,
+      "packagePageEnd": 278,
       "date": "1993-12-31",
       "year": 1993,
       "title": "Your Trip to Prague",
@@ -1512,9 +1893,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-elements-russian-reply",
-      "packageOrder": 36,
-      "packagePageStart": 181,
-      "packagePageEnd": 181,
+      "packageOrder": 45,
+      "packagePageStart": 279,
+      "packagePageEnd": 279,
       "date": "1995-03",
       "year": 1995,
       "title": "Elements of a Russian Reply",
@@ -1551,9 +1932,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-status-nato-russia-process",
-      "packageOrder": 37,
-      "packagePageStart": 182,
-      "packagePageEnd": 183,
+      "packageOrder": 46,
+      "packagePageStart": 280,
+      "packagePageEnd": 281,
       "date": "1995-03-02",
       "year": 1995,
       "title": "Status of NATO-Russia Process",
@@ -1590,9 +1971,9 @@
     },
     {
       "id": "state-foia-C06703169",
-      "packageOrder": 38,
-      "packagePageStart": 184,
-      "packagePageEnd": 187,
+      "packageOrder": 47,
+      "packagePageStart": 282,
+      "packagePageEnd": 285,
       "date": "1997-03-06",
       "year": 1997,
       "title": "OFFICIAL INFORMAL: FOR OFFICE OF THE DEPUTY SECRETARY (ERIC EDELMAN)",
@@ -1632,9 +2013,9 @@
     },
     {
       "id": "state-foia-C06703181",
-      "packageOrder": 39,
-      "packagePageStart": 188,
-      "packagePageEnd": 192,
+      "packageOrder": 48,
+      "packagePageStart": 286,
+      "packagePageEnd": 290,
       "date": "1997-03-12",
       "year": 1997,
       "title": "DEPUTY SECRETARY'S MEETING WITH FRENCH MFA POLITICAL DIRECTOR, MARCH 4",
@@ -1674,9 +2055,9 @@
     },
     {
       "id": "state-foia-C06698129",
-      "packageOrder": 40,
-      "packagePageStart": 193,
-      "packagePageEnd": 216,
+      "packageOrder": 49,
+      "packagePageStart": 291,
+      "packagePageEnd": 314,
       "date": "1995-09-15",
       "year": 1995,
       "title": "KOZYREV MEETING",
@@ -1714,9 +2095,9 @@
     },
     {
       "id": "state-foia-C06698215",
-      "packageOrder": 41,
-      "packagePageStart": 217,
-      "packagePageEnd": 221,
+      "packageOrder": 50,
+      "packagePageStart": 315,
+      "packagePageEnd": 319,
       "date": "1996-09-13",
       "year": 1996,
       "title": "THE BRIEF THAT JIM AND I WILL GIVE TO YOU ON OUR RETURN TO THE DEPARTMENT",
@@ -1754,9 +2135,9 @@
     },
     {
       "id": "state-foia-C06702931",
-      "packageOrder": 42,
-      "packagePageStart": 222,
-      "packagePageEnd": 227,
+      "packageOrder": 51,
+      "packagePageStart": 320,
+      "packagePageEnd": 325,
       "date": "1997-03-05",
       "year": 1997,
       "title": "SECRETARY'S MEETING WITH VICTOR CHERNOMYRDIN, RUSSIAN PRIME MINISTER FEBRUARY 20, 1997, MOSCOW",
@@ -1794,9 +2175,9 @@
     },
     {
       "id": "state-foia-C06698715",
-      "packageOrder": 43,
-      "packagePageStart": 228,
-      "packagePageEnd": 232,
+      "packageOrder": 52,
+      "packagePageStart": 326,
+      "packagePageEnd": 330,
       "date": "1996-10-29",
       "year": 1996,
       "title": "DEPUTY SECRETARY TALBOTT'S OCTOBER 1 MEETING WITH HUNGARIAN FOREIGN MINISTER KOVACS",
@@ -1834,9 +2215,9 @@
     },
     {
       "id": "state-foia-C06702826",
-      "packageOrder": 44,
-      "packagePageStart": 233,
-      "packagePageEnd": 237,
+      "packageOrder": 53,
+      "packagePageStart": 331,
+      "packagePageEnd": 335,
       "date": "1997-02-23",
       "year": 1997,
       "title": "SECRETARYOS MEETING WITH MICHEAL PORTILLO, BRITISH DEFENSE SECRETARY, FEBRUARY 19. 1997, LONDON",
@@ -1873,10 +2254,86 @@
       }
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-ciampi-luncheon-1993-09-17",
+      "packageOrder": 54,
+      "packagePageStart": 336,
+      "packagePageEnd": 341,
+      "date": "1993-09-17",
+      "year": 1993,
+      "title": "Luncheon with Prime Minister Carlo Ciampi of Italy",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "17-22",
+      "pageCount": 6,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 17-22. Confidential.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "nsc-soc"
+      ],
+      "relevanceScore": 74,
+      "relevanceReasons": [
+        "nato-expansion",
+        "nato-russia",
+        "NSC/SOC relevance",
+        "conversation record",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-ciampi-meeting-1993-09-17",
+      "packageOrder": 55,
+      "packagePageStart": 342,
+      "packagePageEnd": 346,
+      "date": "1993-09-17",
+      "year": 1993,
+      "title": "Meeting with Prime Minister Carlo Ciampi of Italy",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "31-35",
+      "pageCount": 5,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 31-35. Confidential.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "nsc-soc"
+      ],
+      "relevanceScore": 74,
+      "relevanceReasons": [
+        "nato-expansion",
+        "nato-russia",
+        "NSC/SOC relevance",
+        "conversation record",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
       "id": "state-foia-C06835149",
-      "packageOrder": 45,
-      "packagePageStart": 238,
-      "packagePageEnd": 241,
+      "packageOrder": 56,
+      "packagePageStart": 347,
+      "packagePageEnd": 350,
       "date": "1995-06-12",
       "year": 1995,
       "title": "Your Meeting with Yeltsin in Halifax",
@@ -1914,9 +2371,9 @@
     },
     {
       "id": "state-foia-C06698220",
-      "packageOrder": 46,
-      "packagePageStart": 242,
-      "packagePageEnd": 263,
+      "packageOrder": 57,
+      "packagePageStart": 351,
+      "packagePageEnd": 372,
       "date": "1996-09-11",
       "year": 1996,
       "title": "PARIS ST-MAMEDOV",
@@ -1954,9 +2411,9 @@
     },
     {
       "id": "state-foia-C06703421",
-      "packageOrder": 47,
-      "packagePageStart": 264,
-      "packagePageEnd": 274,
+      "packageOrder": 58,
+      "packagePageStart": 373,
+      "packagePageEnd": 383,
       "date": "1997-03-13",
       "year": 1997,
       "title": "SECRETARY'S MEETING WITH JOHN MAJOR, BRITISH PRIME MINISTER, LONDON, FEBRUARY 19, 1997",
@@ -1993,10 +2450,49 @@
       }
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-ratification-strategy-1997-12-17",
+      "packageOrder": 59,
+      "packagePageStart": 384,
+      "packagePageEnd": 387,
+      "date": "1997-12-17",
+      "year": 1997,
+      "title": "Strategy for Completing Ratification of NATO Enlargement",
+      "documentType": "Presidential action memorandum",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "303-306",
+      "pageCount": 4,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 303-306.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "ratification",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 73,
+      "relevanceReasons": [
+        "nato-expansion",
+        "ratification",
+        "candidate-states",
+        "NSC/SOC relevance",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
       "id": "state-foia-C09000146",
-      "packageOrder": 48,
-      "packagePageStart": 275,
-      "packagePageEnd": 280,
+      "packageOrder": 60,
+      "packagePageStart": 388,
+      "packagePageEnd": 393,
       "date": "1994-09-11",
       "year": 1994,
       "title": "September 11, 1994 Letter to Chris",
@@ -2034,9 +2530,9 @@
     },
     {
       "id": "state-foia-C06698302",
-      "packageOrder": 49,
-      "packagePageStart": 281,
-      "packagePageEnd": 286,
+      "packageOrder": 61,
+      "packagePageStart": 394,
+      "packagePageEnd": 399,
       "date": "1996-07-01",
       "year": 1996,
       "title": "MEETING WITH PRESIDENTS MERI OF ESTONIA, ULMANIS OF LATVIA AND BRAZAUSKAS OF LITHUANIA",
@@ -2074,9 +2570,9 @@
     },
     {
       "id": "state-foia-C06698213",
-      "packageOrder": 50,
-      "packagePageStart": 287,
-      "packagePageEnd": 299,
+      "packageOrder": 62,
+      "packagePageStart": 400,
+      "packagePageEnd": 412,
       "date": "1996-08-28",
       "year": 1996,
       "title": "HERE'S A REPORT ON MY SESSION WITH MAMEDOV IN OTTAWA",
@@ -2113,10 +2609,49 @@
       }
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-nacc-summit-1993-07-16",
+      "packageOrder": 63,
+      "packagePageStart": 413,
+      "packagePageEnd": 415,
+      "date": "1993-07-16",
+      "year": 1993,
+      "title": "NACC Summit",
+      "documentType": "NSC information memorandum",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "7-9",
+      "pageCount": 3,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 7-9. Confidential.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-expansion",
+        "pfp",
+        "cfe-osce",
+        "nsc-soc"
+      ],
+      "relevanceScore": 70,
+      "relevanceReasons": [
+        "nato-expansion",
+        "pfp",
+        "cfe-osce",
+        "NSC/SOC relevance",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
       "id": "state-foia-C09000145",
-      "packageOrder": 51,
-      "packagePageStart": 300,
-      "packagePageEnd": 304,
+      "packageOrder": 64,
+      "packagePageStart": 416,
+      "packagePageEnd": 420,
       "date": "1994-09-12",
       "year": 1994,
       "title": "THE FUTURE OF EUROPEAN SECURITY",
@@ -2154,9 +2689,9 @@
     },
     {
       "id": "state-foia-C06698315",
-      "packageOrder": 52,
-      "packagePageStart": 305,
-      "packagePageEnd": 309,
+      "packageOrder": 65,
+      "packagePageStart": 421,
+      "packagePageEnd": 425,
       "date": "1996-08-28",
       "year": 1996,
       "title": "DEPUTY SECRETARY TALBOTT'S AUGUST 27 MEETING WITH CANADIAN ACTING FOREIGN MINISTER SMITH",
@@ -2194,9 +2729,9 @@
     },
     {
       "id": "state-foia-C06698803",
-      "packageOrder": 53,
-      "packagePageStart": 310,
-      "packagePageEnd": 313,
+      "packageOrder": 66,
+      "packagePageStart": 426,
+      "packagePageEnd": 429,
       "date": "1996-10-12",
       "year": 1996,
       "title": "CONVERSATION BETWEEN THE DEPUTY SECRETARY AND HUNGARIAN MOD DEPUTY STATE SECRETARY ISTVAN GYARMATI",
@@ -2234,9 +2769,9 @@
     },
     {
       "id": "state-foia-C06698818",
-      "packageOrder": 54,
-      "packagePageStart": 314,
-      "packagePageEnd": 320,
+      "packageOrder": 67,
+      "packagePageStart": 430,
+      "packagePageEnd": 436,
       "date": "1996-10-25",
       "year": 1996,
       "title": "OFFICIAL INFORMAL",
@@ -2274,9 +2809,9 @@
     },
     {
       "id": "state-foia-C06702908",
-      "packageOrder": 55,
-      "packagePageStart": 321,
-      "packagePageEnd": 323,
+      "packageOrder": 68,
+      "packagePageStart": 437,
+      "packagePageEnd": 439,
       "date": "1997-03-18",
       "year": 1997,
       "title": "DEPUTY SECRETARY'S CONVERSATION WITH NATO SYG SOLANA",
@@ -2314,9 +2849,9 @@
     },
     {
       "id": "state-foia-C06814976",
-      "packageOrder": 56,
-      "packagePageStart": 324,
-      "packagePageEnd": 327,
+      "packageOrder": 69,
+      "packagePageStart": 440,
+      "packagePageEnd": 443,
       "date": "2000-03-14",
       "year": 2000,
       "title": "Acting Secretary's March 6, 2000 meeting with Latvian FM Berzins",
@@ -2354,9 +2889,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-phased-expansion-language",
-      "packageOrder": 57,
-      "packagePageStart": 328,
-      "packagePageEnd": 329,
+      "packageOrder": 70,
+      "packagePageStart": 444,
+      "packagePageEnd": 445,
       "date": "1993-10",
       "year": 1993,
       "title": "Phased NATO Expansion: Draft Declaration Language",
@@ -2393,9 +2928,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0772-m-nato-summit-1993-06-30",
-      "packageOrder": 58,
-      "packagePageStart": 330,
-      "packagePageEnd": 331,
+      "packageOrder": 71,
+      "packagePageStart": 446,
+      "packagePageEnd": 447,
       "date": "1993-06-30",
       "year": 1993,
       "title": "NATO Summit",
@@ -2430,9 +2965,9 @@
     },
     {
       "id": "state-foia-C09000154",
-      "packageOrder": 59,
-      "packagePageStart": 332,
-      "packagePageEnd": 334,
+      "packageOrder": 72,
+      "packagePageStart": 448,
+      "packagePageEnd": 450,
       "date": "1994-10-18",
       "year": 1994,
       "title": "NESA (that's \"New European Security Architecture\")",
@@ -2470,9 +3005,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-possible-russian-letter-content",
-      "packageOrder": 60,
-      "packagePageStart": 335,
-      "packagePageEnd": 336,
+      "packageOrder": 73,
+      "packagePageStart": 451,
+      "packagePageEnd": 452,
       "date": "1995-03",
       "year": 1995,
       "title": "Possible Content of a Letter from the Russian Side",
@@ -2507,9 +3042,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-elements-nato-russia-relationship",
-      "packageOrder": 61,
-      "packagePageStart": 337,
-      "packagePageEnd": 342,
+      "packageOrder": 74,
+      "packagePageStart": 453,
+      "packagePageEnd": 458,
       "date": "1995-04-03",
       "year": 1995,
       "title": "Elements of a NATO-Russia Relationship",
@@ -2544,9 +3079,9 @@
     },
     {
       "id": "state-foia-C06698268",
-      "packageOrder": 62,
-      "packagePageStart": 343,
-      "packagePageEnd": 347,
+      "packageOrder": 75,
+      "packagePageStart": 459,
+      "packagePageEnd": 463,
       "date": "1996-09-07",
       "year": 1996,
       "title": "ACTING SECRETARY BRIEFS BALTICS ON ACTION PLAN",
@@ -2584,9 +3119,9 @@
     },
     {
       "id": "state-foia-C06703066",
-      "packageOrder": 63,
-      "packagePageStart": 348,
-      "packagePageEnd": 354,
+      "packageOrder": 76,
+      "packagePageStart": 464,
+      "packagePageEnd": 470,
       "date": "1997-03-11",
       "year": 1997,
       "title": "OFFICIAL INFORMAL: TALBOTT/ISCHINGER CONVERSATION",
@@ -2624,9 +3159,9 @@
     },
     {
       "id": "state-foia-C06703345",
-      "packageOrder": 64,
-      "packagePageStart": 355,
-      "packagePageEnd": 360,
+      "packageOrder": 77,
+      "packagePageStart": 471,
+      "packagePageEnd": 476,
       "date": "1997-03-12",
       "year": 1997,
       "title": "DEPUTY SECRETARY'S MEETING WITH GERMANY POLITICAL DIRECTOR, PARIS, MARCH 4",
@@ -2664,9 +3199,9 @@
     },
     {
       "id": "state-foia-C06702890",
-      "packageOrder": 65,
-      "packagePageStart": 361,
-      "packagePageEnd": 366,
+      "packageOrder": 78,
+      "packagePageStart": 477,
+      "packagePageEnd": 482,
       "date": "1997-03-15",
       "year": 1997,
       "title": "SECRETARY ALBRIGHT'S LUNCH MEETING WITH FM PRIMAKOV: DEPARTMENT OF STATE DINING ROOM, WASHINGTON, DC, MARCH 15, 1997",
@@ -2704,9 +3239,9 @@
     },
     {
       "id": "state-foia-C09000137",
-      "packageOrder": 66,
-      "packagePageStart": 367,
-      "packagePageEnd": 384,
+      "packageOrder": 79,
+      "packagePageStart": 483,
+      "packagePageEnd": 500,
       "date": "1994-12-11",
       "year": 1994,
       "title": "Dealing with Russia",
@@ -2744,9 +3279,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0772-m-nsc-memos-for-christopher-1993-10-19",
-      "packageOrder": 67,
-      "packagePageStart": 385,
-      "packagePageEnd": 386,
+      "packageOrder": 80,
+      "packagePageStart": 501,
+      "packagePageEnd": 502,
       "date": "1993-10-19",
       "year": 1993,
       "title": "NSC Memos for Meeting with Secretary Christopher",
@@ -2783,9 +3318,9 @@
     },
     {
       "id": "clinton-library-doc-2024-0540-m-klaus-prague-agenda-1994-01-07",
-      "packageOrder": 68,
-      "packagePageStart": 387,
-      "packagePageEnd": 390,
+      "packageOrder": 81,
+      "packagePageStart": 503,
+      "packagePageEnd": 506,
       "date": "1994-01-07",
       "year": 1994,
       "title": "Prime Minister's Agenda for President's Visit to Prague",
@@ -2822,9 +3357,9 @@
     },
     {
       "id": "clinton-library-doc-2024-0540-m-czechs-pfp-albright-shalikashvili-1994-01-14",
-      "packageOrder": 69,
-      "packagePageStart": 391,
-      "packagePageEnd": 398,
+      "packageOrder": 82,
+      "packagePageStart": 507,
+      "packagePageEnd": 514,
       "date": "1994-01-14",
       "year": 1994,
       "title": "Czechs Give PFP an Enthusiastic Reception During Albright/Shalikashvili Visit",
@@ -2860,10 +3395,49 @@
       }
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-albright-pfp-central-eastern-europe-1994-01-26",
+      "packageOrder": 83,
+      "packagePageStart": 515,
+      "packagePageEnd": 521,
+      "date": "1994-01-26",
+      "year": 1994,
+      "title": "PFP and Central and Eastern Europe",
+      "documentType": "Presidential mission memorandum",
+      "sourceClass": "clinton-library-mdr",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "sourcePages": "44-50",
+      "pageCount": 7,
+      "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 44-50. Secret.",
+      "inclusionStatus": "include-candidate",
+      "verificationStatus": "ready-for-page-count",
+      "themes": [
+        "nato-russia",
+        "pfp",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 65,
+      "relevanceReasons": [
+        "nato-russia",
+        "pfp",
+        "candidate-states",
+        "NSC/SOC relevance",
+        "upstream include candidate",
+        "Clinton Library primary source"
+      ],
+      "nscSoc": {
+        "isNscRecord": true,
+        "isSummaryOfConclusions": false,
+        "committee": "NSC",
+        "queuePriority": "front-of-queue"
+      }
+    },
+    {
       "id": "state-foia-C06702859",
-      "packageOrder": 70,
-      "packagePageStart": 399,
-      "packagePageEnd": 405,
+      "packageOrder": 84,
+      "packagePageStart": 522,
+      "packagePageEnd": 528,
       "date": "1997-03-07",
       "year": 1997,
       "title": "TALBOTT/CHUBAYS MEETING MARCH 6",
@@ -2899,9 +3473,9 @@
     },
     {
       "id": "state-foia-C06694673",
-      "packageOrder": 71,
-      "packagePageStart": 406,
-      "packagePageEnd": 409,
+      "packageOrder": 85,
+      "packagePageStart": 529,
+      "packagePageEnd": 532,
       "date": "1994-10-21",
       "year": 1994,
       "title": "THE DEPUTY SECRETARY'S OCTOBER 19 MEETING WITH FCO MINISTER OF STATE DAVID DAVIS",
@@ -2939,9 +3513,9 @@
     },
     {
       "id": "state-foia-C06697977",
-      "packageOrder": 72,
-      "packagePageStart": 410,
-      "packagePageEnd": 415,
+      "packageOrder": 86,
+      "packagePageStart": 533,
+      "packagePageEnd": 538,
       "date": "1996-04-17",
       "year": 1996,
       "title": "THE DEPUTY SECRETARY MEETS SPD CHAIRMAN LAFONTA1 NE",
@@ -2979,9 +3553,9 @@
     },
     {
       "id": "clinton-nato-russia-cross-clinton-standalone-1994-01-13-yeltsin-dinner-cable",
-      "packageOrder": 73,
-      "packagePageStart": 416,
-      "packagePageEnd": 426,
+      "packageOrder": 87,
+      "packagePageStart": 539,
+      "packagePageEnd": 549,
       "date": "1994-01-13",
       "year": 1994,
       "title": "President's dinner with President Yeltsin, January 13/14, 1994",
@@ -3018,9 +3592,9 @@
     },
     {
       "id": "state-foia-C06697839",
-      "packageOrder": 74,
-      "packagePageStart": 427,
-      "packagePageEnd": 430,
+      "packageOrder": 88,
+      "packagePageStart": 550,
+      "packagePageEnd": 553,
       "date": "1996-05-14",
       "year": 1996,
       "title": "DEPUTY SECRETARY'S MEETING WITH SLOVENIAN PM DRNOVSEK",
@@ -3056,9 +3630,9 @@
     },
     {
       "id": "state-foia-C06698307",
-      "packageOrder": 75,
-      "packagePageStart": 431,
-      "packagePageEnd": 437,
+      "packageOrder": 89,
+      "packagePageStart": 554,
+      "packagePageEnd": 560,
       "date": "1996-07-16",
       "year": 1996,
       "title": "MEMORANDUM OF CONVERSATION WITH PRESIDENT KWASNIESKI OF POLAND",
@@ -3094,9 +3668,9 @@
     },
     {
       "id": "state-foia-C06698741",
-      "packageOrder": 76,
-      "packagePageStart": 438,
-      "packagePageEnd": 442,
+      "packageOrder": 90,
+      "packagePageStart": 561,
+      "packagePageEnd": 565,
       "date": "1996-10-07",
       "year": 1996,
       "title": "DEPUTY SECRETARY EXPLAINS U.S. CONCERNS TO BELARUSIAN FOREIGN MINISTER SENKO, OCTOBER 3, 1996",
@@ -3132,9 +3706,9 @@
     },
     {
       "id": "state-foia-C09000138",
-      "packageOrder": 77,
-      "packagePageStart": 443,
-      "packagePageEnd": 447,
+      "packageOrder": 91,
+      "packagePageStart": 566,
+      "packagePageEnd": 570,
       "date": "1994-12-05",
       "year": 1994,
       "title": "December 5, 1994 Letter From Strobe To Chris",
@@ -3170,9 +3744,9 @@
     },
     {
       "id": "state-foia-C09000148",
-      "packageOrder": 78,
-      "packagePageStart": 448,
-      "packagePageEnd": 456,
+      "packageOrder": 92,
+      "packagePageStart": 571,
+      "packagePageEnd": 579,
       "date": "1994-12-19",
       "year": 1994,
       "title": "The Vice President's Trip to Russia",
@@ -3208,9 +3782,9 @@
     },
     {
       "id": "state-foia-C06698772",
-      "packageOrder": 79,
-      "packagePageStart": 457,
-      "packagePageEnd": 462,
+      "packageOrder": 93,
+      "packagePageStart": 580,
+      "packagePageEnd": 585,
       "date": "1996-10-01",
       "year": 1996,
       "title": "CONVERSATION BETWEEN THE DEPUTY SECRETARY AND SLOVEN IAN FOEIGN MINISTER KRACUN",
@@ -3246,9 +3820,9 @@
     },
     {
       "id": "state-foia-C06702850",
-      "packageOrder": 80,
-      "packagePageStart": 463,
-      "packagePageEnd": 466,
+      "packageOrder": 94,
+      "packagePageStart": 586,
+      "packagePageEnd": 589,
       "date": "1997-03-11",
       "year": 1997,
       "title": "NATO/RUSSIA: DEPUTY SECRETARY'S MARCH 10 CONVERSATION WITH UK FRG POLDIRS",
@@ -3286,9 +3860,9 @@
     },
     {
       "id": "clinton-library-doc-2024-0540-m-plenary-lunch-visegrad",
-      "packageOrder": 81,
-      "packagePageStart": 467,
-      "packagePageEnd": 474,
+      "packageOrder": 95,
+      "packagePageStart": 590,
+      "packagePageEnd": 597,
       "date": "1994-01",
       "year": 1994,
       "title": "Your Plenary Lunch with Visegrad Leaders",
@@ -3323,9 +3897,9 @@
     },
     {
       "id": "state-foia-C06698247",
-      "packageOrder": 82,
-      "packagePageStart": 475,
-      "packagePageEnd": 479,
+      "packageOrder": 96,
+      "packagePageStart": 598,
+      "packagePageEnd": 602,
       "date": "1996-07-30",
       "year": 1996,
       "title": "DEPUTY SECRETARY REVIEWS SECURITY, ECONOMIC ISSUES WITH UKRAINIAN FOREIGN MINISTER, JULY 26, 1996",
@@ -3361,9 +3935,9 @@
     },
     {
       "id": "clinton-nato-strobe-hardgap-july2024-C09000038",
-      "packageOrder": 83,
-      "packagePageStart": 480,
-      "packagePageEnd": 481,
+      "packageOrder": 97,
+      "packagePageStart": 603,
+      "packagePageEnd": 604,
       "date": "1997-01-01",
       "year": 1997,
       "title": "On Course for Madrid",
@@ -3398,9 +3972,9 @@
     },
     {
       "id": "state-foia-C06702847",
-      "packageOrder": 84,
-      "packagePageStart": 482,
-      "packagePageEnd": 486,
+      "packageOrder": 98,
+      "packagePageStart": 605,
+      "packagePageEnd": 609,
       "date": "1997-02-08",
       "year": 1997,
       "title": "THE DEPUTY SECRETARY'S FEBRUARY 5 MEETING WITH GERMAN MFA STATE MINISTER WERNER HOYER",
@@ -3436,9 +4010,9 @@
     },
     {
       "id": "state-foia-C06702882",
-      "packageOrder": 85,
-      "packagePageStart": 487,
-      "packagePageEnd": 489,
+      "packageOrder": 99,
+      "packagePageStart": 610,
+      "packagePageEnd": 612,
       "date": "1997-03-17",
       "year": 1997,
       "title": "DEPUTY SECRETARY'S CONVERSATION WITH NATO SYG SOLANA",
@@ -3474,9 +4048,9 @@
     },
     {
       "id": "state-foia-C06815091",
-      "packageOrder": 86,
-      "packagePageStart": 490,
-      "packagePageEnd": 493,
+      "packageOrder": 100,
+      "packagePageStart": 613,
+      "packagePageEnd": 616,
       "date": "2000-05-04",
       "year": 2000,
       "title": "Deputy Secretary's meeting with Lithuanian Foreign Minister Saudargas",
@@ -3512,9 +4086,9 @@
     },
     {
       "id": "clinton-library-doc-2024-0540-m-havel-security-agenda-1993-04-14",
-      "packageOrder": 87,
-      "packagePageStart": 494,
-      "packagePageEnd": 497,
+      "packageOrder": 101,
+      "packagePageStart": 617,
+      "packagePageEnd": 620,
       "date": "1993-04-14",
       "year": 1993,
       "title": "Havel's Upcoming Meeting with the President: Security Issues on the Agenda",
@@ -3551,9 +4125,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-effects-expanding-membership",
-      "packageOrder": 88,
-      "packagePageStart": 498,
-      "packagePageEnd": 498,
+      "packageOrder": 102,
+      "packagePageStart": 621,
+      "packagePageEnd": 621,
       "date": "1993-09-13",
       "year": 1993,
       "title": "Effects of Expanding Membership on NATO Military Activities",
@@ -3588,9 +4162,9 @@
     },
     {
       "id": "state-foia-C06699015",
-      "packageOrder": 89,
-      "packagePageStart": 499,
-      "packagePageEnd": 505,
+      "packageOrder": 103,
+      "packagePageStart": 622,
+      "packagePageEnd": 628,
       "date": "1996-12-02",
       "year": 1996,
       "title": "THE VICE PRESIDENT'S MEETING WITH RUSSIAN PRIME MINISTER VIKTOR CHERNOMYRIDN",
@@ -3626,9 +4200,9 @@
     },
     {
       "id": "state-foia-C06698865",
-      "packageOrder": 90,
-      "packagePageStart": 506,
-      "packagePageEnd": 509,
+      "packageOrder": 104,
+      "packagePageStart": 629,
+      "packagePageEnd": 632,
       "date": "1997-01-09",
       "year": 1997,
       "title": "MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND FRENCH PRESIDENT JACQUES CHIRAC",
@@ -3664,9 +4238,9 @@
     },
     {
       "id": "state-foia-C06698881",
-      "packageOrder": 91,
-      "packagePageStart": 510,
-      "packagePageEnd": 512,
+      "packageOrder": 105,
+      "packagePageStart": 633,
+      "packagePageEnd": 635,
       "date": "1997-01-09",
       "year": 1997,
       "title": "MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND GERMAN CHANCELLOR HELMUT KOHL",
@@ -3702,9 +4276,9 @@
     },
     {
       "id": "state-foia-C06698875",
-      "packageOrder": 92,
-      "packagePageStart": 513,
-      "packagePageEnd": 517,
+      "packageOrder": 106,
+      "packagePageStart": 636,
+      "packagePageEnd": 640,
       "date": "1997-01-09",
       "year": 1997,
       "title": "MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER VIKTOR STEPANOVICH CHERNOMYRID",
@@ -3740,9 +4314,9 @@
     },
     {
       "id": "state-foia-C06694734",
-      "packageOrder": 93,
-      "packagePageStart": 518,
-      "packagePageEnd": 520,
+      "packageOrder": 107,
+      "packagePageStart": 641,
+      "packagePageEnd": 643,
       "date": "1994-12-16",
       "year": 1994,
       "title": "DECEMBER 15 TALBOTT-RYURIKOV MEETING ON",
@@ -3778,9 +4352,9 @@
     },
     {
       "id": "state-foia-C06698224",
-      "packageOrder": 94,
-      "packagePageStart": 521,
-      "packagePageEnd": 523,
+      "packageOrder": 108,
+      "packagePageStart": 644,
+      "packagePageEnd": 646,
       "date": "1996-07-19",
       "year": 1996,
       "title": "OFFICIAL - INFORMAL FOR D STAFF ONLY",
@@ -3816,9 +4390,9 @@
     },
     {
       "id": "state-foia-C06698252",
-      "packageOrder": 95,
-      "packagePageStart": 524,
-      "packagePageEnd": 528,
+      "packageOrder": 109,
+      "packagePageStart": 647,
+      "packagePageEnd": 651,
       "date": "1996-09-19",
       "year": 1996,
       "title": "ACTING SECRETARY TALBOTT'S MEETING WITH SLOVAK PARLIAMENT CHAIRMAN IVAN GASPAROVIC",
@@ -3854,9 +4428,9 @@
     },
     {
       "id": "state-foia-C06771225",
-      "packageOrder": 96,
-      "packagePageStart": 529,
-      "packagePageEnd": 533,
+      "packageOrder": 110,
+      "packagePageStart": 652,
+      "packagePageEnd": 656,
       "date": "1999-03-26",
       "year": 1999,
       "title": "DEPUTY SECRETARY'S MEETING WITH LITHUANIAN PRIME MINISTER VAGNORIUS",
@@ -3892,9 +4466,9 @@
     },
     {
       "id": "state-foia-C06771016",
-      "packageOrder": 97,
-      "packagePageStart": 534,
-      "packagePageEnd": 538,
+      "packageOrder": 111,
+      "packagePageStart": 657,
+      "packagePageEnd": 661,
       "date": "1999-03-29",
       "year": 1999,
       "title": "DEPUTY SECRETARY'S MEETING WITH LITHUANIAN PRIME MINISTER VAGNORIUS",
@@ -3930,9 +4504,9 @@
     },
     {
       "id": "state-foia-C06698684",
-      "packageOrder": 98,
-      "packagePageStart": 539,
-      "packagePageEnd": 544,
+      "packageOrder": 112,
+      "packagePageStart": 662,
+      "packagePageEnd": 667,
       "date": "1996-11-01",
       "year": 1996,
       "title": "GEORGIAN FOREIGN MINISTER MENAGHARAISHVILL'S MEETING IN WASHINGTON",
@@ -3968,9 +4542,9 @@
     },
     {
       "id": "state-foia-C06814750",
-      "packageOrder": 99,
-      "packagePageStart": 545,
-      "packagePageEnd": 551,
+      "packageOrder": 113,
+      "packagePageStart": 668,
+      "packagePageEnd": 674,
       "date": "1999-09-29",
       "year": 1999,
       "title": "Executive Secretariat Sensitive Tasker - To Bratislava E.O. for Change and Acting DCM with attachments",
@@ -4006,9 +4580,9 @@
     },
     {
       "id": "state-foia-C06698679",
-      "packageOrder": 100,
-      "packagePageStart": 552,
-      "packagePageEnd": 556,
+      "packageOrder": 114,
+      "packagePageStart": 675,
+      "packagePageEnd": 679,
       "date": "1996-10-30",
       "year": 1996,
       "title": "DEPUTY SECRETARY'S MEETING WITH CZECH AND POLISH SECURITY DIALOGUE DELEGATIONS",
@@ -4044,9 +4618,9 @@
     },
     {
       "id": "state-foia-C06702738",
-      "packageOrder": 101,
-      "packagePageStart": 557,
-      "packagePageEnd": 569,
+      "packageOrder": 115,
+      "packagePageStart": 680,
+      "packagePageEnd": 692,
       "date": "1997-02-27",
       "year": 1997,
       "title": "SECRETARY'S MEETING WITH NORTH ATLANTIC COUNCIL OF MINISTERS IN SPECIAL SESSION, 2/18/97. BRUSSEL",
@@ -4084,9 +4658,9 @@
     },
     {
       "id": "state-foia-C06702876",
-      "packageOrder": 102,
-      "packagePageStart": 570,
-      "packagePageEnd": 571,
+      "packageOrder": 116,
+      "packagePageStart": 693,
+      "packagePageEnd": 694,
       "date": "1997-03-18",
       "year": 1997,
       "title": "DEPUTY SECRETARY'S CONVERSATION WITH FRENCH POLITICAL DIRECTOR JACQUES BLOT",
@@ -4122,9 +4696,9 @@
     },
     {
       "id": "state-foia-C09000143",
-      "packageOrder": 103,
-      "packagePageStart": 572,
-      "packagePageEnd": 573,
+      "packageOrder": 117,
+      "packagePageStart": 695,
+      "packagePageEnd": 696,
       "date": "1994-10-03",
       "year": 1994,
       "title": "NATO expansion and Summit Follow-up",
@@ -4160,9 +4734,9 @@
     },
     {
       "id": "clinton-nato-balkans-yeltsin-1995-10-23-hyde-park-one-on-one",
-      "packageOrder": 104,
-      "packagePageStart": 574,
-      "packagePageEnd": 585,
+      "packageOrder": 118,
+      "packagePageStart": 697,
+      "packagePageEnd": 708,
       "date": "1995-10-23",
       "year": 1995,
       "title": "Memorandum of Conversation - Clinton-Yeltsin One-on-One at Hyde Park",
@@ -4198,9 +4772,9 @@
     },
     {
       "id": "state-foia-C06698198",
-      "packageOrder": 105,
-      "packagePageStart": 586,
-      "packagePageEnd": 587,
+      "packageOrder": 119,
+      "packagePageStart": 709,
+      "packagePageEnd": 710,
       "date": "1995-10-23",
       "year": 1995,
       "title": "RUSSIAN PRESIDENTIAL FOREIGN AFFAIRS ADVISOR RYURIKOV: OCTOBER 23 SUMMIT ISSUES",
@@ -4236,9 +4810,9 @@
     },
     {
       "id": "state-foia-C06703630",
-      "packageOrder": 106,
-      "packagePageStart": 588,
-      "packagePageEnd": 592,
+      "packageOrder": 120,
+      "packagePageStart": 711,
+      "packagePageEnd": 715,
       "date": "1997-03-16",
       "year": 1997,
       "title": "MEMORANDUM OF CONVERSATION BETWEEN THE SERETARY AND FM Y. M. PRIMAKOV",
@@ -4274,9 +4848,9 @@
     },
     {
       "id": "state-foia-C06694716",
-      "packageOrder": 107,
-      "packagePageStart": 593,
-      "packagePageEnd": 595,
+      "packageOrder": 121,
+      "packagePageStart": 716,
+      "packagePageEnd": 718,
       "date": "1994-11-29",
       "year": 1994,
       "title": "CZECH DEFENSE MINISTER'S 11/29 MEETING WITH THE DEPUTY SECRETARY",
@@ -4312,9 +4886,9 @@
     },
     {
       "id": "state-foia-C06698299",
-      "packageOrder": 108,
-      "packagePageStart": 596,
-      "packagePageEnd": 601,
+      "packageOrder": 122,
+      "packagePageStart": 719,
+      "packagePageEnd": 724,
       "date": "1996-07-23",
       "year": 1996,
       "title": "SECRETARY CHRISTOPHER'S JULY 10 BREAKFAST FOR POLISH PRESIDENT KWASNIESKI",
@@ -4350,9 +4924,9 @@
     },
     {
       "id": "state-foia-C06697772",
-      "packageOrder": 109,
-      "packagePageStart": 602,
-      "packagePageEnd": 604,
+      "packageOrder": 123,
+      "packagePageStart": 725,
+      "packagePageEnd": 727,
       "date": "1996-05-28",
       "year": 1996,
       "title": "DEPUTY SECRETARY'S MEETING WITH BELARUSIAN PARLIAMENTARY SPEAKER SHARETSKY",
@@ -4388,9 +4962,9 @@
     },
     {
       "id": "state-foia-C06698263",
-      "packageOrder": 110,
-      "packagePageStart": 605,
-      "packagePageEnd": 609,
+      "packageOrder": 124,
+      "packagePageStart": 728,
+      "packagePageEnd": 732,
       "date": "1996-09-06",
       "year": 1996,
       "title": "MEMORANDUM OF CONVERSATION BETWEEN ACTING SECRETARY TALBOTT AND POLISH MINISTER OF DEFENSE DOBRZANSKI",
@@ -4426,9 +5000,9 @@
     },
     {
       "id": "state-foia-C06703521",
-      "packageOrder": 111,
-      "packagePageStart": 610,
-      "packagePageEnd": 626,
+      "packageOrder": 125,
+      "packagePageStart": 733,
+      "packagePageEnd": 749,
       "date": "1997-03-06",
       "year": 1997,
       "title": "MEMORANDUM OF CONVERSATION MEETING PRESIDENT CLINTON AND PRESIDENT YELTSIN",
@@ -4464,9 +5038,9 @@
     },
     {
       "id": "state-foia-C06698207",
-      "packageOrder": 112,
-      "packagePageStart": 627,
-      "packagePageEnd": 636,
+      "packageOrder": 126,
+      "packagePageStart": 750,
+      "packagePageEnd": 759,
       "date": "1996-09-25",
       "year": 1996,
       "title": "JFC/GEM CONVERSATION",
@@ -4502,9 +5076,9 @@
     },
     {
       "id": "state-foia-C06698723",
-      "packageOrder": 113,
-      "packagePageStart": 637,
-      "packagePageEnd": 640,
+      "packageOrder": 127,
+      "packagePageStart": 760,
+      "packagePageEnd": 763,
       "date": "1996-10-29",
       "year": 1996,
       "title": "DEPUTY SECRETARY TALBOTT'S OCTOBER 2 MEETING WITH ITALIAN DEFENSE MINISTER ANDREATTA",
@@ -4540,9 +5114,9 @@
     },
     {
       "id": "state-foia-C06698368",
-      "packageOrder": 114,
-      "packagePageStart": 641,
-      "packagePageEnd": 644,
+      "packageOrder": 128,
+      "packagePageStart": 764,
+      "packagePageEnd": 767,
       "date": "1996-12-20",
       "year": 1996,
       "title": "LISBON SUMMIT: DEPUTY SECRETARY'S MEETING WITH ROMANIAN PRESIDENT CONSTANTINESCU",
@@ -4578,9 +5152,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0772-m-nato-and-us-influence-1993-11-03",
-      "packageOrder": 115,
-      "packagePageStart": 645,
-      "packagePageEnd": 647,
+      "packageOrder": 129,
+      "packagePageStart": 768,
+      "packagePageEnd": 770,
       "date": "1993-11-03",
       "year": 1993,
       "title": "NATO and U.S. Influence",
@@ -4617,9 +5191,9 @@
     },
     {
       "id": "state-foia-C06698816",
-      "packageOrder": 116,
-      "packagePageStart": 648,
-      "packagePageEnd": 651,
+      "packageOrder": 130,
+      "packagePageStart": 771,
+      "packagePageEnd": 774,
       "date": "1996-10-02",
       "year": 1996,
       "title": "THE DEPUTY SECRETARY'S 9/16/96 MEETING WITH GERMAN MFA MINISTER OF STATE WERNER HOYER",
@@ -4653,9 +5227,9 @@
     },
     {
       "id": "state-foia-C06699000",
-      "packageOrder": 117,
-      "packagePageStart": 652,
-      "packagePageEnd": 656,
+      "packageOrder": 131,
+      "packagePageStart": 775,
+      "packagePageEnd": 779,
       "date": "1996-12-09",
       "year": 1996,
       "title": "DEPUTY SECRETARY' S VISIT TO OSLO",
@@ -4689,9 +5263,9 @@
     },
     {
       "id": "state-foia-C06702796",
-      "packageOrder": 118,
-      "packagePageStart": 657,
-      "packagePageEnd": 671,
+      "packageOrder": 132,
+      "packagePageStart": 780,
+      "packagePageEnd": 794,
       "date": "1997-01-15",
       "year": 1997,
       "title": "MEMORANDUM OF CONVERSATION",
@@ -4725,9 +5299,9 @@
     },
     {
       "id": "state-foia-C06703046",
-      "packageOrder": 119,
-      "packagePageStart": 672,
-      "packagePageEnd": 676,
+      "packageOrder": 133,
+      "packagePageStart": 795,
+      "packagePageEnd": 799,
       "date": "1997-01-21",
       "year": 1997,
       "title": "DEPUTY SECRETARY'S VISIT TO OSLO",
@@ -4761,9 +5335,9 @@
     },
     {
       "id": "state-foia-C06703698",
-      "packageOrder": 120,
-      "packagePageStart": 677,
-      "packagePageEnd": 688,
+      "packageOrder": 134,
+      "packagePageStart": 800,
+      "packagePageEnd": 811,
       "date": "1997-01-23",
       "year": 1997,
       "title": "TALBOTT-FUERTH DELEGATION MEETING WITH ANATOLIY CHUBAIS, CHIEF OF THE RUSSIAN PRESIDENTIAL ADMINISTRATION",
@@ -4797,9 +5371,9 @@
     },
     {
       "id": "state-foia-C06695261",
-      "packageOrder": 121,
-      "packagePageStart": 689,
-      "packagePageEnd": 691,
+      "packageOrder": 135,
+      "packagePageStart": 812,
+      "packagePageEnd": 814,
       "date": "1994-09-23",
       "year": 1994,
       "title": "MAMEDOV'S THOUGHTS ON YOUR CONVERSATION WITH YELTSIN",
@@ -4835,9 +5409,9 @@
     },
     {
       "id": "state-foia-C09000140",
-      "packageOrder": 122,
-      "packagePageStart": 692,
-      "packagePageEnd": 695,
+      "packageOrder": 136,
+      "packagePageStart": 815,
+      "packagePageEnd": 818,
       "date": "1994-10-20",
       "year": 1994,
       "title": "October 20, 1994 Eyes only To The Secretary From Strobe Talbott",
@@ -4873,9 +5447,9 @@
     },
     {
       "id": "state-foia-C09000141",
-      "packageOrder": 123,
-      "packagePageStart": 696,
-      "packagePageEnd": 698,
+      "packageOrder": 137,
+      "packagePageStart": 819,
+      "packagePageEnd": 821,
       "date": "1994-10-20",
       "year": 1994,
       "title": "October 20, 1994 Letter from Strobe Talbott to Chris",
@@ -4911,9 +5485,9 @@
     },
     {
       "id": "state-foia-C06698651",
-      "packageOrder": 124,
-      "packagePageStart": 699,
-      "packagePageEnd": 703,
+      "packageOrder": 138,
+      "packagePageStart": 822,
+      "packagePageEnd": 826,
       "date": "1996-10-02",
       "year": 1996,
       "title": "DEPUTY SECRETATY'S 9/16 AND 9/19 MEETING WITH UKRAINIAN NSDC SECRETARY HORBULYN",
@@ -4949,9 +5523,9 @@
     },
     {
       "id": "state-foia-C06698702",
-      "packageOrder": 125,
-      "packagePageStart": 704,
-      "packagePageEnd": 707,
+      "packageOrder": 139,
+      "packagePageStart": 827,
+      "packagePageEnd": 830,
       "date": "1996-10-29",
       "year": 1996,
       "title": "THE DEPUTY SECRETARY'S MEETING WITH SLOVAK FOREIGN MINISTER PAVOL HAMZIK",
@@ -4987,9 +5561,9 @@
     },
     {
       "id": "state-foia-C06703023",
-      "packageOrder": 126,
-      "packagePageStart": 708,
-      "packagePageEnd": 712,
+      "packageOrder": 140,
+      "packagePageStart": 831,
+      "packagePageEnd": 835,
       "date": "1997-01-28",
       "year": 1997,
       "title": "DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH",
@@ -5025,9 +5599,9 @@
     },
     {
       "id": "state-foia-C06702857",
-      "packageOrder": 127,
-      "packagePageStart": 713,
-      "packagePageEnd": 716,
+      "packageOrder": 141,
+      "packagePageStart": 836,
+      "packagePageEnd": 839,
       "date": "1997-03-18",
       "year": 1997,
       "title": "DEPUTY SECRETARY'S CONVERSATION WITH GERMAN MFA POLITICAL DIRECTOR ISCHINGER",
@@ -5063,9 +5637,9 @@
     },
     {
       "id": "state-foia-C06702896",
-      "packageOrder": 128,
-      "packagePageStart": 717,
-      "packagePageEnd": 718,
+      "packageOrder": 142,
+      "packagePageStart": 840,
+      "packagePageEnd": 841,
       "date": "1997-03-18",
       "year": 1997,
       "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH BRITTISH MFA POLITICAL DIRECTOR JEREMY GREENSTOCK",
@@ -5101,9 +5675,9 @@
     },
     {
       "id": "state-foia-C06814644",
-      "packageOrder": 129,
-      "packagePageStart": 719,
-      "packagePageEnd": 723,
+      "packageOrder": 143,
+      "packagePageStart": 842,
+      "packagePageEnd": 846,
       "date": "1999-07-26",
       "year": 1999,
       "title": "Deputy Secretarys meeting with Finnish Dep State Secretary Blomberg July 21, 1999",
@@ -5139,9 +5713,9 @@
     },
     {
       "id": "clinton-nato-russia-cross-contact-1993-04-04-memcon-vancouver-security-issues",
-      "packageOrder": 130,
-      "packagePageStart": 724,
-      "packagePageEnd": 735,
+      "packageOrder": 144,
+      "packagePageStart": 847,
+      "packagePageEnd": 858,
       "date": "1993-04-04",
       "year": 1993,
       "title": "Meeting with Russian President Boris Yeltsin on Security Issues",
@@ -5176,9 +5750,9 @@
     },
     {
       "id": "state-foia-C09000155",
-      "packageOrder": 131,
-      "packagePageStart": 736,
-      "packagePageEnd": 738,
+      "packageOrder": 145,
+      "packagePageStart": 859,
+      "packagePageEnd": 861,
       "date": "1994-08-27",
       "year": 1994,
       "title": "August 27, 1994 Letter from Strobe to Chris",
@@ -5212,9 +5786,9 @@
     },
     {
       "id": "clinton-nato-russia-cross-clinton-standalone-1994-09-28-second-one-on-one",
-      "packageOrder": 132,
-      "packagePageStart": 739,
-      "packagePageEnd": 744,
+      "packageOrder": 146,
+      "packagePageStart": 862,
+      "packagePageEnd": 867,
       "date": "1994-09-28",
       "year": 1994,
       "title": "Second Clinton/Yeltsin One-on-One",
@@ -5249,9 +5823,9 @@
     },
     {
       "id": "state-foia-C06698115",
-      "packageOrder": 133,
-      "packagePageStart": 745,
-      "packagePageEnd": 749,
+      "packageOrder": 147,
+      "packagePageStart": 868,
+      "packagePageEnd": 872,
       "date": "1995-10-23",
       "year": 1995,
       "title": "TABLOTT DELEGATION'S MEETING WITH FRENCH INTERAGENCY TEAM, OCTOBER 19",
@@ -5285,9 +5859,9 @@
     },
     {
       "id": "state-foia-C06699025",
-      "packageOrder": 134,
-      "packagePageStart": 750,
-      "packagePageEnd": 753,
+      "packageOrder": 148,
+      "packagePageStart": 873,
+      "packagePageEnd": 876,
       "date": "1996-09-24",
       "year": 1996,
       "title": "MEETING WHIT FOREIGN MINISTER OF RUSSIA YEVGENIY PRIMAKOV",
@@ -5321,9 +5895,9 @@
     },
     {
       "id": "state-foia-C06702843",
-      "packageOrder": 135,
-      "packagePageStart": 754,
-      "packagePageEnd": 755,
+      "packageOrder": 149,
+      "packagePageStart": 877,
+      "packagePageEnd": 878,
       "date": "1997-02-10",
       "year": 1997,
       "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH NATO SECRETARY GENERAL SOLANA",
@@ -5357,9 +5931,9 @@
     },
     {
       "id": "state-foia-C06782268",
-      "packageOrder": 136,
-      "packagePageStart": 756,
-      "packagePageEnd": 760,
+      "packageOrder": 150,
+      "packagePageStart": 879,
+      "packagePageEnd": 883,
       "date": "1998-10-08",
       "year": 1998,
       "title": "Deputy Foreign Minister's October 6 Meeting with the Acting Secretary",
@@ -5393,9 +5967,9 @@
     },
     {
       "id": "state-foia-C06702829",
-      "packageOrder": 137,
-      "packagePageStart": 761,
-      "packagePageEnd": 768,
+      "packageOrder": 151,
+      "packagePageStart": 884,
+      "packagePageEnd": 891,
       "date": "1997-02-27",
       "year": 1997,
       "title": "SECRETARYVS MEETING WITH JAVIER SOLANA, NATO SECRETARY GENERAL, FEBRUARY 18, BRUSSELS, BELGIUM",
@@ -5431,9 +6005,9 @@
     },
     {
       "id": "clinton-library-doc-2024-0540-m-hungarians-upbeat-1994-01-13",
-      "packageOrder": 138,
-      "packagePageStart": 769,
-      "packagePageEnd": 772,
+      "packageOrder": 152,
+      "packagePageStart": 892,
+      "packagePageEnd": 895,
       "date": "1994-01-13",
       "year": 1994,
       "title": "Prague Assessment: Hungarians Very Upbeat",
@@ -5468,9 +6042,9 @@
     },
     {
       "id": "state-foia-C06698205",
-      "packageOrder": 139,
-      "packagePageStart": 773,
-      "packagePageEnd": 791,
+      "packageOrder": 153,
+      "packagePageStart": 896,
+      "packagePageEnd": 914,
       "date": "1996-09-26",
       "year": 1996,
       "title": "HERE IS A DRAFT MEMCON, FOR YOUR EYES ONLY.",
@@ -5504,9 +6078,9 @@
     },
     {
       "id": "clinton-nato-strobe-hardgap-mar2023-C09000060",
-      "packageOrder": 140,
-      "packagePageStart": 792,
-      "packagePageEnd": 795,
+      "packageOrder": 154,
+      "packagePageStart": 915,
+      "packagePageEnd": 918,
       "date": "1997-01-01",
       "year": 1997,
       "title": "DRAFT LETTER FROM THE SECRETARY TO CENTRAL EUROPEAN COUNTERPARTS w/Attached Facsimile Transmission",
@@ -5541,9 +6115,9 @@
     },
     {
       "id": "state-foia-C06698843",
-      "packageOrder": 141,
-      "packagePageStart": 796,
-      "packagePageEnd": 798,
+      "packageOrder": 155,
+      "packagePageStart": 919,
+      "packagePageEnd": 921,
       "date": "1997-01-09",
       "year": 1997,
       "title": "MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND PORTUGUESE PRIME MINISTER GUTERRES",
@@ -5577,9 +6151,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0772-m-nato-summit-timing-venue-1993-06-30",
-      "packageOrder": 142,
-      "packagePageStart": 799,
-      "packagePageEnd": 801,
+      "packageOrder": 156,
+      "packagePageStart": 922,
+      "packagePageEnd": 924,
       "date": "1993-06-30",
       "year": 1993,
       "title": "The NATO Summit: Timing and Venue",
@@ -5614,9 +6188,9 @@
     },
     {
       "id": "clinton-nato-balkans-yeltsin-1995-10-23-hyde-park-lunch",
-      "packageOrder": 143,
-      "packagePageStart": 802,
-      "packagePageEnd": 806,
+      "packageOrder": 157,
+      "packagePageStart": 925,
+      "packagePageEnd": 929,
       "date": "1995-10-23",
       "year": 1995,
       "title": "Memorandum of Conversation - Lunch with President Boris Yeltsin",
@@ -5650,9 +6224,9 @@
     },
     {
       "id": "state-foia-C06771540",
-      "packageOrder": 144,
-      "packagePageStart": 807,
-      "packagePageEnd": 814,
+      "packageOrder": 158,
+      "packagePageStart": 930,
+      "packagePageEnd": 937,
       "date": "1999-02-19",
       "year": 1999,
       "title": "DEPSEC MEETING WITH GERMAN STATE SECRETARY ISCHINGER ON 2/4",
@@ -5688,9 +6262,9 @@
     },
     {
       "id": "state-foia-C06694730",
-      "packageOrder": 145,
-      "packagePageStart": 815,
-      "packagePageEnd": 817,
+      "packageOrder": 159,
+      "packagePageStart": 938,
+      "packagePageEnd": 940,
       "date": "1994-10-12",
       "year": 1994,
       "title": "UNGA BILATERAL: DEPUTY SECRETARY TALBOTT'S MEETING WITH HUNGARIAN FOREIGN MINISTER KOVACS",
@@ -5724,9 +6298,9 @@
     },
     {
       "id": "state-foia-C06697767",
-      "packageOrder": 146,
-      "packagePageStart": 818,
-      "packagePageEnd": 820,
+      "packageOrder": 160,
+      "packagePageStart": 941,
+      "packagePageEnd": 943,
       "date": "1996-05-30",
       "year": 1996,
       "title": "DEPUTY SECRETARY'S CONVERSATION WITH SLOVERNIAN PM DRNOVSEK",
@@ -5760,9 +6334,9 @@
     },
     {
       "id": "clinton-library-doc-2024-0540-m-us-initiatives-prague",
-      "packageOrder": 147,
-      "packagePageStart": 821,
-      "packagePageEnd": 822,
+      "packageOrder": 161,
+      "packagePageStart": 944,
+      "packagePageEnd": 945,
       "date": "1994-01",
       "year": 1994,
       "title": "U.S. Initiatives for Prague",
@@ -5797,9 +6371,9 @@
     },
     {
       "id": "state-foia-C09000170",
-      "packageOrder": 148,
-      "packagePageStart": 823,
-      "packagePageEnd": 827,
+      "packageOrder": 162,
+      "packagePageStart": 946,
+      "packagePageEnd": 950,
       "date": "1994-01-26",
       "year": 1994,
       "title": "January 26, 1994 Letter to Chris",
@@ -5833,9 +6407,9 @@
     },
     {
       "id": "state-foia-C06703179",
-      "packageOrder": 149,
-      "packagePageStart": 828,
-      "packagePageEnd": 835,
+      "packageOrder": 163,
+      "packagePageStart": 951,
+      "packagePageEnd": 958,
       "date": "1997-03-07",
       "year": 1997,
       "title": "OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV",
@@ -5871,9 +6445,9 @@
     },
     {
       "id": "state-foia-C06703610",
-      "packageOrder": 150,
-      "packagePageStart": 836,
-      "packagePageEnd": 841,
+      "packageOrder": 164,
+      "packagePageStart": 959,
+      "packagePageEnd": 964,
       "date": "1997-03-07",
       "year": 1997,
       "title": "OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV",
@@ -5909,9 +6483,9 @@
     },
     {
       "id": "clinton-nato-balkans-claes-1995-03-07",
-      "packageOrder": 151,
-      "packagePageStart": 842,
-      "packagePageEnd": 847,
+      "packageOrder": 165,
+      "packagePageStart": 965,
+      "packagePageEnd": 970,
       "date": "1995-03-07",
       "year": 1995,
       "title": "Memorandum of Conversation - NATO Secretary General Willy Claes",
@@ -5945,9 +6519,9 @@
     },
     {
       "id": "state-foia-C06698143",
-      "packageOrder": 152,
-      "packagePageStart": 848,
-      "packagePageEnd": 850,
+      "packageOrder": 166,
+      "packagePageStart": 971,
+      "packagePageEnd": 973,
       "date": "1995-12-07",
       "year": 1995,
       "title": "DEPUTY SECRETARY'S DECEMBER 6 MEETING WITH HINGARIAN PRIME MINISTER HORN",
@@ -5981,9 +6555,9 @@
     },
     {
       "id": "clinton-library-doc-2015-0768-m-euro-atlantic-partnership-for-peace",
-      "packageOrder": 153,
-      "packagePageStart": 851,
-      "packagePageEnd": 853,
+      "packageOrder": 167,
+      "packagePageStart": 974,
+      "packagePageEnd": 976,
       "date": "1993-08-26",
       "year": 1993,
       "title": "Agreement on a Euro-Atlantic Partnership for Peace",
@@ -6018,9 +6592,9 @@
     },
     {
       "id": "state-foia-C06771551",
-      "packageOrder": 154,
-      "packagePageStart": 854,
-      "packagePageEnd": 859,
+      "packageOrder": 168,
+      "packagePageStart": 977,
+      "packagePageEnd": 982,
       "date": "1999-02-19",
       "year": 1999,
       "title": "DEPSEC MEETING WITH GERMAN FORMIN FISCHER ON 2/4",
@@ -6056,9 +6630,9 @@
     },
     {
       "id": "state-foia-C06771547",
-      "packageOrder": 155,
-      "packagePageStart": 860,
-      "packagePageEnd": 866,
+      "packageOrder": 169,
+      "packagePageStart": 983,
+      "packagePageEnd": 989,
       "date": "1999-02-19",
       "year": 1999,
       "title": "DEPSEC MEETING WITH GERMAN MOD STATE SECRETARY STUETZLE ON 2/4",
@@ -6094,9 +6668,9 @@
     },
     {
       "id": "state-foia-C06698733",
-      "packageOrder": 156,
-      "packagePageStart": 867,
-      "packagePageEnd": 871,
+      "packageOrder": 170,
+      "packagePageStart": 990,
+      "packagePageEnd": 994,
       "date": "1996-10-29",
       "year": 1996,
       "title": "ACTING SECRETARY TALBOTT MEETING WITH KYRGYZ FM OTUNBAYEVA",
@@ -6129,48 +6703,10 @@
       }
     },
     {
-      "id": "state-foia-C06702980",
-      "packageOrder": 157,
-      "packagePageStart": 872,
-      "packagePageEnd": 875,
-      "date": "1997-02-05",
-      "year": 1997,
-      "title": "UK POLITICAL DIRECTOR GREENSTOCK'S CONSULTATIONS WITH DEPUTY SECRETARY TALBOTT OR NATO-RUSSIA",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702980/C06702980.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702980/C06702980.pdf",
-      "sourcePages": "",
-      "pageCount": 4,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06702980. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-russia",
-        "nac-usnato",
-        "cfe-osce",
-        "candidate-states"
-      ],
-      "relevanceScore": 47,
-      "relevanceReasons": [
-        "nato-russia",
-        "nac-usnato",
-        "cfe-osce",
-        "candidate-states",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
       "id": "state-foia-C06697938",
-      "packageOrder": 158,
-      "packagePageStart": 876,
-      "packagePageEnd": 878,
+      "packageOrder": 171,
+      "packagePageStart": 995,
+      "packagePageEnd": 997,
       "date": "1996-06-11",
       "year": 1996,
       "title": "ACTING SECRETARY'S TALBOTT'S MEETING WITH HUNGARIAN DEPUTY PRIME MINISTER KUNCZE",
@@ -6203,47 +6739,10 @@
       }
     },
     {
-      "id": "clinton-nato-strobe-hardgap-july2022-C09000060",
-      "packageOrder": 159,
-      "packagePageStart": 879,
-      "packagePageEnd": 886,
-      "date": "1998-09-28",
-      "year": 1998,
-      "title": "DEPUTY SECRETARY TALBOTT BRIEFING TOTHE NAC ON MOSCOW SUMMIT, THE WAY AHEAD WITH RUSIA",
-      "documentType": "Source Lead",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf",
-      "sourcePages": "PDF pages 1-8",
-      "pageCount": 8,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, Release July 2022, Document C09000060. Unclassified.",
-      "inclusionStatus": "include-candidate",
-      "verificationStatus": "metadata-only",
-      "themes": [
-        "nato-russia",
-        "nac-usnato",
-        "architecture"
-      ],
-      "relevanceScore": 46,
-      "relevanceReasons": [
-        "nato-russia",
-        "nac-usnato",
-        "architecture",
-        "upstream include candidate",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
       "id": "state-foia-C06814682",
-      "packageOrder": 160,
-      "packagePageStart": 887,
-      "packagePageEnd": 889,
+      "packageOrder": 172,
+      "packagePageStart": 998,
+      "packagePageEnd": 1000,
       "date": "1999-10-14",
       "year": 1999,
       "title": "DEPUTY SECRETARY TALBOTT'S OCT. 6 MEETING WITH FCO MINISTER HOON",
@@ -6274,871 +6773,407 @@
         "committee": "",
         "queuePriority": "front-of-queue"
       }
-    },
-    {
-      "id": "clinton-nato-strobe-hardgap-july2022-C09000063",
-      "packageOrder": 161,
-      "packagePageStart": 890,
-      "packagePageEnd": 897,
-      "date": "2000-06-08",
-      "year": 2000,
-      "title": "DEPUTY SECRETARY BRIEFS THE NAC ON MOSCOW SUMMIT",
-      "documentType": "Source Lead",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf",
-      "sourcePages": "PDF pages 1-8",
-      "pageCount": 8,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, Release July 2022, Document C09000063. Unclassified.",
-      "inclusionStatus": "include-candidate",
-      "verificationStatus": "metadata-only",
-      "themes": [
-        "nato-russia",
-        "nac-usnato",
-        "architecture"
-      ],
-      "relevanceScore": 46,
-      "relevanceReasons": [
-        "nato-russia",
-        "nac-usnato",
-        "architecture",
-        "upstream include candidate",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06698188",
-      "packageOrder": 162,
-      "packagePageStart": 898,
-      "packagePageEnd": 900,
-      "date": "1995-12-20",
-      "year": 1995,
-      "title": "DEPUTY SECRETARY TALBOTT'S MEETING WITH HNGARIAN FOREIGN MINISTER KOVACS",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698188/C06698188.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698188/C06698188.pdf",
-      "sourcePages": "",
-      "pageCount": 3,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06698188. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-expansion",
-        "cfe-osce",
-        "candidate-states"
-      ],
-      "relevanceScore": 45,
-      "relevanceReasons": [
-        "nato-expansion",
-        "cfe-osce",
-        "candidate-states",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06697970",
-      "packageOrder": 163,
-      "packagePageStart": 901,
-      "packagePageEnd": 904,
-      "date": "1996-04-16",
-      "year": 1996,
-      "title": "THE DEPUTY SECRETARY'S MEETING WITH ESTONIAN FOEIGN MINISTER KALLAS, MARCH 25",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697970/C06697970.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697970/C06697970.pdf",
-      "sourcePages": "",
-      "pageCount": 4,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06697970. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-expansion",
-        "cfe-osce",
-        "candidate-states"
-      ],
-      "relevanceScore": 45,
-      "relevanceReasons": [
-        "nato-expansion",
-        "cfe-osce",
-        "candidate-states",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06771698",
-      "packageOrder": 164,
-      "packagePageStart": 905,
-      "packagePageEnd": 909,
-      "date": "1999-03-01",
-      "year": 1999,
-      "title": "ACTING SECRETARY, NORWAY'S HAGA DISCUSS NATO OSCE, CFE, AND RUSSIAN NUCLEAR WASTE",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771698/C06771698.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771698/C06771698.pdf",
-      "sourcePages": "",
-      "pageCount": 5,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06771698. UNSPECIFIED IN SOURCE.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-russia",
-        "nac-usnato",
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 45,
-      "relevanceReasons": [
-        "nato-russia",
-        "nac-usnato",
-        "architecture",
-        "cfe-osce",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06815098",
-      "packageOrder": 165,
-      "packagePageStart": 910,
-      "packagePageEnd": 912,
-      "date": "2000-04-06",
-      "year": 2000,
-      "title": "Deputy Secretary's meeting with Estonian FM ILVES",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815098/C06815098.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815098/C06815098.pdf",
-      "sourcePages": "",
-      "pageCount": 3,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06815098. UNSPECIFIED IN SOURCE.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-expansion",
-        "nac-usnato",
-        "cfe-osce"
-      ],
-      "relevanceScore": 45,
-      "relevanceReasons": [
-        "nato-expansion",
-        "nac-usnato",
-        "cfe-osce",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "clinton-nato-balkans-talbott-C09000052-1994-12-12",
-      "packageOrder": 166,
-      "packagePageStart": 913,
-      "packagePageEnd": 919,
-      "date": "1994-12-12",
-      "year": 1994,
-      "title": "Letter From Strobe Talbott to Yuri",
-      "documentType": "Release Packet",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/search/results.aspx?searchText=C09000052",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_May2022/FL-2017-13804/DOC_0C09000052/C09000052.pdf",
-      "sourcePages": "1-7",
-      "pageCount": 7,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA case F-2017-13804, Document C09000052 (May 2022 release). Unclassified.",
-      "inclusionStatus": "context-candidate",
-      "verificationStatus": "draft-provenance",
-      "themes": [
-        "nato-expansion",
-        "nato-russia"
-      ],
-      "relevanceScore": 44,
-      "relevanceReasons": [
-        "nato-expansion",
-        "nato-russia",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06697548",
-      "packageOrder": 167,
-      "packagePageStart": 920,
-      "packagePageEnd": 922,
-      "date": "1996-05-14",
-      "year": 1996,
-      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH CANADIAN DEPUTY FOREIGN MINISTER GORDON SMITH",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697548/C06697548.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697548/C06697548.pdf",
-      "sourcePages": "",
-      "pageCount": 3,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06697548. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-expansion",
-        "nato-russia"
-      ],
-      "relevanceScore": 44,
-      "relevanceReasons": [
-        "nato-expansion",
-        "nato-russia",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06814670",
-      "packageOrder": 168,
-      "packagePageStart": 923,
-      "packagePageEnd": 927,
-      "date": "1999-04-07",
-      "year": 1999,
-      "title": "DEPUTY SECRETARY TALBOTT'S MEETING WITH GREEK DEFENSE MINISTER",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf",
-      "sourcePages": "",
-      "pageCount": 5,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06814670. UNSPECIFIED IN SOURCE.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nac-usnato",
-        "architecture",
-        "cfe-osce",
-        "nsc-soc"
-      ],
-      "relevanceScore": 43,
-      "relevanceReasons": [
-        "nac-usnato",
-        "architecture",
-        "cfe-osce",
-        "NSC/SOC relevance",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": true,
-        "isSummaryOfConclusions": false,
-        "committee": "NSC",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06698066",
-      "packageOrder": 169,
-      "packagePageStart": 928,
-      "packagePageEnd": 929,
-      "date": "1995-10-22",
-      "year": 1995,
-      "title": "YOUR MEETING WITH BORIS YELTSIN (II)",
-      "documentType": "ME",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698066/C06698066.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698066/C06698066.pdf",
-      "sourcePages": "",
-      "pageCount": 2,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06698066. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-expansion",
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 43,
-      "relevanceReasons": [
-        "nato-expansion",
-        "architecture",
-        "cfe-osce",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06698261",
-      "packageOrder": 170,
-      "packagePageStart": 930,
-      "packagePageEnd": 936,
-      "date": "1996-09-13",
-      "year": 1996,
-      "title": "S/NIS COLLINS' SEPTEMBER 3 MEETING WITH NEW JAPANESE AMBASSADOR TO THE RUSSIAN FEDERATION",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698261/C06698261.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698261/C06698261.pdf",
-      "sourcePages": "",
-      "pageCount": 7,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06698261. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-expansion",
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 43,
-      "relevanceReasons": [
-        "nato-expansion",
-        "architecture",
-        "cfe-osce",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06698121",
-      "packageOrder": 171,
-      "packagePageStart": 937,
-      "packagePageEnd": 940,
-      "date": "1996-09-27",
-      "year": 1996,
-      "title": "SECRETARY'S PLENARY MEETING WITH RUSSIAN FOREIGN MINISTER PRIMAKOV, 1800-1835 SEPTEMBER23, 1996 NEW YORK",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698121/C06698121.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698121/C06698121.pdf",
-      "sourcePages": "",
-      "pageCount": 4,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06698121. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-expansion",
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 43,
-      "relevanceReasons": [
-        "nato-expansion",
-        "architecture",
-        "cfe-osce",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "clinton-nato-strobe-hardgap-july2024-C09000039",
-      "packageOrder": 172,
-      "packagePageStart": 941,
-      "packagePageEnd": 944,
-      "date": "1997-01-01",
-      "year": 1997,
-      "title": "Additional Elements on CFE for NATO-Russia Document w/Attachment(s)",
-      "documentType": "Source Lead",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf",
-      "sourcePages": "PDF pages 1-4",
-      "pageCount": 4,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, Release July 2024, Document C09000039. Unclassified.",
-      "inclusionStatus": "include-candidate",
-      "verificationStatus": "metadata-only",
-      "themes": [
-        "nato-russia",
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 43,
-      "relevanceReasons": [
-        "nato-russia",
-        "architecture",
-        "cfe-osce",
-        "upstream include candidate",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "clinton-nato-strobe-hardgap-july2024-C09000043",
-      "packageOrder": 173,
-      "packagePageStart": 945,
-      "packagePageEnd": 946,
-      "date": "1997-01-01",
-      "year": 1997,
-      "title": "Precis of Russian-CFE Counter-Proposal",
-      "documentType": "Source Lead",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf",
-      "sourcePages": "PDF pages 1-2",
-      "pageCount": 2,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, Release July 2024, Document C09000043. Unclassified.",
-      "inclusionStatus": "include-candidate",
-      "verificationStatus": "metadata-only",
-      "themes": [
-        "nato-russia",
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 43,
-      "relevanceReasons": [
-        "nato-russia",
-        "architecture",
-        "cfe-osce",
-        "upstream include candidate",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06703418",
-      "packageOrder": 174,
-      "packagePageStart": 947,
-      "packagePageEnd": 952,
-      "date": "1997-02-13",
-      "year": 1997,
-      "title": "MEMORANDUM OF CONVERSATION OF A MEETING BETWEEN PRESIDENT CLINTON, VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER CHERNOMYRDIN",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703418/C06703418.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703418/C06703418.pdf",
-      "sourcePages": "",
-      "pageCount": 6,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06703418. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-expansion",
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 43,
-      "relevanceReasons": [
-        "nato-expansion",
-        "architecture",
-        "cfe-osce",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "clinton-nato-strobe-hardgap-july2024-C09000044",
-      "packageOrder": 175,
-      "packagePageStart": 953,
-      "packagePageEnd": 954,
-      "date": "1997-04-10",
-      "year": 1997,
-      "title": "Checklist For GEM 4/10/97",
-      "documentType": "Source Lead",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf",
-      "sourcePages": "PDF pages 1-2",
-      "pageCount": 2,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, Release July 2024, Document C09000044. Unclassified.",
-      "inclusionStatus": "include-candidate",
-      "verificationStatus": "metadata-only",
-      "themes": [
-        "nato-russia",
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 43,
-      "relevanceReasons": [
-        "nato-russia",
-        "architecture",
-        "cfe-osce",
-        "upstream include candidate",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "clinton-nato-russia-cross-contact-1993-04-03-memcon-vancouver-working-dinner",
-      "packageOrder": 176,
-      "packagePageStart": 955,
-      "packagePageEnd": 963,
-      "date": "1993-04-03",
-      "year": 1993,
-      "title": "Working Dinner with President Boris Yeltsin",
-      "documentType": "Memcon",
-      "sourceClass": "nara-catalog",
-      "sourceUrl": "https://catalog.archives.gov/id/163545404",
-      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf",
-      "sourcePages": "9-17",
-      "pageCount": 9,
-      "sourceNote": "Source: National Archives Catalog item 163545404, Clinton Library case 2014-0901-M, NSC Records Management PRS Files, Document ID 9302226. Derivative PDF extracts source pages 9-17 and appends source marker page 2 as provenance sheet. Secret.",
-      "inclusionStatus": "context-candidate",
-      "verificationStatus": "draft-provenance",
-      "themes": [
-        "nato-russia",
-        "nsc-soc"
-      ],
-      "relevanceScore": 42,
-      "relevanceReasons": [
-        "nato-russia",
-        "NSC/SOC relevance",
-        "conversation record",
-        "NARA Catalog primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": true,
-        "isSummaryOfConclusions": false,
-        "committee": "NSC",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06703626",
-      "packageOrder": 177,
-      "packagePageStart": 964,
-      "packagePageEnd": 970,
-      "date": "1997-03-15",
-      "year": 1997,
-      "title": "MEMORANDUM OF CONVERSATION BETWEEN SECRETART ALBRIGHT AND FOREIGN MINISTER PRIMAKOV",
-      "documentType": "ME",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703626/C06703626.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703626/C06703626.pdf",
-      "sourcePages": "",
-      "pageCount": 7,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06703626. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-russia",
-        "architecture",
-        "nsc-soc"
-      ],
-      "relevanceScore": 42,
-      "relevanceReasons": [
-        "nato-russia",
-        "architecture",
-        "NSC/SOC relevance",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": true,
-        "isSummaryOfConclusions": false,
-        "committee": "NSC",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06770741",
-      "packageOrder": 178,
-      "packagePageStart": 971,
-      "packagePageEnd": 975,
-      "date": "1999-03-17",
-      "year": 1999,
-      "title": "DEPUTY SECRETARY'S MARCH 10 CALL ON DOWNING STREET DIPLOMATIC ADVISER SAWERS",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770741/C06770741.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770741/C06770741.pdf",
-      "sourcePages": "",
-      "pageCount": 5,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06770741. UNSPECIFIED IN SOURCE.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-russia",
-        "open-door-map",
-        "architecture"
-      ],
-      "relevanceScore": 42,
-      "relevanceReasons": [
-        "nato-russia",
-        "open-door-map",
-        "architecture",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06703472",
-      "packageOrder": 179,
-      "packagePageStart": 976,
-      "packagePageEnd": 979,
-      "date": "1997-02-21",
-      "year": 1997,
-      "title": "OFFICIAL INFORMAL",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703472/C06703472.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703472/C06703472.pdf",
-      "sourcePages": "",
-      "pageCount": 4,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06703472. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-russia",
-        "cfe-osce",
-        "nsc-soc"
-      ],
-      "relevanceScore": 41,
-      "relevanceReasons": [
-        "nato-russia",
-        "cfe-osce",
-        "NSC/SOC relevance",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": true,
-        "isSummaryOfConclusions": false,
-        "committee": "NSC",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06702926",
-      "packageOrder": 180,
-      "packagePageStart": 980,
-      "packagePageEnd": 982,
-      "date": "1997-03-05",
-      "year": 1997,
-      "title": "SECRETARY'S SECOND MEETING WITH YEVGINIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf",
-      "sourcePages": "",
-      "pageCount": 3,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06702926. RELEASE IN FULL.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-russia",
-        "cfe-osce",
-        "nsc-soc"
-      ],
-      "relevanceScore": 41,
-      "relevanceReasons": [
-        "nato-russia",
-        "cfe-osce",
-        "NSC/SOC relevance",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": true,
-        "isSummaryOfConclusions": false,
-        "committee": "NSC",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06770333",
-      "packageOrder": 181,
-      "packagePageStart": 983,
-      "packagePageEnd": 989,
-      "date": "1999-02-16",
-      "year": 1999,
-      "title": "DEPSEC'S CONSULTATIONS WITH ELYSEE OFFICIALS, FEBRUARY 3, 1999",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770333/C06770333.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770333/C06770333.pdf",
-      "sourcePages": "",
-      "pageCount": 7,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06770333. UNSPECIFIED IN SOURCE.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "open-door-map",
-        "architecture",
-        "nsc-soc"
-      ],
-      "relevanceScore": 40,
-      "relevanceReasons": [
-        "open-door-map",
-        "architecture",
-        "NSC/SOC relevance",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": true,
-        "isSummaryOfConclusions": false,
-        "committee": "NSC",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "state-foia-C06835341",
-      "packageOrder": 182,
-      "packagePageStart": 990,
-      "packagePageEnd": 990,
-      "date": "1994-01-10",
-      "year": 1994,
-      "title": "Photo - shipment home from European bases",
-      "documentType": "PR",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835341/C06835341.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835341/C06835341.pdf",
-      "sourcePages": "",
-      "pageCount": 1,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06835341. UNSPECIFIED IN SOURCE.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-expansion",
-        "pfp"
-      ],
-      "relevanceScore": 40,
-      "relevanceReasons": [
-        "nato-expansion",
-        "pfp",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": ""
-      }
-    },
-    {
-      "id": "state-foia-C06835175",
-      "packageOrder": 183,
-      "packagePageStart": 991,
-      "packagePageEnd": 995,
-      "date": "1995-10-20",
-      "year": 1995,
-      "title": "Your Meeting with Boris Yeltsin",
-      "documentType": "ME",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835175/C06835175.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835175/C06835175.pdf",
-      "sourcePages": "",
-      "pageCount": 5,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Case F-2017-13804, Doc No. C06835175. UNSPECIFIED IN SOURCE.",
-      "inclusionStatus": "unreviewed",
-      "verificationStatus": "ready-for-page-count",
-      "themes": [
-        "nato-expansion",
-        "pfp"
-      ],
-      "relevanceScore": 40,
-      "relevanceReasons": [
-        "nato-expansion",
-        "pfp",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
-    },
-    {
-      "id": "clinton-nato-strobe-hardgap-feb2024-C09000122",
-      "packageOrder": 184,
-      "packagePageStart": 996,
-      "packagePageEnd": 1000,
-      "date": "1997-01-01",
-      "year": 1997,
-      "title": "ST notes on Kissinger piece",
-      "documentType": "Source Lead",
-      "sourceClass": "state-foia",
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf",
-      "sourcePages": "PDF pages 1-5",
-      "pageCount": 5,
-      "sourceNote": "Source: Department of State, FOIA Virtual Reading Room, Strobe Talbott FOIA release, Release February 2024, Document C09000122. Unclassified.",
-      "inclusionStatus": "include-candidate",
-      "verificationStatus": "metadata-only",
-      "themes": [
-        "nato-russia",
-        "nac-usnato"
-      ],
-      "relevanceScore": 38,
-      "relevanceReasons": [
-        "nato-russia",
-        "nac-usnato",
-        "upstream include candidate",
-        "State FOIA primary source"
-      ],
-      "nscSoc": {
-        "isNscRecord": false,
-        "isSummaryOfConclusions": false,
-        "committee": "",
-        "queuePriority": "front-of-queue"
-      }
     }
   ],
   "deferredCandidatePreview": [
+    {
+      "id": "state-foia-C06702980",
+      "date": "1997-02-05",
+      "title": "UK POLITICAL DIRECTOR GREENSTOCK'S CONSULTATIONS WITH DEPUTY SECRETARY TALBOTT OR NATO-RUSSIA",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 4,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702980/C06702980.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702980/C06702980.pdf",
+      "themes": [
+        "nato-russia",
+        "nac-usnato",
+        "cfe-osce",
+        "candidate-states"
+      ],
+      "relevanceScore": 47
+    },
+    {
+      "id": "clinton-nato-strobe-hardgap-july2022-C09000060",
+      "date": "1998-09-28",
+      "title": "DEPUTY SECRETARY TALBOTT BRIEFING TOTHE NAC ON MOSCOW SUMMIT, THE WAY AHEAD WITH RUSIA",
+      "documentType": "Source Lead",
+      "sourceClass": "state-foia",
+      "pageCount": 8,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf",
+      "themes": [
+        "nato-russia",
+        "nac-usnato",
+        "architecture"
+      ],
+      "relevanceScore": 46
+    },
+    {
+      "id": "clinton-nato-strobe-hardgap-july2022-C09000063",
+      "date": "2000-06-08",
+      "title": "DEPUTY SECRETARY BRIEFS THE NAC ON MOSCOW SUMMIT",
+      "documentType": "Source Lead",
+      "sourceClass": "state-foia",
+      "pageCount": 8,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf",
+      "themes": [
+        "nato-russia",
+        "nac-usnato",
+        "architecture"
+      ],
+      "relevanceScore": 46
+    },
+    {
+      "id": "state-foia-C06698188",
+      "date": "1995-12-20",
+      "title": "DEPUTY SECRETARY TALBOTT'S MEETING WITH HNGARIAN FOREIGN MINISTER KOVACS",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 3,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698188/C06698188.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698188/C06698188.pdf",
+      "themes": [
+        "nato-expansion",
+        "cfe-osce",
+        "candidate-states"
+      ],
+      "relevanceScore": 45
+    },
+    {
+      "id": "state-foia-C06697970",
+      "date": "1996-04-16",
+      "title": "THE DEPUTY SECRETARY'S MEETING WITH ESTONIAN FOEIGN MINISTER KALLAS, MARCH 25",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 4,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697970/C06697970.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697970/C06697970.pdf",
+      "themes": [
+        "nato-expansion",
+        "cfe-osce",
+        "candidate-states"
+      ],
+      "relevanceScore": 45
+    },
+    {
+      "id": "state-foia-C06771698",
+      "date": "1999-03-01",
+      "title": "ACTING SECRETARY, NORWAY'S HAGA DISCUSS NATO OSCE, CFE, AND RUSSIAN NUCLEAR WASTE",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 5,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771698/C06771698.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771698/C06771698.pdf",
+      "themes": [
+        "nato-russia",
+        "nac-usnato",
+        "architecture",
+        "cfe-osce"
+      ],
+      "relevanceScore": 45
+    },
+    {
+      "id": "state-foia-C06815098",
+      "date": "2000-04-06",
+      "title": "Deputy Secretary's meeting with Estonian FM ILVES",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 3,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815098/C06815098.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815098/C06815098.pdf",
+      "themes": [
+        "nato-expansion",
+        "nac-usnato",
+        "cfe-osce"
+      ],
+      "relevanceScore": 45
+    },
+    {
+      "id": "clinton-nato-balkans-talbott-C09000052-1994-12-12",
+      "date": "1994-12-12",
+      "title": "Letter From Strobe Talbott to Yuri",
+      "documentType": "Release Packet",
+      "sourceClass": "state-foia",
+      "pageCount": 7,
+      "sourceUrl": "https://foia.state.gov/search/results.aspx?searchText=C09000052",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_May2022/FL-2017-13804/DOC_0C09000052/C09000052.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia"
+      ],
+      "relevanceScore": 44
+    },
+    {
+      "id": "state-foia-C06697548",
+      "date": "1996-05-14",
+      "title": "THE DEPUTY SECRETARY'S CONVERSATION WITH CANADIAN DEPUTY FOREIGN MINISTER GORDON SMITH",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 3,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697548/C06697548.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697548/C06697548.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia"
+      ],
+      "relevanceScore": 44
+    },
+    {
+      "id": "state-foia-C06814670",
+      "date": "1999-04-07",
+      "title": "DEPUTY SECRETARY TALBOTT'S MEETING WITH GREEK DEFENSE MINISTER",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 5,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf",
+      "themes": [
+        "nac-usnato",
+        "architecture",
+        "cfe-osce",
+        "nsc-soc"
+      ],
+      "relevanceScore": 43
+    },
+    {
+      "id": "state-foia-C06698066",
+      "date": "1995-10-22",
+      "title": "YOUR MEETING WITH BORIS YELTSIN (II)",
+      "documentType": "ME",
+      "sourceClass": "state-foia",
+      "pageCount": 2,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698066/C06698066.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698066/C06698066.pdf",
+      "themes": [
+        "nato-expansion",
+        "architecture",
+        "cfe-osce"
+      ],
+      "relevanceScore": 43
+    },
+    {
+      "id": "state-foia-C06698261",
+      "date": "1996-09-13",
+      "title": "S/NIS COLLINS' SEPTEMBER 3 MEETING WITH NEW JAPANESE AMBASSADOR TO THE RUSSIAN FEDERATION",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 7,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698261/C06698261.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698261/C06698261.pdf",
+      "themes": [
+        "nato-expansion",
+        "architecture",
+        "cfe-osce"
+      ],
+      "relevanceScore": 43
+    },
+    {
+      "id": "state-foia-C06698121",
+      "date": "1996-09-27",
+      "title": "SECRETARY'S PLENARY MEETING WITH RUSSIAN FOREIGN MINISTER PRIMAKOV, 1800-1835 SEPTEMBER23, 1996 NEW YORK",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 4,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698121/C06698121.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698121/C06698121.pdf",
+      "themes": [
+        "nato-expansion",
+        "architecture",
+        "cfe-osce"
+      ],
+      "relevanceScore": 43
+    },
+    {
+      "id": "clinton-nato-strobe-hardgap-july2024-C09000039",
+      "date": "1997-01-01",
+      "title": "Additional Elements on CFE for NATO-Russia Document w/Attachment(s)",
+      "documentType": "Source Lead",
+      "sourceClass": "state-foia",
+      "pageCount": 4,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf",
+      "themes": [
+        "nato-russia",
+        "architecture",
+        "cfe-osce"
+      ],
+      "relevanceScore": 43
+    },
+    {
+      "id": "clinton-nato-strobe-hardgap-july2024-C09000043",
+      "date": "1997-01-01",
+      "title": "Precis of Russian-CFE Counter-Proposal",
+      "documentType": "Source Lead",
+      "sourceClass": "state-foia",
+      "pageCount": 2,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf",
+      "themes": [
+        "nato-russia",
+        "architecture",
+        "cfe-osce"
+      ],
+      "relevanceScore": 43
+    },
+    {
+      "id": "state-foia-C06703418",
+      "date": "1997-02-13",
+      "title": "MEMORANDUM OF CONVERSATION OF A MEETING BETWEEN PRESIDENT CLINTON, VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER CHERNOMYRDIN",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 6,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703418/C06703418.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703418/C06703418.pdf",
+      "themes": [
+        "nato-expansion",
+        "architecture",
+        "cfe-osce"
+      ],
+      "relevanceScore": 43
+    },
+    {
+      "id": "clinton-nato-strobe-hardgap-july2024-C09000044",
+      "date": "1997-04-10",
+      "title": "Checklist For GEM 4/10/97",
+      "documentType": "Source Lead",
+      "sourceClass": "state-foia",
+      "pageCount": 2,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf",
+      "themes": [
+        "nato-russia",
+        "architecture",
+        "cfe-osce"
+      ],
+      "relevanceScore": 43
+    },
+    {
+      "id": "clinton-nato-russia-cross-contact-1993-04-03-memcon-vancouver-working-dinner",
+      "date": "1993-04-03",
+      "title": "Working Dinner with President Boris Yeltsin",
+      "documentType": "Memcon",
+      "sourceClass": "nara-catalog",
+      "pageCount": 9,
+      "sourceUrl": "https://catalog.archives.gov/id/163545404",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscrm/7585721/6-YeltsinVancouver.pdf",
+      "themes": [
+        "nato-russia",
+        "nsc-soc"
+      ],
+      "relevanceScore": 42
+    },
+    {
+      "id": "state-foia-C06703626",
+      "date": "1997-03-15",
+      "title": "MEMORANDUM OF CONVERSATION BETWEEN SECRETART ALBRIGHT AND FOREIGN MINISTER PRIMAKOV",
+      "documentType": "ME",
+      "sourceClass": "state-foia",
+      "pageCount": 7,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703626/C06703626.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703626/C06703626.pdf",
+      "themes": [
+        "nato-russia",
+        "architecture",
+        "nsc-soc"
+      ],
+      "relevanceScore": 42
+    },
+    {
+      "id": "state-foia-C06770741",
+      "date": "1999-03-17",
+      "title": "DEPUTY SECRETARY'S MARCH 10 CALL ON DOWNING STREET DIPLOMATIC ADVISER SAWERS",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 5,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770741/C06770741.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770741/C06770741.pdf",
+      "themes": [
+        "nato-russia",
+        "open-door-map",
+        "architecture"
+      ],
+      "relevanceScore": 42
+    },
+    {
+      "id": "state-foia-C06703472",
+      "date": "1997-02-21",
+      "title": "OFFICIAL INFORMAL",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 4,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703472/C06703472.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703472/C06703472.pdf",
+      "themes": [
+        "nato-russia",
+        "cfe-osce",
+        "nsc-soc"
+      ],
+      "relevanceScore": 41
+    },
+    {
+      "id": "state-foia-C06702926",
+      "date": "1997-03-05",
+      "title": "SECRETARY'S SECOND MEETING WITH YEVGINIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 3,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf",
+      "themes": [
+        "nato-russia",
+        "cfe-osce",
+        "nsc-soc"
+      ],
+      "relevanceScore": 41
+    },
+    {
+      "id": "state-foia-C06770333",
+      "date": "1999-02-16",
+      "title": "DEPSEC'S CONSULTATIONS WITH ELYSEE OFFICIALS, FEBRUARY 3, 1999",
+      "documentType": "TE",
+      "sourceClass": "state-foia",
+      "pageCount": 7,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770333/C06770333.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770333/C06770333.pdf",
+      "themes": [
+        "open-door-map",
+        "architecture",
+        "nsc-soc"
+      ],
+      "relevanceScore": 40
+    },
+    {
+      "id": "state-foia-C06835341",
+      "date": "1994-01-10",
+      "title": "Photo - shipment home from European bases",
+      "documentType": "PR",
+      "sourceClass": "state-foia",
+      "pageCount": 1,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835341/C06835341.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835341/C06835341.pdf",
+      "themes": [
+        "nato-expansion",
+        "pfp"
+      ],
+      "relevanceScore": 40
+    },
+    {
+      "id": "state-foia-C06835175",
+      "date": "1995-10-20",
+      "title": "Your Meeting with Boris Yeltsin",
+      "documentType": "ME",
+      "sourceClass": "state-foia",
+      "pageCount": 5,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835175/C06835175.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835175/C06835175.pdf",
+      "themes": [
+        "nato-expansion",
+        "pfp"
+      ],
+      "relevanceScore": 40
+    },
     {
       "id": "state-foia-C06702975",
       "date": "1997-03-18",
@@ -7212,6 +7247,21 @@
       "themes": [
         "nato-expansion",
         "candidate-states"
+      ],
+      "relevanceScore": 38
+    },
+    {
+      "id": "clinton-nato-strobe-hardgap-feb2024-C09000122",
+      "date": "1997-01-01",
+      "title": "ST notes on Kissinger piece",
+      "documentType": "Source Lead",
+      "sourceClass": "state-foia",
+      "pageCount": 5,
+      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf",
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf",
+      "themes": [
+        "nato-russia",
+        "nac-usnato"
       ],
       "relevanceScore": 38
     },
@@ -8521,387 +8571,6 @@
         "nato-russia"
       ],
       "relevanceScore": 28
-    },
-    {
-      "id": "clinton-nato-russia-cross-contact-1999-05-02-telcon-71",
-      "date": "1999-05-02",
-      "title": "Telephone call with President Boris Yeltsin of Russia, May 2, 1999, White House",
-      "documentType": "Telcon",
-      "sourceClass": "clinton-library-mdr",
-      "pageCount": 4,
-      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-      "themes": [
-        "nato-russia"
-      ],
-      "relevanceScore": 28
-    },
-    {
-      "id": "state-foia-C06772185",
-      "date": "1999-05-06",
-      "title": "DEPUTY SECRETARY TALBOTT' S APRIL 24 MEETING WITH SLOVENE PM DRNOVSEK",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 4,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772185/C06772185.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772185/C06772185.pdf",
-      "themes": [
-        "open-door-map",
-        "nac-usnato"
-      ],
-      "relevanceScore": 28
-    },
-    {
-      "id": "clinton-nato-russia-cross-contact-1999-06-07-telcon-72",
-      "date": "1999-06-07",
-      "title": "Telephone call with President Boris Yeltsin of Russia, June 7, 1999, White House",
-      "documentType": "Telcon",
-      "sourceClass": "clinton-library-mdr",
-      "pageCount": 2,
-      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-      "themes": [
-        "nato-russia"
-      ],
-      "relevanceScore": 28
-    },
-    {
-      "id": "clinton-nato-russia-cross-contact-1999-06-08-telcon-73",
-      "date": "1999-06-08",
-      "title": "Telephone call with President Boris Yeltsin of Russia, June 8, 1999, White House",
-      "documentType": "Telcon",
-      "sourceClass": "clinton-library-mdr",
-      "pageCount": 3,
-      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-      "themes": [
-        "nato-russia"
-      ],
-      "relevanceScore": 28
-    },
-    {
-      "id": "clinton-nato-russia-cross-contact-1999-06-10-telcon-74",
-      "date": "1999-06-10",
-      "title": "Telephone call with President Boris Yeltsin of Russia, June 10, 1999, White House",
-      "documentType": "Telcon",
-      "sourceClass": "clinton-library-mdr",
-      "pageCount": 2,
-      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-      "themes": [
-        "nato-russia"
-      ],
-      "relevanceScore": 28
-    },
-    {
-      "id": "clinton-nato-russia-cross-contact-1999-06-13-telcon-75",
-      "date": "1999-06-13",
-      "title": "Telephone call with President Boris Yeltsin of Russia, June 13, 1999, White House",
-      "documentType": "Telcon",
-      "sourceClass": "clinton-library-mdr",
-      "pageCount": 7,
-      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-      "themes": [
-        "nato-russia"
-      ],
-      "relevanceScore": 28
-    },
-    {
-      "id": "clinton-nato-russia-cross-contact-1999-06-14-telcon-76",
-      "date": "1999-06-14",
-      "title": "Telephone call with President Boris Yeltsin of Russia, June 14, 1999, White House",
-      "documentType": "Telcon",
-      "sourceClass": "clinton-library-mdr",
-      "pageCount": 4,
-      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-      "themes": [
-        "nato-russia"
-      ],
-      "relevanceScore": 28
-    },
-    {
-      "id": "clinton-nato-russia-cross-contact-1999-06-20-memcon-77",
-      "date": "1999-06-20",
-      "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1999, Cologne, Germany",
-      "documentType": "Memcon",
-      "sourceClass": "clinton-library-mdr",
-      "pageCount": 9,
-      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
-      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-      "themes": [
-        "nato-russia"
-      ],
-      "relevanceScore": 28
-    },
-    {
-      "id": "state-foia-C06814975",
-      "date": "2000-03-14",
-      "title": "Bulgarian FM meeting with Acting Secretary",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 2,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814975/C06814975.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814975/C06814975.pdf",
-      "themes": [
-        "nato-expansion"
-      ],
-      "relevanceScore": 28
-    },
-    {
-      "id": "clinton-nato-balkans-gonzalez-1995-12-03",
-      "date": "1995-12-03",
-      "title": "Memorandum of Conversation with Spanish Prime Minister Felipe Gonzalez",
-      "documentType": "Memcon",
-      "sourceClass": "clinton-digital-library",
-      "pageCount": 10,
-      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118881",
-      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/af632a0ca106bdddd19d802cd3a5ba6e.pdf",
-      "themes": [
-        "cfe-osce"
-      ],
-      "relevanceScore": 27
-    },
-    {
-      "id": "clinton-nato-strobe-hardgap-oct2024-C09000035",
-      "date": "1996-06-10",
-      "title": "The CFE Review Conference: A Retrospective w/Attachment(s)",
-      "documentType": "Source Lead",
-      "sourceClass": "state-foia",
-      "pageCount": 7,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf",
-      "themes": [
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 27
-    },
-    {
-      "id": "clinton-nato-strobe-hardgap-apr2023-C09000073",
-      "date": "1997-01-01",
-      "title": "Note from Strobe to Chris",
-      "documentType": "Source Lead",
-      "sourceClass": "state-foia",
-      "pageCount": 6,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000073/C09000073.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000073/C09000073.pdf",
-      "themes": [
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 27
-    },
-    {
-      "id": "state-foia-C06703526",
-      "date": "1997-03-06",
-      "title": "MEMORANDUM OF CONVERSIATION BETWEEN STROBE TALBOTT AND FOREIGN MINISTER PRIMAKOV",
-      "documentType": "ME",
-      "sourceClass": "state-foia",
-      "pageCount": 9,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703526/C06703526.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703526/C06703526.pdf",
-      "themes": [
-        "nato-russia",
-        "cfe-osce"
-      ],
-      "relevanceScore": 27
-    },
-    {
-      "id": "clinton-nato-strobe-hardgap-feb2024-C09000026",
-      "date": "1997-04-09",
-      "title": "CFE TREATY",
-      "documentType": "Source Lead",
-      "sourceClass": "state-foia",
-      "pageCount": 2,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000026/C09000026.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000026/C09000026.pdf",
-      "themes": [
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 27
-    },
-    {
-      "id": "clinton-nato-strobe-hardgap-sep2022-C09000027",
-      "date": "1999-01-01",
-      "title": "CFE Rollout Meeting",
-      "documentType": "Source Lead",
-      "sourceClass": "state-foia",
-      "pageCount": 1,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf",
-      "themes": [
-        "architecture",
-        "cfe-osce"
-      ],
-      "relevanceScore": 27
-    },
-    {
-      "id": "state-foia-C06695297",
-      "date": "1994-09-12",
-      "title": "TALBOTT: RYURIKOV MEETING",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 4,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695297/C06695297.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695297/C06695297.pdf",
-      "themes": [
-        "architecture",
-        "nsc-soc"
-      ],
-      "relevanceScore": 26
-    },
-    {
-      "id": "state-foia-C06703614",
-      "date": "1997-03-12",
-      "title": "OFFICIAL INFORMAL",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 3,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703614/C06703614.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703614/C06703614.pdf",
-      "themes": [
-        "architecture",
-        "nsc-soc"
-      ],
-      "relevanceScore": 26
-    },
-    {
-      "id": "state-foia-C06703634",
-      "date": "1997-03-17",
-      "title": "MEMRANDUM OF CONVERSATION BETWEEN THE SECRETARY AND FM Y. M. PRIMAKOV",
-      "documentType": "ME",
-      "sourceClass": "state-foia",
-      "pageCount": 6,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703634/C06703634.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703634/C06703634.pdf",
-      "themes": [
-        "architecture",
-        "nsc-soc"
-      ],
-      "relevanceScore": 26
-    },
-    {
-      "id": "state-foia-C06771555",
-      "date": "1999-02-19",
-      "title": "DEPSEC MEETING WITH GERMAN NSA STEINER ON 2/4",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 6,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771555/C06771555.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771555/C06771555.pdf",
-      "themes": [
-        "architecture",
-        "nsc-soc"
-      ],
-      "relevanceScore": 26
-    },
-    {
-      "id": "state-foia-C06696842",
-      "date": "1994-04-20",
-      "title": "DEPUTY SECRETARY TALBOTT DEBRIEFS NAC ON HIS TRIP TO INDIA, PAKISTAN, POLAND AND SLOVAKIA",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 11,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06696842/C06696842.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06696842/C06696842.pdf",
-      "themes": [
-        "pfp",
-        "nac-usnato"
-      ],
-      "relevanceScore": 26
-    },
-    {
-      "id": "state-foia-C06695249",
-      "date": "1994-09-30",
-      "title": "DEPUTY SECRETARY'S MEETINGWITH MALTA PRIME MINISTER",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 3,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695249/C06695249.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695249/C06695249.pdf",
-      "themes": [
-        "pfp",
-        "nac-usnato"
-      ],
-      "relevanceScore": 26
-    },
-    {
-      "id": "state-foia-C06703292",
-      "date": "1997-06-17",
-      "title": "DEPUTY SECRETARY' S JUNE 11 MEETING WITH UZBEK FONMIN KAMILOV",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 4,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jun2021_LC/F-2017-13804/DOC_0C06703292/C06703292.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Jun2021_LC/F-2017-13804/DOC_0C06703292/C06703292.pdf",
-      "themes": [
-        "pfp",
-        "nac-usnato"
-      ],
-      "relevanceScore": 26
-    },
-    {
-      "id": "state-foia-C06770371",
-      "date": "1999-02-12",
-      "title": "DEPUTY SECRETARY TALBOTT'S JANUARY 27 MEETING WITH FRENCH AMBASSADOR BUJON",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 4,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770371/C06770371.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770371/C06770371.pdf",
-      "themes": [
-        "open-door-map",
-        "architecture"
-      ],
-      "relevanceScore": 26
-    },
-    {
-      "id": "state-foia-C06771569",
-      "date": "1999-03-17",
-      "title": "DEP SEC 3/10 MEETING WITH UK POL DIR",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 5,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771569/C06771569.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771569/C06771569.pdf",
-      "themes": [
-        "open-door-map",
-        "architecture"
-      ],
-      "relevanceScore": 26
-    },
-    {
-      "id": "state-foia-C06694851",
-      "date": "1994-08-24",
-      "title": "OFFICIAL - INFORMAL",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 2,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694851/C06694851.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694851/C06694851.pdf",
-      "themes": [
-        "cfe-osce",
-        "nsc-soc"
-      ],
-      "relevanceScore": 25
-    },
-    {
-      "id": "state-foia-C06697301",
-      "date": "1996-04-15",
-      "title": "SECRETARY CHRISTOPHER'S PARTICIPATION IN THE WORKING LUNCH AND PLENARY MINISTERIAL, MARCH 22, 1996, MOSCOW, RUSSIA",
-      "documentType": "TE",
-      "sourceClass": "state-foia",
-      "pageCount": 4,
-      "sourceUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697301/C06697301.pdf",
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697301/C06697301.pdf",
-      "themes": [
-        "cfe-osce",
-        "nsc-soc"
-      ],
-      "relevanceScore": 25
     }
   ],
   "nscSocAttentionQueue": [
@@ -8945,6 +8614,86 @@
         "nsc-soc"
       ],
       "relevanceScore": 119,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-herzog-working-lunch-1997-07-24",
+      "date": "1997-07-24",
+      "title": "The President's Working Lunch with President Roman Herzog of Germany",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 10,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "madrid-summit",
+        "nato-russia",
+        "open-door-map",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 114,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-nato-expansion-president-seen-1994-10-13",
+      "date": "1994-10-13",
+      "title": "NATO Expansion",
+      "documentType": "Presidential information memorandum with NSC staff paper",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 6,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "nac-usnato",
+        "cfe-osce",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 106,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-dehaene-working-lunch-1995-02-11",
+      "date": "1995-02-11",
+      "title": "Working Lunch with Prime Minister Jean-Luc Dehaene of Belgium",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 20,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "architecture",
+        "cfe-osce",
+        "nsc-soc"
+      ],
+      "relevanceScore": 101,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-lake-chirac-1996-11-01",
+      "date": "1996-11-01",
+      "title": "Lake Meeting with President Jacques Chirac of France",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 21,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "madrid-summit",
+        "nato-russia",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 100,
       "packageSelected": true
     },
     {
@@ -9048,6 +8797,25 @@
       "packageSelected": true
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-claes-1995-03-07",
+      "date": "1995-03-07",
+      "title": "Meeting with NATO Secretary General Willy Claes",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 6,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 96,
+      "packageSelected": true
+    },
+    {
       "id": "clinton-library-doc-2015-0773-m-havel-1995-10-21",
       "date": "1995-10-21",
       "title": "Meeting with Vaclav Havel, President of the Czech Republic",
@@ -9084,6 +8852,25 @@
         "nsc-soc"
       ],
       "relevanceScore": 94,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-talbott-fuerth-mission-1997-01-25",
+      "date": "1997-01-25",
+      "title": "Report on Talbott/Fuerth Mission and Berger-Levitte Talks",
+      "documentType": "Presidential information memorandum with trip report",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 7,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "madrid-summit",
+        "nato-russia",
+        "cfe-osce",
+        "nsc-soc"
+      ],
+      "relevanceScore": 90,
       "packageSelected": true
     },
     {
@@ -9157,6 +8944,44 @@
         "nato-russia",
         "ratification",
         "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 89,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-moving-toward-nato-expansion-1994-10-04",
+      "date": "1994-10-04",
+      "title": "Moving Toward NATO Expansion",
+      "documentType": "NSC staff memorandum with policy papers",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 9,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "pfp",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 89,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-chernomyrdin-1997-02-07",
+      "date": "1997-02-07",
+      "title": "Meeting with Russian Prime Minister Viktor Chernomyrdin: March Summit, GCC Results, European Security, START, Economics",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 7,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "architecture",
+        "cfe-osce",
         "nsc-soc"
       ],
       "relevanceScore": 89,
@@ -9412,6 +9237,24 @@
         "nsc-soc"
       ],
       "relevanceScore": 83,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-kok-working-lunch-1995-02-28",
+      "date": "1995-02-28",
+      "title": "The President's Working Lunch with Wim Kok, Prime Minister of the Netherlands",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 12,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "architecture",
+        "nsc-soc"
+      ],
+      "relevanceScore": 82,
       "packageSelected": true
     },
     {
@@ -9676,6 +9519,40 @@
       "packageSelected": true
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-ciampi-luncheon-1993-09-17",
+      "date": "1993-09-17",
+      "title": "Luncheon with Prime Minister Carlo Ciampi of Italy",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 6,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "nsc-soc"
+      ],
+      "relevanceScore": 74,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-ciampi-meeting-1993-09-17",
+      "date": "1993-09-17",
+      "title": "Meeting with Prime Minister Carlo Ciampi of Italy",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 5,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "nsc-soc"
+      ],
+      "relevanceScore": 74,
+      "packageSelected": true
+    },
+    {
       "id": "state-foia-C06835149",
       "date": "1995-06-12",
       "title": "Your Meeting with Yeltsin in Halifax",
@@ -9733,6 +9610,24 @@
       "packageSelected": true
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-ratification-strategy-1997-12-17",
+      "date": "1997-12-17",
+      "title": "Strategy for Completing Ratification of NATO Enlargement",
+      "documentType": "Presidential action memorandum",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 4,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "ratification",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 73,
+      "packageSelected": true
+    },
+    {
       "id": "state-foia-C09000146",
       "date": "1994-09-11",
       "title": "September 11, 1994 Letter to Chris",
@@ -9768,6 +9663,24 @@
         "nsc-soc"
       ],
       "relevanceScore": 71,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-nacc-summit-1993-07-16",
+      "date": "1993-07-16",
+      "title": "NACC Summit",
+      "documentType": "NSC information memorandum",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 3,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-expansion",
+        "pfp",
+        "cfe-osce",
+        "nsc-soc"
+      ],
+      "relevanceScore": 70,
       "packageSelected": true
     },
     {
@@ -9998,6 +9911,24 @@
       "pageCount": 8,
       "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
+      "themes": [
+        "nato-russia",
+        "pfp",
+        "candidate-states",
+        "nsc-soc"
+      ],
+      "relevanceScore": 65,
+      "packageSelected": true
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-albright-pfp-central-eastern-europe-1994-01-26",
+      "date": "1994-01-26",
+      "title": "PFP and Central and Eastern Europe",
+      "documentType": "Presidential mission memorandum",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 7,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
       "themes": [
         "nato-russia",
         "pfp",
@@ -10656,7 +10587,7 @@
         "nsc-soc"
       ],
       "relevanceScore": 43,
-      "packageSelected": true
+      "packageSelected": false
     },
     {
       "id": "clinton-nato-russia-cross-contact-1993-04-03-memcon-vancouver-working-dinner",
@@ -10672,7 +10603,7 @@
         "nsc-soc"
       ],
       "relevanceScore": 42,
-      "packageSelected": true
+      "packageSelected": false
     },
     {
       "id": "state-foia-C06703626",
@@ -10689,7 +10620,7 @@
         "nsc-soc"
       ],
       "relevanceScore": 42,
-      "packageSelected": true
+      "packageSelected": false
     },
     {
       "id": "state-foia-C06703472",
@@ -10706,7 +10637,7 @@
         "nsc-soc"
       ],
       "relevanceScore": 41,
-      "packageSelected": true
+      "packageSelected": false
     },
     {
       "id": "state-foia-C06702926",
@@ -10723,7 +10654,7 @@
         "nsc-soc"
       ],
       "relevanceScore": 41,
-      "packageSelected": true
+      "packageSelected": false
     },
     {
       "id": "state-foia-C06770333",
@@ -10740,7 +10671,7 @@
         "nsc-soc"
       ],
       "relevanceScore": 40,
-      "packageSelected": true
+      "packageSelected": false
     },
     {
       "id": "clinton-library-doc-2024-0540-m-visegrad-background",
@@ -11216,6 +11147,22 @@
       "packageSelected": false
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-mamedov-1996-07-09",
+      "date": "1996-07-09",
+      "title": "The President's Meeting with Deputy Foreign Minister Georgiy Mamedov of Russia",
+      "documentType": "Memorandum of conversation",
+      "sourceClass": "clinton-library-mdr",
+      "pageCount": 3,
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "themes": [
+        "nato-russia",
+        "nsc-soc"
+      ],
+      "relevanceScore": 20,
+      "packageSelected": false
+    },
+    {
       "id": "clinton-nato-balkans-pcdc-1995-09-29-bosnia-deputies-summary",
       "date": "1995-09-29",
       "title": "Summary of Conclusions, SVTS Meeting of the NSC Deputies Committee",
@@ -11476,40 +11423,6 @@
         "nsc-soc"
       ],
       "relevanceScore": -62,
-      "packageSelected": false
-    },
-    {
-      "id": "clinton-nato-nara-scout-40482484",
-      "date": "1994-01-01",
-      "title": "Bosnia Principals Committee/Deputies Committee 1994 Meetings [2]",
-      "documentType": "Scout Lead",
-      "sourceClass": "nara-scout-lead",
-      "pageCount": null,
-      "sourceUrl": "https://catalog.archives.gov/id/40482484",
-      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/84/4824/40482484/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-JPG/Box_023/42-t-7585486-20080994F-023-001-2016/42_t_7585486_20080994F_023_001_2016_Page_001.JPG",
-      "themes": [
-        "nato-expansion",
-        "pfp",
-        "cfe-osce",
-        "nsc-soc"
-      ],
-      "relevanceScore": -103,
-      "packageSelected": false
-    },
-    {
-      "id": "clinton-nato-nara-scout-40482490",
-      "date": "1994-01-01",
-      "title": "Bosnia Principals Committee/Deputies Committee 1994 Meetings [8]",
-      "documentType": "Scout Lead",
-      "sourceClass": "nara-scout-lead",
-      "pageCount": null,
-      "sourceUrl": "https://catalog.archives.gov/id/40482490",
-      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/opastorage/live/90/4824/40482490/content/presidential-libraries/clinton/foia/2008/2008-0994-F/2008-0994-F-Bosnia-JPG/Box_023/42-t-7585486-20080994F-023-007-2016/42_t_7585486_20080994F_023_007_2016_Page_001.JPG",
-      "themes": [
-        "pfp",
-        "nsc-soc"
-      ],
-      "relevanceScore": -134,
       "packageSelected": false
     }
   ],

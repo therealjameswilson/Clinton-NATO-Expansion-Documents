@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T03:00:12.858Z
+Generated: 2026-06-06T03:09:14.587Z
 
 ## What This Pass Proves
 
@@ -34,11 +34,37 @@ Generated: 2026-06-06T03:00:12.858Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1997-02-05 | 47 | 4 | UK POLITICAL DIRECTOR GREENSTOCK'S CONSULTATIONS WITH DEPUTY SECRETARY TALBOTT OR NATO-RUSSIA | state-foia | nato-russia, nac-usnato, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702980/C06702980.pdf)
+1998-09-28 | 46 | 8 | DEPUTY SECRETARY TALBOTT BRIEFING TOTHE NAC ON MOSCOW SUMMIT, THE WAY AHEAD WITH RUSIA | state-foia | nato-russia, nac-usnato, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf)
+2000-06-08 | 46 | 8 | DEPUTY SECRETARY BRIEFS THE NAC ON MOSCOW SUMMIT | state-foia | nato-russia, nac-usnato, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf)
+1995-12-20 | 45 | 3 | DEPUTY SECRETARY TALBOTT'S MEETING WITH HNGARIAN FOREIGN MINISTER KOVACS | state-foia | nato-expansion, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698188/C06698188.pdf)
+1996-04-16 | 45 | 4 | THE DEPUTY SECRETARY'S MEETING WITH ESTONIAN FOEIGN MINISTER KALLAS, MARCH 25 | state-foia | nato-expansion, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697970/C06697970.pdf)
+1999-03-01 | 45 | 5 | ACTING SECRETARY, NORWAY'S HAGA DISCUSS NATO OSCE, CFE, AND RUSSIAN NUCLEAR WASTE | state-foia | nato-russia, nac-usnato, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771698/C06771698.pdf)
+2000-04-06 | 45 | 3 | Deputy Secretary's meeting with Estonian FM ILVES | state-foia | nato-expansion, nac-usnato, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815098/C06815098.pdf)
+1994-12-12 | 44 | 7 | Letter From Strobe Talbott to Yuri | state-foia | nato-expansion, nato-russia | [open](https://foia.state.gov/search/results.aspx?searchText=C09000052)
+1996-05-14 | 44 | 3 | THE DEPUTY SECRETARY'S CONVERSATION WITH CANADIAN DEPUTY FOREIGN MINISTER GORDON SMITH | state-foia | nato-expansion, nato-russia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697548/C06697548.pdf)
+1999-04-07 | 43 | 5 | DEPUTY SECRETARY TALBOTT'S MEETING WITH GREEK DEFENSE MINISTER | state-foia | nac-usnato, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf)
+1995-10-22 | 43 | 2 | YOUR MEETING WITH BORIS YELTSIN (II) | state-foia | nato-expansion, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698066/C06698066.pdf)
+1996-09-13 | 43 | 7 | S/NIS COLLINS' SEPTEMBER 3 MEETING WITH NEW JAPANESE AMBASSADOR TO THE RUSSIAN FEDERATION | state-foia | nato-expansion, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698261/C06698261.pdf)
+1996-09-27 | 43 | 4 | SECRETARY'S PLENARY MEETING WITH RUSSIAN FOREIGN MINISTER PRIMAKOV, 1800-1835 SEPTEMBER23, 1996 NEW YORK | state-foia | nato-expansion, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698121/C06698121.pdf)
+1997-01-01 | 43 | 4 | Additional Elements on CFE for NATO-Russia Document w/Attachment(s) | state-foia | nato-russia, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf)
+1997-01-01 | 43 | 2 | Precis of Russian-CFE Counter-Proposal | state-foia | nato-russia, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf)
+1997-02-13 | 43 | 6 | MEMORANDUM OF CONVERSATION OF A MEETING BETWEEN PRESIDENT CLINTON, VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER CHERNOMYRDIN | state-foia | nato-expansion, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703418/C06703418.pdf)
+1997-04-10 | 43 | 2 | Checklist For GEM 4/10/97 | state-foia | nato-russia, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf)
+1993-04-03 | 42 | 9 | Working Dinner with President Boris Yeltsin | nara-catalog | nato-russia, nsc-soc | [open](https://catalog.archives.gov/id/163545404)
+1997-03-15 | 42 | 7 | MEMORANDUM OF CONVERSATION BETWEEN SECRETART ALBRIGHT AND FOREIGN MINISTER PRIMAKOV | state-foia | nato-russia, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703626/C06703626.pdf)
+1999-03-17 | 42 | 5 | DEPUTY SECRETARY'S MARCH 10 CALL ON DOWNING STREET DIPLOMATIC ADVISER SAWERS | state-foia | nato-russia, open-door-map, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770741/C06770741.pdf)
+1997-02-21 | 41 | 4 | OFFICIAL INFORMAL | state-foia | nato-russia, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703472/C06703472.pdf)
+1997-03-05 | 41 | 3 | SECRETARY'S SECOND MEETING WITH YEVGINIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW | state-foia | nato-russia, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf)
+1999-02-16 | 40 | 7 | DEPSEC'S CONSULTATIONS WITH ELYSEE OFFICIALS, FEBRUARY 3, 1999 | state-foia | open-door-map, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770333/C06770333.pdf)
+1994-01-10 | 40 | 1 | Photo - shipment home from European bases | state-foia | nato-expansion, pfp | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835341/C06835341.pdf)
+1995-10-20 | 40 | 5 | Your Meeting with Boris Yeltsin | state-foia | nato-expansion, pfp | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835175/C06835175.pdf)
 1997-03-18 | 40 | 6 | SECRETARY'S MARCH 10 CONSULTATION WITH UK FOREIGN SECRETARY RIFKIND | state-foia | nato-russia, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702975/C06702975.pdf)
 1994-01 | 39 | 2 | Visegrad | clinton-library-mdr | pfp, nsc-soc | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-03 | 38 | 1 | January 3, 1994 Letter From Strobe Talbott To Zbigniew Brzezinski | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Aug2021_C/F-2017-13804/DOC_0C06689961/C06689961.pdf)
 1996-01-26 | 38 | 8 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703033/C06703033.pdf)
 1996-10-29 | 38 | 3 | DEPUTY SECRETARY TALBOTT'S MEETING WITH ROMANIAN FOEIGN MINISTER TEODOR MELESCANU | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698698/C06698698.pdf)
+1997-01-01 | 38 | 5 | ST notes on Kissinger piece | state-foia | nato-russia, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf)
 1997-01-18 | 38 | 2 | DEPUTY SECRETARY'S CONVERSATION WITH POLISH FOREIGN MINISTER ROSATI | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703043/C06703043.pdf)
 1997-02-21 | 38 | 2 | THE DEPUTY SECRETARY'S CONVERSATION WITH NATO SECRETARY GENERAL SOLANA | state-foia | nato-expansion, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702957/C06702957.pdf)
 1997-03-17 | 38 | 2 | DEPUTY SECRETARY'S CONVERSTAION WITH TURKISH FOREIGN MINISTRY UNDER SSECRETARY OYMEN | state-foia | nato-expansion, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702865/C06702865.pdf)
@@ -68,32 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1996-05-14 | 35 | 5 | GEORGIAN FOREIGN MINISTER'S MEETING WITH DEPUTY SECRETARY, APRIL 29, 1996 | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697845/C06697845.pdf)
 1996-09-07 | 35 | 2 | NEW SPANISH AMBASSADOR PRESENTS CREDENTIALS | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698265/C06698265.pdf)
 1996-06-29 | 34 | 5 | MEETING WITH PRIME MINISTER CHERNOMYRDIN | state-foia | nato-russia, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf)
-1999-02-24 | 34 | 4 | D/S TALBOTT URGES "STRATEGIC OPTIMISM" IN MEETING WITH ROMANIAN PRESIDENTIAL ADVISOR PETRE | state-foia | madrid-summit, open-door-map | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771275/C06771275.pdf)
-1999-02-16 | 33 | 4 | DEPUTY SECRETARY'S MEETING WITH FRENCH MOD OFFICIALS, FEBRUARY 3, 1999 | state-foia | architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771518/C06771518.pdf)
-1994-10-12 | 33 | 4 | DEPUTY SECRETARY TALBOTT'S MEETING WITH MOLDOVAN PRESIDENT SNEGUR AND FOREIGN MINISTER POPOV | state-foia | pfp, nac-usnato, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694728/C06694728.pdf)
-1995-01-12 | 33 | 3 | DEPUTY SECRETARY'S MEETING WITH BELARUSIAN FOREIGN MINISTER -- JANUARY 11 1995 | state-foia | pfp, nac-usnato, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06694647/C06694647.pdf)
-1999-01-29 | 33 | 4 | ACTING SECRETARY'S JANUARY 26 MEETING WITH POLISH DEFENSE MINISTER ONYSZKEWICZ | state-foia | open-door-map, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771734/C06771734.pdf)
-1999-05-04 | 32 | 4 | THE DEPUTY SECRETARY'S APRIL 24 MEETING WITH MACEDONIAN FOREIGN MINISTER DIMITROV | state-foia | open-door-map, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814738/C06814738.pdf)
-1995-06-17 | 31 | 8 | Clinton-Yeltsin Meeting | state-foia | pfp, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835181/C06835181.pdf)
-1998-04-13 | 30 | 3 | Letter from Acting Secretary Talbott to ForMin on Security Discussions with Turkmenistan | state-foia | pfp, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835583/C06835583.pdf)
-1995-10-17 | 30 | 14 | TALBOTT-KOZYREV ONE-ON-ONES IN MOSCOW | state-foia | nato-russia, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698076/C06698076.pdf)
-1999-03-26 | 30 | 3 | DEPUTY SECRETARY'S MARCH 24 CONVERSATION WITH FINNISH FM HALONEN | state-foia | nato-russia, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771237/C06771237.pdf)
-2000-02-03 | 30 | 2 | Official - Informal: Readouts on High-Level U.S. - Russian Discussions | state-foia | nato-russia, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814794/C06814794.pdf)
-2000-02-24 | 30 | 2 | NATO-Russia: Kislyak on Mitrovica, Upcoming PJCS | state-foia | nato-russia, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815112/C06815112.pdf)
-2000-08-17 | 30 | 5 | Deputy Secretary Talbott's meeting with German Foreign Office State Secretary Ischinger | state-foia | nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814897/C06814897.pdf)
-1999-01-13 | 29 | 3 | DEPUTY SECRETARY'S JANUARY 13 CONVERSATION WITH NORWEGIAN FM VOLLEBAEK | state-foia | nac-usnato, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771290/C06771290.pdf)
-1999-03-19 | 29 | 7 | BELGIUM: DEPUTY SECRETARY TALBOTT'S CALL ON FM DERYCKE | state-foia | nac-usnato, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770772/C06770772.pdf)
-2000-01-21 | 29 | 5 | UK/ESDP: HMG Agrees U.S. Should involve other Allies | state-foia | nac-usnato, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815071/C06815071.pdf)
-1994-01-02 | 28 | 12 | January 2, 1994 Letter from Strobe to Chris | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000172/C09000172.pdf)
-1994-01-18 | 28 | 1 | January 18, 1994 Letter From Strobe Talbott To Mr. and Mrs. William P Bundy | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Aug2021_C/F-2017-13804/DOC_0C06689942/C06689942.pdf)
-1994-04-10 | 28 | 3 | Telephone call with President Boris Yeltsin of Russia, April 10, 1994, White House | nara-catalog | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin)
-1994-10-21 | 28 | 7 | THE DEPUTY SECRETARY'S OCTOBER 20 MEETING WITH FCO POLITICAL DIRECTOR NEVILLE-JONES | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694674/C06694674.pdf)
-1995-02-23 | 28 | 6 | Memorandum From Acting Secretary Talbott to Secretary Brown: Your Visit to Spain | state-foia | nato-expansion | [open](https://foia.state.gov/search/results.aspx?searchText=C09000085)
-1996-01-17 | 28 | 4 | DEPUTY SECRETARY'S CONVERSATION WITH AZERBAIJANI PRESIDENT ALIYEV | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703756/C06703756.pdf)
-1996-07-19 | 28 | 3 | THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698357/C06698357.pdf)
-1996-07-19 | 28 | 3 | THE ACTING SECRETARY'S CONVERSATION WITH RUSSIAN DEPUTY FOREIGN MINISTER MAMEDOV | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698359/C06698359.pdf)
-1996-11-06 | 28 | 5 | THE DEPUTY SECRETARY'S CONVERSATION WITH ROMANIAN FM MELESCANU | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698960/C06698960.pdf)
-1996-11-06 | 28 | 4 | THE DEPUTY SECRETARY'S CONVERSATION WITH ROMANIAN FOREIGN MINISTER MELESCANU | state-foia | nato-expansion | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698958/C06698958.pdf)
 
 ## NARA Scout Promotion Queue
 

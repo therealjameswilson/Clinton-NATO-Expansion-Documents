@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-06T03:00:12.858Z",
+  "generatedAt": "2026-06-06T03:09:14.587Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 184,
+      "Count": 172,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 414,
-      "Pages": 1999,
+      "Count": 429,
+      "Pages": 2125,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 147,
+      "Count": 162,
       "Pages": "",
       "Status": "special review lane"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 46,
-      "Pages": 190,
+      "Count": 61,
+      "Pages": 316,
       "Status": "document-level rows"
     },
     {
@@ -431,6 +431,16 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-nacc-summit-1993-07-16",
+      "date": "1993-07-16",
+      "title": "NACC Summit",
+      "pageCount": 3,
+      "sourcePages": "7-9",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-nato-transformation-expansion-strategy",
       "date": "1993-09-14",
       "title": "A Strategy for NATO's Transformation and Expansion",
@@ -439,6 +449,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-ciampi-luncheon-1993-09-17",
+      "date": "1993-09-17",
+      "title": "Luncheon with Prime Minister Carlo Ciampi of Italy",
+      "pageCount": 6,
+      "sourcePages": "17-22",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-ciampi-meeting-1993-09-17",
+      "date": "1993-09-17",
+      "title": "Meeting with Prime Minister Carlo Ciampi of Italy",
+      "pageCount": 5,
+      "sourcePages": "31-35",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
     },
     {
       "id": "clinton-library-doc-2015-0768-m-yeltsin-nato-expansion",
@@ -631,6 +661,16 @@
       "packetIdentifier": "2024-0540-M"
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-albright-pfp-central-eastern-europe-1994-01-26",
+      "date": "1994-01-26",
+      "title": "PFP and Central and Eastern Europe",
+      "pageCount": 7,
+      "sourcePages": "44-50",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
       "id": "clinton-library-doc-2017-0193-m-concept-strategy",
       "date": "1994-09-17",
       "title": "NATO Expansion: Concept and Strategy",
@@ -651,6 +691,26 @@
       "packetIdentifier": "2017-0193-M"
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-moving-toward-nato-expansion-1994-10-04",
+      "date": "1994-10-04",
+      "title": "Moving Toward NATO Expansion",
+      "pageCount": 9,
+      "sourcePages": "55-63",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-nato-expansion-president-seen-1994-10-13",
+      "date": "1994-10-13",
+      "title": "NATO Expansion",
+      "pageCount": 6,
+      "sourcePages": "71-76",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-yeltsin-to-clinton-1994-12-29",
       "date": "1994-12-29",
       "title": "President Yeltsin to President Clinton on NATO Enlargement",
@@ -669,6 +729,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-dehaene-working-lunch-1995-02-11",
+      "date": "1995-02-11",
+      "title": "Working Lunch with Prime Minister Jean-Luc Dehaene of Belgium",
+      "pageCount": 20,
+      "sourcePages": "85-104",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-kok-working-lunch-1995-02-28",
+      "date": "1995-02-28",
+      "title": "The President's Working Lunch with Wim Kok, Prime Minister of the Netherlands",
+      "pageCount": 12,
+      "sourcePages": "126-137",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
     },
     {
       "id": "clinton-library-doc-2015-0768-m-annex-clinton-yeltsin-letter",
@@ -721,6 +801,16 @@
       "packetIdentifier": "2015-0768-M"
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-claes-1995-03-07",
+      "date": "1995-03-07",
+      "title": "Meeting with NATO Secretary General Willy Claes",
+      "pageCount": 6,
+      "sourcePages": "145-150",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-elements-nato-russia-relationship",
       "date": "1995-04-03",
       "title": "Elements of a NATO-Russia Relationship",
@@ -751,6 +841,46 @@
       "packetIdentifier": "2015-0770-M"
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-mamedov-1996-07-09",
+      "date": "1996-07-09",
+      "title": "The President's Meeting with Deputy Foreign Minister Georgiy Mamedov of Russia",
+      "pageCount": 3,
+      "sourcePages": "165-167",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-lake-chirac-1996-11-01",
+      "date": "1996-11-01",
+      "title": "Lake Meeting with President Jacques Chirac of France",
+      "pageCount": 21,
+      "sourcePages": "178-198",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-talbott-fuerth-mission-1997-01-25",
+      "date": "1997-01-25",
+      "title": "Report on Talbott/Fuerth Mission and Berger-Levitte Talks",
+      "pageCount": 7,
+      "sourcePages": "207-213",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-chernomyrdin-1997-02-07",
+      "date": "1997-02-07",
+      "title": "Meeting with Russian Prime Minister Viktor Chernomyrdin: March Summit, GCC Results, European Security, START, Economics",
+      "pageCount": 7,
+      "sourcePages": "222-228",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-madrid-diplomatic-congressional-strategy",
       "date": "1997-06-09",
       "title": "A Diplomatic and Congressional Strategy for Madrid and Beyond",
@@ -779,6 +909,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-herzog-working-lunch-1997-07-24",
+      "date": "1997-07-24",
+      "title": "The President's Working Lunch with President Roman Herzog of Germany",
+      "pageCount": 10,
+      "sourcePages": "274-283",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-ratification-strategy-1997-12-17",
+      "date": "1997-12-17",
+      "title": "Strategy for Completing Ratification of NATO Enlargement",
+      "pageCount": 4,
+      "sourcePages": "303-306",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-committee-expand-nato-dinner-1998-02-09",
