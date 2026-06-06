@@ -1,10 +1,16 @@
 {
-  "generatedAt": "2026-06-06T04:05:09.363Z",
+  "generatedAt": "2026-06-06T04:17:04.998Z",
   "publicRecordCount": 1068,
   "localPrivateDriveIntakeCount": 17,
   "allLocalRecordCount": 1085,
   "knownPublicPages": 4488,
   "nscSocCount": 266,
+  "natoRelevantNscSocCount": 181,
+  "natoRelevantDocumentNscSocCount": 172,
+  "natoRelevantPacketControlNscSocCount": 9,
+  "nonNatoNscSocCount": 85,
+  "clintonLibraryWithheldMeetingControlCount": 7,
+  "clintonLibraryWithheldMeetingControlPages": 17,
   "p0Count": 556,
   "sourceClassCounts": {
     "clinton-digital-library": 148,

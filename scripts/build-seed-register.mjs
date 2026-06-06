@@ -10,6 +10,7 @@ const strobeManifestPath = path.join(workspaceRoot, "strobe-talbott-foia", "data
 const strobeTextRoot = path.join(workspaceRoot, "strobe-talbott-foia");
 const privateDrivePath = path.join(repoRoot, "private", "google-drive-intake.json");
 const packetControlsPath = path.join(repoRoot, "data", "clinton-library-packet-controls.json");
+const clintonMeetingControlsPath = path.join(repoRoot, "data", "clinton-library-meeting-controls.json");
 const promotedDocumentsPath = path.join(repoRoot, "data", "clinton-library-promoted-documents.json");
 const naraPromotedDocumentsPath = path.join(repoRoot, "data", "nara-promoted-documents.json");
 
@@ -95,6 +96,10 @@ const strongTopicPatterns = [
   /\bnato\b.{0,80}(poland|hungary|czech|slovenia|romania|baltic|ukraine)/i
 ];
 
+const natoQueuePattern = /nato\s+(expansion|enlargement|accession|summit|ministerial|strategy|policy)|expansion\s+of\s+nato|enlargement\s+of\s+nato|(expand|expanding|expanded|enlarge|enlarging|enlarged)\s+nato|nato[-/ ]russia|russia.{0,80}nato|nato.{0,80}russia|partnership\s+for\s+peace|\bpfp\b|madrid\s+summit|washington\s+summit|accession|founding\s+act|permanent\s+joint\s+council|open\s+door|north\s+atlantic\s+council|\busnato\b|\bnac\b|\bcfe\b|conventional\s+forces\s+in\s+europe|\bosce\b|\bcsce\b|\besdi\b|nato[-/ ]eu|european\s+security|(poland|polish|hungary|hungarian|czech|slovak|slovakia|slovenia|romanian?|baltic|latvia|lithuania|estonia|ukraine).{0,100}\bnato\b|\bnato\b.{0,100}(poland|polish|hungary|hungarian|czech|slovak|slovakia|slovenia|romanian?|baltic|latvia|lithuania|estonia|ukraine)/i;
+const crisisOnlyPattern = /\b(bosnia|kosovo|haiti|rwanda|albania|macedonian|former yugoslavia|croatia|sfor|ifor|kfor|unprofor)\b/i;
+const directNatoRescuerPattern = /nato\s+(expansion|enlargement|accession|summit|ministerial|strategy|policy)|nato[-/ ]russia|partnership\s+for\s+peace|\bpfp\b|madrid\s+summit|washington\s+summit|founding\s+act|open\s+door|\bcfe\b|\bosce\b|\bcsce\b|\besdi\b|european\s+security/i;
+
 const sourcePriority = {
   P0: 0,
   P1: 1,
@@ -157,6 +162,67 @@ function hasCoreTopic(value) {
 
 function hasStrongTopic(value) {
   return strongTopicPatterns.some((pattern) => pattern.test(value));
+}
+
+function directQueueText(record) {
+  return [
+    record.title,
+    record.documentType,
+    record.sourceClass,
+    record.sourceNote,
+    record.notes,
+    record.upstream?.id
+  ].filter(Boolean).join(" ");
+}
+
+function enrichedQueueText(record) {
+  return [
+    directQueueText(record),
+    ...(record.topics || []),
+    ...(record.priorityReasons || []),
+    ...(record.people || []),
+    ...(record.countries || []),
+    record.nscSoc?.committee
+  ].filter(Boolean).join(" ");
+}
+
+function isNscSocRecord(record) {
+  return Boolean(record.nscSoc?.isNscRecord || record.nscSoc?.isSummaryOfConclusions);
+}
+
+function isScoutLead(record) {
+  return record.sourceClass === "nara-scout-lead" || /scout lead/i.test(record.documentType || "");
+}
+
+function isPacketControl(record) {
+  return record.sourceClass === "clinton-library-mdr-packet" || /packet control/i.test(record.documentType || "");
+}
+
+function isClintonAdministrationScope(record) {
+  const year = Number(record.year);
+  return year >= 1993 && year <= 2000;
+}
+
+function isCrisisOnlyNscSoc(record) {
+  const directText = directQueueText(record);
+  if (!crisisOnlyPattern.test(directText)) return false;
+  return !directNatoRescuerPattern.test(directText);
+}
+
+function isNatoRelevantForNscQueue(record) {
+  if (!isNscSocRecord(record)) return false;
+  if (!isClintonAdministrationScope(record)) return false;
+  if (isCrisisOnlyNscSoc(record)) return false;
+  const queueText = isScoutLead(record) ? directQueueText(record) : enrichedQueueText(record);
+  return natoQueuePattern.test(queueText);
+}
+
+function isAssemblyCandidate(record) {
+  if (!record.pageCount || record.inclusionStatus === "exclude") return false;
+  if (!isClintonAdministrationScope(record)) return false;
+  if (isPacketControl(record) || isScoutLead(record)) return false;
+  if (isCrisisOnlyNscSoc(record)) return false;
+  return natoQueuePattern.test(enrichedQueueText(record));
 }
 
 function sourceClassFor(record) {
@@ -398,7 +464,7 @@ function markdownTable(rows, headers) {
 
 function buildAssemblyPlan(records) {
   const candidates = records
-    .filter((record) => record.pageCount && record.inclusionStatus !== "exclude")
+    .filter(isAssemblyCandidate)
     .sort((a, b) => {
       const priorityDelta = sourcePriority[a.priority] - sourcePriority[b.priority];
       if (priorityDelta) return priorityDelta;
@@ -427,6 +493,7 @@ function sourceLink(record) {
 const clintonRecords = readJson(clintonRecordsPath, []).map(normalizeClintonRecord);
 const strobeRecords = readJson(strobeManifestPath, []).map(normalizeStrobeRecord).filter(Boolean);
 const packetControls = readJson(packetControlsPath, []);
+const clintonMeetingControls = readJson(clintonMeetingControlsPath, []);
 const promotedDocuments = readJson(promotedDocumentsPath, []);
 const naraPromotedDocuments = readJson(naraPromotedDocumentsPath, []);
 const privateDriveRecords = readJson(privateDrivePath, []).map(normalizePrivateDriveItem);
@@ -434,7 +501,21 @@ const privateDriveRecords = readJson(privateDrivePath, []).map(normalizePrivateD
 const publicRecords = sortRecords(dedupe([...promotedDocuments, ...naraPromotedDocuments, ...clintonRecords, ...strobeRecords, ...packetControls]));
 const allLocalRecords = sortRecords(dedupe([...publicRecords, ...privateDriveRecords]));
 const assembly = buildAssemblyPlan(publicRecords);
-const nscQueue = publicRecords.filter((record) => record.nscSoc?.isNscRecord || record.nscSoc?.isSummaryOfConclusions);
+const nscQueueAll = publicRecords.filter(isNscSocRecord);
+const nscQueueCandidates = nscQueueAll.filter(isNatoRelevantForNscQueue);
+const nscQueue = nscQueueCandidates.filter((record) => !isPacketControl(record));
+const nscPacketControls = nscQueueCandidates.filter(isPacketControl);
+const nscQueueExcluded = nscQueueAll.filter((record) => !isNatoRelevantForNscQueue(record));
+const clintonMeetingControlRows = clintonMeetingControls.map((record) => ({
+  Date: record.date,
+  Committee: record.committee,
+  Pages: record.pageCount || "",
+  Record: record.title,
+  Packet: record.packetIdentifier || "",
+  Status: record.releaseStatus || "",
+  Restriction: record.restriction || "",
+  Link: record.sourceUrl ? `[open](${record.sourceUrl})` : ""
+}));
 
 writeJson("data/source-register.json", publicRecords);
 writeJson("data/upstream-summary.json", {
@@ -443,7 +524,13 @@ writeJson("data/upstream-summary.json", {
   localPrivateDriveIntakeCount: privateDriveRecords.length,
   allLocalRecordCount: allLocalRecords.length,
   knownPublicPages: publicRecords.reduce((sum, record) => sum + (record.pageCount || 0), 0),
-  nscSocCount: nscQueue.length,
+  nscSocCount: nscQueueAll.length,
+  natoRelevantNscSocCount: nscQueueCandidates.length,
+  natoRelevantDocumentNscSocCount: nscQueue.length,
+  natoRelevantPacketControlNscSocCount: nscPacketControls.length,
+  nonNatoNscSocCount: nscQueueExcluded.length,
+  clintonLibraryWithheldMeetingControlCount: clintonMeetingControls.length,
+  clintonLibraryWithheldMeetingControlPages: clintonMeetingControls.reduce((sum, record) => sum + Number(record.pageCount || 0), 0),
   p0Count: publicRecords.filter((record) => record.priority === "P0").length,
   sourceClassCounts: countBy(publicRecords, "sourceClass"),
   priorityCounts: countBy(publicRecords, "priority"),
@@ -468,7 +555,12 @@ Generated: ${new Date().toISOString()}
 
 - Public records: ${publicRecords.length}
 - Known public pages: ${publicRecords.reduce((sum, record) => sum + (record.pageCount || 0), 0)}
-- NSC/Summaries of Conclusions flags: ${nscQueue.length}
+- NSC/Summaries of Conclusions flags: ${nscQueueAll.length}
+- NATO-relevant NSC/Summaries of Conclusions flags: ${nscQueueCandidates.length}
+- NATO-relevant document-level NSC/Summaries of Conclusions flags: ${nscQueue.length}
+- NATO-relevant NSC/SOC packet controls needing extraction: ${nscPacketControls.length}
+- Non-NATO, crisis-only, or date-out-of-scope NSC/Summaries of Conclusions flags held out of the NATO queue: ${nscQueueExcluded.length}
+- Clinton Library withheld meeting/SOC controls: ${clintonMeetingControls.length}
 - P0 records: ${publicRecords.filter((record) => record.priority === "P0").length}
 
 ## Source Classes
@@ -491,13 +583,22 @@ NARA Catalog, State FOIA, Office of the Historian, or another public official
 source.
 `);
 
-writeText("reports/nsc-soc-priority-queue.md", `# NSC and Summaries of Conclusions Priority Queue
+writeText("reports/nsc-soc-priority-queue.md", `# NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
 Generated: ${new Date().toISOString()}
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
-interagency, meeting-minutes, or Summary of Conclusions language. They are the
-front of the Barton Bernstein package review queue.
+interagency, meeting-minutes, or Summary of Conclusions language and a direct
+NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
+security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
+Barton Bernstein package review queue.
+
+- NATO-relevant NSC/SOC records: ${nscQueue.length}
+- NATO-relevant NSC/SOC packet controls needing document extraction: ${nscPacketControls.length}
+- Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: ${nscQueueExcluded.length}
+- Clinton Library withheld NATO meeting/SOC controls tracked separately: ${clintonMeetingControls.length}
+
+## Public Document Queue
 
 ${markdownTable(nscQueue.slice(0, 160).map((record) => ({
   Date: record.date,
@@ -509,19 +610,66 @@ ${markdownTable(nscQueue.slice(0, 160).map((record) => ({
   Source: record.sourceClass,
   Link: sourceLink(record)
 })), ["Date", "Priority", "Type", "Record", "Committee", "Pages", "Source", "Link"])}
+
+## Public Packet Controls Requiring Extraction
+
+These public MDR packets carry direct NATO NSC/SOC signals, but they are not
+document-level package rows until a compiler has split them into dated records
+with page spans, markings, and duplicate checks.
+
+${markdownTable(nscPacketControls.map((record) => ({
+  Date: record.date,
+  Priority: record.priority,
+  Type: record.documentType,
+  Record: record.title,
+  Committee: record.nscSoc?.committee || "",
+  Pages: record.pageCount || "",
+  Source: record.sourceClass,
+  Link: sourceLink(record)
+})), ["Date", "Priority", "Type", "Record", "Committee", "Pages", "Source", "Link"])}
+
+## Clinton Library Withheld NATO Meeting/SOC Controls
+
+These official Clinton Library controls are not package-eligible declassified
+pages. They are kept here because they identify likely PC/DC Summary of
+Conclusions records on NATO expansion, NATO-Russia, and NATO summit decisions
+that remain withheld or duplicated in withdrawal-sheet accounting.
+
+${clintonMeetingControlRows.length ? markdownTable(clintonMeetingControlRows, ["Date", "Committee", "Pages", "Record", "Packet", "Status", "Restriction", "Link"]) : "No Clinton Library meeting-control rows have been curated in this build yet."}
+
+## Held-Out Crisis-Only NSC/SOC Examples
+
+These records retain NSC/SOC flags in the public source register, but they are
+not in the NATO priority queue because their direct metadata points to Bosnia,
+Kosovo, another crisis lane without a direct NATO-expansion decision signal, or
+a normalized date outside the 1993-2000 Clinton-administration scope.
+
+${markdownTable(nscQueueExcluded.slice(0, 40).map((record) => ({
+  Date: record.date,
+  Priority: record.priority,
+  Type: record.documentType,
+  Record: record.title,
+  Committee: record.nscSoc?.committee || "",
+  Pages: record.pageCount || "",
+  Source: record.sourceClass,
+  Link: sourceLink(record)
+})), ["Date", "Priority", "Type", "Record", "Committee", "Pages", "Source", "Link"])}
 `);
 
-writeText("reports/assembly-plan.md", `# 1000-Page Assembly Plan
+writeText("reports/assembly-plan.md", `# Source Register Assembly Diagnostic
 
 Generated: ${new Date().toISOString()}
 
-Current selected page budget: ${assembly.pages} pages across ${assembly.selected.length}
-records. This is an automated first pass, not a final scholarly selection.
+Current diagnostic page budget: ${assembly.pages} pages across ${assembly.selected.length}
+records. This source-register diagnostic is not the canonical Bernstein package
+selection; use [package-manifest.md](package-manifest.md) for the exact
+1000-page package.
 
-Selection order favors P0 records, NSC/Summaries of Conclusions, memcons,
-telcons, State FOIA records with page counts, and records already carrying
-document-level metadata. File-unit leads do not count toward the page budget
-until promoted to document-level records.
+Selection order favors P0 records, NATO-relevant NSC/Summaries of Conclusions,
+memcons, telcons, State FOIA records with page counts, and records already
+carrying document-level metadata. File-unit leads, broad packet controls, and
+crisis-only SOC records do not count toward this diagnostic page budget until
+promoted or matched to direct NATO-expansion evidence.
 
 ${markdownTable(assembly.selected.map((record, index) => ({
   "#": index + 1,
@@ -535,4 +683,4 @@ ${markdownTable(assembly.selected.map((record, index) => ({
 })), ["#", "Date", "Priority", "Pages", "Record", "Type", "Source", "Link"])}
 `);
 
-console.log(`Wrote ${publicRecords.length} public records, ${nscQueue.length} NSC/SOC flags, ${assembly.pages} planned pages.`);
+console.log(`Wrote ${publicRecords.length} public records, ${nscQueueCandidates.length}/${nscQueueAll.length} NATO-relevant NSC/SOC flags, ${assembly.pages} planned pages.`);
