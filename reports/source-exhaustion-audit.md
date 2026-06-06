@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T06:56:29.531Z
+Generated: 2026-06-06T07:01:20.734Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -248,7 +248,7 @@ Packet | Control Pages | Promoted Rows | Promoted Pages | Reviewed Residual Page
 2015-0768-M | 89 | 19 | 66 | 23 |  | review complete; residual pages are withdrawal/control sheets, withheld markers, or duplicate fragments | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 2013-0804-M | 148 | 4 | 11 |  | 137 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/49412)
 2024-0540-M | 91 | 17 | 75 | 16 |  | review complete; residual pages are off-topic RFE/RL, UNSC, schedule, or Czech domestic-politics material | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
-2015-0773-M | 239 | 7 | 31 |  | 208 | partial; continue document-level extraction | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
+2015-0773-M | 239 | 7 | 31 | 208 |  | review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
 2015-0755-M | 340 | 18 | 135 | 205 |  | review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 2015-0771-M | 164 | 3 | 13 |  | 151 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 2015-0768-M | 5 | 1 | 4 | 1 |  | review complete; residual page is an administrative release marker | [open](https://clinton.presidentiallibraries.us/items/show/49430)

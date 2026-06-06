@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T06:56:29.531Z",
+  "generatedAt": "2026-06-06T07:01:20.734Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -336,9 +336,9 @@
       "Control Pages": 239,
       "Promoted Rows": 7,
       "Promoted Pages": 31,
-      "Reviewed Residual Pages": "",
-      "Backlog Pages": 208,
-      "Status": "partial; continue document-level extraction",
+      "Reviewed Residual Pages": 208,
+      "Backlog Pages": "",
+      "Status": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
       "Link": "[open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)"
     },
     {
@@ -465,6 +465,15 @@
       "coverageStatus": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
       "status": "reviewed residual pages; no additional package-ready NATO-expansion document text",
       "notes": "Pages were reviewed against the packet text after document-level promotion. Residual pages include Clinton Library markers, withdrawal/redaction sheets, RMO/action/routing controls, transmittal and distribution pages, duplicate or draft copies of promoted memcons and ratification memoranda, less-relevant companion memcons where NATO expansion is not the document focus, non-NATO Helsinki joint statements, and the May 1998 Prodi restricted-meeting material. No NSC minutes or Summaries of Conclusions were present in the reviewed residual pages."
+    },
+    {
+      "packetRecordId": "clinton-library-packet-2015-0773-m",
+      "packetIdentifier": "2015-0773-M",
+      "reviewedResidualPages": "1-32, 45-112, 118-126, 129-137, 141, 143-173, 182-239",
+      "reviewedResidualPageCount": 208,
+      "coverageStatus": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
+      "status": "reviewed residual pages; no additional package-ready NATO-expansion document text",
+      "notes": "Pages were reviewed against the packet text after document-level promotion. Residual pages include Clinton Library markers, withdrawal/redaction sheets, RMO/action/routing controls, Havel scheduling and Holocaust Museum opening material, Czech background/speech packets, duplicate or incomplete copies of promoted Havel telcons and memcons, 1994 RFE/Prague-call material, and later Havel/Kosovo telephone-call materials outside the NATO-expansion package focus. No NSC minutes or Summaries of Conclusions were present in the reviewed residual pages."
     }
   ],
   "clintonLibraryMeetingControls": [
