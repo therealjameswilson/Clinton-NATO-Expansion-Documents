@@ -8,6 +8,7 @@
     "build": "node scripts/build-package-manifest.mjs",
     "refresh:source-register": "node scripts/build-seed-register.mjs",
     "build:package": "node scripts/build-package-manifest.mjs",
+    "build:v2": "node scripts/build-version-2.mjs",
     "download:package": "node scripts/download-package-pdfs.mjs",
     "test": "node scripts/validate-package.mjs",
     "check": "npm run build && npm test"

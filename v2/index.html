@@ -3,60 +3,52 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Clinton NATO Expansion Documents</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Clinton NATO Expansion Documents v2.0</title>
+    <link rel="stylesheet" href="../styles.css">
   </head>
   <body>
     <header class="topbar">
       <div>
         <p class="eyebrow">Barton Bernstein document package</p>
-        <h1>Clinton NATO Expansion Documents</h1>
+        <h1>Version 2.0: Explicit NATO Membership Expansion</h1>
       </div>
-      <nav class="links" aria-label="Source links">
-        <a href="v2/">Version 2.0</a>
-        <a href="reports/assembly-plan.md">Assembly Plan</a>
-        <a href="reports/package-manifest.md">Package Manifest</a>
-        <a href="data/package-manifest.csv">Package CSV</a>
-        <a href="reports/source-exhaustion-audit.md">Source Audit</a>
-        <a href="reports/package-local-build-audit.md">Build Audit</a>
-        <a href="reports/nsc-soc-priority-queue.md">NSC Queue</a>
-        <a href="data/source-register.json">Register JSON</a>
+      <nav class="links" aria-label="Version links">
+        <a href="../">Version 1.0</a>
+        <a href="../reports/version-2-explicit-expansion.md">V2 Report</a>
+        <a href="../data/version-2-explicit-expansion.csv">V2 CSV</a>
+        <a href="../data/version-2-explicit-expansion.json">V2 JSON</a>
       </nav>
     </header>
 
     <main>
-      <section class="metrics" aria-label="Register metrics">
+      <section class="metrics" aria-label="Version 2 metrics">
         <div class="metric">
           <span class="metric-value" id="recordCount">0</span>
-          <span class="metric-label">records</span>
+          <span class="metric-label">core records</span>
         </div>
         <div class="metric">
-          <span class="metric-value" id="knownPages">0</span>
-          <span class="metric-label">known pages</span>
+          <span class="metric-value" id="pageCount">0</span>
+          <span class="metric-label">core pages</span>
         </div>
         <div class="metric">
           <span class="metric-value" id="nscCount">0</span>
           <span class="metric-label">NSC/SOC flags</span>
         </div>
         <div class="metric">
-          <span class="metric-value" id="p0Count">0</span>
-          <span class="metric-label">P0 records</span>
+          <span class="metric-value" id="reviewCount">0</span>
+          <span class="metric-label">review queue</span>
         </div>
       </section>
 
-      <section class="toolbar" aria-label="Register filters">
+      <section class="toolbar" aria-label="Version 2 filters">
         <label>
           Search
           <input id="searchInput" type="search" autocomplete="off">
         </label>
         <label>
-          Priority
-          <select id="priorityFilter">
+          Lane
+          <select id="laneFilter">
             <option value="">All</option>
-            <option value="P0">P0</option>
-            <option value="P1">P1</option>
-            <option value="P2">P2</option>
-            <option value="P3">P3</option>
           </select>
         </label>
         <label>
@@ -71,17 +63,18 @@
         </label>
       </section>
 
-      <section class="table-wrap" aria-label="Source register">
+      <section class="table-wrap" aria-label="Version 2 dossier">
         <table>
           <thead>
             <tr>
+              <th>#</th>
               <th>Date</th>
-              <th>Priority</th>
+              <th>Lane</th>
               <th>Record</th>
               <th>Type</th>
               <th>Source</th>
               <th>Pages</th>
-              <th>Status</th>
+              <th>Match</th>
             </tr>
           </thead>
           <tbody id="recordRows"></tbody>

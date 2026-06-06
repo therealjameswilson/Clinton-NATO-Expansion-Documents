@@ -6,6 +6,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const repoRoot = path.resolve(__dirname, "..");
 const registerPath = path.join(repoRoot, "data", "source-register.json");
 const packageManifestPath = path.join(repoRoot, "data", "package-manifest.json");
+const version2ManifestPath = path.join(repoRoot, "data", "version-2-explicit-expansion.json");
 const sourceExhaustionPath = path.join(repoRoot, "data", "source-exhaustion-audit.json");
 const clintonMeetingControlsPath = path.join(repoRoot, "data", "clinton-library-meeting-controls.json");
 const requiredReports = [
@@ -15,7 +16,8 @@ const requiredReports = [
   "reports/package-manifest.md",
   "reports/package-gap-audit.md",
   "reports/package-local-build-audit.md",
-  "reports/source-exhaustion-audit.md"
+  "reports/source-exhaustion-audit.md",
+  "reports/version-2-explicit-expansion.md"
 ];
 
 function fail(message) {
@@ -25,6 +27,7 @@ function fail(message) {
 
 const records = JSON.parse(fs.readFileSync(registerPath, "utf8"));
 const packageManifest = JSON.parse(fs.readFileSync(packageManifestPath, "utf8"));
+const version2Manifest = JSON.parse(fs.readFileSync(version2ManifestPath, "utf8"));
 const sourceExhaustion = JSON.parse(fs.readFileSync(sourceExhaustionPath, "utf8"));
 const clintonMeetingControls = JSON.parse(fs.readFileSync(clintonMeetingControlsPath, "utf8"));
 
@@ -69,6 +72,19 @@ for (const record of packageManifest.selected || []) {
 }
 if ((packageManifest.nscSocCandidateCount || 0) < 10) fail(`expected NSC/SOC attention queue, found ${packageManifest.nscSocCandidateCount}`);
 if ((packageManifest.clintonLibraryPacketControlCount || 0) < 5) fail(`expected Clinton Library packet extraction queue, found ${packageManifest.clintonLibraryPacketControlCount}`);
+if (version2Manifest.version !== "2.0") fail(`expected version 2.0 manifest, found ${version2Manifest.version}`);
+if (!Array.isArray(version2Manifest.selected) || version2Manifest.selected.length < 50) fail("version 2.0 selected set is unexpectedly small");
+if (version2Manifest.selectedCount !== version2Manifest.selected.length) fail("version 2.0 selectedCount does not match selected array length");
+if ((version2Manifest.selectedPageTotal || 0) < 250) fail(`version 2.0 page total is unexpectedly low: ${version2Manifest.selectedPageTotal}`);
+if (!Array.isArray(version2Manifest.reviewCandidates)) fail("version 2.0 review queue is missing");
+for (const record of version2Manifest.selected || []) {
+  if (!record.pdfUrl || !/^https?:\/\//.test(record.pdfUrl)) fail(`version 2.0 record missing public PDF URL: ${record.id}`);
+  if (!Number(record.pageCount)) fail(`version 2.0 record missing page count: ${record.id}`);
+  if (Number(record.year) < 1993 || Number(record.year) > 2000) fail(`version 2.0 record outside 1993-2000: ${record.id}`);
+  if (record.sourceClass === "nara-scout-lead") fail(`NARA Scout lead entered version 2.0 without promotion: ${record.id}`);
+  if (record.sourceClass === "clinton-library-mdr-packet") fail(`Clinton Library packet control entered version 2.0 without extraction: ${record.id}`);
+  if (!record.version2?.matches?.length) fail(`version 2.0 record lacks direct expansion match: ${record.id}`);
+}
 if (!Array.isArray(sourceExhaustion.clintonLibraryPacketControls) || sourceExhaustion.clintonLibraryPacketControls.length < 5) {
   fail("source-exhaustion audit missing Clinton Library packet controls");
 }
@@ -90,5 +106,5 @@ for (const relativePath of requiredReports) {
 }
 
 if (!process.exitCode) {
-  console.log(`Validated ${records.length} records, ${nscSocCount} NSC/SOC flags, ${knownPages} known pages, and ${packageManifest.selectedPageTotal} selected package pages.`);
+  console.log(`Validated ${records.length} records, ${nscSocCount} NSC/SOC flags, ${knownPages} known pages, ${packageManifest.selectedPageTotal} selected package pages, and ${version2Manifest.selectedCount} v2.0 records.`);
 }

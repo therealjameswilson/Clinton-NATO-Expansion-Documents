@@ -53,6 +53,10 @@ Target corpus:
   package.
 - `data/package-manifest.json` and `data/package-manifest.csv` - focused
   1000-page Bernstein package manifest.
+- `data/version-2-explicit-expansion.json` and
+  `data/version-2-explicit-expansion.csv` - version 2.0 dossier isolating
+  document rows where policymakers explicitly discuss whether, whom, when, or
+  how to expand NATO membership.
 - `data/clinton-library-packet-controls.json` - official Clinton Library MDR
   packet controls awaiting document-level extraction.
 - `data/clinton-library-promoted-documents.json` - document-level rows promoted
@@ -66,10 +70,14 @@ Target corpus:
   for the selected 1000-page package.
 - `reports/source-exhaustion-audit.md` - public audit of source lanes still
   requiring extraction or promotion.
+- `reports/version-2-explicit-expansion.md` - readable version 2.0 manifest,
+  rule set, and review queue.
 - `scripts/build-seed-register.mjs` - imports the existing Clinton NATO
   workbench and the local Strobe Talbott FOIA manifest.
 - `scripts/build-package-manifest.mjs` - builds the focused package manifest
   from the committed public register.
+- `scripts/build-version-2.mjs` - builds the narrower version 2.0 explicit
+  membership-expansion dossier from the committed public register.
 - `scripts/download-package-pdfs.mjs` - local-only downloader/assembler for the
   selected public PDFs under ignored `private/package-pdfs/`.
 - `scripts/validate-package.mjs` - validates the generated register and
@@ -81,6 +89,7 @@ Target corpus:
 
 ```bash
 npm run build
+npm run build:v2
 npm test
 ```
 
@@ -91,6 +100,7 @@ local sibling workspaces, run:
 ```bash
 npm run refresh:source-register
 npm run build
+npm run build:v2
 npm test
 ```
 
