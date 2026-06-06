@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T05:32:57.575Z
+Generated: 2026-06-06T05:45:13.997Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,11 +9,11 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 176 | 1000 | assembled locally
-Package-ready public candidates | 485 | 2406 | available for reselection
-NSC/SOC/minutes attention queue | 225 |  | special review lane
+Selected package records | 171 | 1000 | assembled locally
+Package-ready public candidates | 502 | 2504 | available for reselection
+NSC/SOC/minutes attention queue | 242 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 9 selected; 4 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 115 | 604 | document-level rows
+Clinton Library promoted document rows | 132 | 702 | document-level rows
 NARA promoted document rows | 9 | 36 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -63,7 +63,9 @@ Date | Pages | Count | Record | Packet | Link
 1994-12-22 | 116-121 | 6 | European Security Architecture, NATO Expansion and Russia | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-12-29 | 64-66 | 3 | President Yeltsin to President Clinton on NATO Enlargement | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-06 | 68-69 | 2 | President Clinton to President Yeltsin on NATO Expansion and Chechnya | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-01-23 | 3-8 | 6 | Secretary's Meeting with UK Foreign Secretary | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-01-25 | 9-14 | 6 | NATO Expansion: Getting From Here to There | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-02-01 | 15-23 | 9 | The Secretary's Meeting with EU Presidency/French Foreign Minister Juppe and European Commissioner Brittan, January 26, 1995 at the State Department | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-02-11 | 85-104 | 20 | Working Lunch with Prime Minister Jean-Luc Dehaene of Belgium | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1995-02-15 | 24-26 | 3 | Ukrainian Views on NATO Expansion; Ukraine and PFP | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-02-28 | 126-137 | 12 | The President's Working Lunch with Wim Kok, Prime Minister of the Netherlands | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
@@ -72,15 +74,30 @@ Date | Pages | Count | Record | Packet | Link
 1995-03 | 79-80 | 2 | Possible Content of a Letter from the Russian Side | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-03 | 74-76 | 3 | President Clinton to President Yeltsin on NATO-Russia Relations | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-03-02 | 72-73 | 2 | Status of NATO-Russia Process | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03-03 | 32-35 | 4 | Holbrooke and Kovacs: A Meeting of the Minds | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-03-03 | 28-31 | 4 | NATO Expansion: U.S. Views on Military Implications | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-03-06 | 36-39 | 4 | DFM Tarasyuk Discusses PFP, GOU Internal Problems | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-03-07 | 145-150 | 6 | Meeting with NATO Secretary General Willy Claes | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1995-03-14 | 41-47 | 7 | Mamedov Visit: February 22 Sessions of the U.S.-Russian Strategic Stability Group | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-03-18 | 48-51 | 4 | Mamedov Reiterates Russian Sensitivities over NATO Expansion | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-03-22 | 52-53 | 2 | Night Note from Geneva, Wednesday, March 22, 1995 | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-03-29 | 54-57 | 4 | Czech Foreign Minister Zieleniec Addresses NATO Membership with PermReps | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-04-03 | 84-89 | 6 | Elements of a NATO-Russia Relationship | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-05-01 | 58-69 | 12 | Secretary Christopher's Meeting with Andrei Kozyrev, April 26 | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-05-25 | 70-73 | 4 | 5/24 Meeting of DOD Deputy Assistant Secretary Kruzel and NSC Senior Director Fried with Slovak President Kovac | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-05-27 | 127-128 | 2 | CEEs and Our European Security Policy | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1995-05-28 | 74-80 | 7 | NAC Ministerial at Noordwijk | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-06-16 | 131-147 | 17 | Troika Meeting on European Security/NATO Enlargement | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1995-06-28 | 81-86 | 6 | Karaganov Elaborates on His Russia-NATO "Theses": But No Give on Expansion | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-07-17 | 184-187 | 4 | European Security/NATO Enlargement Progress Report | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1995-07-19 | 90-93 | 4 | Bartoszewski and the Clinton Administration: What the Foreign Minister Meant to Say | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-07-19 | 87-89 | 3 | Demarche: Polish FonMin Bartoszewski on NATO | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-07-27 | 169-170 | 2 | West European Attitudes Toward NATO Enlargement | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-10-21 | 113-117 | 5 | Meeting with Vaclav Havel, President of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101427)
 1995-11-28 | 205-207 | 3 | Germans Causing Problems on NATO Enlargement | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1996-03-24 | 97-106 | 10 | Secretary's Lunch with Central European Foreign Ministers, March 20, 1996, Prague | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1996-04-16 | 107-114 | 8 | Foreign Minister Rosati's U.S. Visit: Heavy on Security Questions | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1996-04-17 | 115-118 | 4 | Your Meetings with President Yeltsin | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-05-11 | 119-123 | 5 | Polish FonMin Rosati and Acting Secretary Talbott Discuss NATO Enlargement and Regional Relations | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-06-03 | 124-129 | 6 | Memorandum of Conversation with Former President of Poland Lech Walesa | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-06-06 | 2-14 | 13 | C-P-L Item: NATO Enlargement | 2015-0770-M | [open](https://clinton.presidentiallibraries.us/items/show/57565)

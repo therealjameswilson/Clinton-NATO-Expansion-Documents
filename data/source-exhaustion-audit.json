@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T05:32:57.575Z",
+  "generatedAt": "2026-06-06T05:45:13.997Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 176,
+      "Count": 171,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 485,
-      "Pages": 2406,
+      "Count": 502,
+      "Pages": 2504,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 225,
+      "Count": 242,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 115,
-      "Pages": 604,
+      "Count": 132,
+      "Pages": 702,
       "Status": "document-level rows"
     },
     {
@@ -803,11 +803,31 @@
       "packetIdentifier": "2015-0768-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-secretary-uk-foreign-secretary-1995-01-23",
+      "date": "1995-01-23",
+      "title": "Secretary's Meeting with UK Foreign Secretary",
+      "pageCount": 6,
+      "sourcePages": "3-8",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0792-m-nato-expansion-getting-there-1995-01-25",
       "date": "1995-01-25",
       "title": "NATO Expansion: Getting From Here to There",
       "pageCount": 6,
       "sourcePages": "9-14",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-eu-presidency-juppe-brittan-1995-02-01",
+      "date": "1995-02-01",
+      "title": "The Secretary's Meeting with EU Presidency/French Foreign Minister Juppe and European Commissioner Brittan, January 26, 1995 at the State Department",
+      "pageCount": 9,
+      "sourcePages": "15-23",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
       "packetIdentifier": "2015-0792-M"
@@ -893,11 +913,31 @@
       "packetIdentifier": "2015-0768-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-holbrooke-kovacs-meeting-minds-1995-03-03",
+      "date": "1995-03-03",
+      "title": "Holbrooke and Kovacs: A Meeting of the Minds",
+      "pageCount": 4,
+      "sourcePages": "32-35",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0792-m-us-views-military-implications-1995-03-03",
       "date": "1995-03-03",
       "title": "NATO Expansion: U.S. Views on Military Implications",
       "pageCount": 4,
       "sourcePages": "28-31",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-tarasyuk-pfp-gou-problems-1995-03-06",
+      "date": "1995-03-06",
+      "title": "DFM Tarasyuk Discusses PFP, GOU Internal Problems",
+      "pageCount": 4,
+      "sourcePages": "36-39",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
       "packetIdentifier": "2015-0792-M"
@@ -913,6 +953,46 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-mamedov-strategic-stability-group-1995-03-14",
+      "date": "1995-03-14",
+      "title": "Mamedov Visit: February 22 Sessions of the U.S.-Russian Strategic Stability Group",
+      "pageCount": 7,
+      "sourcePages": "41-47",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-mamedov-russian-sensitivities-1995-03-18",
+      "date": "1995-03-18",
+      "title": "Mamedov Reiterates Russian Sensitivities over NATO Expansion",
+      "pageCount": 4,
+      "sourcePages": "48-51",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-night-note-geneva-1995-03-22",
+      "date": "1995-03-22",
+      "title": "Night Note from Geneva, Wednesday, March 22, 1995",
+      "pageCount": 2,
+      "sourcePages": "52-53",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-zieleniec-permreps-nato-1995-03-29",
+      "date": "1995-03-29",
+      "title": "Czech Foreign Minister Zieleniec Addresses NATO Membership with PermReps",
+      "pageCount": 4,
+      "sourcePages": "54-57",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-elements-nato-russia-relationship",
       "date": "1995-04-03",
       "title": "Elements of a NATO-Russia Relationship",
@@ -921,6 +1001,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-christopher-kozyrev-april-26-1995-05-01",
+      "date": "1995-05-01",
+      "title": "Secretary Christopher's Meeting with Andrei Kozyrev, April 26",
+      "pageCount": 12,
+      "sourcePages": "58-69",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-kruzel-fried-kovac-slovak-nato-1995-05-25",
+      "date": "1995-05-25",
+      "title": "5/24 Meeting of DOD Deputy Assistant Secretary Kruzel and NSC Senior Director Fried with Slovak President Kovac",
+      "pageCount": 4,
+      "sourcePages": "70-73",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-cees-and-european-security-policy-1995-05-27",
@@ -933,6 +1033,16 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-nac-ministerial-noordwijk-1995-05-28",
+      "date": "1995-05-28",
+      "title": "NAC Ministerial at Noordwijk",
+      "pageCount": 7,
+      "sourcePages": "74-80",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-lake-european-security-nato-enlargement-1995-06-16",
       "date": "1995-06-16",
       "title": "Troika Meeting on European Security/NATO Enlargement",
@@ -943,6 +1053,16 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-karaganov-russia-nato-theses-1995-06-28",
+      "date": "1995-06-28",
+      "title": "Karaganov Elaborates on His Russia-NATO \"Theses\": But No Give on Expansion",
+      "pageCount": 6,
+      "sourcePages": "81-86",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-progress-report-nato-enlargement-1995-07-17",
       "date": "1995-07-17",
       "title": "European Security/NATO Enlargement Progress Report",
@@ -951,6 +1071,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-bartoszewski-clinton-administration-1995-07-19",
+      "date": "1995-07-19",
+      "title": "Bartoszewski and the Clinton Administration: What the Foreign Minister Meant to Say",
+      "pageCount": 4,
+      "sourcePages": "90-93",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-bartoszewski-demarche-nato-1995-07-19",
+      "date": "1995-07-19",
+      "title": "Demarche: Polish FonMin Bartoszewski on NATO",
+      "pageCount": 3,
+      "sourcePages": "87-89",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-west-european-attitudes-nato-enlargement-1995-07-27",
@@ -981,6 +1121,36 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-central-european-foreign-ministers-prague-1996-03-24",
+      "date": "1996-03-24",
+      "title": "Secretary's Lunch with Central European Foreign Ministers, March 20, 1996, Prague",
+      "pageCount": 10,
+      "sourcePages": "97-106",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-rosati-us-visit-security-1996-04-16",
+      "date": "1996-04-16",
+      "title": "Foreign Minister Rosati's U.S. Visit: Heavy on Security Questions",
+      "pageCount": 8,
+      "sourcePages": "107-114",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-your-meetings-yeltsin-1996-04-17",
+      "date": "1996-04-17",
+      "title": "Your Meetings with President Yeltsin",
+      "pageCount": 4,
+      "sourcePages": "115-118",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
     },
     {
       "id": "clinton-library-doc-2015-0792-m-rosati-talbott-nato-enlargement-1996-05-11",

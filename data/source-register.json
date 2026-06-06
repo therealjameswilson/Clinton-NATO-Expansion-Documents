@@ -10228,6 +10228,61 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-packet extraction retained outside displayed FRUS note: Extracted from source packet PDF pages 77-79; 3 document pages counted. Review PDF includes a packet annotation sheet."
   },
   {
+    "id": "clinton-library-doc-2015-0792-m-secretary-uk-foreign-secretary-1995-01-23",
+    "title": "Secretary's Meeting with UK Foreign Secretary",
+    "date": "1995-01-23",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 3-8. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "3-8",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato-russia",
+      "kozyrev",
+      "allied consultations",
+      "nato expansion"
+    ],
+    "topics": [
+      "NATO expansion",
+      "NATO-Russia",
+      "Allied consultations",
+      "European security architecture",
+      "Partnership for Peace"
+    ],
+    "people": [
+      "Warren Christopher",
+      "Douglas Hurd",
+      "Andrei Kozyrev",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Russia",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. The cable covers U.S.-UK discussion of NATO-Russia relations, Russian anxieties, and the allied handling of enlargement."
+  },
+  {
     "id": "clinton-library-doc-2015-0792-m-nato-expansion-getting-there-1995-01-25",
     "title": "NATO Expansion: Getting From Here to There",
     "date": "1995-01-25",
@@ -10284,6 +10339,63 @@
       "packetRecordId": "clinton-library-packet-2015-0792-m"
     },
     "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Hunter argues for using the NATO expansion study to build allied confidence and convert uncertainty into support."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-eu-presidency-juppe-brittan-1995-02-01",
+    "title": "The Secretary's Meeting with EU Presidency/French Foreign Minister Juppe and European Commissioner Brittan, January 26, 1995 at the State Department",
+    "date": "1995-02-01",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 15-23. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "15-23",
+    "pageCount": 9,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "juppe",
+      "european union",
+      "nato expansion",
+      "nato-russia"
+    ],
+    "topics": [
+      "NATO expansion",
+      "NATO-Russia",
+      "European Union",
+      "Western European Union",
+      "Ukraine",
+      "Allied consultations"
+    ],
+    "people": [
+      "Warren Christopher",
+      "Alain Juppe",
+      "Leon Brittan",
+      "Andrei Kozyrev"
+    ],
+    "countries": [
+      "United States",
+      "France",
+      "Russia",
+      "Ukraine",
+      "Central and Eastern Europe"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. The report captures French and EU views on NATO enlargement, WEU, Ukraine, and the parallel NATO-Russia track."
   },
   {
     "id": "clinton-library-doc-2015-0755-m-dehaene-working-lunch-1995-02-11",
@@ -10836,6 +10948,64 @@
     "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The DC0180 folder withdrawal sheet also lists a withheld Summary of Conclusions for a NATO expansion/NATO-Russia Deputies Committee meeting."
   },
   {
+    "id": "clinton-library-doc-2015-0792-m-holbrooke-kovacs-meeting-minds-1995-03-03",
+    "title": "Holbrooke and Kovacs: A Meeting of the Minds",
+    "date": "1995-03-03",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 32-35. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "32-35",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "hungary",
+      "nato expansion",
+      "nato-russia",
+      "holbrooke"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Hungarian accession",
+      "NATO-Russia",
+      "Partnership for Peace",
+      "Baltic states",
+      "Ukraine"
+    ],
+    "people": [
+      "Richard Holbrooke",
+      "Laszlo Kovacs",
+      "Daniel Fried",
+      "Donald Blinken"
+    ],
+    "countries": [
+      "United States",
+      "Hungary",
+      "Russia",
+      "Poland",
+      "Ukraine",
+      "Baltic states"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. The cable records Holbrooke and Kovacs discussing Hungary's NATO game plan, the absence of a Russian veto, Ukraine, the Baltics, and the NATO-Russia parallel track."
+  },
+  {
     "id": "clinton-library-doc-2015-0792-m-us-views-military-implications-1995-03-03",
     "title": "NATO Expansion: U.S. Views on Military Implications",
     "date": "1995-03-03",
@@ -10887,6 +11057,58 @@
       "packetRecordId": "clinton-library-packet-2015-0792-m"
     },
     "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. The guidance sets out U.S. views on maintaining NATO military credibility as the alliance enlarges."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-tarasyuk-pfp-gou-problems-1995-03-06",
+    "title": "DFM Tarasyuk Discusses PFP, GOU Internal Problems",
+    "date": "1995-03-06",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 36-39. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "36-39",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "ukraine",
+      "partnership for peace",
+      "nato expansion",
+      "tarasyuk"
+    ],
+    "topics": [
+      "Ukraine",
+      "Partnership for Peace",
+      "NATO expansion",
+      "Ukrainian security policy"
+    ],
+    "people": [
+      "Borys Tarasyuk",
+      "Yuriy Kostenko"
+    ],
+    "countries": [
+      "Ukraine",
+      "United States",
+      "Russia",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Tarasyuk discusses Ukraine's PFP position and privately signals Ukrainian interest in eventual NATO membership."
   },
   {
     "id": "clinton-library-doc-2015-0755-m-claes-1995-03-07",
@@ -11003,6 +11225,223 @@
     "notes": "Presidential Daily Diary context record; use for chronology and to identify likely memcon, telcon, briefing, trip, or summit files rather than as a substitute for the substantive conversation text. Source page span retained outside displayed FRUS note: pages 65 and 70."
   },
   {
+    "id": "clinton-library-doc-2015-0792-m-mamedov-strategic-stability-group-1995-03-14",
+    "title": "Mamedov Visit: February 22 Sessions of the U.S.-Russian Strategic Stability Group",
+    "date": "1995-03-14",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 41-47. Confidential; Exdis.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "41-47",
+    "pageCount": 7,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "mamedov",
+      "nato-russia",
+      "strategic stability",
+      "nato expansion"
+    ],
+    "topics": [
+      "NATO expansion",
+      "NATO-Russia",
+      "Strategic Stability Group",
+      "CFE",
+      "ABM Treaty",
+      "Theater missile defense"
+    ],
+    "people": [
+      "Strobe Talbott",
+      "Georgiy Mamedov",
+      "Andrei Kozyrev"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. The cable captures U.S.-Russian discussion of expansion timing, future NATO-Russia ties, possible Russian membership, CFE, ABM, and TMD issues."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-mamedov-russian-sensitivities-1995-03-18",
+    "title": "Mamedov Reiterates Russian Sensitivities over NATO Expansion",
+    "date": "1995-03-18",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 48-51. Secret; Nodis.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "48-51",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "mamedov",
+      "yeltsin",
+      "nato expansion",
+      "russian opposition"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Russian domestic politics",
+      "NATO-Russia",
+      "Presidential correspondence"
+    ],
+    "people": [
+      "Thomas Pickering",
+      "Georgiy Mamedov",
+      "Boris Yeltsin",
+      "Andrei Kozyrev"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Mamedov underscores Russian sensitivity over rapid NATO enlargement and links the issue to Yeltsin, Kozyrev, and presidential correspondence."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-night-note-geneva-1995-03-22",
+    "title": "Night Note from Geneva, Wednesday, March 22, 1995",
+    "date": "1995-03-22",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 52-53. Secret; Nodis; Special Encryption; Eyes Only.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "52-53",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "president",
+      "christopher",
+      "kozyrev",
+      "nato-russia"
+    ],
+    "topics": [
+      "NATO expansion",
+      "NATO-Russia",
+      "OSCE",
+      "Geneva diplomacy",
+      "Presidential reporting"
+    ],
+    "people": [
+      "Warren Christopher",
+      "Bill Clinton",
+      "Anthony Lake",
+      "Alain Juppe",
+      "Andrei Kozyrev",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "France",
+      "Russia",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Christopher reports to the President and Lake on Juppe's account of Kozyrev's effort to slow NATO expansion and raise OSCE-centered alternatives."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-zieleniec-permreps-nato-1995-03-29",
+    "title": "Czech Foreign Minister Zieleniec Addresses NATO Membership with PermReps",
+    "date": "1995-03-29",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 54-57. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "54-57",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "czech republic",
+      "nato membership",
+      "russia",
+      "zieleniec"
+    ],
+    "topics": [
+      "Czech NATO accession",
+      "NATO expansion",
+      "NATO-Russia",
+      "Slovakia",
+      "Democratic reform"
+    ],
+    "people": [
+      "Josef Zieleniec"
+    ],
+    "countries": [
+      "Czech Republic",
+      "Russia",
+      "Slovakia",
+      "United States",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Zieleniec briefs NATO permanent representatives on Czech membership arguments, Russia, Slovakia, and reform credentials."
+  },
+  {
     "id": "clinton-library-doc-2015-0768-m-elements-nato-russia-relationship",
     "title": "Elements of a NATO-Russia Relationship",
     "date": "1995-04-03",
@@ -11104,6 +11543,62 @@
       "manifestPath": "data/manifest.json"
     },
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 21."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-christopher-kozyrev-april-26-1995-05-01",
+    "title": "Secretary Christopher's Meeting with Andrei Kozyrev, April 26",
+    "date": "1995-05-01",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 58-69. Secret; Nodis.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "58-69",
+    "pageCount": 12,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "christopher",
+      "kozyrev",
+      "nato-russia",
+      "may-for-may"
+    ],
+    "topics": [
+      "NATO expansion",
+      "NATO-Russia",
+      "Partnership for Peace",
+      "May-for-May diplomacy",
+      "Russian objections"
+    ],
+    "people": [
+      "Warren Christopher",
+      "Strobe Talbott",
+      "Andrei Kozyrev",
+      "Boris Yeltsin",
+      "Nikolai Spassky"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "Poland",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. The cable records the Christopher-Kozyrev exchange on NATO expansion, timing, PFP, the NATO-Russia dialogue, and Russian rhetoric."
   },
   {
     "id": "clinton-nato-balkans-pcdc-1995-05-09-bosnia-deputies-summary",
@@ -11322,6 +11817,60 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-packet extraction retained outside displayed FRUS note: Extracted from source packet PDF pages 83-84; 2 document pages counted. Review PDF includes a packet annotation sheet."
   },
   {
+    "id": "clinton-library-doc-2015-0792-m-kruzel-fried-kovac-slovak-nato-1995-05-25",
+    "title": "5/24 Meeting of DOD Deputy Assistant Secretary Kruzel and NSC Senior Director Fried with Slovak President Kovac",
+    "date": "1995-05-25",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 70-73. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "70-73",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "slovakia",
+      "membership criteria",
+      "fried",
+      "nato expansion"
+    ],
+    "topics": [
+      "Slovak NATO accession",
+      "NATO expansion criteria",
+      "Democratic reform",
+      "Civil-military standards"
+    ],
+    "people": [
+      "Joseph Kruzel",
+      "Daniel Fried",
+      "Michal Kovac",
+      "Vladimir Meciar"
+    ],
+    "countries": [
+      "Slovakia",
+      "United States",
+      "Hungary",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Kruzel and Fried discuss NATO membership criteria and Slovak democratic standards with President Kovac."
+  },
+  {
     "id": "clinton-library-doc-2015-0772-m-cees-and-european-security-policy-1995-05-27",
     "title": "CEEs and Our European Security Policy",
     "date": "1995-05-27",
@@ -11446,6 +11995,65 @@
       "id": "balkans-chirac-1995-05-27"
     },
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source marking extraction: Confidential found by PDF text extraction. Source page span retained outside displayed FRUS note: 4 pages counted."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-nac-ministerial-noordwijk-1995-05-28",
+    "title": "NAC Ministerial at Noordwijk",
+    "date": "1995-05-28",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 74-80. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "74-80",
+    "pageCount": 7,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nac ministerial",
+      "nato expansion study",
+      "nato-russia",
+      "pfp"
+    ],
+    "topics": [
+      "NAC Ministerial",
+      "NATO enlargement study",
+      "NATO-Russia",
+      "Partnership for Peace",
+      "Allied consensus",
+      "No-surprises process"
+    ],
+    "people": [
+      "Robert Hunter",
+      "Warren Christopher",
+      "Strobe Talbott",
+      "Anthony Lake",
+      "Alexander Vershbow",
+      "Leon Fuerth",
+      "William Perry"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "Central and Eastern Europe",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Hunter reports on PFP, the expansion study, NATO-Russia relations, and the allied no-surprises enlargement process."
   },
   {
     "id": "clinton-nato-clinton-dl-101418",
@@ -11654,6 +12262,62 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 20."
   },
   {
+    "id": "clinton-library-doc-2015-0792-m-karaganov-russia-nato-theses-1995-06-28",
+    "title": "Karaganov Elaborates on His Russia-NATO \"Theses\": But No Give on Expansion",
+    "date": "1995-06-28",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 81-86. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "81-86",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "karaganov",
+      "nato-russia",
+      "associate membership",
+      "russian opposition"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Russian elite opinion",
+      "NATO-Russia",
+      "Associate membership",
+      "Baltic states"
+    ],
+    "people": [
+      "Sergey Karaganov",
+      "Thomas Pickering",
+      "Alexander Vershbow",
+      "Yevgeniy Primakov",
+      "Andrei Kozyrev"
+    ],
+    "countries": [
+      "Russia",
+      "United States",
+      "Baltic states",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Karaganov outlines Russian opposition to enlargement, associate-membership ideas, and objections to Baltic accession."
+  },
+  {
     "id": "state-foia-C06698191",
     "title": "TALBOTT-MAMEDOV MEETING IN BUENOS AIRES ON THE MARGINS OF MENEM INAUGURAL",
     "date": "1995-07-09",
@@ -11766,6 +12430,115 @@
       "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. NSC record ID 9505436; the memo updates the President on the NATO enlargement study, parallel NATO-Russia relationship, CEE anxieties, Russian opposition, congressional strategy, and a possible 1996-1997 accession timetable. Packet pages 159-162, 172-175, and 179-182 contain duplicate or marked copies and are not promoted separately."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-bartoszewski-clinton-administration-1995-07-19",
+    "title": "Bartoszewski and the Clinton Administration: What the Foreign Minister Meant to Say",
+    "date": "1995-07-19",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 90-93. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "90-93",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "poland",
+      "bartoszewski",
+      "clinton policy",
+      "nato enlargement"
+    ],
+    "topics": [
+      "Polish NATO accession",
+      "NATO enlargement",
+      "Clinton administration policy",
+      "Russian reactions"
+    ],
+    "people": [
+      "Wladyslaw Bartoszewski",
+      "Nicholas Rey",
+      "Jozef Oleksy",
+      "Daniel Fried",
+      "Bill Clinton"
+    ],
+    "countries": [
+      "United States",
+      "Poland",
+      "Russia",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. The Embassy clarifies Bartoszewski's position and reaffirms support for Clinton administration NATO enlargement policy."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-bartoszewski-demarche-nato-1995-07-19",
+    "title": "Demarche: Polish FonMin Bartoszewski on NATO",
+    "date": "1995-07-19",
+    "year": 1995,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 87-89. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "87-89",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "poland",
+      "bartoszewski",
+      "clinton commitment",
+      "nato enlargement"
+    ],
+    "topics": [
+      "Polish NATO accession",
+      "NATO enlargement",
+      "Russian domestic politics",
+      "Presidential commitments"
+    ],
+    "people": [
+      "Richard Holbrooke",
+      "Wladyslaw Bartoszewski",
+      "Nicholas Rey",
+      "Bill Clinton"
+    ],
+    "countries": [
+      "United States",
+      "Poland",
+      "Russia",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Bartoszewski addresses Clinton's NATO enlargement commitment, Poland's stance, and Russian political sensitivities."
   },
   {
     "id": "clinton-library-doc-2015-0772-m-west-european-attitudes-nato-enlargement-1995-07-27",
@@ -13806,6 +14579,78 @@
     "notes": "Promoted as a visible transmittal/control document after local source-image inspection. The underlying Tab A Summary of Conclusions was not separately identified as visible text in this pass, so this row should not be cited as the full SOC text."
   },
   {
+    "id": "clinton-library-doc-2015-0792-m-central-european-foreign-ministers-prague-1996-03-24",
+    "title": "Secretary's Lunch with Central European Foreign Ministers, March 20, 1996, Prague",
+    "date": "1996-03-24",
+    "year": 1996,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 97-106. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "97-106",
+    "pageCount": 10,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "central europe",
+      "christopher",
+      "nato enlargement",
+      "baltic states"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Central European accession",
+      "Baltic states",
+      "Russia",
+      "Ukraine",
+      "Partnership for Peace"
+    ],
+    "people": [
+      "Warren Christopher",
+      "Daniel Fried",
+      "John Kornblum",
+      "Josef Zieleniec",
+      "Siim Kallas",
+      "Valdis Birkavs",
+      "Laszlo Kovacs",
+      "Dariusz Rosati",
+      "Yevgeniy Primakov"
+    ],
+    "countries": [
+      "United States",
+      "Czech Republic",
+      "Albania",
+      "Bulgaria",
+      "Estonia",
+      "Hungary",
+      "Latvia",
+      "Lithuania",
+      "Poland",
+      "Romania",
+      "Slovakia",
+      "Slovenia",
+      "Russia",
+      "Ukraine",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Christopher's Prague lunch captures enlargement discussions with Central European foreign ministers, including Baltic, Russian, Ukrainian, and candidate-country concerns."
+  },
+  {
     "id": "state-foia-C06697287",
     "title": "NATO: REPORT BY SYG SOLANA OF HIS MEETING WITH RUSSIAN DEFMIN GRACHEV, MARCH 20",
     "date": "1996-04-01",
@@ -13894,6 +14739,66 @@
       "manifestPath": "data/manifest.json"
     },
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 24."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-rosati-us-visit-security-1996-04-16",
+    "title": "Foreign Minister Rosati's U.S. Visit: Heavy on Security Questions",
+    "date": "1996-04-16",
+    "year": 1996,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 107-114. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "107-114",
+    "pageCount": 8,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "poland",
+      "rosati",
+      "nato enlargement",
+      "pfp sofa"
+    ],
+    "topics": [
+      "Polish NATO accession",
+      "NATO enlargement",
+      "PFP SOFA",
+      "Regional security",
+      "Russia",
+      "Ukraine"
+    ],
+    "people": [
+      "Dariusz Rosati",
+      "Aleksander Kwasniewski",
+      "Stephen Mull",
+      "Daniel Fried"
+    ],
+    "countries": [
+      "United States",
+      "Poland",
+      "Russia",
+      "Czech Republic",
+      "Hungary",
+      "Belarus",
+      "Ukraine",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. The cable previews Rosati's U.S. visit and details Polish security questions on enlargement, PFP SOFA, regional security, Russia, and Ukraine."
   },
   {
     "id": "state-foia-C06697970",
@@ -13998,6 +14903,61 @@
       "manifestPath": "data/manifest.json"
     },
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 57."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-your-meetings-yeltsin-1996-04-17",
+    "title": "Your Meetings with President Yeltsin",
+    "date": "1996-04-17",
+    "year": 1996,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 115-118. Secret; Nodis.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "115-118",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "president",
+      "yeltsin",
+      "russian election",
+      "nato enlargement"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Clinton-Yeltsin diplomacy",
+      "Russian election politics",
+      "Russian opposition",
+      "Presidential briefing"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Boris Yeltsin",
+      "Thomas Pickering",
+      "Yevgeniy Primakov",
+      "Gennady Zyuganov"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "NATO"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Pickering briefs the President on Yeltsin's opposition to NATO enlargement in the context of Russian election politics."
   },
   {
     "id": "state-foia-C06697700",
