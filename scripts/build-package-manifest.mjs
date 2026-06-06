@@ -111,6 +111,11 @@ function scoreRecord(record) {
     score += 8;
     reasons.push("upstream include candidate");
   }
+  if (hardGapLocalIds.has(record.id) || hardGapPdfUrls.has(record.pdfUrl || "")) {
+    score += 28;
+    themes.push("strobe-hard-gap");
+    reasons.push("upstream Strobe hard-gap triage");
+  }
   if (record.sourceClass === "state-foia") {
     score += 4;
     reasons.push("State FOIA primary source");
@@ -211,6 +216,8 @@ const clintonMeetingControls = readJson(clintonMeetingControlsPath, []);
 const coverageMatrix = readJson(coverageMatrixPath, { rows: [] });
 const upstreamPromotionQueue = readJson(promotionQueuePath, { rows: [] });
 const hardGapTriage = readJson(hardGapTriagePath, { rows: [] });
+const hardGapLocalIds = new Set((hardGapTriage.rows || []).map((row) => `clinton-nato-${row.record_id}`));
+const hardGapPdfUrls = new Set((hardGapTriage.rows || []).map((row) => row.pdf_url).filter(Boolean));
 const promotedClintonDocs = publicRecords.filter((record) => record.upstream?.workspace === "live-clinton-library-document-extraction");
 const evaluated = publicRecords.map((record) => ({ ...record, package: scoreRecord(record) }));
 const candidates = evaluated.filter((record) => record.package.packageReady).sort(sortCandidates);
@@ -309,6 +316,9 @@ if (selectedPageTotal > targetPages) {
 const selected = assignPackagePages(selectedRaw);
 const selectedIds = new Set(selected.map((record) => record.id));
 const deferred = candidates.filter((record) => !selectedIds.has(record.id));
+const deferredIds = new Set(deferred.map((record) => record.id));
+const evaluatedById = new Map(evaluated.map((record) => [record.id, record]));
+const evaluatedByPdfUrl = new Map(evaluated.filter((record) => record.pdfUrl).map((record) => [record.pdfUrl, record]));
 const selectedPublic = selected.map((record) => ({
   id: record.id,
   packageOrder: record.package.packageOrder,
@@ -332,6 +342,41 @@ const selectedPublic = selected.map((record) => ({
   nscSoc: record.nscSoc
 }));
 
+const hardGapStatus = hardGapRows.map((row) => {
+  const record = evaluatedById.get(`clinton-nato-${row.record_id}`) ||
+    evaluatedById.get(row.record_id) ||
+    evaluatedByPdfUrl.get(row.pdf_url);
+  const selectedForPackage = Boolean(record && selectedIds.has(record.id));
+  const packageReady = Boolean(record?.package.packageReady);
+  let packageStatus = "not ingested";
+  if (selectedForPackage) packageStatus = "selected";
+  else if (record && deferredIds.has(record.id)) packageStatus = "package-ready deferred";
+  else if (record && packageReady) packageStatus = "package-ready outside preview";
+  else if (record) packageStatus = "not package-ready";
+
+  return {
+    order: row.triage_order,
+    recordId: row.record_id,
+    localRecordId: record?.id || "",
+    packageStatus,
+    packageSelected: selectedForPackage,
+    packageReady,
+    promotionLane: row.promotion_lane,
+    directGapCredit: row.direct_gap_credit,
+    recommendedDecision: row.recommended_decision,
+    date: row.date,
+    title: row.title,
+    pageCount: row.page_count || null,
+    pdfUrl: row.pdf_url || "",
+    relevanceScore: record?.package.score ?? null,
+    themes: record?.package.themes || [],
+    relevanceReasons: record?.package.reasons || []
+  };
+});
+const hardGapSelectedCount = hardGapStatus.filter((row) => row.packageStatus === "selected").length;
+const hardGapDeferredCount = hardGapStatus.filter((row) => row.packageStatus === "package-ready deferred" || row.packageStatus === "package-ready outside preview").length;
+const hardGapNotReadyCount = hardGapStatus.length - hardGapSelectedCount - hardGapDeferredCount;
+
 const manifest = {
   generatedAt: new Date().toISOString(),
   targetPages,
@@ -344,6 +389,9 @@ const manifest = {
   clintonLibraryPacketControlCount: packetExtractionQueue.length,
   clintonLibraryPacketControlPages: officialPacketPageTotal,
   privateGoogleDriveIntakeCount: privateDriveItems.length,
+  hardGapStrobeTriageCount: hardGapStatus.length,
+  hardGapStrobeSelectedCount: hardGapSelectedCount,
+  hardGapStrobeDeferredCount: hardGapDeferredCount,
   exactPageAdjustment,
   sourceClassCounts: countBy(selected, (record) => record.sourceClass),
   yearCounts: countBy(selected, (record) => String(record.year || "unknown")),
@@ -382,6 +430,7 @@ const manifest = {
     relevanceScore: record.package.score,
     nextAction: "Promote this file-unit lead only after source-image inspection identifies document dates, page spans, markings, and source-note provenance."
   })),
+  hardGapStrobeStatus: hardGapStatus,
   clintonLibraryPacketExtractionQueue: packetExtractionQueue.map((record) => ({
     id: record.id,
     date: record.date,
@@ -487,6 +536,7 @@ const exhaustionRows = [
   { Lane: "Selected package records", Count: manifest.selectedCount, Pages: manifest.selectedPageTotal, Status: "assembled locally" },
   { Lane: "Package-ready public candidates", Count: manifest.candidateCount, Pages: manifest.candidatePageTotal, Status: "available for reselection" },
   { Lane: "NSC/SOC/minutes attention queue", Count: manifest.nscSocCandidateCount, Pages: "", Status: "special review lane" },
+  { Lane: "Strobe FOIA hard-gap triage rows", Count: manifest.hardGapStrobeTriageCount, Pages: hardGapStatus.reduce((sum, record) => sum + Number(record.pageCount || 0), 0), Status: `${hardGapSelectedCount} selected; ${hardGapDeferredCount} package-ready deferred; ${hardGapNotReadyCount} not ready or not ingested` },
   { Lane: "Clinton Library promoted document rows", Count: promotedClintonDocs.length, Pages: promotedClintonDocs.reduce((sum, record) => sum + Number(record.pageCount || 0), 0), Status: "document-level rows" },
   { Lane: "Clinton Library withheld meeting/SOC controls", Count: clintonMeetingControls.length, Pages: clintonMeetingControls.reduce((sum, record) => sum + Number(record.pageCount || 0), 0), Status: "not package-eligible; retrieval/redaction leads" },
   { Lane: "Clinton Library MDR packet controls", Count: manifest.clintonLibraryPacketControlCount, Pages: manifest.clintonLibraryPacketControlPages, Status: "needs document-level extraction" },
@@ -502,13 +552,14 @@ const gapSignalRows = gapRows.map((row) => ({
   Action: row.next_action || ""
 }));
 
-const hardGapRowsForReport = hardGapRows.map((row) => ({
-  Order: row.triage_order,
-  Lane: row.promotion_lane,
+const hardGapRowsForReport = hardGapStatus.map((row) => ({
+  Order: row.order,
+  Package: row.packageStatus,
+  Score: row.relevanceScore ?? "",
   Record: row.title,
-  Pages: row.page_count || "",
-  Decision: row.recommended_decision || "",
-  Link: row.pdf_url ? `[open](${row.pdf_url})` : ""
+  Pages: row.pageCount || "",
+  Decision: row.recommendedDecision || "",
+  Link: row.pdfUrl ? `[open](${row.pdfUrl})` : ""
 }));
 
 const driveRows = Object.entries(driveQueryCounts(privateDriveItems)).map(([Query, Count]) => ({ Query, Count }));
@@ -531,6 +582,7 @@ closely related NSC/meeting records.
 - Package-ready public candidates: ${candidates.length}
 - Package-ready public candidate pages: ${manifest.candidatePageTotal}
 - NSC/Summaries/minutes attention candidates: ${attentionQueue.length}
+- Strobe FOIA hard-gap triage rows: ${hardGapStatus.length} (${hardGapSelectedCount} selected, ${hardGapDeferredCount} package-ready deferred)
 - NARA Scout promotion leads: ${promotionQueue.length}
 - Clinton Library MDR packet controls: ${packetExtractionQueue.length}
 - Clinton Library packet-control pages awaiting extraction: ${officialPacketPageTotal}
@@ -590,6 +642,10 @@ Generated: ${manifest.generatedAt}
 
 ${table(deferredRows, ["Date", "Score", "Pages", "Record", "Source", "Themes", "Link"])}
 
+## Strobe FOIA Hard-Gap Triage
+
+${hardGapRowsForReport.length ? table(hardGapRowsForReport, ["Order", "Package", "Score", "Record", "Pages", "Decision", "Link"]) : "No upstream hard-gap triage rows were available in this build environment."}
+
 ## NARA Scout Promotion Queue
 
 ${table(scoutRows, ["Score", "Record", "Themes", "Link"])}
@@ -632,7 +688,7 @@ ${gapSignalRows.length ? table(gapSignalRows, ["Gap", "Total", "Documents", "Min
 
 ## Hard-Gap Source Leads
 
-${hardGapRowsForReport.length ? table(hardGapRowsForReport, ["Order", "Lane", "Record", "Pages", "Decision", "Link"]) : "No upstream hard-gap triage rows were available in this build environment."}
+${hardGapRowsForReport.length ? table(hardGapRowsForReport, ["Order", "Package", "Score", "Record", "Pages", "Decision", "Link"]) : "No upstream hard-gap triage rows were available in this build environment."}
 
 ## Private Drive Matching Clues
 
@@ -648,8 +704,9 @@ ${driveRows.length ? table(driveRows, ["Query", "Count"]) : "No private Drive in
   and 2015-0772-M.
 - Promote NARA Scout leads only after source-image inspection supplies actual
   document dates, page spans, markings, and source-note paths.
-- Use the CFE and NAC/USNATO hard-gap leads to rebalance the first package away
-  from overreliance on broad State FOIA release packets.
+- Keep the ${hardGapDeferredCount} package-ready Strobe hard-gap rows visible for
+  any reselection if later Clinton Library or NARA image review displaces lower
+  value State FOIA rows.
 - Keep Drive copies private unless each one is matched to an official public
   source.
 `);
@@ -678,17 +735,7 @@ writeJson("data/source-exhaustion-audit.json", {
     status: row.status,
     nextAction: row.next_action
   })),
-  hardGapSourceLeads: hardGapRows.map((row) => ({
-    order: row.triage_order,
-    recordId: row.record_id,
-    promotionLane: row.promotion_lane,
-    directGapCredit: row.direct_gap_credit,
-    recommendedDecision: row.recommended_decision,
-    date: row.date,
-    title: row.title,
-    pageCount: row.page_count || null,
-    pdfUrl: row.pdf_url || ""
-  })),
+  hardGapSourceLeads: hardGapStatus,
   privateDriveIntake: {
     count: privateDriveItems.length,
     queryCounts: driveQueryCounts(privateDriveItems),

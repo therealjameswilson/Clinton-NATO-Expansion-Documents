@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-06T03:09:14.587Z",
+  "generatedAt": "2026-06-06T03:16:33.799Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 172,
+      "Count": 173,
       "Pages": 1000,
       "Status": "assembled locally"
     },
@@ -18,6 +18,12 @@
       "Count": 162,
       "Pages": "",
       "Status": "special review lane"
+    },
+    {
+      "Lane": "Strobe FOIA hard-gap triage rows",
+      "Count": 13,
+      "Pages": 57,
+      "Status": "13 selected; 0 package-ready deferred; 0 not ready or not ingested"
     },
     {
       "Lane": "Clinton Library promoted document rows",
@@ -1089,145 +1095,380 @@
     {
       "order": 1,
       "recordId": "strobe-hardgap-july2024-C09000039",
+      "localRecordId": "clinton-nato-strobe-hardgap-july2024-C09000039",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote first",
       "directGapCredit": "CFE direct; NATO-Russia drafting",
       "recommendedDecision": "Include candidate",
       "date": "1997-01-01",
       "title": "Additional Elements on CFE for NATO-Russia Document w/Attachment(s)",
       "pageCount": 4,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf",
+      "relevanceScore": 71,
+      "themes": [
+        "nato-russia",
+        "architecture",
+        "cfe-osce",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "nato-russia",
+        "architecture",
+        "cfe-osce",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 2,
       "recordId": "strobe-hardgap-july2024-C09000043",
+      "localRecordId": "clinton-nato-strobe-hardgap-july2024-C09000043",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote first",
       "directGapCredit": "CFE direct; Russian counter-proposal",
       "recommendedDecision": "Include candidate",
       "date": "1997-01-01",
       "title": "Precis of Russian-CFE Counter-Proposal",
       "pageCount": 2,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf",
+      "relevanceScore": 71,
+      "themes": [
+        "nato-russia",
+        "architecture",
+        "cfe-osce",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "nato-russia",
+        "architecture",
+        "cfe-osce",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 3,
       "recordId": "strobe-hardgap-oct2024-C09000035",
+      "localRecordId": "clinton-nato-strobe-hardgap-oct2024-C09000035",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote first",
       "directGapCredit": "CFE direct; Secretary-level retrospective",
       "recommendedDecision": "Include candidate",
       "date": "1996-06-10",
       "title": "The CFE Review Conference: A Retrospective w/Attachment(s)",
       "pageCount": 7,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf",
+      "relevanceScore": 55,
+      "themes": [
+        "architecture",
+        "cfe-osce",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "architecture",
+        "cfe-osce",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 4,
       "recordId": "strobe-hardgap-feb2024-C09000026",
+      "localRecordId": "clinton-nato-strobe-hardgap-feb2024-C09000026",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote first",
       "directGapCredit": "CFE direct; Kyiv/Ukraine cable",
       "recommendedDecision": "Include candidate",
       "date": "1997-04-09",
       "title": "CFE TREATY",
       "pageCount": 2,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000026/C09000026.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000026/C09000026.pdf",
+      "relevanceScore": 55,
+      "themes": [
+        "architecture",
+        "cfe-osce",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "architecture",
+        "cfe-osce",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 5,
       "recordId": "strobe-hardgap-july2022-C09000060",
+      "localRecordId": "clinton-nato-strobe-hardgap-july2022-C09000060",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote first",
       "directGapCredit": "NAC/USNATO direct; NATO-Russia",
       "recommendedDecision": "Include candidate",
       "date": "1998-09-28",
       "title": "DEPUTY SECRETARY TALBOTT BRIEFING TOTHE NAC ON MOSCOW SUMMIT, THE WAY AHEAD WITH RUSIA",
       "pageCount": 8,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf",
+      "relevanceScore": 74,
+      "themes": [
+        "nato-russia",
+        "nac-usnato",
+        "architecture",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "nato-russia",
+        "nac-usnato",
+        "architecture",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 6,
       "recordId": "strobe-hardgap-july2022-C09000063",
+      "localRecordId": "clinton-nato-strobe-hardgap-july2022-C09000063",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote first",
       "directGapCredit": "NAC/USNATO direct; Moscow summit",
       "recommendedDecision": "Include candidate",
       "date": "2000-06-08",
       "title": "DEPUTY SECRETARY BRIEFS THE NAC ON MOSCOW SUMMIT",
       "pageCount": 8,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf",
+      "relevanceScore": 74,
+      "themes": [
+        "nato-russia",
+        "nac-usnato",
+        "architecture",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "nato-russia",
+        "nac-usnato",
+        "architecture",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 7,
       "recordId": "strobe-hardgap-june2024-C09000017",
+      "localRecordId": "clinton-nato-strobe-hardgap-june2024-C09000017",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote first",
       "directGapCredit": "NAC direct; Kosovo/Russia",
       "recommendedDecision": "Include candidate",
       "date": "1999-04-29",
       "title": "NAC INTERVENTION 4/29/99",
       "pageCount": 6,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000017/C09000017.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000017/C09000017.pdf",
+      "relevanceScore": 66,
+      "themes": [
+        "nato-russia",
+        "nac-usnato",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "nato-russia",
+        "nac-usnato",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 8,
       "recordId": "strobe-hardgap-mar2023-C09000060",
+      "localRecordId": "clinton-nato-strobe-hardgap-mar2023-C09000060",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote after date/source check",
       "directGapCredit": "CFE support; enlargement diplomacy",
       "recommendedDecision": "Include candidate",
       "date": "1997-01-01",
       "title": "DRAFT LETTER FROM THE SECRETARY TO CENTRAL EUROPEAN COUNTERPARTS w/Attached Facsimile Transmission",
       "pageCount": 4,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000060/C09000060.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000060/C09000060.pdf",
+      "relevanceScore": 79,
+      "themes": [
+        "nato-expansion",
+        "architecture",
+        "cfe-osce",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "nato-expansion",
+        "architecture",
+        "cfe-osce",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 9,
       "recordId": "strobe-hardgap-july2024-C09000044",
+      "localRecordId": "clinton-nato-strobe-hardgap-july2024-C09000044",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote after date/source check",
       "directGapCredit": "CFE support; Mamedov/GEM checklist",
       "recommendedDecision": "Include candidate",
       "date": "1997-04-10",
       "title": "Checklist For GEM 4/10/97",
       "pageCount": 2,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf",
+      "relevanceScore": 71,
+      "themes": [
+        "nato-russia",
+        "architecture",
+        "cfe-osce",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "nato-russia",
+        "architecture",
+        "cfe-osce",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 10,
       "recordId": "strobe-hardgap-apr2023-C09000073",
+      "localRecordId": "clinton-nato-strobe-hardgap-apr2023-C09000073",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote after date/source check",
       "directGapCredit": "CFE support; Christopher/Yeltsin prep",
       "recommendedDecision": "Include candidate",
       "date": "1997-01-01",
       "title": "Note from Strobe to Chris",
       "pageCount": 6,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000073/C09000073.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000073/C09000073.pdf",
+      "relevanceScore": 55,
+      "themes": [
+        "architecture",
+        "cfe-osce",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "architecture",
+        "cfe-osce",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 11,
       "recordId": "strobe-hardgap-sep2022-C09000027",
+      "localRecordId": "clinton-nato-strobe-hardgap-sep2022-C09000027",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Promote after date/source check",
       "directGapCredit": "CFE support; rollout planning",
       "recommendedDecision": "Include candidate",
       "date": "1999-01-01",
       "title": "CFE Rollout Meeting",
       "pageCount": 1,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf",
+      "relevanceScore": 55,
+      "themes": [
+        "architecture",
+        "cfe-osce",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "architecture",
+        "cfe-osce",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 12,
       "recordId": "strobe-hardgap-july2024-C09000038",
+      "localRecordId": "clinton-nato-strobe-hardgap-july2024-C09000038",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Annotation/context",
       "directGapCredit": "NAC/Madrid chronology support",
       "recommendedDecision": "Context candidate",
       "date": "1997-01-01",
       "title": "On Course for Madrid",
       "pageCount": 2,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000038/C09000038.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000038/C09000038.pdf",
+      "relevanceScore": 90,
+      "themes": [
+        "nato-expansion",
+        "nato-russia",
+        "nac-usnato",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "nato-expansion",
+        "nato-russia",
+        "nac-usnato",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     },
     {
       "order": 13,
       "recordId": "strobe-hardgap-feb2024-C09000122",
+      "localRecordId": "clinton-nato-strobe-hardgap-feb2024-C09000122",
+      "packageStatus": "selected",
+      "packageSelected": true,
+      "packageReady": true,
       "promotionLane": "Annotation/context",
       "directGapCredit": "NAC/NATO-Russia interpretation",
       "recommendedDecision": "Context candidate",
       "date": "1997-01-01",
       "title": "ST notes on Kissinger piece",
       "pageCount": 5,
-      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf"
+      "pdfUrl": "https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf",
+      "relevanceScore": 66,
+      "themes": [
+        "nato-russia",
+        "nac-usnato",
+        "strobe-hard-gap"
+      ],
+      "relevanceReasons": [
+        "nato-russia",
+        "nac-usnato",
+        "upstream include candidate",
+        "upstream Strobe hard-gap triage",
+        "State FOIA primary source"
+      ]
     }
   ],
   "privateDriveIntake": {

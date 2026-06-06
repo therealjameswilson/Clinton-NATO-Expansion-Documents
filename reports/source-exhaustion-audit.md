@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T03:09:14.587Z
+Generated: 2026-06-06T03:16:33.799Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,9 +9,10 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 172 | 1000 | assembled locally
+Selected package records | 173 | 1000 | assembled locally
 Package-ready public candidates | 429 | 2125 | available for reselection
 NSC/SOC/minutes attention queue | 162 |  | special review lane
+Strobe FOIA hard-gap triage rows | 13 | 57 | 13 selected; 0 package-ready deferred; 0 not ready or not ingested
 Clinton Library promoted document rows | 61 | 316 | document-level rows
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -135,21 +136,21 @@ Partnership for Peace and partnership policy | 50 | 6 | 12 | Chase policy memora
 
 ## Hard-Gap Source Leads
 
-Order | Lane | Record | Pages | Decision | Link
---- | --- | --- | --- | --- | ---
-1 | Promote first | Additional Elements on CFE for NATO-Russia Document w/Attachment(s) | 4 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf)
-2 | Promote first | Precis of Russian-CFE Counter-Proposal | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf)
-3 | Promote first | The CFE Review Conference: A Retrospective w/Attachment(s) | 7 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf)
-4 | Promote first | CFE TREATY | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000026/C09000026.pdf)
-5 | Promote first | DEPUTY SECRETARY TALBOTT BRIEFING TOTHE NAC ON MOSCOW SUMMIT, THE WAY AHEAD WITH RUSIA | 8 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf)
-6 | Promote first | DEPUTY SECRETARY BRIEFS THE NAC ON MOSCOW SUMMIT | 8 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf)
-7 | Promote first | NAC INTERVENTION 4/29/99 | 6 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000017/C09000017.pdf)
-8 | Promote after date/source check | DRAFT LETTER FROM THE SECRETARY TO CENTRAL EUROPEAN COUNTERPARTS w/Attached Facsimile Transmission | 4 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000060/C09000060.pdf)
-9 | Promote after date/source check | Checklist For GEM 4/10/97 | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf)
-10 | Promote after date/source check | Note from Strobe to Chris | 6 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000073/C09000073.pdf)
-11 | Promote after date/source check | CFE Rollout Meeting | 1 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf)
-12 | Annotation/context | On Course for Madrid | 2 | Context candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000038/C09000038.pdf)
-13 | Annotation/context | ST notes on Kissinger piece | 5 | Context candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf)
+Order | Package | Score | Record | Pages | Decision | Link
+--- | --- | --- | --- | --- | --- | ---
+1 | selected | 71 | Additional Elements on CFE for NATO-Russia Document w/Attachment(s) | 4 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf)
+2 | selected | 71 | Precis of Russian-CFE Counter-Proposal | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf)
+3 | selected | 55 | The CFE Review Conference: A Retrospective w/Attachment(s) | 7 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf)
+4 | selected | 55 | CFE TREATY | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000026/C09000026.pdf)
+5 | selected | 74 | DEPUTY SECRETARY TALBOTT BRIEFING TOTHE NAC ON MOSCOW SUMMIT, THE WAY AHEAD WITH RUSIA | 8 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf)
+6 | selected | 74 | DEPUTY SECRETARY BRIEFS THE NAC ON MOSCOW SUMMIT | 8 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf)
+7 | selected | 66 | NAC INTERVENTION 4/29/99 | 6 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000017/C09000017.pdf)
+8 | selected | 79 | DRAFT LETTER FROM THE SECRETARY TO CENTRAL EUROPEAN COUNTERPARTS w/Attached Facsimile Transmission | 4 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000060/C09000060.pdf)
+9 | selected | 71 | Checklist For GEM 4/10/97 | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf)
+10 | selected | 55 | Note from Strobe to Chris | 6 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000073/C09000073.pdf)
+11 | selected | 55 | CFE Rollout Meeting | 1 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf)
+12 | selected | 90 | On Course for Madrid | 2 | Context candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000038/C09000038.pdf)
+13 | selected | 66 | ST notes on Kissinger piece | 5 | Context candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf)
 
 ## Private Drive Matching Clues
 
@@ -173,7 +174,8 @@ Summary Conclusions NATO | 1
   and 2015-0772-M.
 - Promote NARA Scout leads only after source-image inspection supplies actual
   document dates, page spans, markings, and source-note paths.
-- Use the CFE and NAC/USNATO hard-gap leads to rebalance the first package away
-  from overreliance on broad State FOIA release packets.
+- Keep the 0 package-ready Strobe hard-gap rows visible for
+  any reselection if later Clinton Library or NARA image review displaces lower
+  value State FOIA rows.
 - Keep Drive copies private unless each one is matched to an official public
   source.
