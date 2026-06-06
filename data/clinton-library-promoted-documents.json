@@ -2618,6 +2618,74 @@
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. NSC record ID 9505436; Lake answers the President's question about West European attitudes toward NATO enlargement, Russian objections, Baltic membership, EU/NATO sequencing, and allied solidarity. Packet pages 157-158 and 177-178 contain alternate marked copies and are not promoted separately."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-inviting-partners-madrid-1997-04-15",
+    "title": "Inviting Partners to Madrid",
+    "date": "1997-04-15",
+    "year": 1997,
+    "documentType": "NSC information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 389-390. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "389-390",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["madrid summit", "partners", "eapc", "nato-russia", "runners-up", "pfp"],
+    "topics": ["Madrid Summit", "Partner participation", "Partnership for Peace", "Atlantic Partnership Council", "Euro-Atlantic Partnership Council", "NATO-Russia Charter", "Runners-up strategy", "Ratification strategy"],
+    "people": ["Samuel Berger", "John Schmidt", "Alexander Vershbow", "Steven Pifer", "Daniel Fried", "Javier Solana", "Madeleine Albright", "Strobe Talbott", "Boris Yeltsin"],
+    "countries": ["United States", "Russia", "France", "Germany", "Central and Eastern Europe"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. NSC record ID 9702588; Schmidt weighs whether to invite Partnership for Peace partners to Madrid, how to avoid making Russian nonattendance the summit story, and whether an informal NATO-plus-Partners event could preserve an all-European Madrid signal without giving Moscow a de facto veto. Packet page 388 is a routing sheet and is not promoted separately."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-strategy-timelines-run-up-madrid-1997-04-24",
+    "title": "Strategy and Timelines in the Run-Up to Madrid",
+    "date": "1997-04-24",
+    "year": 1997,
+    "documentType": "NSC information memorandum with strategy papers",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 396-414. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "396-414",
+    "pageCount": 19,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["madrid summit", "nato enlargement", "first tranche", "open door", "nato-russia charter", "deputies paper", "accession talks"],
+    "topics": ["Madrid Summit", "NATO enlargement", "First tranche", "Open Door policy", "Euro-Atlantic Partnership Council", "Partnership for Peace enhancements", "NATO-Russia charter", "NATO-Ukraine document", "Accession talks", "Ratification strategy", "ESDI", "Strategic Concept"],
+    "people": ["Samuel Berger", "John Schmidt", "Alexander Vershbow", "Daniel Fried", "Steven Pifer", "Strobe Talbott", "Ki Fort", "Anne Witkowsky", "Madeleine Albright", "Javier Solana", "Yevgeniy Primakov", "Boris Yeltsin", "Jacques Chirac", "Leonid Kuchma"],
+    "countries": ["United States", "Russia", "Ukraine", "Poland", "Czech Republic", "Hungary", "Romania", "Slovenia", "Baltic states", "France", "Italy", "Spain", "Belgium", "Germany", "United Kingdom"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC/Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. NSC record ID 9702852; the cover memo forwards a Madrid strategy paper, a chronology, and a key-issues paper then being discussed by Deputies in a restricted setting. The package covers first-round candidates, runners-up, EAPC/APC timing, NATO-Russia charter deadlines, NATO-Ukraine, accession talks, ratification mechanics, ESDI, command structure, and Strategic Concept review. Packet pages 392-395 are withdrawal/RMO/routing controls and are not promoted separately."
+  },
+  {
     "id": "clinton-library-doc-2015-0772-m-nato-russia-founding-act-1997-05-15",
     "title": "The NATO-Russia Founding Act",
     "date": "1997-05-15",

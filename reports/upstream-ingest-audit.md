@@ -1,6 +1,6 @@
 # Upstream Ingest Audit
 
-Generated: 2026-06-06T04:53:37.414Z
+Generated: 2026-06-06T04:58:01.842Z
 
 ## Inputs
 
@@ -10,22 +10,22 @@ Generated: 2026-06-06T04:53:37.414Z
 
 ## Public Register
 
-- Public records: 1074
-- Known public pages: 4508
-- NSC/Summaries of Conclusions flags: 272
-- NATO-relevant NSC/Summaries of Conclusions flags: 187
-- NATO-relevant document-level NSC/Summaries of Conclusions flags: 178
+- Public records: 1076
+- Known public pages: 4529
+- NSC/Summaries of Conclusions flags: 274
+- NATO-relevant NSC/Summaries of Conclusions flags: 189
+- NATO-relevant document-level NSC/Summaries of Conclusions flags: 180
 - NATO-relevant NSC/SOC packet controls needing extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/Summaries of Conclusions flags held out of the NATO queue: 85
 - Clinton Library withheld meeting/SOC controls: 7
-- P0 records: 562
+- P0 records: 564
 
 ## Source Classes
 
 Source | Count
 --- | ---
 clinton-digital-library | 148
-clinton-library-mdr | 117
+clinton-library-mdr | 119
 clinton-library-mdr-packet | 11
 frus-upstream-lead | 66
 nara-catalog | 54
@@ -37,7 +37,7 @@ state-foia | 417
 
 Priority | Count
 --- | ---
-P0 | 562
+P0 | 564
 P1 | 164
 P2 | 73
 P3 | 275
@@ -47,7 +47,7 @@ P3 | 275
 Status | Count
 --- | ---
 context-candidate | 251
-include-candidate | 211
+include-candidate | 213
 pending-promotion | 288
 unreviewed | 324
 

@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T04:53:37.596Z
+Generated: 2026-06-06T04:58:02.036Z
 
 ## What This Pass Proves
 
@@ -34,10 +34,16 @@ Generated: 2026-06-06T04:53:37.596Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1996-12-20 | 55 | 4 | LISBON SUMMIT: DEPUTY SECRETARY'S MEETING WITH ROMANIAN PRESIDENT CONSTANTINESCU | state-foia | nato-expansion, nac-usnato, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698368/C06698368.pdf)
+1999-01-01 | 55 | 1 | CFE Rollout Meeting | state-foia | architecture, cfe-osce, strobe-hard-gap | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf)
+1993-11-03 | 54 | 3 | NATO and U.S. Influence | clinton-library-mdr | pfp, architecture, cfe-osce, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1996-10-02 | 54 | 4 | THE DEPUTY SECRETARY'S 9/16/96 MEETING WITH GERMAN MFA MINISTER OF STATE WERNER HOYER | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698816/C06698816.pdf)
+1996-12-09 | 54 | 5 | DEPUTY SECRETARY' S VISIT TO OSLO | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699000/C06699000.pdf)
 1997-01-15 | 54 | 15 | MEMORANDUM OF CONVERSATION | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702796/C06702796.pdf)
 1997-01-21 | 54 | 5 | DEPUTY SECRETARY'S VISIT TO OSLO | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703046/C06703046.pdf)
 1997-01-23 | 54 | 12 | TALBOTT-FUERTH DELEGATION MEETING WITH ANATOLIY CHUBAIS, CHIEF OF THE RUSSIAN PRESIDENTIAL ADMINISTRATION | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703698/C06703698.pdf)
 1994-09-23 | 53 | 3 | MAMEDOV'S THOUGHTS ON YOUR CONVERSATION WITH YELTSIN | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695261/C06695261.pdf)
+1994-10-20 | 53 | 4 | October 20, 1994 Eyes only To The Secretary From Strobe Talbott | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000140/C09000140.pdf)
 1994-10-20 | 53 | 3 | October 20, 1994 Letter from Strobe Talbott to Chris | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000141/C09000141.pdf)
 1996-10-02 | 53 | 5 | DEPUTY SECRETATY'S 9/16 AND 9/19 MEETING WITH UKRAINIAN NSDC SECRETARY HORBULYN | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698651/C06698651.pdf)
 1996-10-29 | 53 | 4 | THE DEPUTY SECRETARY'S MEETING WITH SLOVAK FOREIGN MINISTER PAVOL HAMZIK | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698702/C06698702.pdf)
@@ -88,12 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1993-04-03 | 42 | 9 | Working Dinner with President Boris Yeltsin | nara-catalog | nato-russia, nsc-soc | [open](https://catalog.archives.gov/id/163545404)
 1997-03-15 | 42 | 7 | MEMORANDUM OF CONVERSATION BETWEEN SECRETART ALBRIGHT AND FOREIGN MINISTER PRIMAKOV | state-foia | nato-russia, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703626/C06703626.pdf)
 1999-03-17 | 42 | 5 | DEPUTY SECRETARY'S MARCH 10 CALL ON DOWNING STREET DIPLOMATIC ADVISER SAWERS | state-foia | nato-russia, open-door-map, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770741/C06770741.pdf)
-1997-02-21 | 41 | 4 | OFFICIAL INFORMAL | state-foia | nato-russia, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703472/C06703472.pdf)
-1997-03-05 | 41 | 3 | SECRETARY'S SECOND MEETING WITH YEVGINIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW | state-foia | nato-russia, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf)
-1999-02-16 | 40 | 7 | DEPSEC'S CONSULTATIONS WITH ELYSEE OFFICIALS, FEBRUARY 3, 1999 | state-foia | open-door-map, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770333/C06770333.pdf)
-1994-01-10 | 40 | 1 | Photo - shipment home from European bases | state-foia | nato-expansion, pfp | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835341/C06835341.pdf)
-1995-10-20 | 40 | 5 | Your Meeting with Boris Yeltsin | state-foia | nato-expansion, pfp | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835175/C06835175.pdf)
-1997-03-18 | 40 | 6 | SECRETARY'S MARCH 10 CONSULTATION WITH UK FOREIGN SECRETARY RIFKIND | state-foia | nato-russia, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702975/C06702975.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 
@@ -109,7 +109,7 @@ Order | Package | Score | Record | Pages | Decision | Link
 8 | selected | 79 | DRAFT LETTER FROM THE SECRETARY TO CENTRAL EUROPEAN COUNTERPARTS w/Attached Facsimile Transmission | 4 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000060/C09000060.pdf)
 9 | selected | 71 | Checklist For GEM 4/10/97 | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf)
 10 | selected | 55 | Note from Strobe to Chris | 6 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000073/C09000073.pdf)
-11 | selected | 55 | CFE Rollout Meeting | 1 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf)
+11 | package-ready deferred | 55 | CFE Rollout Meeting | 1 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf)
 12 | selected | 90 | On Course for Madrid | 2 | Context candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000038/C09000038.pdf)
 13 | selected | 66 | ST notes on Kissinger piece | 5 | Context candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf)
 

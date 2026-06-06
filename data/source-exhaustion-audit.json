@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T04:53:37.596Z",
+  "generatedAt": "2026-06-06T04:58:02.036Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 176,
+      "Count": 172,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 458,
-      "Pages": 2255,
+      "Count": 460,
+      "Pages": 2276,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 196,
+      "Count": 198,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -23,12 +23,12 @@
       "Lane": "Strobe FOIA hard-gap triage rows",
       "Count": 13,
       "Pages": 57,
-      "Status": "13 selected; 0 package-ready deferred; 0 not ready or not ingested"
+      "Status": "12 selected; 1 package-ready deferred; 0 not ready or not ingested"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 86,
-      "Pages": 444,
+      "Count": 88,
+      "Pages": 465,
       "Status": "document-level rows"
     },
     {
@@ -1063,6 +1063,26 @@
       "packetIdentifier": "2015-0782-M-2"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-inviting-partners-madrid-1997-04-15",
+      "date": "1997-04-15",
+      "title": "Inviting Partners to Madrid",
+      "pageCount": 2,
+      "sourcePages": "389-390",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-strategy-timelines-run-up-madrid-1997-04-24",
+      "date": "1997-04-24",
+      "title": "Strategy and Timelines in the Run-Up to Madrid",
+      "pageCount": 19,
+      "sourcePages": "396-414",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-nato-russia-founding-act-1997-05-15",
       "date": "1997-05-15",
       "title": "The NATO-Russia Founding Act",
@@ -1736,8 +1756,8 @@
       "order": 11,
       "recordId": "strobe-hardgap-sep2022-C09000027",
       "localRecordId": "clinton-nato-strobe-hardgap-sep2022-C09000027",
-      "packageStatus": "selected",
-      "packageSelected": true,
+      "packageStatus": "package-ready deferred",
+      "packageSelected": false,
       "packageReady": true,
       "promotionLane": "Promote after date/source check",
       "directGapCredit": "CFE support; rollout planning",

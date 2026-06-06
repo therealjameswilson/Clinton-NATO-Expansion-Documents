@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T04:53:37.415Z
+Generated: 2026-06-06T04:58:01.842Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 178
+- NATO-relevant NSC/SOC records: 180
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -147,6 +147,8 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-03-17 | P0 | ME | MEMRANDUM OF CONVERSATION BETWEEN THE SECRETARY AND FM Y. M. PRIMAKOV | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703634/C06703634.pdf)
 1997-03-21 | P0 | Memorandum of conversation | Helsinki Afternoon Meeting with President Boris Yeltsin | NSC Records Management | 4 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-03-21 | P0 | Memorandum of conversation | Helsinki Morning Meeting with President Boris Yeltsin | NSC Records Management | 11 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
+1997-04-15 | P0 | NSC information memorandum | Inviting Partners to Madrid | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-04-24 | P0 | NSC information memorandum with strategy papers | Strategy and Timelines in the Run-Up to Madrid | NSC/Deputies Committee | 19 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-05-15 | P0 | Presidential information memorandum | The NATO-Russia Founding Act | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-05-27 | P0 | Memorandum of conversation | Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France | NSC Records Management | 8 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-06-09 | P0 | Strategy paper | A Diplomatic and Congressional Strategy for Madrid and Beyond | Principals Committee | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
@@ -175,8 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1999-03-16 | P0 | Briefing paper | Meeting with Lithuanian Prime Minister Gediminas Vagnorius | NSC | 6 | nara-catalog | [open](https://catalog.archives.gov/id/23902181)
 1999-04-07 | P0 | TE | DEPUTY SECRETARY TALBOTT'S MEETING WITH GREEK DEFENSE MINISTER | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf)
 1999-09-29 | P0 | GC | Executive Secretariat Sensitive Tasker - To Bratislava E.O. for Change and Acting DCM with attachments | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814750/C06814750.pdf)
-1999-11-09 | P0 | TE | MEMORANDUM OF CONVERSATION BETWEEN DEPUTY SECRETARY TALBOTT AND TURKISH PRESIDENT DEMIREL | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814690/C06814690.pdf)
-1999-11-23 | P0 | TE | The Deputy Secretary's meeting with Ilham Aliyev and PM Rasizade | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06814798/C06814798.pdf)
 
 ## Public Packet Controls Requiring Extraction
 
