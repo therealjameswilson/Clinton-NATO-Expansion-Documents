@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T04:32:09.443Z
+Generated: 2026-06-06T04:36:37.744Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 174
+- NATO-relevant NSC/SOC records: 175
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -81,6 +81,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1995-03-07 | P0 | Memorandum of conversation | Meeting with NATO Secretary General Willy Claes | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1995-04-03 | P0 | Options paper | Elements of a NATO-Russia Relationship | Deputies Committee | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-05-10 | P0 | Summary report | Summary Report on One-On-One Meeting Between Presidents Clinton and Yeltsin, May 10, 1995, Kremlin | NSC Records Management | 16 | nara-iscap | [open](https://www.archives.gov/files/declassification/iscap/pdf/2016-156-doc-11.pdf)
+1995-05-27 | P0 | NSC information memorandum | CEEs and Our European Security Policy | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-06-12 | P0 | ME | Your Meeting with Yeltsin in Halifax | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835149/C06835149.pdf)
 1995-06-16 | P0 | NSC information memorandum with strategy papers | Troika Meeting on European Security/NATO Enlargement | NSC | 17 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-07-09 | P0 | MI | TALBOTT-MAMEDOV MEETING IN BUENOS AIRES ON THE MARGINS OF MENEM INAUGURAL | Interagency | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698191/C06698191.pdf)
@@ -176,7 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 2000-02-02 | P0 | Source Lead | Secretary Albright's Meeting with Acting President Putin | NSC |  | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000064/C09000064.pdf)
 2000-02-03 | P0 | TE | DFM Berdennikov's meeting with S/NIS Sestanovich on N-K | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814791/C06814791.pdf)
 2000-03-14 | P0 | TE | Deputy Secretary Talbott's March 10 meeting with Italian FM DINI: Iran, N. Korea and ESDI Highlighted | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814974/C06814974.pdf)
-2000-04-20 | P0 | TE | Deputy Secretary Talbott and NSC Senior Director Hill Meet with General Sir Rupert Smith, D/Saceur, on Apr 18, 2000 | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815096/C06815096.pdf)
 
 ## Public Packet Controls Requiring Extraction
 

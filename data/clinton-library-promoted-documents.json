@@ -2482,6 +2482,40 @@
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The action memorandum asks Lake and Berger to approve restricted interagency circulation of an NSC conceptual paper written after the Gore Moscow trip, the President's December 21 discussion, the December NAC communique, and Russia's reaction; the attachment sets the 1995 parallel tracks for NATO expansion, a NATO-Russia relationship, PFP, OSCE/CSCE, Ukraine, and CEE consultations."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-cees-and-european-security-policy-1995-05-27",
+    "title": "CEEs and Our European Security Policy",
+    "date": "1995-05-27",
+    "year": 1995,
+    "documentType": "NSC information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 127-128. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "127-128",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato enlargement", "central and eastern europe", "dual track", "nato-russia", "pfp", "public strategy"],
+    "topics": ["NATO enlargement", "Central and Eastern Europe", "NATO-Russia dual track", "Partnership for Peace", "Ukraine", "Public strategy", "Congressional strategy", "Warsaw Initiative"],
+    "people": ["Anthony Lake", "Daniel Fried", "Vaclav Klaus", "Leonid Kuchma", "Michael Mandelbaum", "Alexander Vershbow", "Coit Blacker", "Bill Danvers", "John Schmidt", "John Beyrle"],
+    "countries": ["United States", "Czech Republic", "Hungary", "Poland", "Slovakia", "Slovenia", "Russia", "Ukraine", "Belarus"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Fried reports from Central Europe that CEE governments accepted the logic of the Russia-NATO/NATO-enlargement dual track after the Moscow summit, supported Ukraine, treated PFP as a military orientation point, and worried that U.S. public and congressional debate could weaken confidence in the enlargement policy."
+  },
+  {
     "id": "clinton-library-doc-2015-0772-m-lake-european-security-nato-enlargement-1995-06-16",
     "title": "Troika Meeting on European Security/NATO Enlargement",
     "date": "1995-06-16",

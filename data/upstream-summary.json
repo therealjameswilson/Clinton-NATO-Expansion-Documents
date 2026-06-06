@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-06-06T04:32:09.441Z",
-  "publicRecordCount": 1070,
+  "generatedAt": "2026-06-06T04:36:37.740Z",
+  "publicRecordCount": 1071,
   "localPrivateDriveIntakeCount": 17,
-  "allLocalRecordCount": 1087,
-  "knownPublicPages": 4497,
-  "nscSocCount": 268,
-  "natoRelevantNscSocCount": 183,
-  "natoRelevantDocumentNscSocCount": 174,
+  "allLocalRecordCount": 1088,
+  "knownPublicPages": 4499,
+  "nscSocCount": 269,
+  "natoRelevantNscSocCount": 184,
+  "natoRelevantDocumentNscSocCount": 175,
   "natoRelevantPacketControlNscSocCount": 9,
   "nonNatoNscSocCount": 85,
   "clintonLibraryWithheldMeetingControlCount": 7,
   "clintonLibraryWithheldMeetingControlPages": 17,
-  "p0Count": 558,
+  "p0Count": 559,
   "sourceClassCounts": {
     "clinton-digital-library": 148,
-    "clinton-library-mdr": 113,
+    "clinton-library-mdr": 114,
     "clinton-library-mdr-packet": 11,
     "frus-upstream-lead": 66,
     "nara-catalog": 54,
@@ -23,14 +23,14 @@
     "state-foia": 417
   },
   "priorityCounts": {
-    "P0": 558,
+    "P0": 559,
     "P1": 164,
     "P2": 73,
     "P3": 275
   },
   "inclusionStatusCounts": {
     "context-candidate": 251,
-    "include-candidate": 207,
+    "include-candidate": 208,
     "pending-promotion": 288,
     "unreviewed": 324
   }

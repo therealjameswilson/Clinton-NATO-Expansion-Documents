@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T04:32:12.500Z
+Generated: 2026-06-06T04:36:42.285Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,11 +9,11 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 172 | 1000 | assembled locally
-Package-ready public candidates | 454 | 2244 | available for reselection
-NSC/SOC/minutes attention queue | 192 |  | special review lane
+Selected package records | 173 | 1000 | assembled locally
+Package-ready public candidates | 455 | 2246 | available for reselection
+NSC/SOC/minutes attention queue | 193 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 13 selected; 0 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 82 | 433 | document-level rows
+Clinton Library promoted document rows | 83 | 435 | document-level rows
 NARA promoted document rows | 9 | 36 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -75,6 +75,7 @@ Date | Pages | Count | Record | Packet | Link
 1995-03-03 | 28-31 | 4 | NATO Expansion: U.S. Views on Military Implications | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-03-07 | 145-150 | 6 | Meeting with NATO Secretary General Willy Claes | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1995-04-03 | 84-89 | 6 | Elements of a NATO-Russia Relationship | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-05-27 | 127-128 | 2 | CEEs and Our European Security Policy | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-06-16 | 131-147 | 17 | Troika Meeting on European Security/NATO Enlargement | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-10-21 | 113-117 | 5 | Meeting with Vaclav Havel, President of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101427)
 1996-06-06 | 2-14 | 13 | C-P-L Item: NATO Enlargement | 2015-0770-M | [open](https://clinton.presidentiallibraries.us/items/show/57565)
