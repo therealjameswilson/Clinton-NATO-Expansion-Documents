@@ -1,8 +1,8 @@
 # 1000-Page Assembly Plan
 
-Generated: 2026-06-06T02:16:58.648Z
+Generated: 2026-06-06T02:21:56.823Z
 
-Current selected page budget: 1020 pages across 20
+Current selected page budget: 1038 pages across 24
 records. This is an automated first pass, not a final scholarly selection.
 
 Selection order favors P0 records, NSC/Summaries of Conclusions, memcons,
@@ -24,11 +24,15 @@ until promoted to document-level records.
 10 | 1993-05-06 | P0 | 2 | Summary of Conclusions, Principals Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 11 | 1993-09-01 | P0 | 3 | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 12 | 1993-09-20 | P0 | 2 | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
-13 | 1993-10-02 | P0 | 2 | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
-14 | 1993-10-19 | P0 | 1 | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
-15 | 1993-10-28 | P0 | 2 | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
-16 | 1993-11-16 | P0 | 2 | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
-17 | 1993-1998 | P0 | 340 | Declassified Documents Concerning NATO Expansion | Clinton Library MDR packet control | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/57563)
-18 | 1993-1999 | P0 | 89 | Declassified Documents Concerning NATO Expansion | Clinton Library MDR packet control | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/118449)
-19 | 1993-1999 | P0 | 5 | Declassified Documents Concerning NATO Expansion | Clinton Library MDR packet control | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/49430)
-20 | 1993-2000 | P0 | 539 | Declassified Documents Related to the North Atlantic Treaty Organization (NATO) | Clinton Library MDR packet control | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+13 | 1993-09-20 | P0 | 3 | Yeltsin: NATO Expansion | Cable | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+14 | 1993-09-29 | P0 | 7 | Russia, NATO and the Two January Summits | Cable | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+15 | 1993-10 | P0 | 2 | Phased NATO Expansion: Draft Declaration Language | Draft declaration language | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+16 | 1993-10-02 | P0 | 2 | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+17 | 1993-10-08 | P0 | 6 | NATO Expansion: Now Is Not the Time | Cable | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+18 | 1993-10-19 | P0 | 1 | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+19 | 1993-10-28 | P0 | 2 | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+20 | 1993-11-16 | P0 | 2 | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Release Packet | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+21 | 1993-1998 | P0 | 340 | Declassified Documents Concerning NATO Expansion | Clinton Library MDR packet control | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+22 | 1993-1999 | P0 | 89 | Declassified Documents Concerning NATO Expansion | Clinton Library MDR packet control | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+23 | 1993-1999 | P0 | 5 | Declassified Documents Concerning NATO Expansion | Clinton Library MDR packet control | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/49430)
+24 | 1993-2000 | P0 | 539 | Declassified Documents Related to the North Atlantic Treaty Organization (NATO) | Clinton Library MDR packet control | clinton-library-mdr-packet | [open](https://clinton.presidentiallibraries.us/items/show/101137)

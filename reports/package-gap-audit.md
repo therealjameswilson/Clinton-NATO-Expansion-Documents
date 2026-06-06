@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T02:18:27.874Z
+Generated: 2026-06-06T02:21:57.017Z
 
 ## What This Pass Proves
 
@@ -35,6 +35,10 @@ Generated: 2026-06-06T02:18:27.874Z
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
 1995-12-14 | 36 | 6 | Memorandum of Conversation - President Jacques Chirac of France | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/118556)
+1997-04-02 | 36 | 5 | MEMORANDUM OF MEETING BETWEEN THE PRESIDENT AND RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV ON MARCH 17, 1997, 5/5 NO. 9705584 | state-foia | nato-expansion, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703649/C06703649.pdf)
+1999-03-19 | 36 | 9 | DEPUTY SECRETARY TALBOTT'S MARCH 8 MEETING WITH ITALIAN MFA SECRETARY GENERAL VATTANI | state-foia | open-door-map, nac-usnato, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771576/C06771576.pdf)
+1993-08-25 | 35 | 2 | Strawman Summit Declaration: Section on ESDI and Force Structure | clinton-library-mdr | architecture, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1996-04-21 | 35 | 5 | TALKING POINTS FOR ONE-ON-ONE MEETING | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697700/C06697700.pdf)
 1996-05-14 | 35 | 5 | GEORGIAN FOREIGN MINISTER'S MEETING WITH DEPUTY SECRETARY, APRIL 29, 1996 | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697845/C06697845.pdf)
 1996-09-07 | 35 | 2 | NEW SPANISH AMBASSADOR PRESENTS CREDENTIALS | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698265/C06698265.pdf)
 1996-06-29 | 34 | 5 | MEETING WITH PRIME MINISTER CHERNOMYRDIN | state-foia | nato-russia, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf)
@@ -90,10 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1998-08-14 | 28 | 6 | Telephone call with President Boris Yeltsin of Russia, August 14, 1998, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1998-08-25 | 28 | 4 | Telephone call with President Boris Yeltsin of Russia, August 25, 1998, Martha's Vineyard, Massachusetts | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1998-09-12 | 28 | 4 | Telephone call with President Boris Yeltsin of Russia, September 12, 1998, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1998-10-05 | 28 | 3 | Telephone call with President Boris Yeltsin of Russia, October 5, 1998, White House | clinton-digital-library | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1998-12-30 | 28 | 5 | Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House | clinton-digital-library | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1999-03-02 | 28 | 3 | Deputy Secretary's meeting with Estonian Parliamentary Speaker | state-foia | open-door-map, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814919/C06814919.pdf)
-1999-03-24 | 28 | 5 | Telephone call with President Boris Yeltsin of Russia, March 24, 1999, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 
 ## NARA Scout Promotion Queue
 

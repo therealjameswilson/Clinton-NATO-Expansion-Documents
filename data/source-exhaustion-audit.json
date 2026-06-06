@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-06T02:18:27.874Z",
+  "generatedAt": "2026-06-06T02:21:57.017Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 172,
+      "Count": 174,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 371,
-      "Pages": 1834,
+      "Count": 377,
+      "Pages": 1855,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 107,
+      "Count": 113,
       "Pages": "",
       "Status": "special review lane"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 3,
-      "Pages": 25,
+      "Count": 9,
+      "Pages": 46,
       "Status": "document-level rows"
     },
     {
@@ -274,6 +274,46 @@
   ],
   "clintonLibraryPromotedDocuments": [
     {
+      "id": "clinton-library-doc-2015-0768-m-yeltsin-nato-expansion",
+      "date": "1993-09-20",
+      "title": "Yeltsin: NATO Expansion",
+      "pageCount": 3,
+      "sourcePages": "16-18",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-two-january-summits",
+      "date": "1993-09-29",
+      "title": "Russia, NATO and the Two January Summits",
+      "pageCount": 7,
+      "sourcePages": "9-15",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-phased-expansion-language",
+      "date": "1993-10",
+      "title": "Phased NATO Expansion: Draft Declaration Language",
+      "pageCount": 2,
+      "sourcePages": "19-20",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-now-is-not-the-time",
+      "date": "1993-10-08",
+      "title": "NATO Expansion: Now Is Not the Time",
+      "pageCount": 6,
+      "sourcePages": "3-8",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
       "id": "clinton-library-doc-2017-0193-m-concept-strategy",
       "date": "1994-09-17",
       "title": "NATO Expansion: Concept and Strategy",
@@ -302,6 +342,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57565",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ae02d8219b6f90d0e5fc7a41f099bdce.pdf",
       "packetIdentifier": "2015-0770-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-embedded-cjtf-concept",
+      "date": "1993-08-20",
+      "title": "Embedded CJTF Concept",
+      "pageCount": 1,
+      "sourcePages": "24",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-esdi-force-structure",
+      "date": "1993-08-25",
+      "title": "Strawman Summit Declaration: Section on ESDI and Force Structure",
+      "pageCount": 2,
+      "sourcePages": "21-22",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
     }
   ],
   "upstreamCoverageGapSignals": [

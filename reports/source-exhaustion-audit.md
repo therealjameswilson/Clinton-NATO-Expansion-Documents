@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T02:18:27.874Z
+Generated: 2026-06-06T02:21:57.017Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,10 +9,10 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 172 | 1000 | assembled locally
-Package-ready public candidates | 371 | 1834 | available for reselection
-NSC/SOC/minutes attention queue | 107 |  | special review lane
-Clinton Library promoted document rows | 3 | 25 | document-level rows
+Selected package records | 174 | 1000 | assembled locally
+Package-ready public candidates | 377 | 1855 | available for reselection
+NSC/SOC/minutes attention queue | 113 |  | special review lane
+Clinton Library promoted document rows | 9 | 46 | document-level rows
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
 NARA Scout promotion leads | 123 |  | needs source-image inspection
 Private Google Drive matching clues | 17 |  | ignored local intake only
@@ -21,9 +21,15 @@ Private Google Drive matching clues | 17 |  | ignored local intake only
 
 Date | Pages | Count | Record | Packet | Link
 --- | --- | --- | --- | --- | ---
+1993-09-20 | 16-18 | 3 | Yeltsin: NATO Expansion | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-09-29 | 9-15 | 7 | Russia, NATO and the Two January Summits | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-10 | 19-20 | 2 | Phased NATO Expansion: Draft Declaration Language | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-10-08 | 3-8 | 6 | NATO Expansion: Now Is Not the Time | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1994-09-17 | 1-4 | 4 | NATO Expansion: Concept and Strategy | 2017-0193-M | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 1994-09-21 | 5-12 | 8 | Next Steps on NATO Expansion: Hard Questions | 2017-0193-M | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 1996-06-06 | 2-14 | 13 | C-P-L Item: NATO Enlargement | 2015-0770-M | [open](https://clinton.presidentiallibraries.us/items/show/57565)
+1993-08-20 | 24 | 1 | Embedded CJTF Concept | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-08-25 | 21-22 | 2 | Strawman Summit Declaration: Section on ESDI and Force Structure | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 
 ## Clinton Library MDR Packet Controls
 

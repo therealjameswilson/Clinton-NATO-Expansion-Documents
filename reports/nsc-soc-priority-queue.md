@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T02:16:58.647Z
+Generated: 2026-06-06T02:21:56.820Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -20,7 +20,11 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1993-05-06 | P0 | Release Packet | Summary of Conclusions, Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-09-01 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-09-20 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1993-09-20 | P0 | Cable | Yeltsin: NATO Expansion | Principals Committee | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-09-29 | P0 | Cable | Russia, NATO and the Two January Summits | Principals Committee | 7 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-10 | P0 | Draft declaration language | Phased NATO Expansion: Draft Declaration Language | Principals Committee | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-10-02 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1993-10-08 | P0 | Cable | NATO Expansion: Now Is Not the Time | Principals Committee | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-10-19 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 1 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-10-28 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1993-11-16 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
@@ -164,7 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1999-04-07 | P0 | TE | DEPUTY SECRETARY TALBOTT'S MEETING WITH GREEK DEFENSE MINISTER | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf)
 1999-04-27 | P0 | TE | SHEVARDNADZE SUPPORTS NATO'S ACTIONS IN KOSOVO | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772050/C06772050.pdf)
 1999-04-27 | P0 | TE | SHEVARDNADZE SUPPORTS NATO'S ACTIONS IN KOSOVO | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06772055/C06772055.pdf)
-1999-05-04 | P0 | TE | THE DEPUTY SECRETARY'S APRIL 24 MEETING WITH MACEDONIAN FOREIGN MINISTER DIMITROV | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814738/C06814738.pdf)
-1999-09-29 | P0 | GC | Executive Secretariat Sensitive Tasker - To Bratislava E.O. for Change and Acting DCM with attachments | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814750/C06814750.pdf)
-1999-11-09 | P0 | TE | MEMORANDUM OF CONVERSATION BETWEEN DEPUTY SECRETARY TALBOTT AND TURKISH PRESIDENT DEMIREL | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814690/C06814690.pdf)
-1999-11-23 | P0 | TE | The Deputy Secretary's meeting with Ilham Aliyev and PM Rasizade | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06814798/C06814798.pdf)
