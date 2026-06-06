@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T04:17:12.400Z",
+  "generatedAt": "2026-06-06T04:23:29.601Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 172,
+      "Count": 173,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 452,
-      "Pages": 2235,
+      "Count": 453,
+      "Pages": 2238,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 190,
+      "Count": 191,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 80,
-      "Pages": 424,
+      "Count": 81,
+      "Pages": 427,
       "Status": "document-level rows"
     },
     {
@@ -451,6 +451,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
       "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-nato-summit-talking-points",
+      "date": "1993-08-24",
+      "title": "NATO Summit Talking Points",
+      "pageCount": 3,
+      "sourcePages": "47-49",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
     },
     {
       "id": "clinton-library-doc-2015-0771-m-possible-yeltsin-letter-nato-1993-09-03",

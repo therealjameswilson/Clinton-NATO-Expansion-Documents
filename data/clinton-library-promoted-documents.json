@@ -374,6 +374,40 @@
     "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The withdrawal sheet places this released statement in the September 8, 1993 NATO Summit Deputies Committee folder, which also lists a withheld Summary of Conclusions."
   },
   {
+    "id": "clinton-library-doc-2015-0768-m-nato-summit-talking-points",
+    "title": "NATO Summit Talking Points",
+    "date": "1993-08-24",
+    "year": 1993,
+    "documentType": "Talking points",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0054 DC Meeting on NATO Summit, September 8, 1993, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library, PDF pages 47-49. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "47-49",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato summit", "partnership for peace", "nacc", "esdi", "central and eastern europe"],
+    "topics": ["NATO Summit", "Partnership for Peace", "NACC", "European Security and Defense Identity", "CSCE", "Central and Eastern Europe", "NATO expansion debate", "Russia", "Ukraine"],
+    "people": ["Warren Christopher"],
+    "countries": ["United States", "Russia", "Ukraine", "Central and Eastern Europe", "NACC states"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
+    },
+    "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The withdrawal sheet places this released talking-points paper in the September 8, 1993 NATO Summit Deputies Committee folder, which also lists a withheld Summary of Conclusions and several withheld NATO summit decision papers."
+  },
+  {
     "id": "clinton-library-doc-2015-0768-m-nato-transformation-expansion-strategy",
     "title": "A Strategy for NATO's Transformation and Expansion",
     "date": "1993-09-14",

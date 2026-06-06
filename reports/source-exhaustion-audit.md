@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T04:17:12.400Z
+Generated: 2026-06-06T04:23:29.601Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,11 +9,11 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 172 | 1000 | assembled locally
-Package-ready public candidates | 452 | 2235 | available for reselection
-NSC/SOC/minutes attention queue | 190 |  | special review lane
+Selected package records | 173 | 1000 | assembled locally
+Package-ready public candidates | 453 | 2238 | available for reselection
+NSC/SOC/minutes attention queue | 191 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 13 selected; 0 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 80 | 424 | document-level rows
+Clinton Library promoted document rows | 81 | 427 | document-level rows
 NARA promoted document rows | 9 | 36 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -28,6 +28,7 @@ Date | Pages | Count | Record | Packet | Link
 1993-06-30 | 8-9 | 2 | NATO Summit | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-06-30 | 10-12 | 3 | The NATO Summit: Timing and Venue | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-07-16 | 7-9 | 3 | NACC Summit | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1993-08-24 | 47-49 | 3 | NATO Summit Talking Points | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-03 | 2-4 | 3 | Possible Yeltsin Letter on NATO | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1993-09-14 | 52-60 | 9 | A Strategy for NATO's Transformation and Expansion | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-17 | 17-22 | 6 | Luncheon with Prime Minister Carlo Ciampi of Italy | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)

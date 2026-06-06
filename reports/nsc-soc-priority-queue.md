@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T04:17:04.999Z
+Generated: 2026-06-06T04:23:23.402Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 172
+- NATO-relevant NSC/SOC records: 173
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -23,6 +23,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1993-06-30 | P0 | NSC action memorandum | NATO Summit | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-06-30 | P0 | State Department draft memorandum | The NATO Summit: Timing and Venue | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-07-16 | P0 | NSC information memorandum | NACC Summit | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1993-08-24 | P0 | Talking points | NATO Summit Talking Points | Deputies Committee | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-03 | P0 | Cable | Possible Yeltsin Letter on NATO | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1993-09-14 | P0 | Strategy paper | A Strategy for NATO's Transformation and Expansion | Deputies Committee | 9 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-17 | P0 | Memorandum of conversation | Luncheon with Prime Minister Carlo Ciampi of Italy | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
@@ -176,7 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 2000-03-14 | P0 | TE | Deputy Secretary Talbott's March 10 meeting with Italian FM DINI: Iran, N. Korea and ESDI Highlighted | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814974/C06814974.pdf)
 2000-04-20 | P0 | TE | Deputy Secretary Talbott and NSC Senior Director Hill Meet with General Sir Rupert Smith, D/Saceur, on Apr 18, 2000 | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815096/C06815096.pdf)
 2000-05-04 | P0 | GC | The Deputy Secretary's Conversation with Georgian President Shevardnadze | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06815084/C06815084.pdf)
-2000-10-13 | P0 | TE | MOLDOVAN PRIME MINISTER BRAGHIS'S MEETINGS IN THE DEPARTMENT | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814966/C06814966.pdf)
 
 ## Public Packet Controls Requiring Extraction
 
