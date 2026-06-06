@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T03:16:33.799Z",
+  "generatedAt": "2026-06-06T03:22:25.743Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -9,13 +9,13 @@
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 429,
-      "Pages": 2125,
+      "Count": 435,
+      "Pages": 2151,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 162,
+      "Count": 168,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 61,
-      "Pages": 316,
+      "Count": 67,
+      "Pages": 342,
       "Status": "document-level rows"
     },
     {
@@ -447,6 +447,16 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-possible-yeltsin-letter-nato-1993-09-03",
+      "date": "1993-09-03",
+      "title": "Possible Yeltsin Letter on NATO",
+      "pageCount": 3,
+      "sourcePages": "2-4",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-nato-transformation-expansion-strategy",
       "date": "1993-09-14",
       "title": "A Strategy for NATO's Transformation and Expansion",
@@ -545,6 +555,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-christopher-yeltsin-1993-10-25",
+      "date": "1993-10-25",
+      "title": "Secretary Christopher's Meeting with President Yeltsin, 10/22/93, Moscow",
+      "pageCount": 6,
+      "sourcePages": "7-12",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-nato-and-us-influence-1993-11-03",
@@ -677,6 +697,16 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-kozyrev-pfp-germany-1994-05-26",
+      "date": "1994-05-26",
+      "title": "Yeltsin's May 11-13 Visit to Germany: Kozyrev's Comments on PFP",
+      "pageCount": 4,
+      "sourcePages": "31-34",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2017-0193-m-concept-strategy",
       "date": "1994-09-17",
       "title": "NATO Expansion: Concept and Strategy",
@@ -737,6 +767,16 @@
       "packetIdentifier": "2015-0768-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-nato-expansion-getting-there-1995-01-25",
+      "date": "1995-01-25",
+      "title": "NATO Expansion: Getting From Here to There",
+      "pageCount": 6,
+      "sourcePages": "9-14",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0755-m-dehaene-working-lunch-1995-02-11",
       "date": "1995-02-11",
       "title": "Working Lunch with Prime Minister Jean-Luc Dehaene of Belgium",
@@ -745,6 +785,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
       "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-ukrainian-views-nato-expansion-pfp-1995-02-15",
+      "date": "1995-02-15",
+      "title": "Ukrainian Views on NATO Expansion; Ukraine and PFP",
+      "pageCount": 3,
+      "sourcePages": "24-26",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
     },
     {
       "id": "clinton-library-doc-2015-0755-m-kok-working-lunch-1995-02-28",
@@ -805,6 +855,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-us-views-military-implications-1995-03-03",
+      "date": "1995-03-03",
+      "title": "NATO Expansion: U.S. Views on Military Implications",
+      "pageCount": 4,
+      "sourcePages": "28-31",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
     },
     {
       "id": "clinton-library-doc-2015-0755-m-claes-1995-03-07",

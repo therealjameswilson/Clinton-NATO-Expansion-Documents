@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T03:16:33.799Z
+Generated: 2026-06-06T03:22:25.743Z
 
 ## What This Pass Proves
 
@@ -34,6 +34,11 @@ Generated: 2026-06-06T03:16:33.799Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1993-06-30 | 50 | 3 | The NATO Summit: Timing and Venue | clinton-library-mdr | nato-russia, cfe-osce, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1995-10-23 | 50 | 5 | Memorandum of Conversation - Lunch with President Boris Yeltsin | nara-catalog | nato-russia, nsc-soc | [open](https://catalog.archives.gov/id/163545436)
+1999-02-19 | 50 | 8 | DEPSEC MEETING WITH GERMAN STATE SECRETARY ISCHINGER ON 2/4 | state-foia | open-door-map, nac-usnato, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771540/C06771540.pdf)
+1994-10-12 | 50 | 3 | UNGA BILATERAL: DEPUTY SECRETARY TALBOTT'S MEETING WITH HUNGARIAN FOREIGN MINISTER KOVACS | state-foia | nato-expansion, pfp, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694730/C06694730.pdf)
+1996-05-30 | 50 | 3 | DEPUTY SECRETARY'S CONVERSATION WITH SLOVERNIAN PM DRNOVSEK | state-foia | nato-expansion, pfp, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697767/C06697767.pdf)
 1994-01-26 | 49 | 5 | January 26, 1994 Letter to Chris | state-foia | nato-expansion, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000170/C09000170.pdf)
 1997-03-07 | 49 | 8 | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | state-foia | nato-russia, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703179/C06703179.pdf)
 1997-03-07 | 49 | 6 | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | state-foia | nato-russia, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703610/C06703610.pdf)
@@ -43,6 +48,7 @@ Date | Score | Pages | Record | Source | Themes | Link
 1999-02-19 | 47 | 6 | DEPSEC MEETING WITH GERMAN FORMIN FISCHER ON 2/4 | state-foia | open-door-map, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771551/C06771551.pdf)
 1999-02-19 | 47 | 7 | DEPSEC MEETING WITH GERMAN MOD STATE SECRETARY STUETZLE ON 2/4 | state-foia | open-door-map, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771547/C06771547.pdf)
 1996-10-29 | 47 | 5 | ACTING SECRETARY TALBOTT MEETING WITH KYRGYZ FM OTUNBAYEVA | state-foia | nato-expansion, pfp, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jun2021_LC/F-2017-13804/DOC_0C06698733/C06698733.pdf)
+1997-02-05 | 47 | 4 | UK POLITICAL DIRECTOR GREENSTOCK'S CONSULTATIONS WITH DEPUTY SECRETARY TALBOTT OR NATO-RUSSIA | state-foia | nato-russia, nac-usnato, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702980/C06702980.pdf)
 1996-06-11 | 46 | 3 | ACTING SECRETARY'S TALBOTT'S MEETING WITH HUNGARIAN DEPUTY PRIME MINISTER KUNCZE | state-foia | nato-expansion, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697938/C06697938.pdf)
 1999-10-14 | 46 | 3 | DEPUTY SECRETARY TALBOTT'S OCT. 6 MEETING WITH FCO MINISTER HOON | state-foia | nato-expansion, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814682/C06814682.pdf)
 1995-12-20 | 45 | 3 | DEPUTY SECRETARY TALBOTT'S MEETING WITH HNGARIAN FOREIGN MINISTER KOVACS | state-foia | nato-expansion, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698188/C06698188.pdf)
@@ -88,12 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1995-10-24 | 36 | 7 | Memorandum of Conversation - Presidents Izetbegovic and Tudjman | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/36589)
 1995-12-14 | 36 | 6 | Memorandum of Conversation - President Jacques Chirac of France | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/118556)
 1996-09-17 | 36 | 8 | PRIMAKOV: RUSSIAN DIFFERENCES WITH THE U.S. | state-foia | nato-expansion, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698212/C06698212.pdf)
-1997-04-02 | 36 | 5 | MEMORANDUM OF MEETING BETWEEN THE PRESIDENT AND RUSSIAN FOREIGN MINISTER YEVGENIY PRIMAKOV ON MARCH 17, 1997, 5/5 NO. 9705584 | state-foia | nato-expansion, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703649/C06703649.pdf)
-1999-03-19 | 36 | 9 | DEPUTY SECRETARY TALBOTT'S MARCH 8 MEETING WITH ITALIAN MFA SECRETARY GENERAL VATTANI | state-foia | open-door-map, nac-usnato, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771576/C06771576.pdf)
-1993-08-20 | 35 | 1 | Embedded CJTF Concept | clinton-library-mdr | architecture, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/118449)
-1993-08-25 | 35 | 2 | Strawman Summit Declaration: Section on ESDI and Force Structure | clinton-library-mdr | architecture, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/118449)
-1994-01-19 | 35 | 7 | Czech MFA Assessment of the President's Visit, Partnership for Peace and Visegrad Cooperation | clinton-library-mdr | pfp, candidate-states | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
-1996-04-21 | 35 | 5 | TALKING POINTS FOR ONE-ON-ONE MEETING | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697700/C06697700.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 
