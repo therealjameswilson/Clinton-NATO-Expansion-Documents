@@ -5247,5 +5247,169 @@
       "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The meeting memorandum frames Clinton's February 7 Chernomyrdin meeting around preparing the March Clinton-Yeltsin meeting, including NATO-Russia, enlargement, START, ABM/TMD, CFE, and economics. Packet pages 306-310 and 315-323 contain alternate or duplicate talking-point and briefing copies and are not promoted separately."
+  },
+  {
+    "id": "clinton-library-doc-2015-0755-m-helsinki-european-security-joint-statement-1997-03-21",
+    "title": "Joint U.S.-Russian Statement on European Security",
+    "date": "1997-03-21",
+    "year": 1997,
+    "documentType": "Joint presidential statement",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 239-242.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "239-242",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "helsinki summit",
+      "nato enlargement",
+      "nato-russia document",
+      "cfe",
+      "european security"
+    ],
+    "topics": [
+      "Helsinki Summit",
+      "NATO enlargement",
+      "NATO-Russia document",
+      "European security architecture",
+      "OSCE",
+      "CFE adaptation",
+      "Nuclear deployments"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "NATO allies"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC/RMO",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The Helsinki joint statement records Clinton and Yeltsin continuing to disagree on NATO enlargement while agreeing to pursue a NATO-Russia document, CFE adaptation, and language on forces and nuclear deployments. Packet pages 238 and 243-251 contain separate chemical-weapons, economic, and strategic-stability statements and are not promoted as NATO-expansion documents."
+  },
+  {
+    "id": "clinton-library-doc-2015-0755-m-drnovsek-clinton-nato-enlargement-1997-06-26",
+    "title": "Prime Minister Drnovsek to President Clinton on Slovenia and NATO Enlargement",
+    "date": "1997-06-26",
+    "year": 1997,
+    "documentType": "Foreign leader letter",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 261-263.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "261-263",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P1",
+    "priorityReasons": [
+      "slovenia",
+      "madrid summit",
+      "first round",
+      "nato enlargement",
+      "senate support"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Madrid Summit",
+      "Slovenia",
+      "First round invitations",
+      "Senate ratification",
+      "Open Door policy"
+    ],
+    "people": [
+      "Janez Drnovsek",
+      "Bill Clinton"
+    ],
+    "countries": [
+      "Slovenia",
+      "United States",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Russia"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC/RMO",
+      "queuePriority": "attention-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. Drnovsek asks Clinton to reconsider limiting the Madrid first round to Poland, Hungary, and the Czech Republic, arguing that Slovenia had allied and congressional support and that including Slovenia would blunt claims that enlargement was directed against Russia."
+  },
+  {
+    "id": "clinton-library-doc-2015-0755-m-clinton-drnovsek-open-door-1997-06",
+    "title": "President Clinton to Prime Minister Drnovsek on NATO Enlargement and the Open Door",
+    "date": "1997-06",
+    "year": 1997,
+    "documentType": "Presidential reply draft",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0755-M, Clinton Digital Library PDF pages 265-266.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "265-266",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P1",
+    "priorityReasons": [
+      "slovenia",
+      "open door",
+      "madrid summit",
+      "nato enlargement"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Open Door policy",
+      "Slovenia",
+      "Madrid Summit",
+      "First round invitations",
+      "Western integration"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Janez Drnovsek"
+    ],
+    "countries": [
+      "United States",
+      "Slovenia"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC/RMO",
+      "queuePriority": "attention-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0755-M",
+      "packetRecordId": "clinton-library-packet-2015-0755-m"
+    },
+    "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. Clinton explains that support for only three first-round invitees was not a rejection of Slovenia, emphasizes that enlargement is a process rather than a one-time event, and commits to preserving NATO's open door at Madrid."
   }
 ]

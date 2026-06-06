@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T06:50:22.455Z",
+  "generatedAt": "2026-06-06T06:56:29.531Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 175,
+      "Count": 177,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 519,
-      "Pages": 2571,
+      "Count": 522,
+      "Pages": 2580,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 258,
+      "Count": 261,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 149,
-      "Pages": 769,
+      "Count": 152,
+      "Pages": 778,
       "Status": "document-level rows"
     },
     {
@@ -344,11 +344,11 @@
     {
       "Packet": "2015-0755-M",
       "Control Pages": 340,
-      "Promoted Rows": 15,
-      "Promoted Pages": 126,
-      "Reviewed Residual Pages": "",
-      "Backlog Pages": 214,
-      "Status": "partial; continue document-level extraction",
+      "Promoted Rows": 18,
+      "Promoted Pages": 135,
+      "Reviewed Residual Pages": 205,
+      "Backlog Pages": "",
+      "Status": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/57563)"
     },
     {
@@ -456,6 +456,15 @@
       "coverageStatus": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
       "status": "reviewed residual pages; no additional package-ready NATO-expansion document text",
       "notes": "Pages were reviewed against the packet text after document-level promotion. Residual pages include Clinton Library markers, withdrawal/redaction sheets, RMO/action/routing controls, alternate or duplicate copies of promoted NATO-enlargement records, January 1994 trip material on Belarus, Ukraine nuclear issues, trade, troop strength, Bosnia, and Geneva mission remarks, unrelated crime-alert attachments, and biographical/report attachments to the February 1998 Committee to Expand NATO dinner packet. No NSC minutes or Summaries of Conclusions were present in the reviewed residual pages."
+    },
+    {
+      "packetRecordId": "clinton-library-packet-2015-0755-m",
+      "packetIdentifier": "2015-0755-M",
+      "reviewedResidualPages": "1-6, 10-16, 23-30, 36-43, 51-54, 64-70, 77-84, 105-125, 138-144, 151-164, 168-177, 199-206, 214-221, 229-238, 243-260, 264, 267-273, 284-302, 307-340",
+      "reviewedResidualPageCount": 205,
+      "coverageStatus": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
+      "status": "reviewed residual pages; no additional package-ready NATO-expansion document text",
+      "notes": "Pages were reviewed against the packet text after document-level promotion. Residual pages include Clinton Library markers, withdrawal/redaction sheets, RMO/action/routing controls, transmittal and distribution pages, duplicate or draft copies of promoted memcons and ratification memoranda, less-relevant companion memcons where NATO expansion is not the document focus, non-NATO Helsinki joint statements, and the May 1998 Prodi restricted-meeting material. No NSC minutes or Summaries of Conclusions were present in the reviewed residual pages."
     }
   ],
   "clintonLibraryMeetingControls": [
@@ -1741,6 +1750,16 @@
       "packetIdentifier": "2015-0782-M-2"
     },
     {
+      "id": "clinton-library-doc-2015-0755-m-helsinki-european-security-joint-statement-1997-03-21",
+      "date": "1997-03-21",
+      "title": "Joint U.S.-Russian Statement on European Security",
+      "pageCount": 4,
+      "sourcePages": "239-242",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-inviting-partners-madrid-1997-04-15",
       "date": "1997-04-15",
       "title": "Inviting Partners to Madrid",
@@ -2039,6 +2058,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-clinton-drnovsek-open-door-1997-06",
+      "date": "1997-06",
+      "title": "President Clinton to Prime Minister Drnovsek on NATO Enlargement and the Open Door",
+      "pageCount": 2,
+      "sourcePages": "265-266",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0755-m-drnovsek-clinton-nato-enlargement-1997-06-26",
+      "date": "1997-06-26",
+      "title": "Prime Minister Drnovsek to President Clinton on Slovenia and NATO Enlargement",
+      "pageCount": 3,
+      "sourcePages": "261-263",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
+      "packetIdentifier": "2015-0755-M"
     },
     {
       "id": "clinton-library-doc-2013-0804-m-nato-adaptation-gibraltar-1998-01-22",
