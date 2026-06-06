@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T05:03:26.030Z
+Generated: 2026-06-06T05:13:49.072Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 182
+- NATO-relevant NSC/SOC records: 194
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -94,10 +94,12 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1995-10-23 | P0 | Memcon | Memorandum of Conversation - Lunch with President Boris Yeltsin | NSC | 5 | nara-catalog | [open](https://catalog.archives.gov/id/163545436)
 1995-10-23 | P0 | TE | RUSSIAN PRESIDENTIAL FOREIGN AFFAIRS ADVISOR RYURIKOV: OCTOBER 23 SUMMIT ISSUES | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698198/C06698198.pdf)
 1995-10-23 | P0 | TE | TABLOTT DELEGATION'S MEETING WITH FRENCH INTERAGENCY TEAM, OCTOBER 19 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698115/C06698115.pdf)
+1995-11-28 | P0 | NSC information memorandum | Germans Causing Problems on NATO Enlargement | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-02-23 | P0 | Context | Presidential Daily Diary reference: conference call with Boris Yeltsin | NSC |  | nara-catalog | [open](https://catalog.archives.gov/id/147870853)
 1996-04-15 | P0 | TE | SECRETARY CHRISTOPHER'S PARTICIPATION IN THE WORKING LUNCH AND PLENARY MINISTERIAL, MARCH 22, 1996, MOSCOW, RUSSIA | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697301/C06697301.pdf)
 1996-05-14 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH SLOVENIAN PM DRNOVSEK | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697839/C06697839.pdf)
 1996-06-06 | P0 | NSC email with attached policy paper | C-P-L Item: NATO Enlargement | NSC | 13 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57565)
+1996-06-21 | P0 | NSC information memorandum | Your Meeting with NATO Secretary General Javier Solana | NSC | 4 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-06-29 | P0 | ME | MEETING WITH PRIME MINISTER CHERNOMYRDIN | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf)
 1996-07-01 | P0 | TE | MEETING WITH PRESIDENTS MERI OF ESTONIA, ULMANIS OF LATVIA AND BRAZAUSKAS OF LITHUANIA | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698302/C06698302.pdf)
 1996-07-05 | P0 | Memorandum of telephone conversation | Telephone Conversation with Russian President Yeltsin | NSC Records Management | 3 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
@@ -109,23 +111,31 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1996-09-07 | P0 | TE | ACTING SECRETARY BRIEFS BALTICS ON ACTION PLAN | Interagency | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698268/C06698268.pdf)
 1996-09-11 | P0 | MI | PARIS ST-MAMEDOV | Interagency | 22 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698220/C06698220.pdf)
 1996-09-13 | P0 | GC | THE BRIEF THAT JIM AND I WILL GIVE TO YOU ON OUR RETURN TO THE DEPARTMENT | Interagency | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698215/C06698215.pdf)
+1996-09-17 | P0 | NSC information memorandum | Baltic States: Baltic Action Plan and NATO Enlargement | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-09-24 | P0 | ME | MEETING WHIT FOREIGN MINISTER OF RUSSIA YEVGENIY PRIMAKOV | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699025/C06699025.pdf)
+1996-10-04 | P0 | NSC information memorandum | Your Meeting with the Troika on NATO Enlargement Issues | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-10-07 | P0 | TE | DEPUTY SECRETARY EXPLAINS U.S. CONCERNS TO BELARUSIAN FOREIGN MINISTER SENKO, OCTOBER 3, 1996 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698741/C06698741.pdf)
 1996-10-29 | P0 | TE | DEPUTY SECRETARY TALBOTT'S OCTOBER 1 MEETING WITH HUNGARIAN FOREIGN MINISTER KOVACS | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698715/C06698715.pdf)
 1996-11-01 | P0 | TE | GEORGIAN FOREIGN MINISTER MENAGHARAISHVILL'S MEETING IN WASHINGTON | Interagency | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698684/C06698684.pdf)
 1996-11-01 | P0 | Memorandum of conversation | Lake Meeting with President Jacques Chirac of France | NSC | 21 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1996-11-06 | P0 | NSC information memorandum | NATO Enlargement, NATO-Russia and START | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-11-15 | P0 | TE | DEPUTY SECRETARY MEETING WITH UKRAINIAN FOREIGN MINISTER UDOVENKO | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698688/C06698688.pdf)
 1996-12-04 | P0 | GC | MEETING WITH PRIMAKOV IN LONDON | NSC | 12 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699013/C06699013.pdf)
 1997-01-17 | P0 | TE | DEPUTY SECRETARY'S CONVERSATION WITH NATO SYG SOLANA | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702754/C06702754.pdf)
 1997-01-18 | P0 | TE | DEPUTY SECRETARY'S CONVERSATION WITH NATO SYG SOLANA | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703173/C06703173.pdf)
 1997-01-25 | P0 | Presidential information memorandum with trip report | Report on Talbott/Fuerth Mission and Berger-Levitte Talks | NSC | 7 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1997-01-31 | P0 | Presidential information memorandum | Relations with Russia | NSC/Principals Committee | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-02-04 | P0 | Presidential information memorandum | The United States, NATO and Russia on the Eve of the Gore-Chernomyrdin Commission | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-02-07 | P0 | Memorandum of conversation | Meeting with Russian Prime Minister Viktor Chernomyrdin: March Summit, GCC Results, European Security, START, Economics | NSC | 7 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1997-02-10 | P0 | TE | THE DEPUTY SECRETARY'S CONVERSATION WITH NATO SECRETARY GENERAL SOLANA | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702843/C06702843.pdf)
+1997-02-11 | P0 | Presidential meeting brief | Meeting with Foreign Policy Team on Russia | NSC | 4 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-02-21 | P0 | TE | OFFICIAL INFORMAL | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703472/C06703472.pdf)
 1997-02-22 | P0 | TE | SECRETARY'S MEETING WITH RUSSIAN PRIME MINISTER CHERNOMYRDIN, FEBRUARY 20, 1997 | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703508/C06703508.pdf)
 1997-02-23 | P0 | TE | SECRETARYOS MEETING WITH MICHEAL PORTILLO, BRITISH DEFENSE SECRETARY, FEBRUARY 19. 1997, LONDON | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702826/C06702826.pdf)
+1997-02-26 | P0 | Presidential information memorandum | Update on Preparations for Helsinki | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-02-27 | P0 | TE | SECRETARYVS MEETING WITH JAVIER SOLANA, NATO SECRETARY GENERAL, FEBRUARY 18, BRUSSELS, BELGIUM | NSC | 8 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702829/C06702829.pdf)
 1997-02-27 | P0 | Memorandum of telephone conversation | Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House | NSC Records Management | 3 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
+1997-02-27 | P0 | NSC information memorandum with attached draft charter | Your Informal Meeting on NATO-Russia Charter | NSC/Interagency Working Group | 13 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-03-05 | P0 | TE | SECRETARY'S MEETING WITH YEVGENIY M. PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 20, 1997, MOSCOW` | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702917/C06702917.pdf)
 1997-03-05 | P0 | TE | SECRETARY'S SECOND MEETING WITH YEVGINIY PRIMAKOV RUSSIAN FOREIGN MINISTER, FEBRUARY 21, 1997, MOSCOW | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702926/C06702926.pdf)
 1997-03-06 | P0 | ME | MEMORANDUM OF CONVERSATION MEETING PRESIDENT CLINTON AND PRESIDENT YELTSIN | NSC | 17 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703521/C06703521.pdf)
@@ -135,6 +145,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-03-07 | P0 | TE | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703610/C06703610.pdf)
 1997-03-07 | P0 | GC | OFFICIAL INFORMAL -- TALBOTT - LEVITTE MEETING | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703393/C06703393.pdf)
 1997-03-07 | P0 | TE | TALBOTT/CHUBAYS MEETING MARCH 6 | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702859/C06702859.pdf)
+1997-03-08 | P0 | Presidential information memorandum | Helsinki Preparations | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-03-11 | P0 | TE | OFFICIAL INFORMAL: TALBOTT/ISCHINGER CONVERSATION | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703066/C06703066.pdf)
 1997-03-12 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH FRENCH MFA POLITICAL DIRECTOR, MARCH 4 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703181/C06703181.pdf)
 1997-03-12 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH FRENCH PRESIDENT'S DIPLOMATIC ADVISOR, MARCH 4 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703449/C06703449.pdf)
@@ -145,6 +156,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-03-15 | P0 | ME | SECRETARY ALBRIGHT'S LUNCH MEETING WITH FM PRIMAKOV: DEPARTMENT OF STATE DINING ROOM, WASHINGTON, DC, MARCH 15, 1997 | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702890/C06702890.pdf)
 1997-03-16 | P0 | ME | MEMORANDUM OF CONVERSATION BETWEEN THE SERETARY AND FM Y. M. PRIMAKOV | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703630/C06703630.pdf)
 1997-03-17 | P0 | ME | MEMRANDUM OF CONVERSATION BETWEEN THE SECRETARY AND FM Y. M. PRIMAKOV | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703634/C06703634.pdf)
+1997-03-18 | P0 | Presidential meeting brief | Pre-Brief on Helsinki Summit with Russian President Yeltsin | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-03-21 | P0 | Memorandum of conversation | Helsinki Afternoon Meeting with President Boris Yeltsin | NSC Records Management | 4 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-03-21 | P0 | Memorandum of conversation | Helsinki Morning Meeting with President Boris Yeltsin | NSC Records Management | 11 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-04-15 | P0 | NSC information memorandum | Inviting Partners to Madrid | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
@@ -165,18 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1998-01-22 | P0 | Issue paper | Ratification of NATO Enlargement | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/49412)
 1998-01-26 | P0 | Issue paper | NATO-Russia Relations | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/49412)
 1998-02-09 | P0 | NSC information memorandum | Committee to Expand NATO Dinner IHO Polish, Czech and Hungarian Foreign Ministers | NSC | 5 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
-1998-05-04 | P0 | Memorandum of telephone conversation | Telcon with President Havel of the Czech Republic | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101537)
-1998-09-16 | P0 | Memorandum of conversation | Expanded Meeting with President Vaclav Havel of the Czech Republic | NSC | 5 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101539)
-1998-09-16 | P0 | Memorandum of conversation | Restricted Meeting with President Vaclav Havel of the Czech Republic | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101539)
-1998-10-21 | P0 | Memcon | Memorandum of Conversation: Meeting with President Adamkus of Lithuania | NSC | 3 | nara-catalog | [open](https://catalog.archives.gov/id/23902181)
-1999-01-11 | P0 | TE | ARMENIAN FM OSKANIAN MEETING WITH DEPUTY SECRETARY, JANUARY 8 | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771561/C06771561.pdf)
-1999-02-16 | P0 | TE | DEPSEC'S CONSULTATIONS WITH ELYSEE OFFICIALS, FEBRUARY 3, 1999 | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770333/C06770333.pdf)
-1999-02-16 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH FRENCH MOD OFFICIALS, FEBRUARY 3, 1999 | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771518/C06771518.pdf)
-1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN FORMIN FISCHER ON 2/4 | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771551/C06771551.pdf)
-1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN MOD STATE SECRETARY STUETZLE ON 2/4 | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771547/C06771547.pdf)
-1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN NSA STEINER ON 2/4 | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771555/C06771555.pdf)
-1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN STATE SECRETARY ISCHINGER ON 2/4 | NSC | 8 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771540/C06771540.pdf)
-1999-03-16 | P0 | Briefing paper | Meeting with Lithuanian Prime Minister Gediminas Vagnorius | NSC | 6 | nara-catalog | [open](https://catalog.archives.gov/id/23902181)
 
 ## Public Packet Controls Requiring Extraction
 

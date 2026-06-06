@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T05:03:26.225Z
+Generated: 2026-06-06T05:13:53.684Z
 
 ## What This Pass Proves
 
@@ -34,12 +34,19 @@ Generated: 2026-06-06T05:03:26.225Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1994-11-29 | 57 | 3 | CZECH DEFENSE MINISTER'S 11/29 MEETING WITH THE DEPUTY SECRETARY | state-foia | nato-expansion, pfp, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694716/C06694716.pdf)
+1996-07-23 | 57 | 6 | SECRETARY CHRISTOPHER'S JULY 10 BREAKFAST FOR POLISH PRESIDENT KWASNIESKI | state-foia | nato-expansion, pfp, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698299/C06698299.pdf)
+1996-05-28 | 56 | 3 | DEPUTY SECRETARY'S MEETING WITH BELARUSIAN PARLIAMENTARY SPEAKER SHARETSKY | state-foia | nato-expansion, nac-usnato, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697772/C06697772.pdf)
+1996-09-06 | 56 | 5 | MEMORANDUM OF CONVERSATION BETWEEN ACTING SECRETARY TALBOTT AND POLISH MINISTER OF DEFENSE DOBRZANSKI | state-foia | nato-expansion, nac-usnato, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698263/C06698263.pdf)
+1997-03-06 | 55 | 17 | MEMORANDUM OF CONVERSATION MEETING PRESIDENT CLINTON AND PRESIDENT YELTSIN | state-foia | nato-russia, open-door-map, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703521/C06703521.pdf)
+1996-06-10 | 55 | 7 | The CFE Review Conference: A Retrospective w/Attachment(s) | state-foia | architecture, cfe-osce, strobe-hard-gap | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf)
 1996-09-25 | 55 | 10 | JFC/GEM CONVERSATION | state-foia | nato-expansion, nac-usnato, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698207/C06698207.pdf)
 1996-10-29 | 55 | 4 | DEPUTY SECRETARY TALBOTT'S OCTOBER 2 MEETING WITH ITALIAN DEFENSE MINISTER ANDREATTA | state-foia | nato-expansion, nac-usnato, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698723/C06698723.pdf)
 1996-12-20 | 55 | 4 | LISBON SUMMIT: DEPUTY SECRETARY'S MEETING WITH ROMANIAN PRESIDENT CONSTANTINESCU | state-foia | nato-expansion, nac-usnato, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698368/C06698368.pdf)
 1997-01-01 | 55 | 6 | Note from Strobe to Chris | state-foia | architecture, cfe-osce, strobe-hard-gap | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000073/C09000073.pdf)
 1997-04-09 | 55 | 2 | CFE TREATY | state-foia | architecture, cfe-osce, strobe-hard-gap | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000026/C09000026.pdf)
 1999-01-01 | 55 | 1 | CFE Rollout Meeting | state-foia | architecture, cfe-osce, strobe-hard-gap | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf)
+1993-11-03 | 54 | 3 | NATO and U.S. Influence | clinton-library-mdr | pfp, architecture, cfe-osce, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-10-02 | 54 | 4 | THE DEPUTY SECRETARY'S 9/16/96 MEETING WITH GERMAN MFA MINISTER OF STATE WERNER HOYER | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698816/C06698816.pdf)
 1996-12-09 | 54 | 5 | DEPUTY SECRETARY' S VISIT TO OSLO | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699000/C06699000.pdf)
 1997-01-15 | 54 | 15 | MEMORANDUM OF CONVERSATION | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702796/C06702796.pdf)
@@ -87,13 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1996-04-16 | 45 | 4 | THE DEPUTY SECRETARY'S MEETING WITH ESTONIAN FOEIGN MINISTER KALLAS, MARCH 25 | state-foia | nato-expansion, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697970/C06697970.pdf)
 1999-03-01 | 45 | 5 | ACTING SECRETARY, NORWAY'S HAGA DISCUSS NATO OSCE, CFE, AND RUSSIAN NUCLEAR WASTE | state-foia | nato-russia, nac-usnato, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771698/C06771698.pdf)
 2000-04-06 | 45 | 3 | Deputy Secretary's meeting with Estonian FM ILVES | state-foia | nato-expansion, nac-usnato, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815098/C06815098.pdf)
-1994-12-12 | 44 | 7 | Letter From Strobe Talbott to Yuri | state-foia | nato-expansion, nato-russia | [open](https://foia.state.gov/search/results.aspx?searchText=C09000052)
-1996-05-14 | 44 | 3 | THE DEPUTY SECRETARY'S CONVERSATION WITH CANADIAN DEPUTY FOREIGN MINISTER GORDON SMITH | state-foia | nato-expansion, nato-russia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697548/C06697548.pdf)
-1999-04-07 | 43 | 5 | DEPUTY SECRETARY TALBOTT'S MEETING WITH GREEK DEFENSE MINISTER | state-foia | nac-usnato, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf)
-1995-10-22 | 43 | 2 | YOUR MEETING WITH BORIS YELTSIN (II) | state-foia | nato-expansion, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698066/C06698066.pdf)
-1996-09-13 | 43 | 7 | S/NIS COLLINS' SEPTEMBER 3 MEETING WITH NEW JAPANESE AMBASSADOR TO THE RUSSIAN FEDERATION | state-foia | nato-expansion, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698261/C06698261.pdf)
-1996-09-27 | 43 | 4 | SECRETARY'S PLENARY MEETING WITH RUSSIAN FOREIGN MINISTER PRIMAKOV, 1800-1835 SEPTEMBER23, 1996 NEW YORK | state-foia | nato-expansion, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698121/C06698121.pdf)
-1997-02-13 | 43 | 6 | MEMORANDUM OF CONVERSATION OF A MEETING BETWEEN PRESIDENT CLINTON, VICE PRESIDENT GORE AND RUSSIAN PRIME MINISTER CHERNOMYRDIN | state-foia | nato-expansion, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703418/C06703418.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 
@@ -101,7 +101,7 @@ Order | Package | Score | Record | Pages | Decision | Link
 --- | --- | --- | --- | --- | --- | ---
 1 | selected | 71 | Additional Elements on CFE for NATO-Russia Document w/Attachment(s) | 4 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf)
 2 | selected | 71 | Precis of Russian-CFE Counter-Proposal | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf)
-3 | selected | 55 | The CFE Review Conference: A Retrospective w/Attachment(s) | 7 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf)
+3 | package-ready deferred | 55 | The CFE Review Conference: A Retrospective w/Attachment(s) | 7 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf)
 4 | package-ready deferred | 55 | CFE TREATY | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000026/C09000026.pdf)
 5 | selected | 74 | DEPUTY SECRETARY TALBOTT BRIEFING TOTHE NAC ON MOSCOW SUMMIT, THE WAY AHEAD WITH RUSIA | 8 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf)
 6 | selected | 74 | DEPUTY SECRETARY BRIEFS THE NAC ON MOSCOW SUMMIT | 8 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf)

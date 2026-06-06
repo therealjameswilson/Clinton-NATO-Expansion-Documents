@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T05:03:26.225Z",
+  "generatedAt": "2026-06-06T05:13:53.684Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 171,
+      "Count": 176,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 462,
-      "Pages": 2295,
+      "Count": 474,
+      "Pages": 2339,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 200,
+      "Count": 212,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -23,12 +23,12 @@
       "Lane": "Strobe FOIA hard-gap triage rows",
       "Count": 13,
       "Pages": 57,
-      "Status": "10 selected; 3 package-ready deferred; 0 not ready or not ingested"
+      "Status": "9 selected; 4 package-ready deferred; 0 not ready or not ingested"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 90,
-      "Pages": 484,
+      "Count": 102,
+      "Pages": 528,
       "Status": "document-level rows"
     },
     {
@@ -973,6 +973,16 @@
       "packetIdentifier": "2015-0773-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-germans-causing-problems-nato-enlargement-1995-11-28",
+      "date": "1995-11-28",
+      "title": "Germans Causing Problems on NATO Enlargement",
+      "pageCount": 3,
+      "sourcePages": "205-207",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0770-m-nato-enlargement-game-plan",
       "date": "1996-06-06",
       "title": "C-P-L Item: NATO Enlargement",
@@ -981,6 +991,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57565",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ae02d8219b6f90d0e5fc7a41f099bdce.pdf",
       "packetIdentifier": "2015-0770-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-solana-meeting-1996-06-21",
+      "date": "1996-06-21",
+      "title": "Your Meeting with NATO Secretary General Javier Solana",
+      "pageCount": 4,
+      "sourcePages": "213-216",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
     },
     {
       "id": "clinton-library-doc-2015-0782-m-2-yeltsin-telcon-1996-07-05",
@@ -1003,6 +1023,26 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-baltic-action-plan-nato-enlargement-1996-09-17",
+      "date": "1996-09-17",
+      "title": "Baltic States: Baltic Action Plan and NATO Enlargement",
+      "pageCount": 3,
+      "sourcePages": "231-233",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-troika-nato-enlargement-1996-10-04",
+      "date": "1996-10-04",
+      "title": "Your Meeting with the Troika on NATO Enlargement Issues",
+      "pageCount": 3,
+      "sourcePages": "238-240",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0755-m-lake-chirac-1996-11-01",
       "date": "1996-11-01",
       "title": "Lake Meeting with President Jacques Chirac of France",
@@ -1011,6 +1051,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
       "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-nato-enlargement-russia-start-1996-11-06",
+      "date": "1996-11-06",
+      "title": "NATO Enlargement, NATO-Russia and START",
+      "pageCount": 3,
+      "sourcePages": "258-260",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
     },
     {
       "id": "clinton-library-doc-2015-0755-m-talbott-fuerth-mission-1997-01-25",
@@ -1023,6 +1073,26 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-relations-with-russia-1997-01-31",
+      "date": "1997-01-31",
+      "title": "Relations with Russia",
+      "pageCount": 3,
+      "sourcePages": "268-270",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-us-nato-russia-eve-gcc-1997-02-04",
+      "date": "1997-02-04",
+      "title": "The United States, NATO and Russia on the Eve of the Gore-Chernomyrdin Commission",
+      "pageCount": 2,
+      "sourcePages": "277-278",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0755-m-chernomyrdin-1997-02-07",
       "date": "1997-02-07",
       "title": "Meeting with Russian Prime Minister Viktor Chernomyrdin: March Summit, GCC Results, European Security, START, Economics",
@@ -1033,6 +1103,26 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-foreign-policy-team-russia-1997-02-11",
+      "date": "1997-02-11",
+      "title": "Meeting with Foreign Policy Team on Russia",
+      "pageCount": 4,
+      "sourcePages": "330-333",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-update-preparations-helsinki-1997-02-26",
+      "date": "1997-02-26",
+      "title": "Update on Preparations for Helsinki",
+      "pageCount": 2,
+      "sourcePages": "344-345",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0782-m-2-yeltsin-telcon-1997-02-27",
       "date": "1997-02-27",
       "title": "Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House",
@@ -1041,6 +1131,36 @@
       "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
       "packetIdentifier": "2015-0782-M-2"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-informal-meeting-nato-russia-charter-1997-02-27",
+      "date": "1997-02-27",
+      "title": "Your Informal Meeting on NATO-Russia Charter",
+      "pageCount": 13,
+      "sourcePages": "353-365",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-helsinki-preparations-1997-03-08",
+      "date": "1997-03-08",
+      "title": "Helsinki Preparations",
+      "pageCount": 2,
+      "sourcePages": "371-372",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-helsinki-summit-pre-brief-1997-03-18",
+      "date": "1997-03-18",
+      "title": "Pre-Brief on Helsinki Summit with Russian President Yeltsin",
+      "pageCount": 2,
+      "sourcePages": "379-380",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
     },
     {
       "id": "clinton-library-doc-2015-0782-m-2-helsinki-afternoon-yeltsin-1997-03-21",
@@ -1544,8 +1664,8 @@
       "order": 3,
       "recordId": "strobe-hardgap-oct2024-C09000035",
       "localRecordId": "clinton-nato-strobe-hardgap-oct2024-C09000035",
-      "packageStatus": "selected",
-      "packageSelected": true,
+      "packageStatus": "package-ready deferred",
+      "packageSelected": false,
       "packageReady": true,
       "promotionLane": "Promote first",
       "directGapCredit": "CFE direct; Secretary-level retrospective",

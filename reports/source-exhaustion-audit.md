@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T05:03:26.225Z
+Generated: 2026-06-06T05:13:53.684Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,11 +9,11 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 171 | 1000 | assembled locally
-Package-ready public candidates | 462 | 2295 | available for reselection
-NSC/SOC/minutes attention queue | 200 |  | special review lane
-Strobe FOIA hard-gap triage rows | 13 | 57 | 10 selected; 3 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 90 | 484 | document-level rows
+Selected package records | 176 | 1000 | assembled locally
+Package-ready public candidates | 474 | 2339 | available for reselection
+NSC/SOC/minutes attention queue | 212 |  | special review lane
+Strobe FOIA hard-gap triage rows | 13 | 57 | 9 selected; 4 package-ready deferred; 0 not ready or not ingested
+Clinton Library promoted document rows | 102 | 528 | document-level rows
 NARA promoted document rows | 9 | 36 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -80,13 +80,25 @@ Date | Pages | Count | Record | Packet | Link
 1995-07-17 | 184-187 | 4 | European Security/NATO Enlargement Progress Report | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-07-27 | 169-170 | 2 | West European Attitudes Toward NATO Enlargement | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-10-21 | 113-117 | 5 | Meeting with Vaclav Havel, President of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101427)
+1995-11-28 | 205-207 | 3 | Germans Causing Problems on NATO Enlargement | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-06-06 | 2-14 | 13 | C-P-L Item: NATO Enlargement | 2015-0770-M | [open](https://clinton.presidentiallibraries.us/items/show/57565)
+1996-06-21 | 213-216 | 4 | Your Meeting with NATO Secretary General Javier Solana | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-07-05 | 49-51 | 3 | Telephone Conversation with Russian President Yeltsin | 2015-0782-M-2 | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1996-07-09 | 165-167 | 3 | The President's Meeting with Deputy Foreign Minister Georgiy Mamedov of Russia | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1996-09-17 | 231-233 | 3 | Baltic States: Baltic Action Plan and NATO Enlargement | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1996-10-04 | 238-240 | 3 | Your Meeting with the Troika on NATO Enlargement Issues | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-11-01 | 178-198 | 21 | Lake Meeting with President Jacques Chirac of France | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1996-11-06 | 258-260 | 3 | NATO Enlargement, NATO-Russia and START | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-01-25 | 207-213 | 7 | Report on Talbott/Fuerth Mission and Berger-Levitte Talks | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1997-01-31 | 268-270 | 3 | Relations with Russia | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-02-04 | 277-278 | 2 | The United States, NATO and Russia on the Eve of the Gore-Chernomyrdin Commission | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-02-07 | 222-228 | 7 | Meeting with Russian Prime Minister Viktor Chernomyrdin: March Summit, GCC Results, European Security, START, Economics | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1997-02-11 | 330-333 | 4 | Meeting with Foreign Policy Team on Russia | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-02-26 | 344-345 | 2 | Update on Preparations for Helsinki | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-02-27 | 87-89 | 3 | Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House | 2015-0782-M-2 | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
+1997-02-27 | 353-365 | 13 | Your Informal Meeting on NATO-Russia Charter | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-03-08 | 371-372 | 2 | Helsinki Preparations | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-03-18 | 379-380 | 2 | Pre-Brief on Helsinki Summit with Russian President Yeltsin | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-03-21 | 124-127 | 4 | Helsinki Afternoon Meeting with President Boris Yeltsin | 2015-0782-M-2 | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-03-21 | 105-115 | 11 | Helsinki Morning Meeting with President Boris Yeltsin | 2015-0782-M-2 | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-04-15 | 389-390 | 2 | Inviting Partners to Madrid | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
@@ -188,7 +200,7 @@ Order | Package | Score | Record | Pages | Decision | Link
 --- | --- | --- | --- | --- | --- | ---
 1 | selected | 71 | Additional Elements on CFE for NATO-Russia Document w/Attachment(s) | 4 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000039/C09000039.pdf)
 2 | selected | 71 | Precis of Russian-CFE Counter-Proposal | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000043/C09000043.pdf)
-3 | selected | 55 | The CFE Review Conference: A Retrospective w/Attachment(s) | 7 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf)
+3 | package-ready deferred | 55 | The CFE Review Conference: A Retrospective w/Attachment(s) | 7 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Oct2024/FL-2017-13804/DOC_0C09000035/C09000035.pdf)
 4 | package-ready deferred | 55 | CFE TREATY | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000026/C09000026.pdf)
 5 | selected | 74 | DEPUTY SECRETARY TALBOTT BRIEFING TOTHE NAC ON MOSCOW SUMMIT, THE WAY AHEAD WITH RUSIA | 8 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf)
 6 | selected | 74 | DEPUTY SECRETARY BRIEFS THE NAC ON MOSCOW SUMMIT | 8 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf)
@@ -222,7 +234,7 @@ Summary Conclusions NATO | 1
   and 2015-0772-M.
 - Promote NARA Scout leads only after source-image inspection supplies actual
   document dates, page spans, markings, and source-note paths.
-- Track deferred package-ready Strobe hard-gap rows (currently 3) for
+- Track deferred package-ready Strobe hard-gap rows (currently 4) for
   any reselection if later Clinton Library or NARA image review displaces lower
   value State FOIA rows.
 - Keep Drive copies private unless each one is matched to an official public
