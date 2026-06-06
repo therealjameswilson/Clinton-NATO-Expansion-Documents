@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T02:33:57.245Z
+Generated: 2026-06-06T02:43:01.269Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -112,6 +112,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1995-09-25 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1995-09-29 | P0 | Release Packet | Summary of Conclusions, SVTS Meeting of the NSC Deputies Committee | Deputies Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1995-10-02 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 1 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1995-10-21 | P0 | Memorandum of conversation | Meeting with Vaclav Havel, President of the Czech Republic | NSC | 5 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101427)
 1995-10-23 | P0 | Memcon | Memorandum of Conversation - Clinton-Yeltsin One-on-One at Hyde Park | NSC | 12 | nara-catalog | [open](https://catalog.archives.gov/id/163545436)
 1995-10-23 | P0 | Memcon | Memorandum of Conversation - Lunch with President Boris Yeltsin | NSC | 5 | nara-catalog | [open](https://catalog.archives.gov/id/163545436)
 1995-10-23 | P0 | TE | RUSSIAN PRESIDENTIAL FOREIGN AFFAIRS ADVISOR RYURIKOV: OCTOBER 23 SUMMIT ISSUES | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698198/C06698198.pdf)
@@ -167,4 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-03-16 | P0 | ME | MEMORANDUM OF CONVERSATION BETWEEN THE SERETARY AND FM Y. M. PRIMAKOV | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703630/C06703630.pdf)
 1997-03-17 | P0 | ME | MEMRANDUM OF CONVERSATION BETWEEN THE SECRETARY AND FM Y. M. PRIMAKOV | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703634/C06703634.pdf)
 1997-06-09 | P0 | Strategy paper | A Diplomatic and Congressional Strategy for Madrid and Beyond | Principals Committee | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
-1999-01-11 | P0 | TE | ARMENIAN FM OSKANIAN MEETING WITH DEPUTY SECRETARY, JANUARY 8 | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771561/C06771561.pdf)

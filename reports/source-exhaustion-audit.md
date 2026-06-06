@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T02:37:30.425Z
+Generated: 2026-06-06T02:43:05.459Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,10 +9,10 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 178 | 1000 | assembled locally
-Package-ready public candidates | 389 | 1897 | available for reselection
-NSC/SOC/minutes attention queue | 125 |  | special review lane
-Clinton Library promoted document rows | 21 | 88 | document-level rows
+Selected package records | 180 | 1000 | assembled locally
+Package-ready public candidates | 393 | 1912 | available for reselection
+NSC/SOC/minutes attention queue | 129 |  | special review lane
+Clinton Library promoted document rows | 25 | 103 | document-level rows
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
 NARA Scout promotion leads | 123 |  | needs source-image inspection
@@ -37,8 +37,12 @@ Date | Pages | Count | Record | Packet | Link
 1995-03 | 74-76 | 3 | President Clinton to President Yeltsin on NATO-Russia Relations | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-03-02 | 72-73 | 2 | Status of NATO-Russia Process | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-04-03 | 84-89 | 6 | Elements of a NATO-Russia Relationship | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-10-21 | 113-117 | 5 | Meeting with Vaclav Havel, President of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101427)
 1996-06-06 | 2-14 | 13 | C-P-L Item: NATO Enlargement | 2015-0770-M | [open](https://clinton.presidentiallibraries.us/items/show/57565)
 1997-06-09 | 29-36 | 8 | A Diplomatic and Congressional Strategy for Madrid and Beyond | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1998-05-04 | 127-128 | 2 | Telcon with President Havel of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101537)
+1998-09-16 | 177-181 | 5 | Expanded Meeting with President Vaclav Havel of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101539)
+1998-09-16 | 174-176 | 3 | Restricted Meeting with President Vaclav Havel of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101539)
 1993-08-20 | 24 | 1 | Embedded CJTF Concept | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-08-25 | 21-22 | 2 | Strawman Summit Declaration: Section on ESDI and Force Structure | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-08-26 | 40-42 | 3 | Agreement on a Euro-Atlantic Partnership for Peace | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)

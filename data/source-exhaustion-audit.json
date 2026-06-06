@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-06T02:37:30.425Z",
+  "generatedAt": "2026-06-06T02:43:05.459Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 178,
+      "Count": 180,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 389,
-      "Pages": 1897,
+      "Count": 393,
+      "Pages": 1912,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 125,
+      "Count": 129,
       "Pages": "",
       "Status": "special review lane"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 21,
-      "Pages": 88,
+      "Count": 25,
+      "Pages": 103,
       "Status": "document-level rows"
     },
     {
@@ -551,6 +551,16 @@
       "packetIdentifier": "2015-0768-M"
     },
     {
+      "id": "clinton-library-doc-2015-0773-m-havel-1995-10-21",
+      "date": "1995-10-21",
+      "title": "Meeting with Vaclav Havel, President of the Czech Republic",
+      "pageCount": 5,
+      "sourcePages": "113-117",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101427",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "packetIdentifier": "2015-0773-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0770-m-nato-enlargement-game-plan",
       "date": "1996-06-06",
       "title": "C-P-L Item: NATO Enlargement",
@@ -569,6 +579,36 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0773-m-havel-telcon-1998-05-04",
+      "date": "1998-05-04",
+      "title": "Telcon with President Havel of the Czech Republic",
+      "pageCount": 2,
+      "sourcePages": "127-128",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101537",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "packetIdentifier": "2015-0773-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0773-m-havel-expanded-1998-09-16",
+      "date": "1998-09-16",
+      "title": "Expanded Meeting with President Vaclav Havel of the Czech Republic",
+      "pageCount": 5,
+      "sourcePages": "177-181",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101539",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "packetIdentifier": "2015-0773-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0773-m-havel-restricted-1998-09-16",
+      "date": "1998-09-16",
+      "title": "Restricted Meeting with President Vaclav Havel of the Czech Republic",
+      "pageCount": 3,
+      "sourcePages": "174-176",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101539",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+      "packetIdentifier": "2015-0773-M"
     },
     {
       "id": "clinton-library-doc-2015-0768-m-embedded-cjtf-concept",

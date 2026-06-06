@@ -9901,6 +9901,64 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 41."
   },
   {
+    "id": "clinton-library-doc-2015-0773-m-havel-1995-10-21",
+    "title": "Meeting with Vaclav Havel, President of the Czech Republic",
+    "date": "1995-10-21",
+    "year": 1995,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101427",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, [Havel and Telcons], Mandatory Declassification Review 2015-0773-M, Clinton Library PDF pages 113-117. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "113-117",
+    "pageCount": 5,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato expansion",
+      "havel",
+      "czech republic",
+      "russia",
+      "bosnia"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Czech accession",
+      "NATO study",
+      "Partnership for Peace",
+      "Russia",
+      "Bosnia"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Vaclav Havel",
+      "Madeleine Albright",
+      "Daniel Fried",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "Czech Republic",
+      "Russia",
+      "Bosnia and Herzegovina",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0773-M",
+      "packetRecordId": "clinton-library-packet-2015-0773-m"
+    },
+    "notes": "Promoted from the official 2015-0773-M packet after local page-boundary inspection. The broader register already carried the Clinton Digital Library item as a metadata lead without package PDF/page-span data; this row supplies the verified packet pages."
+  },
+  {
     "id": "clinton-nato-clinton-dl-101427",
     "title": "Memorandum of Conversation - President Vaclav Havel of the Czech Republic",
     "date": "1995-10-21",
@@ -18879,6 +18937,61 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source marking extraction: No classification marking found by visual source-image review."
   },
   {
+    "id": "clinton-library-doc-2015-0773-m-havel-telcon-1998-05-04",
+    "title": "Telcon with President Havel of the Czech Republic",
+    "date": "1998-05-04",
+    "year": 1998,
+    "documentType": "Memorandum of telephone conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101537",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, [Havel and Telcons], Mandatory Declassification Review 2015-0773-M, Clinton Library PDF pages 127-128. Unclassified.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "127-128",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato enlargement",
+      "senate vote",
+      "havel",
+      "czech republic"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Senate ratification",
+      "Czech accession",
+      "Poland",
+      "Hungary",
+      "Czech Republic"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Vaclav Havel",
+      "Madeleine Albright"
+    ],
+    "countries": [
+      "Czech Republic",
+      "Poland",
+      "Hungary",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0773-M",
+      "packetRecordId": "clinton-library-packet-2015-0773-m"
+    },
+    "notes": "Promoted from the official 2015-0773-M packet after local page-boundary inspection. Packet pages 131-132 are a duplicate/incomplete copy and are not promoted separately."
+  },
+  {
     "id": "clinton-nato-clinton-dl-101540",
     "title": "Memorandum of Conversation - Prime Minister Romano Prodi of Italy",
     "date": "1998-05-06",
@@ -19988,6 +20101,72 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-note detail moved from displayed citation: Page count audit: 4 actual conversation pages from 422-425; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: Duplicate/continued packet pages 426-431 were excluded. Source marking extraction: Confidential found by PDF OCR. Source page span retained outside displayed FRUS note: pages 422-425; 4 conversation pages."
   },
   {
+    "id": "clinton-library-doc-2015-0773-m-havel-expanded-1998-09-16",
+    "title": "Expanded Meeting with President Vaclav Havel of the Czech Republic",
+    "date": "1998-09-16",
+    "year": 1998,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101539",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, [Havel and Telcons], Mandatory Declassification Review 2015-0773-M, Clinton Library PDF pages 177-181. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "177-181",
+    "pageCount": 5,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato enlargement",
+      "czech accession",
+      "defense planning",
+      "slovakia",
+      "open door"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Czech accession",
+      "Defense Planning Questionnaire",
+      "Defense spending",
+      "Slovakia",
+      "Kosovo",
+      "Open Door"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Vaclav Havel",
+      "Al Gore",
+      "Madeleine Albright",
+      "William Cohen",
+      "Samuel Berger",
+      "Marc Grossman",
+      "James Steinberg",
+      "Stephen Flanagan",
+      "Vladimir Vetchy",
+      "Jan Kavan"
+    ],
+    "countries": [
+      "Czech Republic",
+      "Slovakia",
+      "Poland",
+      "Russia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0773-M",
+      "packetRecordId": "clinton-library-packet-2015-0773-m"
+    },
+    "notes": "Promoted from the official 2015-0773-M packet after local page-boundary inspection. This is the complete released expanded-meeting copy; packet pages 184-189 are duplicate/incomplete copies and are not promoted separately."
+  },
+  {
     "id": "clinton-nato-clinton-dl-101539",
     "title": "Memorandum of Conversation - President Vaclav Havel of the Czech Republic",
     "date": "1998-09-16",
@@ -20044,6 +20223,73 @@
       "id": "clinton-dl-101539"
     },
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source marking extraction: Confidential found by visual source-image review."
+  },
+  {
+    "id": "clinton-library-doc-2015-0773-m-havel-restricted-1998-09-16",
+    "title": "Restricted Meeting with President Vaclav Havel of the Czech Republic",
+    "date": "1998-09-16",
+    "year": 1998,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101539",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, [Havel and Telcons], Mandatory Declassification Review 2015-0773-M, Clinton Library PDF pages 174-176. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "174-176",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato enlargement",
+      "open door",
+      "baltics",
+      "romania",
+      "slovenia",
+      "russia"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Open Door",
+      "Baltic states",
+      "Romania",
+      "Slovenia",
+      "NATO-Russia",
+      "Kosovo"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Vaclav Havel",
+      "Al Gore",
+      "Madeleine Albright",
+      "Samuel Berger",
+      "Leon Fuerth",
+      "Jenonne Walker",
+      "Stephen Flanagan",
+      "Boris Yeltsin",
+      "Yevgeniy Primakov"
+    ],
+    "countries": [
+      "Czech Republic",
+      "Russia",
+      "Romania",
+      "Slovenia",
+      "Baltic states",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0773-M",
+      "packetRecordId": "clinton-library-packet-2015-0773-m"
+    },
+    "notes": "Promoted from the official 2015-0773-M packet after local page-boundary inspection. Packet pages 183-189 contain duplicate/incomplete copies and are not promoted separately."
   },
   {
     "id": "clinton-nato-strobe-hardgap-july2022-C09000060",
