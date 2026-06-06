@@ -1,23 +1,29 @@
 {
-  "generatedAt": "2026-06-06T02:09:37.862Z",
+  "generatedAt": "2026-06-06T02:13:30.253Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 175,
-      "Pages": 1001,
+      "Count": 174,
+      "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 368,
-      "Pages": 1809,
+      "Count": 370,
+      "Pages": 1821,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 104,
+      "Count": 106,
       "Pages": "",
       "Status": "special review lane"
+    },
+    {
+      "Lane": "Clinton Library promoted document rows",
+      "Count": 2,
+      "Pages": 12,
+      "Status": "document-level rows"
     },
     {
       "Lane": "Clinton Library MDR packet controls",
@@ -264,6 +270,28 @@
         "queuePriority": "front-of-queue"
       },
       "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
+    }
+  ],
+  "clintonLibraryPromotedDocuments": [
+    {
+      "id": "clinton-library-doc-2017-0193-m-concept-strategy",
+      "date": "1994-09-17",
+      "title": "NATO Expansion: Concept and Strategy",
+      "pageCount": 4,
+      "sourcePages": "1-4",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118731",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/3a5e05a367487bd0097cd36c04a644c6.pdf",
+      "packetIdentifier": "2017-0193-M"
+    },
+    {
+      "id": "clinton-library-doc-2017-0193-m-hard-questions",
+      "date": "1994-09-21",
+      "title": "Next Steps on NATO Expansion: Hard Questions",
+      "pageCount": 8,
+      "sourcePages": "5-12",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118731",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/3a5e05a367487bd0097cd36c04a644c6.pdf",
+      "packetIdentifier": "2017-0193-M"
     }
   ],
   "upstreamCoverageGapSignals": [

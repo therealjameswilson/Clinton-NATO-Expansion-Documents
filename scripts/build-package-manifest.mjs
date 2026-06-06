@@ -209,6 +209,7 @@ const privateDriveItems = readJson(privateDrivePath, []);
 const coverageMatrix = readJson(coverageMatrixPath, { rows: [] });
 const upstreamPromotionQueue = readJson(promotionQueuePath, { rows: [] });
 const hardGapTriage = readJson(hardGapTriagePath, { rows: [] });
+const promotedClintonDocs = publicRecords.filter((record) => record.upstream?.workspace === "live-clinton-library-document-extraction");
 const evaluated = publicRecords.map((record) => ({ ...record, package: scoreRecord(record) }));
 const candidates = evaluated.filter((record) => record.package.packageReady).sort(sortCandidates);
 const attentionQueue = evaluated
@@ -398,10 +399,20 @@ const packetRows = manifest.clintonLibraryPacketExtractionQueue.map((record) => 
   Action: record.nextAction
 }));
 
+const promotedRows = promotedClintonDocs.map((record) => ({
+  Date: record.date,
+  Pages: record.sourcePages,
+  Count: record.pageCount,
+  Record: record.title,
+  Packet: record.upstream?.packetIdentifier || "",
+  Link: linkFor(record)
+}));
+
 const exhaustionRows = [
   { Lane: "Selected package records", Count: manifest.selectedCount, Pages: manifest.selectedPageTotal, Status: "assembled locally" },
   { Lane: "Package-ready public candidates", Count: manifest.candidateCount, Pages: manifest.candidatePageTotal, Status: "available for reselection" },
   { Lane: "NSC/SOC/minutes attention queue", Count: manifest.nscSocCandidateCount, Pages: "", Status: "special review lane" },
+  { Lane: "Clinton Library promoted document rows", Count: promotedClintonDocs.length, Pages: promotedClintonDocs.reduce((sum, record) => sum + Number(record.pageCount || 0), 0), Status: "document-level rows" },
   { Lane: "Clinton Library MDR packet controls", Count: manifest.clintonLibraryPacketControlCount, Pages: manifest.clintonLibraryPacketControlPages, Status: "needs document-level extraction" },
   { Lane: "NARA Scout promotion leads", Count: manifest.naraScoutPromotionLeadCount, Pages: "", Status: "needs source-image inspection" },
   { Lane: "Private Google Drive matching clues", Count: manifest.privateGoogleDriveIntakeCount, Pages: "", Status: "ignored local intake only" }
@@ -518,6 +529,10 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 ${table(exhaustionRows, ["Lane", "Count", "Pages", "Status"])}
 
+## Clinton Library Promoted Document Rows
+
+${promotedRows.length ? table(promotedRows, ["Date", "Pages", "Count", "Record", "Packet", "Link"]) : "No Clinton Library packet documents have been promoted in this build yet."}
+
 ## Clinton Library MDR Packet Controls
 
 These official packets are public and page-counted, but they remain controls
@@ -558,6 +573,16 @@ writeJson("data/source-exhaustion-audit.json", {
   generatedAt: manifest.generatedAt,
   lanes: exhaustionRows,
   clintonLibraryPacketControls: manifest.clintonLibraryPacketExtractionQueue,
+  clintonLibraryPromotedDocuments: promotedClintonDocs.map((record) => ({
+    id: record.id,
+    date: record.date,
+    title: record.title,
+    pageCount: record.pageCount,
+    sourcePages: record.sourcePages,
+    sourceUrl: record.sourceUrl,
+    pdfUrl: record.pdfUrl,
+    packetIdentifier: record.upstream?.packetIdentifier || ""
+  })),
   upstreamCoverageGapSignals: gapRows.map((row) => ({
     id: row.id,
     label: row.label,

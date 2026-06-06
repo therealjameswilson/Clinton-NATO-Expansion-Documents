@@ -10,6 +10,7 @@ const strobeManifestPath = path.join(workspaceRoot, "strobe-talbott-foia", "data
 const strobeTextRoot = path.join(workspaceRoot, "strobe-talbott-foia");
 const privateDrivePath = path.join(repoRoot, "private", "google-drive-intake.json");
 const packetControlsPath = path.join(repoRoot, "data", "clinton-library-packet-controls.json");
+const promotedDocumentsPath = path.join(repoRoot, "data", "clinton-library-promoted-documents.json");
 
 const keywordWeights = [
   ["summary of conclusions", 10],
@@ -425,9 +426,10 @@ function sourceLink(record) {
 const clintonRecords = readJson(clintonRecordsPath, []).map(normalizeClintonRecord);
 const strobeRecords = readJson(strobeManifestPath, []).map(normalizeStrobeRecord).filter(Boolean);
 const packetControls = readJson(packetControlsPath, []);
+const promotedDocuments = readJson(promotedDocumentsPath, []);
 const privateDriveRecords = readJson(privateDrivePath, []).map(normalizePrivateDriveItem);
 
-const publicRecords = sortRecords(dedupe([...clintonRecords, ...strobeRecords, ...packetControls]));
+const publicRecords = sortRecords(dedupe([...clintonRecords, ...strobeRecords, ...packetControls, ...promotedDocuments]));
 const allLocalRecords = sortRecords(dedupe([...publicRecords, ...privateDriveRecords]));
 const assembly = buildAssemblyPlan(publicRecords);
 const nscQueue = publicRecords.filter((record) => record.nscSoc?.isNscRecord || record.nscSoc?.isSummaryOfConclusions);

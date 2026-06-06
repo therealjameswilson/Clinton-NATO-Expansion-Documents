@@ -48,6 +48,8 @@ const knownPages = records.reduce((sum, record) => sum + (Number(record.pageCoun
 if (knownPages < 1000) fail(`expected at least 1000 known pages across seed register, found ${knownPages}`);
 const packetControls = records.filter((record) => record.sourceClass === "clinton-library-mdr-packet");
 if (packetControls.length < 5) fail(`expected Clinton Library packet controls, found ${packetControls.length}`);
+const promotedClintonDocs = records.filter((record) => record.upstream?.workspace === "live-clinton-library-document-extraction");
+if (promotedClintonDocs.length < 2) fail(`expected promoted Clinton Library document rows, found ${promotedClintonDocs.length}`);
 
 if (packageManifest.targetPages !== 1000) fail(`package target must be 1000 pages, found ${packageManifest.targetPages}`);
 if (packageManifest.selectedPageTotal < 1000) fail(`package manifest selected fewer than 1000 pages: ${packageManifest.selectedPageTotal}`);
@@ -67,6 +69,9 @@ if ((packageManifest.nscSocCandidateCount || 0) < 10) fail(`expected NSC/SOC att
 if ((packageManifest.clintonLibraryPacketControlCount || 0) < 5) fail(`expected Clinton Library packet extraction queue, found ${packageManifest.clintonLibraryPacketControlCount}`);
 if (!Array.isArray(sourceExhaustion.clintonLibraryPacketControls) || sourceExhaustion.clintonLibraryPacketControls.length < 5) {
   fail("source-exhaustion audit missing Clinton Library packet controls");
+}
+if (!Array.isArray(sourceExhaustion.clintonLibraryPromotedDocuments) || sourceExhaustion.clintonLibraryPromotedDocuments.length < 2) {
+  fail("source-exhaustion audit missing promoted Clinton Library document rows");
 }
 
 for (const relativePath of requiredReports) {

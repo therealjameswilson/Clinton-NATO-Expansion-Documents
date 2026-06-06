@@ -5195,6 +5195,110 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-packet extraction retained outside displayed FRUS note: Extracted from source packet PDF pages 58-59; 2 document pages counted. Review PDF includes a packet annotation sheet."
   },
   {
+    "id": "clinton-library-doc-2017-0193-m-concept-strategy",
+    "title": "NATO Expansion: Concept and Strategy",
+    "date": "1994-09-17",
+    "year": 1994,
+    "documentType": "Policy paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118731",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/3a5e05a367487bd0097cd36c04a644c6.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, White House Staff and Office Files, Mandatory Declassification Review 2017-0193-M, Clinton Digital Library, PDF pages 1-4. Secret/Sensitive.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "1-4",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato expansion",
+      "strategy",
+      "partnership for peace",
+      "russia"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Strategy",
+      "Partnership for Peace",
+      "NATO-Russia",
+      "European security architecture"
+    ],
+    "people": [
+      "Alexander Vershbow"
+    ],
+    "countries": [
+      "Russia",
+      "Ukraine",
+      "Poland"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2017-0193-M",
+      "packetRecordId": "clinton-library-packet-2017-0193-m"
+    },
+    "notes": "Promoted from the official 2017-0193-M packet after local page-boundary inspection. Packet control remains for duplicate/accounting review."
+  },
+  {
+    "id": "clinton-library-doc-2017-0193-m-hard-questions",
+    "title": "Next Steps on NATO Expansion: Hard Questions",
+    "date": "1994-09-21",
+    "year": 1994,
+    "documentType": "Policy paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118731",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/3a5e05a367487bd0097cd36c04a644c6.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, White House Staff and Office Files, Mandatory Declassification Review 2017-0193-M, Clinton Digital Library, PDF pages 5-12. Secret/Sensitive.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "5-12",
+    "pageCount": 8,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato expansion",
+      "hard questions",
+      "security guarantee",
+      "alliance consultations"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Alliance consultations",
+      "Security guarantees",
+      "Russia",
+      "Resources",
+      "Senate ratification"
+    ],
+    "people": [],
+    "countries": [
+      "Russia",
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "Baltic states",
+      "Ukraine"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2017-0193-M",
+      "packetRecordId": "clinton-library-packet-2017-0193-m"
+    },
+    "notes": "Promoted from the official 2017-0193-M packet after local page-boundary inspection. Document date uses the September 21, 1994 fax timestamp on packet pages 5-12."
+  },
+  {
     "id": "state-foia-C06695261",
     "title": "MAMEDOV'S THOUGHTS ON YOUR CONVERSATION WITH YELTSIN",
     "date": "1994-09-23",

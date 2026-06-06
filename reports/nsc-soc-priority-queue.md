@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T02:09:37.660Z
+Generated: 2026-06-06T02:13:30.044Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -56,6 +56,8 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1994-09-12 | P0 | TE | TALBOTT: RYURIKOV MEETING | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695297/C06695297.pdf)
 1994-09-12 | P0 | ME | THE FUTURE OF EUROPEAN SECURITY | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000145/C09000145.pdf)
 1994-09-13 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1994-09-17 | P0 | Policy paper | NATO Expansion: Concept and Strategy | NSC | 4 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118731)
+1994-09-21 | P0 | Policy paper | Next Steps on NATO Expansion: Hard Questions | NSC | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 1994-09-28 | P0 | Memcon | Second Clinton/Yeltsin One-on-One | NSC | 6 | nara-catalog | [open](https://clinton.presidentiallibraries.us/items/show/101758)
 1994-10-03 | P0 | GC | NATO expansion and Summit Follow-up | NSC | 2 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000143/C09000143.pdf)
 1994-10-18 | P0 | ME | NESA (that's "New European Security Architecture") | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000154/C09000154.pdf)
@@ -166,5 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1999-11-09 | P0 | TE | MEMORANDUM OF CONVERSATION BETWEEN DEPUTY SECRETARY TALBOTT AND TURKISH PRESIDENT DEMIREL | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814690/C06814690.pdf)
 1999-11-23 | P0 | TE | The Deputy Secretary's meeting with Ilham Aliyev and PM Rasizade | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06814798/C06814798.pdf)
 2000-02-02 | P0 | Source Lead | Secretary Albright's Meeting with Acting President Putin | NSC |  | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000064/C09000064.pdf)
-2000-02-03 | P0 | TE | DFM Berdennikov's meeting with S/NIS Sestanovich on N-K | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814791/C06814791.pdf)
-2000-03-14 | P0 | TE | Deputy Secretary Talbott's March 10 meeting with Italian FM DINI: Iran, N. Korea and ESDI Highlighted | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814974/C06814974.pdf)
