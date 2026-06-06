@@ -2548,5 +2548,175 @@
       "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum weighs naming Romania and Slovenia, setting a second-round review date, or preserving the no-names Open Door formula for Madrid."
+  },
+  {
+    "id": "clinton-library-doc-2015-0782-m-2-yeltsin-telcon-1997-02-27",
+    "title": "Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House",
+    "date": "1997-02-27",
+    "year": 1997,
+    "documentType": "Memorandum of telephone conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, Meetings and Telephone Calls with Foreign Leaders, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 87-89. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "87-89",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato-russia", "helsinki summit", "nato enlargement", "founding act"],
+    "topics": ["NATO-Russia", "NATO enlargement", "Helsinki summit", "Founding Act preparations", "European security", "START III"],
+    "people": ["Bill Clinton", "Boris Yeltsin", "Madeleine Albright", "Strobe Talbott"],
+    "countries": ["United States", "Russia"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC Records Management",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
+    },
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. Yeltsin frames Helsinki as a test of partnership versus Cold War regression, and Clinton previews Talbott's Moscow talks on defining a NATO-Russia relationship alongside NATO enlargement."
+  },
+  {
+    "id": "clinton-library-doc-2015-0782-m-2-helsinki-morning-yeltsin-1997-03-21",
+    "title": "Helsinki Morning Meeting with President Boris Yeltsin",
+    "date": "1997-03-21",
+    "year": 1997,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, Meetings and Telephone Calls with Foreign Leaders, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 105-115. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "105-115",
+    "pageCount": 11,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato enlargement", "nato-russia", "former soviet republics", "pfp", "founding act"],
+    "topics": ["NATO enlargement", "NATO-Russia", "Former Soviet republics", "Partnership for Peace", "Founding Act", "Nuclear deployments", "Conventional forces", "European security"],
+    "people": ["Bill Clinton", "Boris Yeltsin", "Madeleine Albright", "Sandy Berger", "Strobe Talbott", "Yevgeniy Primakov"],
+    "countries": ["United States", "Russia", "Ukraine", "Baltic states", "Finland"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC Records Management",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
+    },
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. This is a central enlargement record: Yeltsin asks for an unpublished assurance that no former Soviet republics would enter NATO, while Clinton rejects a secret line and argues for a new NATO, PFP, and a NATO-Russia charter."
+  },
+  {
+    "id": "clinton-library-doc-2015-0782-m-2-helsinki-afternoon-yeltsin-1997-03-21",
+    "title": "Helsinki Afternoon Meeting with President Boris Yeltsin",
+    "date": "1997-03-21",
+    "year": 1997,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, Meetings and Telephone Calls with Foreign Leaders, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 124-127. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "124-127",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato enlargement", "nato-russia", "public line", "founding act", "helsinki summit"],
+    "topics": ["NATO enlargement", "NATO-Russia", "Founding Act", "Helsinki summit", "Public diplomacy", "G-7/G-8"],
+    "people": ["Bill Clinton", "Boris Yeltsin", "Sandy Berger", "Strobe Talbott", "Yevgeniy Primakov"],
+    "countries": ["United States", "Russia", "France"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC Records Management",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
+    },
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. Clinton and Yeltsin coordinate how to describe Russian opposition to enlargement, the NATO-Russia agreement, the absence of a secret deal, and the path toward a pre-Madrid signing."
+  },
+  {
+    "id": "clinton-library-doc-2015-0782-m-2-paris-yeltsin-1997-05-27",
+    "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
+    "date": "1997-05-27",
+    "year": 1997,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 143-150. Confidential; declassified in part.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "143-150",
+    "pageCount": 8,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato-russia", "founding act", "madrid summit", "permanent joint council", "cfe"],
+    "topics": ["NATO-Russia Founding Act", "Madrid Summit", "Permanent Joint Council", "NATO enlargement", "CFE adaptation", "START II"],
+    "people": ["Bill Clinton", "Boris Yeltsin", "Madeleine Albright", "Sandy Berger", "Strobe Talbott", "Yevgeniy Primakov", "Steve Pifer"],
+    "countries": ["United States", "Russia", "France"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC Records Management",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
+    },
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. The released text follows the Founding Act signing and covers implementation of the NATO-Russia partnership, possible Russian representation at Madrid, the Joint Council, and CFE adaptation."
+  },
+  {
+    "id": "clinton-library-doc-2015-0782-m-2-denver-yeltsin-1997-06-20",
+    "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
+    "date": "1997-06-20",
+    "year": 1997,
+    "documentType": "Memorandum of conversation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+    "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, Meetings and Telephone Calls with Foreign Leaders, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 165-172. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "165-172",
+    "pageCount": 8,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["madrid summit", "nato-russia", "founding act", "permanent joint council", "cfe"],
+    "topics": ["Madrid Summit", "NATO-Russia Founding Act", "Permanent Joint Council", "CFE adaptation", "NATO enlargement", "START II"],
+    "people": ["Bill Clinton", "Boris Yeltsin", "Madeleine Albright", "Sandy Berger", "Strobe Talbott", "Yevgeniy Primakov", "Steve Pifer"],
+    "countries": ["United States", "Russia"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC Records Management",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
+    },
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. The Denver meeting links the post-Paris NATO-Russia Founding Act to Madrid preparations, CFE adaptation, Russian representation at the NATO summit, and the unresolved mechanics of the Permanent Joint Council."
   }
 ]

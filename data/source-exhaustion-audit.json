@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-06-06T03:48:09.360Z",
+  "generatedAt": "2026-06-06T04:01:19.958Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 176,
+      "Count": 174,
       "Pages": 1000,
       "Status": "assembled locally"
     },
@@ -15,7 +15,7 @@
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 184,
+      "Count": 189,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 75,
-      "Pages": 390,
+      "Count": 80,
+      "Pages": 424,
       "Status": "document-level rows"
     },
     {
@@ -973,6 +973,36 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0782-m-2-yeltsin-telcon-1997-02-27",
+      "date": "1997-02-27",
+      "title": "Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House",
+      "pageCount": 3,
+      "sourcePages": "87-89",
+      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "packetIdentifier": "2015-0782-M-2"
+    },
+    {
+      "id": "clinton-library-doc-2015-0782-m-2-helsinki-afternoon-yeltsin-1997-03-21",
+      "date": "1997-03-21",
+      "title": "Helsinki Afternoon Meeting with President Boris Yeltsin",
+      "pageCount": 4,
+      "sourcePages": "124-127",
+      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "packetIdentifier": "2015-0782-M-2"
+    },
+    {
+      "id": "clinton-library-doc-2015-0782-m-2-helsinki-morning-yeltsin-1997-03-21",
+      "date": "1997-03-21",
+      "title": "Helsinki Morning Meeting with President Boris Yeltsin",
+      "pageCount": 11,
+      "sourcePages": "105-115",
+      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "packetIdentifier": "2015-0782-M-2"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-nato-russia-founding-act-1997-05-15",
       "date": "1997-05-15",
       "title": "The NATO-Russia Founding Act",
@@ -981,6 +1011,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0782-m-2-paris-yeltsin-1997-05-27",
+      "date": "1997-05-27",
+      "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
+      "pageCount": 8,
+      "sourcePages": "143-150",
+      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "packetIdentifier": "2015-0782-M-2"
     },
     {
       "id": "clinton-library-doc-2015-0768-m-madrid-diplomatic-congressional-strategy",
@@ -1001,6 +1041,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0782-m-2-denver-yeltsin-1997-06-20",
+      "date": "1997-06-20",
+      "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
+      "pageCount": 8,
+      "sourcePages": "165-172",
+      "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
+      "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
+      "packetIdentifier": "2015-0782-M-2"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-second-round-open-door-1997-06-23",

@@ -431,7 +431,7 @@ const promotedDocuments = readJson(promotedDocumentsPath, []);
 const naraPromotedDocuments = readJson(naraPromotedDocumentsPath, []);
 const privateDriveRecords = readJson(privateDrivePath, []).map(normalizePrivateDriveItem);
 
-const publicRecords = sortRecords(dedupe([...clintonRecords, ...strobeRecords, ...packetControls, ...promotedDocuments, ...naraPromotedDocuments]));
+const publicRecords = sortRecords(dedupe([...promotedDocuments, ...naraPromotedDocuments, ...clintonRecords, ...strobeRecords, ...packetControls]));
 const allLocalRecords = sortRecords(dedupe([...publicRecords, ...privateDriveRecords]));
 const assembly = buildAssemblyPlan(publicRecords);
 const nscQueue = publicRecords.filter((record) => record.nscSoc?.isNscRecord || record.nscSoc?.isSummaryOfConclusions);

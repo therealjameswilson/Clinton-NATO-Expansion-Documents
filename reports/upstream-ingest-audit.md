@@ -1,6 +1,6 @@
 # Upstream Ingest Audit
 
-Generated: 2026-06-06T03:48:03.284Z
+Generated: 2026-06-06T03:59:08.716Z
 
 ## Inputs
 
@@ -12,7 +12,7 @@ Generated: 2026-06-06T03:48:03.284Z
 
 - Public records: 1067
 - Known public pages: 4472
-- NSC/Summaries of Conclusions flags: 260
+- NSC/Summaries of Conclusions flags: 265
 - P0 records: 555
 
 ## Source Classes
@@ -40,8 +40,8 @@ P3 | 275
 
 Status | Count
 --- | ---
-context-candidate | 256
-include-candidate | 199
+context-candidate | 251
+include-candidate | 204
 pending-promotion | 288
 unreviewed | 324
 

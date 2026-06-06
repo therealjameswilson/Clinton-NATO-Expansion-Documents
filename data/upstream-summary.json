@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-06-06T03:48:03.282Z",
+  "generatedAt": "2026-06-06T03:59:08.714Z",
   "publicRecordCount": 1067,
   "localPrivateDriveIntakeCount": 17,
   "allLocalRecordCount": 1084,
   "knownPublicPages": 4472,
-  "nscSocCount": 260,
+  "nscSocCount": 265,
   "p0Count": 555,
   "sourceClassCounts": {
     "clinton-digital-library": 148,
@@ -22,8 +22,8 @@
     "P3": 275
   },
   "inclusionStatusCounts": {
-    "context-candidate": 256,
-    "include-candidate": 199,
+    "context-candidate": 251,
+    "include-candidate": 204,
     "pending-promotion": 288,
     "unreviewed": 324
   }

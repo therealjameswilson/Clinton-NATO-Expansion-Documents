@@ -723,7 +723,7 @@ ${driveRows.length ? table(driveRows, ["Query", "Count"]) : "No private Drive in
   and 2015-0772-M.
 - Promote NARA Scout leads only after source-image inspection supplies actual
   document dates, page spans, markings, and source-note paths.
-- Keep the ${hardGapDeferredCount} package-ready Strobe hard-gap rows visible for
+- Track deferred package-ready Strobe hard-gap rows (currently ${hardGapDeferredCount}) for
   any reselection if later Clinton Library or NARA image review displaces lower
   value State FOIA rows.
 - Keep Drive copies private unless each one is matched to an official public

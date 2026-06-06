@@ -18318,55 +18318,58 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 47."
   },
   {
-    "id": "clinton-nato-russia-cross-contact-1997-02-27-telcon-43",
+    "id": "clinton-library-doc-2015-0782-m-2-yeltsin-telcon-1997-02-27",
     "title": "Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House",
     "date": "1997-02-27",
     "year": 1997,
-    "documentType": "Telcon",
+    "documentType": "Memorandum of telephone conversation",
     "sourceClass": "clinton-library-mdr",
     "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
     "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-    "sourceNote": "Source: William J. Clinton Presidential Library, Meetings and Telephone Calls with Foreign Leaders, master chronology, Release packet 2015-0782-M-2. Confidential.",
-    "sourceNoteStatus": "Draft",
+    "sourceNote": "Source: Clinton Presidential Records, Meetings and Telephone Calls with Foreign Leaders, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 87-89. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
     "sourcePages": "87-89",
     "pageCount": 3,
     "pageCountStatus": "known",
     "priority": "P0",
     "priorityReasons": [
       "nato-russia",
-      "yeltsin"
+      "helsinki summit",
+      "nato enlargement",
+      "founding act"
     ],
     "topics": [
-      "Clinton-Yeltsin",
-      "Russia high-level contacts",
-      "Telcon",
-      "NATO/Russia",
-      "Potential FRUS document",
       "NATO-Russia",
-      "High-level contact",
-      "NATO-Russia and Partnership"
+      "NATO enlargement",
+      "Helsinki summit",
+      "Founding Act preparations",
+      "European security",
+      "START III"
     ],
     "people": [
       "Bill Clinton",
-      "Boris Yeltsin"
+      "Boris Yeltsin",
+      "Madeleine Albright",
+      "Strobe Talbott"
     ],
     "countries": [
       "United States",
       "Russia"
     ],
     "nscSoc": {
-      "isNscRecord": false,
+      "isNscRecord": true,
       "isSummaryOfConclusions": false,
-      "committee": "",
+      "committee": "NSC Records Management",
       "queuePriority": "front-of-queue"
     },
-    "inclusionStatus": "context-candidate",
-    "verificationStatus": "draft-provenance",
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
     "upstream": {
-      "workspace": "Clinton-NATO-European-Security",
-      "id": "russia-cross-contact-1997-02-27-telcon-43"
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
     },
-    "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-note detail moved from displayed citation: Page count audit: 3 actual conversation pages from 87-89; non-conversation pages and duplicate copies excluded. Dedup/exclusion note: Duplicate packet pages 93-95 were excluded. Source marking extraction: Confidential found by PDF OCR. Source page span retained outside displayed FRUS note: pages 87-89; 3 conversation pages."
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. Yeltsin frames Helsinki as a test of partnership versus Cold War regression, and Clinton previews Talbott's Moscow talks on defining a NATO-Russia relationship alongside NATO enlargement."
   },
   {
     "id": "state-foia-C06703396",
@@ -19879,108 +19882,123 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 43."
   },
   {
-    "id": "clinton-nato-russia-cross-contact-1997-03-21-memcon-helsinki-afternoon",
+    "id": "clinton-library-doc-2015-0782-m-2-helsinki-afternoon-yeltsin-1997-03-21",
     "title": "Helsinki Afternoon Meeting with President Boris Yeltsin",
     "date": "1997-03-21",
     "year": 1997,
-    "documentType": "Memcon",
+    "documentType": "Memorandum of conversation",
     "sourceClass": "clinton-library-mdr",
     "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
     "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-    "sourceNote": "Source: William J. Clinton Presidential Library, Meetings and Telephone Calls with Foreign Leaders, master chronology, Release packet 2015-0782-M-2. Secret.",
-    "sourceNoteStatus": "Draft",
+    "sourceNote": "Source: Clinton Presidential Records, Meetings and Telephone Calls with Foreign Leaders, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 124-127. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
     "sourcePages": "124-127",
     "pageCount": 4,
     "pageCountStatus": "known",
     "priority": "P0",
     "priorityReasons": [
+      "nato enlargement",
       "nato-russia",
-      "yeltsin"
+      "public line",
+      "founding act",
+      "helsinki summit"
     ],
     "topics": [
-      "Clinton-Yeltsin",
-      "Russia high-level contacts",
-      "Memcon",
-      "NATO/Russia",
-      "Summit diplomacy",
-      "Potential FRUS document",
+      "NATO enlargement",
       "NATO-Russia",
-      "High-level contact",
-      "NATO-Russia and Partnership"
+      "Founding Act",
+      "Helsinki summit",
+      "Public diplomacy",
+      "G-7/G-8"
     ],
     "people": [
       "Bill Clinton",
-      "Boris Yeltsin"
+      "Boris Yeltsin",
+      "Sandy Berger",
+      "Strobe Talbott",
+      "Yevgeniy Primakov"
     ],
     "countries": [
       "United States",
-      "Russia"
+      "Russia",
+      "France"
     ],
     "nscSoc": {
-      "isNscRecord": false,
+      "isNscRecord": true,
       "isSummaryOfConclusions": false,
-      "committee": "",
+      "committee": "NSC Records Management",
       "queuePriority": "front-of-queue"
     },
-    "inclusionStatus": "context-candidate",
-    "verificationStatus": "draft-provenance",
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
     "upstream": {
-      "workspace": "Clinton-NATO-European-Security",
-      "id": "russia-cross-contact-1997-03-21-memcon-helsinki-afternoon"
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
     },
-    "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-note detail moved from displayed citation: Page count audit: 4 actual conversation pages from 124-127; non-conversation pages and duplicate copies excluded. Source marking extraction: Secret found by PDF text extraction. Source page span retained outside displayed FRUS note: pages 124-127; 4 conversation pages."
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. Clinton and Yeltsin coordinate how to describe Russian opposition to enlargement, the NATO-Russia agreement, the absence of a secret deal, and the path toward a pre-Madrid signing."
   },
   {
-    "id": "clinton-nato-russia-cross-contact-1997-03-21-memcon-helsinki-morning",
+    "id": "clinton-library-doc-2015-0782-m-2-helsinki-morning-yeltsin-1997-03-21",
     "title": "Helsinki Morning Meeting with President Boris Yeltsin",
     "date": "1997-03-21",
     "year": 1997,
-    "documentType": "Memcon",
+    "documentType": "Memorandum of conversation",
     "sourceClass": "clinton-library-mdr",
     "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
     "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-    "sourceNote": "Source: William J. Clinton Presidential Library, Meetings and Telephone Calls with Foreign Leaders, master chronology, Release packet 2015-0782-M-2. Secret.",
-    "sourceNoteStatus": "Draft",
+    "sourceNote": "Source: Clinton Presidential Records, Meetings and Telephone Calls with Foreign Leaders, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 105-115. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
     "sourcePages": "105-115",
     "pageCount": 11,
     "pageCountStatus": "known",
     "priority": "P0",
     "priorityReasons": [
+      "nato enlargement",
       "nato-russia",
-      "yeltsin"
+      "former soviet republics",
+      "pfp",
+      "founding act"
     ],
     "topics": [
-      "Clinton-Yeltsin",
-      "Russia high-level contacts",
-      "Memcon",
-      "NATO/Russia",
-      "Summit diplomacy",
-      "Potential FRUS document",
+      "NATO enlargement",
       "NATO-Russia",
-      "High-level contact",
-      "NATO-Russia and Partnership"
+      "Former Soviet republics",
+      "Partnership for Peace",
+      "Founding Act",
+      "Nuclear deployments",
+      "Conventional forces",
+      "European security"
     ],
     "people": [
       "Bill Clinton",
-      "Boris Yeltsin"
+      "Boris Yeltsin",
+      "Madeleine Albright",
+      "Sandy Berger",
+      "Strobe Talbott",
+      "Yevgeniy Primakov"
     ],
     "countries": [
       "United States",
-      "Russia"
+      "Russia",
+      "Ukraine",
+      "Baltic states",
+      "Finland"
     ],
     "nscSoc": {
-      "isNscRecord": false,
+      "isNscRecord": true,
       "isSummaryOfConclusions": false,
-      "committee": "",
+      "committee": "NSC Records Management",
       "queuePriority": "front-of-queue"
     },
-    "inclusionStatus": "context-candidate",
-    "verificationStatus": "draft-provenance",
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
     "upstream": {
-      "workspace": "Clinton-NATO-European-Security",
-      "id": "russia-cross-contact-1997-03-21-memcon-helsinki-morning"
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
     },
-    "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-note detail moved from displayed citation: Page count audit: 11 actual conversation pages from 105-115; non-conversation pages and duplicate copies excluded. Source marking extraction: Secret found by PDF text extraction. Source page span retained outside displayed FRUS note: pages 105-115; 11 conversation pages."
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. This is a central enlargement record: Yeltsin asks for an unpublished assurance that no former Soviet republics would enter NATO, while Clinton rejects a secret line and argues for a new NATO, PFP, and a NATO-Russia charter."
   },
   {
     "id": "clinton-nato-russia-cross-contact-1997-03-21-memcon-helsinki-private-dinner",
@@ -20336,38 +20354,43 @@
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum explains how the Founding Act preserved NATO decision-making while giving Russia a consultative forum during the enlargement process."
   },
   {
-    "id": "clinton-nato-russia-cross-contact-1997-05-27-memcon-45",
+    "id": "clinton-library-doc-2015-0782-m-2-paris-yeltsin-1997-05-27",
     "title": "Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France",
     "date": "1997-05-27",
     "year": 1997,
-    "documentType": "Memcon",
+    "documentType": "Memorandum of conversation",
     "sourceClass": "clinton-library-mdr",
     "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
     "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-    "sourceNote": "Source: William J. Clinton Presidential Library, Meetings and Telephone Calls with Foreign Leaders, master chronology, Release packet 2015-0782-M-2. Confidential.",
-    "sourceNoteStatus": "Draft",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 143-150. Confidential; declassified in part.",
+    "sourceNoteStatus": "Document-level provenance",
     "sourcePages": "143-150",
     "pageCount": 8,
     "pageCountStatus": "known",
     "priority": "P0",
     "priorityReasons": [
       "nato-russia",
-      "yeltsin"
+      "founding act",
+      "madrid summit",
+      "permanent joint council",
+      "cfe"
     ],
     "topics": [
-      "Clinton-Yeltsin",
-      "Russia high-level contacts",
-      "Memcon",
-      "NATO/Russia",
-      "Summit diplomacy",
-      "Potential FRUS document",
-      "NATO-Russia",
-      "High-level contact",
-      "NATO-Russia and Partnership"
+      "NATO-Russia Founding Act",
+      "Madrid Summit",
+      "Permanent Joint Council",
+      "NATO enlargement",
+      "CFE adaptation",
+      "START II"
     ],
     "people": [
       "Bill Clinton",
-      "Boris Yeltsin"
+      "Boris Yeltsin",
+      "Madeleine Albright",
+      "Sandy Berger",
+      "Strobe Talbott",
+      "Yevgeniy Primakov",
+      "Steve Pifer"
     ],
     "countries": [
       "United States",
@@ -20375,18 +20398,19 @@
       "France"
     ],
     "nscSoc": {
-      "isNscRecord": false,
+      "isNscRecord": true,
       "isSummaryOfConclusions": false,
-      "committee": "",
+      "committee": "NSC Records Management",
       "queuePriority": "front-of-queue"
     },
-    "inclusionStatus": "context-candidate",
-    "verificationStatus": "draft-provenance",
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
     "upstream": {
-      "workspace": "Clinton-NATO-European-Security",
-      "id": "russia-cross-contact-1997-05-27-memcon-45"
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
     },
-    "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-note detail moved from displayed citation: Page count audit: 8 actual conversation pages from 143-150; non-conversation pages and duplicate copies excluded. Source marking extraction: Confidential found by PDF text extraction. Source page span retained outside displayed FRUS note: pages 143-150; 8 conversation pages."
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. The released text follows the Founding Act signing and covers implementation of the NATO-Russia partnership, possible Russian representation at Madrid, the Joint Council, and CFE adaptation."
   },
   {
     "id": "clinton-nato-govinfo-PPP-1997-book1-doc-pg657",
@@ -20591,56 +20615,62 @@
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The action memorandum records the Principals' recommendation that Clinton support Poland, Hungary, and the Czech Republic as the first invitees at Madrid while holding a robust open door."
   },
   {
-    "id": "clinton-nato-russia-cross-contact-1997-06-20-memcon-46",
+    "id": "clinton-library-doc-2015-0782-m-2-denver-yeltsin-1997-06-20",
     "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
     "date": "1997-06-20",
     "year": 1997,
-    "documentType": "Memcon",
+    "documentType": "Memorandum of conversation",
     "sourceClass": "clinton-library-mdr",
     "sourceUrl": "https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0",
     "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-01/2015-0782-M-2.pdf",
-    "sourceNote": "Source: William J. Clinton Presidential Library, Meetings and Telephone Calls with Foreign Leaders, master chronology, Release packet 2015-0782-M-2. Secret.",
-    "sourceNoteStatus": "Draft",
+    "sourceNote": "Source: Clinton Presidential Records, Meetings and Telephone Calls with Foreign Leaders, Mandatory Declassification Review 2015-0782-M-2, Clinton Library PDF pages 165-172. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
     "sourcePages": "165-172",
     "pageCount": 8,
     "pageCountStatus": "known",
     "priority": "P0",
     "priorityReasons": [
+      "madrid summit",
       "nato-russia",
-      "yeltsin"
+      "founding act",
+      "permanent joint council",
+      "cfe"
     ],
     "topics": [
-      "Clinton-Yeltsin",
-      "Russia high-level contacts",
-      "Memcon",
-      "NATO/Russia",
-      "Summit diplomacy",
-      "Potential FRUS document",
-      "NATO-Russia",
-      "High-level contact",
-      "NATO-Russia and Partnership"
+      "Madrid Summit",
+      "NATO-Russia Founding Act",
+      "Permanent Joint Council",
+      "CFE adaptation",
+      "NATO enlargement",
+      "START II"
     ],
     "people": [
       "Bill Clinton",
-      "Boris Yeltsin"
+      "Boris Yeltsin",
+      "Madeleine Albright",
+      "Sandy Berger",
+      "Strobe Talbott",
+      "Yevgeniy Primakov",
+      "Steve Pifer"
     ],
     "countries": [
       "United States",
       "Russia"
     ],
     "nscSoc": {
-      "isNscRecord": false,
+      "isNscRecord": true,
       "isSummaryOfConclusions": false,
-      "committee": "",
+      "committee": "NSC Records Management",
       "queuePriority": "front-of-queue"
     },
-    "inclusionStatus": "context-candidate",
-    "verificationStatus": "draft-provenance",
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
     "upstream": {
-      "workspace": "Clinton-NATO-European-Security",
-      "id": "russia-cross-contact-1997-06-20-memcon-46"
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0782-M-2",
+      "packetRecordId": "clinton-library-yeltsin-2015-0782-m-2"
     },
-    "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-note detail moved from displayed citation: Page count audit: 8 actual conversation pages from 165-172; non-conversation pages and duplicate copies excluded. Source marking extraction: Secret found by PDF text extraction. Source page span retained outside displayed FRUS note: pages 165-172; 8 conversation pages."
+    "notes": "Promoted from the official 2015-0782-M-2 packet after local page-boundary inspection. The Denver meeting links the post-Paris NATO-Russia Founding Act to Madrid preparations, CFE adaptation, Russian representation at the NATO summit, and the unresolved mechanics of the Permanent Joint Council."
   },
   {
     "id": "clinton-library-doc-2015-0772-m-second-round-open-door-1997-06-23",

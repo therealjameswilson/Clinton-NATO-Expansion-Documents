@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T03:48:09.360Z
+Generated: 2026-06-06T04:01:19.958Z
 
 ## What This Pass Proves
 
@@ -34,9 +34,16 @@ Generated: 2026-06-06T03:48:09.360Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
-1996-09-25 | 55 | 10 | JFC/GEM CONVERSATION | state-foia | nato-expansion, nac-usnato, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698207/C06698207.pdf)
+1994-10-20 | 53 | 4 | October 20, 1994 Eyes only To The Secretary From Strobe Talbott | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000140/C09000140.pdf)
+1996-10-02 | 53 | 5 | DEPUTY SECRETATY'S 9/16 AND 9/19 MEETING WITH UKRAINIAN NSDC SECRETARY HORBULYN | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698651/C06698651.pdf)
+1996-10-29 | 53 | 4 | THE DEPUTY SECRETARY'S MEETING WITH SLOVAK FOREIGN MINISTER PAVOL HAMZIK | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698702/C06698702.pdf)
+1997-01-28 | 53 | 5 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703023/C06703023.pdf)
+1997-03-18 | 53 | 4 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN MFA POLITICAL DIRECTOR ISCHINGER | state-foia | nato-expansion, nac-usnato, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702857/C06702857.pdf)
+1999-07-26 | 53 | 5 | Deputy Secretarys meeting with Finnish Dep State Secretary Blomberg July 21, 1999 | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814644/C06814644.pdf)
+1993-04-04 | 52 | 12 | Meeting with Russian President Boris Yeltsin on Security Issues | nara-catalog | nato-russia, candidate-states, nsc-soc | [open](https://catalog.archives.gov/id/163545404)
 1994-08-27 | 52 | 3 | August 27, 1994 Letter from Strobe to Chris | state-foia | nato-expansion, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000155/C09000155.pdf)
 1994-09-28 | 52 | 6 | Second Clinton/Yeltsin One-on-One | nara-catalog | nato-russia, candidate-states, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101758)
+1995-10-23 | 52 | 5 | TABLOTT DELEGATION'S MEETING WITH FRENCH INTERAGENCY TEAM, OCTOBER 19 | state-foia | nato-expansion, nac-usnato, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698115/C06698115.pdf)
 1996-09-24 | 52 | 4 | MEETING WHIT FOREIGN MINISTER OF RUSSIA YEVGENIY PRIMAKOV | state-foia | nato-expansion, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699025/C06699025.pdf)
 1997-02-10 | 52 | 2 | THE DEPUTY SECRETARY'S CONVERSATION WITH NATO SECRETARY GENERAL SOLANA | state-foia | nato-expansion, nac-usnato, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702843/C06702843.pdf)
 1998-10-08 | 52 | 5 | Deputy Foreign Minister's October 6 Meeting with the Acting Secretary | state-foia | nato-expansion, open-door-map, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06782268/C06782268.pdf)
@@ -87,13 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1996-01-26 | 38 | 8 | DEPUTY SECRETARY'S CONVERSATION WITH GERMAN NATIONAL SECURITY ADVISOR JOACHIM BITTERLICH | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703033/C06703033.pdf)
 1996-10-29 | 38 | 3 | DEPUTY SECRETARY TALBOTT'S MEETING WITH ROMANIAN FOEIGN MINISTER TEODOR MELESCANU | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698698/C06698698.pdf)
 1997-01-18 | 38 | 2 | DEPUTY SECRETARY'S CONVERSATION WITH POLISH FOREIGN MINISTER ROSATI | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703043/C06703043.pdf)
-1997-02-21 | 38 | 2 | THE DEPUTY SECRETARY'S CONVERSATION WITH NATO SECRETARY GENERAL SOLANA | state-foia | nato-expansion, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702957/C06702957.pdf)
-1997-03-17 | 38 | 2 | DEPUTY SECRETARY'S CONVERSTAION WITH TURKISH FOREIGN MINISTRY UNDER SSECRETARY OYMEN | state-foia | nato-expansion, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702865/C06702865.pdf)
-1998-07-09 | 38 | 4 | DEPUTY SECRETARY DISCUSSES NATO ENLARGEMENT AND KOSOVO WITH DANISH DEFMIN | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771955/C06771955.pdf)
-2000-05-04 | 38 | 3 | D/S Talbott meeting with Finnish Foreign Minister Tuomioja | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815087/C06815087.pdf)
-2000-08-11 | 38 | 5 | The Deputy Secretary's meeting with EU Commissioner Patten: G8 Ministerial Miyazaki, Japan | state-foia | nato-expansion, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814898/C06814898.pdf)
-2000-11-16 | 38 | 3 | The Deputy Secretary's November 7 meeting with UK NATO Ambassador-Designate, David Manning | state-foia | nato-expansion, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06815050/C06815050.pdf)
-1994-07-08 | 37 | 3 | RUSSIAN TROOP WITHDRAWAL: ESTONIAN FM LUIK'S MEETING WITH THE DEPUTY SECRETARY | state-foia | pfp, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695151/C06695151.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 
