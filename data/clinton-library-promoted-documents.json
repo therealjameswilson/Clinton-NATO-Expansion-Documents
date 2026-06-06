@@ -2550,6 +2550,74 @@
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum and attachments set a 1996 enlargement road map, including the half-step after the December 1995 NAC, pre-accession talks, ratification timing, and a parallel NATO-Russia track."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-progress-report-nato-enlargement-1995-07-17",
+    "title": "European Security/NATO Enlargement Progress Report",
+    "date": "1995-07-17",
+    "year": 1995,
+    "documentType": "Presidential information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 184-187. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "184-187",
+    "pageCount": 4,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato enlargement", "nato-russia", "president-seen", "1996 roadmap", "congressional strategy"],
+    "topics": ["NATO enlargement", "NATO-Russia relationship", "Partnership for Peace", "CEE expectations", "Russian opposition", "Congressional strategy", "Accession talks", "December 1996 NAC"],
+    "people": ["Bill Clinton", "Anthony Lake", "Boris Yeltsin", "Andrei Kozyrev", "Sergei Karaganov", "Strobe Talbott", "Sam Nunn"],
+    "countries": ["United States", "Russia", "Central and Eastern Europe"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. NSC record ID 9505436; the memo updates the President on the NATO enlargement study, parallel NATO-Russia relationship, CEE anxieties, Russian opposition, congressional strategy, and a possible 1996-1997 accession timetable. Packet pages 159-162, 172-175, and 179-182 contain duplicate or marked copies and are not promoted separately."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-west-european-attitudes-nato-enlargement-1995-07-27",
+    "title": "West European Attitudes Toward NATO Enlargement",
+    "date": "1995-07-27",
+    "year": 1995,
+    "documentType": "Presidential information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 169-170. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "169-170",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato enlargement", "west european allies", "nato-russia", "baltic states", "burdensharing"],
+    "topics": ["NATO enlargement", "West European allies", "NATO-Russia relationship", "Baltic states", "EU enlargement", "Russian pressure", "Burden sharing"],
+    "people": ["Bill Clinton", "Anthony Lake", "Helmut Kohl", "Sam Nunn"],
+    "countries": ["United States", "Germany", "United Kingdom", "France", "Russia", "Baltic states", "Central and Eastern Europe"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. NSC record ID 9505436; Lake answers the President's question about West European attitudes toward NATO enlargement, Russian objections, Baltic membership, EU/NATO sequencing, and allied solidarity. Packet pages 157-158 and 177-178 contain alternate marked copies and are not promoted separately."
+  },
+  {
     "id": "clinton-library-doc-2015-0772-m-nato-russia-founding-act-1997-05-15",
     "title": "The NATO-Russia Founding Act",
     "date": "1997-05-15",

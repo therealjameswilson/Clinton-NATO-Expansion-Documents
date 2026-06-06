@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T04:43:57.065Z
+Generated: 2026-06-06T04:53:37.415Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 176
+- NATO-relevant NSC/SOC records: 178
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -85,6 +85,8 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1995-06-12 | P0 | ME | Your Meeting with Yeltsin in Halifax | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835149/C06835149.pdf)
 1995-06-16 | P0 | NSC information memorandum with strategy papers | Troika Meeting on European Security/NATO Enlargement | NSC | 17 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-07-09 | P0 | MI | TALBOTT-MAMEDOV MEETING IN BUENOS AIRES ON THE MARGINS OF MENEM INAUGURAL | Interagency | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698191/C06698191.pdf)
+1995-07-17 | P0 | Presidential information memorandum | European Security/NATO Enlargement Progress Report | NSC | 4 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1995-07-27 | P0 | Presidential information memorandum | West European Attitudes Toward NATO Enlargement | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-07-28 | P0 | Context | Presidential Daily Diary reference: conference call with Boris Yeltsin | NSC |  | nara-catalog | [open](https://catalog.archives.gov/id/147870839)
 1995-09-15 | P0 | MI | KOZYREV MEETING | NSC | 24 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698129/C06698129.pdf)
 1995-10-21 | P0 | Memorandum of conversation | Meeting with Vaclav Havel, President of the Czech Republic | NSC | 5 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101427)
@@ -175,8 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1999-09-29 | P0 | GC | Executive Secretariat Sensitive Tasker - To Bratislava E.O. for Change and Acting DCM with attachments | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814750/C06814750.pdf)
 1999-11-09 | P0 | TE | MEMORANDUM OF CONVERSATION BETWEEN DEPUTY SECRETARY TALBOTT AND TURKISH PRESIDENT DEMIREL | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814690/C06814690.pdf)
 1999-11-23 | P0 | TE | The Deputy Secretary's meeting with Ilham Aliyev and PM Rasizade | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06814798/C06814798.pdf)
-2000-02-02 | P0 | Source Lead | Secretary Albright's Meeting with Acting President Putin | NSC |  | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000064/C09000064.pdf)
-2000-02-03 | P0 | TE | DFM Berdennikov's meeting with S/NIS Sestanovich on N-K | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Dec2020_C/F-2017-13804/DOC_0C06814791/C06814791.pdf)
 
 ## Public Packet Controls Requiring Extraction
 

@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T04:43:57.252Z",
+  "generatedAt": "2026-06-06T04:53:37.596Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 174,
+      "Count": 176,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 456,
-      "Pages": 2249,
+      "Count": 458,
+      "Pages": 2255,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 194,
+      "Count": 196,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 84,
-      "Pages": 438,
+      "Count": 86,
+      "Pages": 444,
       "Status": "document-level rows"
     },
     {
@@ -938,6 +938,26 @@
       "title": "Troika Meeting on European Security/NATO Enlargement",
       "pageCount": 17,
       "sourcePages": "131-147",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-progress-report-nato-enlargement-1995-07-17",
+      "date": "1995-07-17",
+      "title": "European Security/NATO Enlargement Progress Report",
+      "pageCount": 4,
+      "sourcePages": "184-187",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-west-european-attitudes-nato-enlargement-1995-07-27",
+      "date": "1995-07-27",
+      "title": "West European Attitudes Toward NATO Enlargement",
+      "pageCount": 2,
+      "sourcePages": "169-170",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
