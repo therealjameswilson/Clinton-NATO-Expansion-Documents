@@ -1,6 +1,6 @@
 # Bernstein 1000-Page Package Manifest
 
-Generated: 2026-06-06T07:11:27.529Z
+Generated: 2026-06-06T07:24:18.621Z
 
 This is the focused package candidate set for Professor Barton Bernstein. It is
 separate from the broader public source register: records here are selected for
@@ -13,9 +13,9 @@ closely related NSC/meeting records.
 - Target pages: 1000
 - Selected pages: 1000
 - Selected records: 178
-- Package-ready public candidates: 554
-- Package-ready public candidate pages: 2723
-- NSC/Summaries/minutes attention candidates: 292
+- Package-ready public candidates: 555
+- Package-ready public candidate pages: 2725
+- NSC/Summaries/minutes attention candidates: 293
 - Strobe FOIA hard-gap triage rows: 13 (7 selected, 6 package-ready deferred)
 - NARA Scout promotion leads: 123
 - Clinton Library MDR packet controls: 11

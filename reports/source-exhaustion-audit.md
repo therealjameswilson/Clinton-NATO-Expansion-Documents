@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T07:11:27.529Z
+Generated: 2026-06-06T07:24:18.621Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -10,10 +10,10 @@ the major declassified source lanes, not merely reaching 1000 pages.
 Lane | Count | Pages | Status
 --- | --- | --- | ---
 Selected package records | 178 | 1000 | assembled locally
-Package-ready public candidates | 554 | 2723 | available for reselection
-NSC/SOC/minutes attention queue | 292 |  | special review lane
+Package-ready public candidates | 555 | 2725 | available for reselection
+NSC/SOC/minutes attention queue | 293 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 7 selected; 6 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 184 | 921 | document-level rows
+Clinton Library promoted document rows | 185 | 923 | document-level rows
 NARA promoted document rows | 11 | 42 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -206,6 +206,7 @@ Date | Pages | Count | Record | Packet | Link
 1997-06-26 | 261-263 | 3 | Prime Minister Drnovsek to President Clinton on Slovenia and NATO Enlargement | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1997-07-03 | 162-164 | 3 | President Constantinescu's Meeting with Chancellor Kohl | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1998-01-22 | 21-23 | 3 | NATO Adaptation/Gibraltar | 2013-0804-M | [open](https://clinton.presidentiallibraries.us/items/show/49412)
+1998-02-04 | 92-93 | 2 | U.S.-Baltic Charter | 2013-0804-M | [open](https://clinton.presidentiallibraries.us/items/show/49412)
 1993-04-15 | 48-52 | 5 | Czech Foreign Minister on Havel's Washington Agenda, Invitation to the Secretary to Visit Prague, Debate Looming in Czech Government over Foreign Policy | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1993-04-15 | 42-47 | 6 | Vaclav Havel: Same Man, Different Role | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 
@@ -278,7 +279,7 @@ Packet | Control Pages | Promoted Rows | Promoted Pages | Reviewed Residual Page
 --- | --- | --- | --- | --- | --- | --- | ---
 2015-0772-M | 539 | 40 | 185 | 354 |  | review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 2015-0768-M | 89 | 19 | 66 | 23 |  | review complete; residual pages are withdrawal/control sheets, withheld markers, or duplicate fragments | [open](https://clinton.presidentiallibraries.us/items/show/118449)
-2013-0804-M | 148 | 4 | 11 |  | 137 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/49412)
+2013-0804-M | 148 | 5 | 13 | 135 |  | review complete; residual pages are broad Blair briefing/call materials or non-expansion NATO/security context | [open](https://clinton.presidentiallibraries.us/items/show/49412)
 2024-0540-M | 91 | 17 | 75 | 16 |  | review complete; residual pages are off-topic RFE/RL, UNSC, schedule, or Czech domestic-politics material | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 2015-0773-M | 239 | 7 | 31 | 208 |  | review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
 2015-0755-M | 340 | 18 | 135 | 205 |  | review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments | [open](https://clinton.presidentiallibraries.us/items/show/57563)

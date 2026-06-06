@@ -4920,6 +4920,40 @@
     "notes": "Promoted from the official 2013-0804-M packet after local page-boundary inspection. The issue paper states that NATO enlargement should not be a one-time event and lays out the 1999 review, enhanced Partnership for Peace, EAPC, and intensified dialogue tracks for aspirants."
   },
   {
+    "id": "clinton-library-doc-2013-0804-m-us-baltic-charter-1998-02-04",
+    "title": "U.S.-Baltic Charter",
+    "date": "1998-02-04",
+    "year": 1998,
+    "documentType": "Talking-points issue paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, White House Staff and Office Files, Mandatory Declassification Review 2013-0804-M, Clinton Digital Library PDF pages 92-93. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "92-93",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P1",
+    "priorityReasons": ["baltic states", "nato membership", "open door", "northeastern european initiative", "tony blair"],
+    "topics": ["Baltic states", "NATO membership", "Open Door policy", "Northeastern European Initiative", "Western institutions", "Clinton-Blair meeting"],
+    "people": ["Bill Clinton", "Tony Blair"],
+    "countries": ["United States", "United Kingdom", "Estonia", "Latvia", "Lithuania", "Russia"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "review"
+    },
+    "inclusionStatus": "context-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2013-0804-M",
+      "packetRecordId": "clinton-library-packet-2013-0804-m"
+    },
+    "notes": "Promoted from the official 2013-0804-M packet after local page-boundary inspection. The talking-points issue paper briefs Clinton for Blair on the Baltic Charter and Northeastern European Initiative, including support for Baltic integration into Western institutions while avoiding membership commitments or timelines."
+  },
+  {
     "id": "clinton-library-doc-2015-0772-m-gore-russia-nato-expansion-1994-12-21",
     "title": "Meeting with the Vice President on Russia and NATO Expansion",
     "date": "1994-12-21",
