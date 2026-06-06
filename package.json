@@ -1,0 +1,14 @@
+{
+  "name": "clinton-nato-expansion-documents",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Public research workbench for a 1000-page declassified primary-document package on NATO expansion during the Clinton administration.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-seed-register.mjs",
+    "test": "node scripts/validate-package.mjs",
+    "check": "npm run build && npm test"
+  },
+  "license": "CC0-1.0"
+}
+

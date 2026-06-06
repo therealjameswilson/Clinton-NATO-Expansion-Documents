@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Clinton NATO Expansion Document Register Record",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "sourceClass",
+    "inclusionStatus",
+    "verificationStatus"
+  ],
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "date": { "type": "string" },
+    "year": { "type": ["integer", "null"] },
+    "documentType": { "type": "string" },
+    "sourceClass": {
+      "type": "string",
+      "enum": [
+        "clinton-digital-library",
+        "clinton-library-mdr",
+        "nara-catalog",
+        "nara-scout-lead",
+        "state-foia",
+        "frus-upstream-lead",
+        "google-drive-private-intake",
+        "other"
+      ]
+    },
+    "sourceUrl": { "type": "string" },
+    "pdfUrl": { "type": "string" },
+    "sourceNote": { "type": "string" },
+    "sourceNoteStatus": { "type": "string" },
+    "sourcePages": { "type": "string" },
+    "pageCount": { "type": ["integer", "null"] },
+    "pageCountStatus": { "type": "string" },
+    "priority": { "type": "string", "enum": ["P0", "P1", "P2", "P3"] },
+    "priorityReasons": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "topics": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "people": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "countries": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "nscSoc": {
+      "type": "object",
+      "properties": {
+        "isNscRecord": { "type": "boolean" },
+        "isSummaryOfConclusions": { "type": "boolean" },
+        "committee": { "type": "string" },
+        "queuePriority": { "type": "string" }
+      }
+    },
+    "inclusionStatus": {
+      "type": "string",
+      "enum": [
+        "include-candidate",
+        "context-candidate",
+        "pending-promotion",
+        "duplicate-control",
+        "exclude",
+        "unreviewed"
+      ]
+    },
+    "verificationStatus": {
+      "type": "string",
+      "enum": [
+        "source-image-needed",
+        "metadata-only",
+        "draft-provenance",
+        "ready-for-page-count",
+        "verified"
+      ]
+    },
+    "upstream": {
+      "type": "object",
+      "properties": {
+        "workspace": { "type": "string" },
+        "id": { "type": "string" },
+        "caseNumber": { "type": "string" },
+        "manifestPath": { "type": "string" }
+      }
+    },
+    "notes": { "type": "string" }
+  }
+}
+
