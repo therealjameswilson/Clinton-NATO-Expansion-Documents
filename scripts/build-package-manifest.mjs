@@ -228,22 +228,83 @@ const gapRows = (coverageMatrix.rows || [])
 const hardGapRows = (hardGapTriage.rows || [])
   .slice(0, 20);
 
+function pageTotal(records) {
+  return records.reduce((sum, record) => sum + Number(record.pageCount || 0), 0);
+}
+
+function assignPackagePages(records) {
+  let pageCursor = 0;
+  return records.map((record, index) => {
+    const pageCount = Number(record.pageCount || 0);
+    const output = {
+      ...record,
+      package: {
+        ...record.package,
+        packageOrder: index + 1,
+        pageStart: pageCursor + 1,
+        pageEnd: pageCursor + pageCount
+      }
+    };
+    pageCursor += pageCount;
+    return output;
+  });
+}
+
 let selectedPageTotal = 0;
-const selected = [];
+const selectedRaw = [];
 for (const record of candidates) {
   if (selectedPageTotal >= targetPages) break;
-  selected.push({
-    ...record,
-    package: {
-      ...record.package,
-      packageOrder: selected.length + 1,
-      pageStart: selectedPageTotal + 1,
-      pageEnd: selectedPageTotal + Number(record.pageCount)
-    }
-  });
+  selectedRaw.push(record);
   selectedPageTotal += Number(record.pageCount);
 }
 
+let exactPageAdjustment = null;
+if (selectedPageTotal > targetPages) {
+  const overflow = selectedPageTotal - targetPages;
+  const selectedRawIds = new Set(selectedRaw.map((record) => record.id));
+  const deferredForSwap = candidates.filter((record) => !selectedRawIds.has(record.id));
+  let bestSwap = null;
+
+  selectedRaw.forEach((selectedRecord, removeIndex) => {
+    const neededPages = Number(selectedRecord.pageCount) - overflow;
+    if (neededPages <= 0) return;
+    for (const addRecord of deferredForSwap) {
+      if (Number(addRecord.pageCount) !== neededPages) continue;
+      const scoreLoss = selectedRecord.package.score - addRecord.package.score;
+      const candidateSwap = { selectedRecord, addRecord, removeIndex, scoreLoss };
+      if (!bestSwap ||
+          scoreLoss < bestSwap.scoreLoss ||
+          (scoreLoss === bestSwap.scoreLoss && selectedRecord.package.score < bestSwap.selectedRecord.package.score) ||
+          (scoreLoss === bestSwap.scoreLoss && selectedRecord.package.score === bestSwap.selectedRecord.package.score && removeIndex > bestSwap.removeIndex)) {
+        bestSwap = candidateSwap;
+      }
+    }
+  });
+
+  if (bestSwap) {
+    selectedRaw.splice(bestSwap.removeIndex, 1, bestSwap.addRecord);
+    selectedRaw.sort(sortCandidates);
+    selectedPageTotal = pageTotal(selectedRaw);
+    exactPageAdjustment = {
+      removed: {
+        id: bestSwap.selectedRecord.id,
+        title: bestSwap.selectedRecord.title,
+        pageCount: bestSwap.selectedRecord.pageCount,
+        relevanceScore: bestSwap.selectedRecord.package.score
+      },
+      added: {
+        id: bestSwap.addRecord.id,
+        title: bestSwap.addRecord.title,
+        pageCount: bestSwap.addRecord.pageCount,
+        relevanceScore: bestSwap.addRecord.package.score
+      },
+      scoreLoss: bestSwap.scoreLoss,
+      reason: `One-record swap to hit the ${targetPages}-page target exactly.`
+    };
+  }
+}
+
+const selected = assignPackagePages(selectedRaw);
 const selectedIds = new Set(selected.map((record) => record.id));
 const deferred = candidates.filter((record) => !selectedIds.has(record.id));
 const selectedPublic = selected.map((record) => ({
@@ -281,6 +342,7 @@ const manifest = {
   clintonLibraryPacketControlCount: packetExtractionQueue.length,
   clintonLibraryPacketControlPages: officialPacketPageTotal,
   privateGoogleDriveIntakeCount: privateDriveItems.length,
+  exactPageAdjustment,
   sourceClassCounts: countBy(selected, (record) => record.sourceClass),
   yearCounts: countBy(selected, (record) => String(record.year || "unknown")),
   themeCounts: themeCounts(selected),
@@ -459,6 +521,7 @@ closely related NSC/meeting records.
 - Clinton Library MDR packet controls: ${packetExtractionQueue.length}
 - Clinton Library packet-control pages awaiting extraction: ${officialPacketPageTotal}
 - Private Google Drive intake items, not published as provenance: ${privateDriveItems.length}
+- Exact-page adjustment: ${exactPageAdjustment ? `removed "${exactPageAdjustment.removed.title}" (${exactPageAdjustment.removed.pageCount} pages) and added "${exactPageAdjustment.added.title}" (${exactPageAdjustment.added.pageCount} pages)` : "not needed"}
 
 ## Selected Source Classes
 

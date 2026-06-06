@@ -52,7 +52,7 @@ const promotedClintonDocs = records.filter((record) => record.upstream?.workspac
 if (promotedClintonDocs.length < 2) fail(`expected promoted Clinton Library document rows, found ${promotedClintonDocs.length}`);
 
 if (packageManifest.targetPages !== 1000) fail(`package target must be 1000 pages, found ${packageManifest.targetPages}`);
-if (packageManifest.selectedPageTotal < 1000) fail(`package manifest selected fewer than 1000 pages: ${packageManifest.selectedPageTotal}`);
+if (packageManifest.selectedPageTotal !== packageManifest.targetPages) fail(`package manifest selected ${packageManifest.selectedPageTotal} pages, expected exactly ${packageManifest.targetPages}`);
 if (!Array.isArray(packageManifest.selected) || packageManifest.selected.length < 50) fail("package manifest selected set is unexpectedly small");
 for (const record of packageManifest.selected || []) {
   if (!record.pdfUrl || !/^https?:\/\//.test(record.pdfUrl)) fail(`package record missing public PDF URL: ${record.id}`);

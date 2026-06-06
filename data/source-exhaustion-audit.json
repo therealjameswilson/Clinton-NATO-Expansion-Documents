@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-06-06T02:13:30.253Z",
+  "generatedAt": "2026-06-06T02:18:27.874Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 174,
+      "Count": 172,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 370,
-      "Pages": 1821,
+      "Count": 371,
+      "Pages": 1834,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 106,
+      "Count": 107,
       "Pages": "",
       "Status": "special review lane"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 2,
-      "Pages": 12,
+      "Count": 3,
+      "Pages": 25,
       "Status": "document-level rows"
     },
     {
@@ -292,6 +292,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118731",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/3a5e05a367487bd0097cd36c04a644c6.pdf",
       "packetIdentifier": "2017-0193-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0770-m-nato-enlargement-game-plan",
+      "date": "1996-06-06",
+      "title": "C-P-L Item: NATO Enlargement",
+      "pageCount": 13,
+      "sourcePages": "2-14",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57565",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ae02d8219b6f90d0e5fc7a41f099bdce.pdf",
+      "packetIdentifier": "2015-0770-M"
     }
   ],
   "upstreamCoverageGapSignals": [

@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T02:13:30.253Z
+Generated: 2026-06-06T02:18:27.874Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,10 +9,10 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 174 | 1000 | assembled locally
-Package-ready public candidates | 370 | 1821 | available for reselection
-NSC/SOC/minutes attention queue | 106 |  | special review lane
-Clinton Library promoted document rows | 2 | 12 | document-level rows
+Selected package records | 172 | 1000 | assembled locally
+Package-ready public candidates | 371 | 1834 | available for reselection
+NSC/SOC/minutes attention queue | 107 |  | special review lane
+Clinton Library promoted document rows | 3 | 25 | document-level rows
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
 NARA Scout promotion leads | 123 |  | needs source-image inspection
 Private Google Drive matching clues | 17 |  | ignored local intake only
@@ -23,6 +23,7 @@ Date | Pages | Count | Record | Packet | Link
 --- | --- | --- | --- | --- | ---
 1994-09-17 | 1-4 | 4 | NATO Expansion: Concept and Strategy | 2017-0193-M | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 1994-09-21 | 5-12 | 8 | Next Steps on NATO Expansion: Hard Questions | 2017-0193-M | [open](https://clinton.presidentiallibraries.us/items/show/118731)
+1996-06-06 | 2-14 | 13 | C-P-L Item: NATO Enlargement | 2015-0770-M | [open](https://clinton.presidentiallibraries.us/items/show/57565)
 
 ## Clinton Library MDR Packet Controls
 

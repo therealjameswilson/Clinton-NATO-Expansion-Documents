@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T02:13:30.044Z
+Generated: 2026-06-06T02:16:58.647Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -110,6 +110,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1996-02-23 | P0 | Context | Presidential Daily Diary reference: conference call with Boris Yeltsin | NSC |  | nara-catalog | [open](https://catalog.archives.gov/id/147870853)
 1996-04-15 | P0 | TE | SECRETARY CHRISTOPHER'S PARTICIPATION IN THE WORKING LUNCH AND PLENARY MINISTERIAL, MARCH 22, 1996, MOSCOW, RUSSIA | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697301/C06697301.pdf)
 1996-05-14 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH SLOVENIAN PM DRNOVSEK | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697839/C06697839.pdf)
+1996-06-06 | P0 | NSC email with attached policy paper | C-P-L Item: NATO Enlargement | NSC | 13 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57565)
 1996-06-29 | P0 | ME | MEETING WITH PRIME MINISTER CHERNOMYRDIN | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf)
 1996-07-01 | P0 | TE | MEETING WITH PRESIDENTS MERI OF ESTONIA, ULMANIS OF LATVIA AND BRAZAUSKAS OF LITHUANIA | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698302/C06698302.pdf)
 1996-07-09 | P0 | TE | "CHANGED" KARIMOV ASKS FOR USG SUPPORT | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698306/C06698306.pdf)
@@ -167,4 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1999-09-29 | P0 | GC | Executive Secretariat Sensitive Tasker - To Bratislava E.O. for Change and Acting DCM with attachments | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814750/C06814750.pdf)
 1999-11-09 | P0 | TE | MEMORANDUM OF CONVERSATION BETWEEN DEPUTY SECRETARY TALBOTT AND TURKISH PRESIDENT DEMIREL | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814690/C06814690.pdf)
 1999-11-23 | P0 | TE | The Deputy Secretary's meeting with Ilham Aliyev and PM Rasizade | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06814798/C06814798.pdf)
-2000-02-02 | P0 | Source Lead | Secretary Albright's Meeting with Acting President Putin | NSC |  | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000064/C09000064.pdf)

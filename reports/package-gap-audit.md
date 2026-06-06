@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T02:13:30.253Z
+Generated: 2026-06-06T02:18:27.874Z
 
 ## What This Pass Proves
 
@@ -34,6 +34,9 @@ Generated: 2026-06-06T02:13:30.253Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1995-12-14 | 36 | 6 | Memorandum of Conversation - President Jacques Chirac of France | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/118556)
+1996-05-14 | 35 | 5 | GEORGIAN FOREIGN MINISTER'S MEETING WITH DEPUTY SECRETARY, APRIL 29, 1996 | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697845/C06697845.pdf)
+1996-09-07 | 35 | 2 | NEW SPANISH AMBASSADOR PRESENTS CREDENTIALS | state-foia | nato-expansion, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698265/C06698265.pdf)
 1996-06-29 | 34 | 5 | MEETING WITH PRIME MINISTER CHERNOMYRDIN | state-foia | nato-russia, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf)
 1999-02-24 | 34 | 4 | D/S TALBOTT URGES "STRATEGIC OPTIMISM" IN MEETING WITH ROMANIAN PRESIDENTIAL ADVISOR PETRE | state-foia | madrid-summit, open-door-map | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771275/C06771275.pdf)
 1999-02-16 | 33 | 4 | DEPUTY SECRETARY'S MEETING WITH FRENCH MOD OFFICIALS, FEBRUARY 3, 1999 | state-foia | architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771518/C06771518.pdf)
@@ -91,9 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1998-12-30 | 28 | 5 | Telephone call with President Boris Yeltsin of Russia, December 30, 1998, White House | clinton-digital-library | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1999-03-02 | 28 | 3 | Deputy Secretary's meeting with Estonian Parliamentary Speaker | state-foia | open-door-map, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814919/C06814919.pdf)
 1999-03-24 | 28 | 5 | Telephone call with President Boris Yeltsin of Russia, March 24, 1999, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1999-04-19 | 28 | 6 | Telephone call with President Boris Yeltsin of Russia, April 19, 1999, White House | clinton-library-mdr | nato-russia | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1999-04-20 | 28 | 3 | DEPUTY SECRETARY'S APRIL 20 CONVERSATION WITH MACEDONIAN DEPUTY FM TRAJKOVSKI | state-foia | open-door-map, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771966/C06771966.pdf)
-1999-04-21 | 28 | 2 | DEPUTY SECRETARY'S APRIL 20 CONVERSATION WITH MACEDONIAN DEPUTY FM TRAJKOVSKI | state-foia | open-door-map, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jul2021_C/F-2017-13804/DOC_0C06771949/C06771949.pdf)
 
 ## NARA Scout Promotion Queue
 

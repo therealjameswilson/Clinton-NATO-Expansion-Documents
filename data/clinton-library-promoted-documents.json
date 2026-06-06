@@ -66,5 +66,39 @@
       "packetRecordId": "clinton-library-packet-2017-0193-m"
     },
     "notes": "Promoted from the official 2017-0193-M packet after local page-boundary inspection. Document date uses the September 21, 1994 fax timestamp on packet pages 5-12."
+  },
+  {
+    "id": "clinton-library-doc-2015-0770-m-nato-enlargement-game-plan",
+    "title": "C-P-L Item: NATO Enlargement",
+    "date": "1996-06-06",
+    "year": 1996,
+    "documentType": "NSC email with attached policy paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57565",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ae02d8219b6f90d0e5fc7a41f099bdce.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Emails, MsMail-Record (Sept 94-Sept 97), [NATO Enlargement and Lake], Mandatory Declassification Review 2015-0770-M, Clinton Digital Library, PDF pages 2-14. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "2-14",
+    "pageCount": 13,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato enlargement", "game plan", "nato-russia", "esdi", "nac"],
+    "topics": ["NATO enlargement", "NATO-Russia", "ESDI", "NAC Ministerial", "Accession talks", "Central and Eastern Europe", "Congressional strategy"],
+    "people": ["Anthony Lake", "Warren Christopher", "William Perry", "Yevgeniy Primakov", "John Schmidt", "Daniel Fried", "Alexander Vershbow"],
+    "countries": ["Russia", "Poland", "Czech Republic", "Hungary", "Baltic states", "Romania", "Ukraine", "France", "Germany"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0770-M",
+      "packetRecordId": "clinton-library-packet-2015-0770-m"
+    },
+    "notes": "Promoted from the official 2015-0770-M packet after local page-boundary inspection. Packet page 1 is a withdrawal/redaction sheet; the released document runs on PDF pages 2-14 and includes the attached paper 'NATO Enlargement Game Plan: June 96 to June 97.'"
   }
 ]
