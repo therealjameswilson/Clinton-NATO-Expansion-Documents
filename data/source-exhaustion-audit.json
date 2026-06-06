@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T03:34:36.373Z",
+  "generatedAt": "2026-06-06T03:42:19.024Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 177,
+      "Count": 179,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 443,
-      "Pages": 2171,
+      "Count": 446,
+      "Pages": 2179,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 176,
+      "Count": 179,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 67,
-      "Pages": 342,
+      "Count": 70,
+      "Pages": 350,
       "Status": "document-level rows"
     },
     {
@@ -1001,6 +1001,36 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
       "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2013-0804-m-open-door-policy-1998-01-21",
+      "date": "1998-01-21",
+      "title": "NATO's Open Door Policy",
+      "pageCount": 3,
+      "sourcePages": "27-29",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+      "packetIdentifier": "2013-0804-M"
+    },
+    {
+      "id": "clinton-library-doc-2013-0804-m-ratification-nato-enlargement-1998-01-22",
+      "date": "1998-01-22",
+      "title": "Ratification of NATO Enlargement",
+      "pageCount": 2,
+      "sourcePages": "19-20",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+      "packetIdentifier": "2013-0804-M"
+    },
+    {
+      "id": "clinton-library-doc-2013-0804-m-nato-russia-relations-1998-01-26",
+      "date": "1998-01-26",
+      "title": "NATO-Russia Relations",
+      "pageCount": 3,
+      "sourcePages": "24-26",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+      "packetIdentifier": "2013-0804-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-committee-expand-nato-dinner-1998-02-09",

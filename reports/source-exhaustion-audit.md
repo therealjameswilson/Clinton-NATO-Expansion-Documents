@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T03:34:36.373Z
+Generated: 2026-06-06T03:42:19.024Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,11 +9,11 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 177 | 1000 | assembled locally
-Package-ready public candidates | 443 | 2171 | available for reselection
-NSC/SOC/minutes attention queue | 176 |  | special review lane
+Selected package records | 179 | 1000 | assembled locally
+Package-ready public candidates | 446 | 2179 | available for reselection
+NSC/SOC/minutes attention queue | 179 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 13 selected; 0 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 67 | 342 | document-level rows
+Clinton Library promoted document rows | 70 | 350 | document-level rows
 NARA promoted document rows | 8 | 20 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -83,6 +83,9 @@ Date | Pages | Count | Record | Packet | Link
 1997-06-30 | 508-512 | 5 | Communications Plan for the NATO Summit | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-07-24 | 274-283 | 10 | The President's Working Lunch with President Roman Herzog of Germany | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1997-12-17 | 303-306 | 4 | Strategy for Completing Ratification of NATO Enlargement | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1998-01-21 | 27-29 | 3 | NATO's Open Door Policy | 2013-0804-M | [open](https://clinton.presidentiallibraries.us/items/show/49412)
+1998-01-22 | 19-20 | 2 | Ratification of NATO Enlargement | 2013-0804-M | [open](https://clinton.presidentiallibraries.us/items/show/49412)
+1998-01-26 | 24-26 | 3 | NATO-Russia Relations | 2013-0804-M | [open](https://clinton.presidentiallibraries.us/items/show/49412)
 1998-02-09 | 527-531 | 5 | Committee to Expand NATO Dinner IHO Polish, Czech and Hungarian Foreign Ministers | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1998-05-04 | 127-128 | 2 | Telcon with President Havel of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101537)
 1998-09-16 | 177-181 | 5 | Expanded Meeting with President Vaclav Havel of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101539)

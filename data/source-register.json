@@ -21090,6 +21090,184 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 21."
   },
   {
+    "id": "clinton-library-doc-2013-0804-m-open-door-policy-1998-01-21",
+    "title": "NATO's Open Door Policy",
+    "date": "1998-01-21",
+    "year": 1998,
+    "documentType": "Issue paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, White House Staff and Office Files, Mandatory Declassification Review 2013-0804-M, Clinton Digital Library PDF pages 27-29. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "27-29",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato enlargement",
+      "open door",
+      "madrid summit",
+      "1999 review",
+      "pfp",
+      "eapc"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Open Door policy",
+      "Madrid Summit",
+      "1999 review",
+      "Partnership for Peace",
+      "Euro-Atlantic Partnership Council",
+      "Intensified Dialogue",
+      "Clinton-Blair meeting"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Tony Blair"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Romania",
+      "Slovenia",
+      "Baltic states",
+      "Poland",
+      "Hungary",
+      "Czech Republic"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2013-0804-M",
+      "packetRecordId": "clinton-library-packet-2013-0804-m"
+    },
+    "notes": "Promoted from the official 2013-0804-M packet after local page-boundary inspection. The issue paper states that NATO enlargement should not be a one-time event and lays out the 1999 review, enhanced Partnership for Peace, EAPC, and intensified dialogue tracks for aspirants."
+  },
+  {
+    "id": "clinton-library-doc-2013-0804-m-ratification-nato-enlargement-1998-01-22",
+    "title": "Ratification of NATO Enlargement",
+    "date": "1998-01-22",
+    "year": 1998,
+    "documentType": "Issue paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, White House Staff and Office Files, Mandatory Declassification Review 2013-0804-M, Clinton Digital Library PDF pages 19-20. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "19-20",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato enlargement",
+      "ratification",
+      "accession protocols",
+      "poland",
+      "hungary",
+      "czech republic",
+      "tony blair"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Ratification",
+      "Accession protocols",
+      "Cost sharing",
+      "Alliance enlargement",
+      "Clinton-Blair meeting"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Tony Blair"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Poland",
+      "Hungary",
+      "Czech Republic"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2013-0804-M",
+      "packetRecordId": "clinton-library-packet-2013-0804-m"
+    },
+    "notes": "Promoted from the official 2013-0804-M packet after local page-boundary inspection. The issue paper prepares Clinton to brief Blair on the U.S. ratification campaign for Poland, Hungary, and the Czech Republic and on allied cost-sharing expectations."
+  },
+  {
+    "id": "clinton-library-doc-2013-0804-m-nato-russia-relations-1998-01-26",
+    "title": "NATO-Russia Relations",
+    "date": "1998-01-26",
+    "year": 1998,
+    "documentType": "Issue paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/49412",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/2f760ad25ed4dba1ca8256c93c6cf7f0.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, White House Staff and Office Files, Mandatory Declassification Review 2013-0804-M, Clinton Digital Library PDF pages 24-26. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "24-26",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato-russia",
+      "nato enlargement",
+      "founding act",
+      "post-sfor",
+      "infrastructure"
+    ],
+    "topics": [
+      "NATO-Russia relations",
+      "NATO enlargement",
+      "Founding Act",
+      "Post-SFOR",
+      "NATO infrastructure",
+      "Clinton-Blair meeting"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Tony Blair",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "United Kingdom",
+      "Russia",
+      "Poland",
+      "Hungary",
+      "Czech Republic"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2013-0804-M",
+      "packetRecordId": "clinton-library-packet-2013-0804-m"
+    },
+    "notes": "Promoted from the official 2013-0804-M packet after local page-boundary inspection. The issue paper frames NATO-Russia management after enlargement, including the Founding Act, Russia's infrastructure concerns, and post-SFOR alliance diplomacy."
+  },
+  {
     "id": "clinton-nato-russia-cross-contact-1998-02-02-telcon-50",
     "title": "Telephone call with President Boris Yeltsin of Russia, February 2, 1998, White House",
     "date": "1998-02-02",
