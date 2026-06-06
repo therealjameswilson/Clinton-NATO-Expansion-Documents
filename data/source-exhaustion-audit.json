@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T07:01:20.734Z",
+  "generatedAt": "2026-06-06T07:11:27.529Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 177,
+      "Count": 178,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 522,
-      "Pages": 2580,
+      "Count": 554,
+      "Pages": 2723,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 261,
+      "Count": 292,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -23,12 +23,12 @@
       "Lane": "Strobe FOIA hard-gap triage rows",
       "Count": 13,
       "Pages": 57,
-      "Status": "9 selected; 4 package-ready deferred; 0 not ready or not ingested"
+      "Status": "7 selected; 6 package-ready deferred; 0 not ready or not ingested"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 152,
-      "Pages": 778,
+      "Count": 184,
+      "Pages": 921,
       "Status": "document-level rows"
     },
     {
@@ -354,11 +354,11 @@
     {
       "Packet": "2015-0771-M",
       "Control Pages": 164,
-      "Promoted Rows": 3,
-      "Promoted Pages": 13,
-      "Reviewed Residual Pages": "",
-      "Backlog Pages": 151,
-      "Status": "partial; continue document-level extraction",
+      "Promoted Rows": 35,
+      "Promoted Pages": 156,
+      "Reviewed Residual Pages": 8,
+      "Backlog Pages": "",
+      "Status": "review complete; residual pages are withdrawal/control sheets or withheld markers",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/100538)"
     },
     {
@@ -474,6 +474,15 @@
       "coverageStatus": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
       "status": "reviewed residual pages; no additional package-ready NATO-expansion document text",
       "notes": "Pages were reviewed against the packet text after document-level promotion. Residual pages include Clinton Library markers, withdrawal/redaction sheets, RMO/action/routing controls, Havel scheduling and Holocaust Museum opening material, Czech background/speech packets, duplicate or incomplete copies of promoted Havel telcons and memcons, 1994 RFE/Prague-call material, and later Havel/Kosovo telephone-call materials outside the NATO-expansion package focus. No NSC minutes or Summaries of Conclusions were present in the reviewed residual pages."
+    },
+    {
+      "packetRecordId": "clinton-library-packet-2015-0771-m",
+      "packetIdentifier": "2015-0771-M",
+      "reviewedResidualPages": "1, 30, 44, 48-49, 71, 76, 122",
+      "reviewedResidualPageCount": 8,
+      "coverageStatus": "review complete; residual pages are withdrawal/control sheets or withheld markers",
+      "status": "reviewed residual pages; no additional package-ready declassified document text",
+      "notes": "Pages 1, 48-49, and 122 are Clinton Library withdrawal/redaction sheets. Pages 30, 44, 71, and 76 are withdrawal/redaction markers for withheld packet items. The released cable texts on pages 2-29, 31-43, 45-47, 50-70, 72-75, 77-121, and 123-164 are promoted as document-level rows. No NSC minutes or Summaries of Conclusions were present in the reviewed residual pages."
     }
   ],
   "clintonLibraryMeetingControls": [
@@ -739,6 +748,16 @@
       "packetIdentifier": "2015-0768-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-meeting-with-chancellor-kohl-1993-09-30",
+      "date": "1993-09-30",
+      "title": "Meeting with Chancellor Kohl",
+      "pageCount": 2,
+      "sourcePages": "5-6",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-phased-expansion-language",
       "date": "1993-10",
       "title": "Phased NATO Expansion: Draft Declaration Language",
@@ -869,6 +888,16 @@
       "packetIdentifier": "2024-0540-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-clinton-walesa-pawlak-draft-memcon-1994-01-12",
+      "date": "1994-01-12",
+      "title": "Draft Memcon - President's Bilateral with Polish President Walesa, Premier Pawlak",
+      "pageCount": 9,
+      "sourcePages": "13-21",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2024-0540-m-hungarians-upbeat-1994-01-13",
       "date": "1994-01-13",
       "title": "Prague Assessment: Hungarians Very Upbeat",
@@ -919,11 +948,51 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-talbott-walesa-warsaw-1994-04-18",
+      "date": "1994-04-18",
+      "title": "Deputy Secretary's Meeting in Warsaw with President Walesa",
+      "pageCount": 5,
+      "sourcePages": "22-26",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-kohl-yeltsin-talks-pfp-1994-05-13",
+      "date": "1994-05-13",
+      "title": "May 12 Kohl/Yeltsin Talks",
+      "pageCount": 3,
+      "sourcePages": "27-29",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0771-m-kozyrev-pfp-germany-1994-05-26",
       "date": "1994-05-26",
       "title": "Yeltsin's May 11-13 Visit to Germany: Kozyrev's Comments on PFP",
       "pageCount": 4,
       "sourcePages": "31-34",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-polish-security-clinton-visit-1994-06-24",
+      "date": "1994-06-24",
+      "title": "Foreign Minister Urges President Clinton to Focus on Polish Security During Visit",
+      "pageCount": 5,
+      "sourcePages": "35-39",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-kohl-nato-eu-enlargement-1994-09-10",
+      "date": "1994-09-10",
+      "title": "Chancellor Kohl: NATO and EU Enlargement: The Future of Europe",
+      "pageCount": 4,
+      "sourcePages": "40-43",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
       "packetIdentifier": "2015-0771-M"
@@ -977,6 +1046,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-interagency-presentation-nato-germany-1994-11-03",
+      "date": "1994-11-03",
+      "title": "Inter-Agency Presentation on NATO - Germany",
+      "pageCount": 3,
+      "sourcePages": "45-47",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-gore-russia-nato-expansion-1994-12-21",
@@ -1049,6 +1128,16 @@
       "packetIdentifier": "2015-0792-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-holbrooke-pawlak-nato-expansion-1995-01-30",
+      "date": "1995-01-30",
+      "title": "A/S Holbrooke Briefs PM Pawlak on NATO Expansion; Urges Greater Political Stability",
+      "pageCount": 4,
+      "sourcePages": "50-53",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0792-m-eu-presidency-juppe-brittan-1995-02-01",
       "date": "1995-02-01",
       "title": "The Secretary's Meeting with EU Presidency/French Foreign Minister Juppe and European Commissioner Brittan, January 26, 1995 at the State Department",
@@ -1057,6 +1146,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
       "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-secretary-pawlak-nato-expansion-1995-02-07",
+      "date": "1995-02-07",
+      "title": "The Secretary's Meeting with Polish PM Pawlak",
+      "pageCount": 4,
+      "sourcePages": "54-57",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0755-m-dehaene-working-lunch-1995-02-11",
@@ -1129,6 +1228,16 @@
       "packetIdentifier": "2015-0768-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-holbrooke-iliescu-nato-enlargement-1995-03-02",
+      "date": "1995-03-02",
+      "title": "EUR Assistant Secretary A/S Holbrooke's Meeting with President Iliescu",
+      "pageCount": 10,
+      "sourcePages": "58-67",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-status-nato-russia-process",
       "date": "1995-03-02",
       "title": "Status of NATO-Russia Process",
@@ -1159,6 +1268,16 @@
       "packetIdentifier": "2015-0792-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-horn-nato-expansion-russia-concerns-1995-03-03",
+      "date": "1995-03-03",
+      "title": "PM Horn Welcomes NATO Expansion Plans and Asks That Russia's Concerns Be Considered",
+      "pageCount": 3,
+      "sourcePages": "68-70",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0792-m-tarasyuk-pfp-gou-problems-1995-03-06",
       "date": "1995-03-06",
       "title": "DFM Tarasyuk Discusses PFP, GOU Internal Problems",
@@ -1167,6 +1286,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
       "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-dialogue-prime-minister-horn-spanish-embassy-1995-03-06",
+      "date": "1995-03-06",
+      "title": "Dialogue with Prime Minister Horn at Spanish Embassy",
+      "pageCount": 4,
+      "sourcePages": "72-75",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0755-m-claes-1995-03-07",
@@ -1197,6 +1326,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
       "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-yeltsin-angered-nato-expansion-1995-03-21",
+      "date": "1995-03-21",
+      "title": "Presidential Aide Says Yeltsin Angered Over MFA Mishandling of NATO Expansion Issue",
+      "pageCount": 4,
+      "sourcePages": "77-80",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0792-m-night-note-geneva-1995-03-22",
@@ -1329,6 +1468,16 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-clinton-kohl-telcon-1995-09-30",
+      "date": "1995-09-30",
+      "title": "Clinton-Kohl Telcon of September 23, 1995",
+      "pageCount": 5,
+      "sourcePages": "81-85",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-nato-enlargement-study-1995-10-02",
       "date": "1995-10-02",
       "title": "The NATO Enlargement Study",
@@ -1337,6 +1486,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-clinton-iliescu-memcon-1995-10-03",
+      "date": "1995-10-03",
+      "title": "Memcon: President Clinton's Meeting with President Iliescu",
+      "pageCount": 6,
+      "sourcePages": "86-91",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0773-m-havel-1995-10-21",
@@ -1357,6 +1516,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-poland-campaign-nato-membership-1995-12-08",
+      "date": "1995-12-08",
+      "title": "Change in Style not Substance in Poland's Campaign for NATO Membership",
+      "pageCount": 5,
+      "sourcePages": "92-96",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0792-m-central-european-foreign-ministers-prague-1996-03-24",
@@ -1389,6 +1558,16 @@
       "packetIdentifier": "2015-0792-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-chirac-russia-agreement-nato-enlargement-1996-05-04",
+      "date": "1996-05-04",
+      "title": "Responding to President Chirac's Call for an Agreement with Russia Prior to NATO Enlargement",
+      "pageCount": 3,
+      "sourcePages": "97-99",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0792-m-rosati-talbott-nato-enlargement-1996-05-11",
       "date": "1996-05-11",
       "title": "Polish FonMin Rosati and Acting Secretary Talbott Discuss NATO Enlargement and Regional Relations",
@@ -1397,6 +1576,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
       "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-latvian-president-nato-enlargement-1996-06-03",
+      "date": "1996-06-03",
+      "title": "Latvian President Discusses NATO Enlargement, Urges President Clinton to Meet Baltic Leaders in June",
+      "pageCount": 3,
+      "sourcePages": "113-115",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0792-m-walesa-memcon-1996-06-03",
@@ -1417,6 +1606,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57565",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ae02d8219b6f90d0e5fc7a41f099bdce.pdf",
       "packetIdentifier": "2015-0770-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-kramer-slovak-president-nato-1996-06-17",
+      "date": "1996-06-17",
+      "title": "Slovak President to A/S Kramer: Don't Punish the Country for the Government's Flaws",
+      "pageCount": 7,
+      "sourcePages": "106-112",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-kramer-kuchar-slovakia-nato-enlargement-1996-06-17",
+      "date": "1996-06-17",
+      "title": "Slovakia: Kramer Tells Kuchar No Benefit of Doubt for Slovakia on NATO Enlargement",
+      "pageCount": 6,
+      "sourcePages": "100-105",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-solana-meeting-1996-06-21",
@@ -1689,6 +1898,26 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-gor-publicly-commits-negotiations-nato-1997-02-14",
+      "date": "1997-02-14",
+      "title": "GOR Publicly Commits to Negotiations with NATO",
+      "pageCount": 4,
+      "sourcePages": "128-131",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-guidance-nato-russia-permreps-lunch-1997-02-26",
+      "date": "1997-02-26",
+      "title": "Guidance: NATO-Russia Discussion at the February 25 Permanent Representatives Lunch",
+      "pageCount": 3,
+      "sourcePages": "132-134",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-update-preparations-helsinki-1997-02-26",
       "date": "1997-02-26",
       "title": "Update on Preparations for Helsinki",
@@ -1767,6 +1996,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
       "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-russian-reactions-helsinki-1997-03-25",
+      "date": "1997-03-25",
+      "title": "Russian Reactions to Helsinki",
+      "pageCount": 4,
+      "sourcePages": "139-142",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-russian-finnish-baltics-after-helsinki-1997-03-26",
+      "date": "1997-03-26",
+      "title": "The Morning After: Russian/Finnish Post-Summit Bilaterals Focus on the Baltics",
+      "pageCount": 4,
+      "sourcePages": "143-146",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-inviting-partners-madrid-1997-04-15",
@@ -1849,6 +2098,26 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-talbott-baltic-presidents-memcon-1997-06-12",
+      "date": "1997-06-12",
+      "title": "Memcon of Deputy Secretary Talbott's Meeting with Estonian President Lennart Meri and Latvian President Guntis Ulmanis, May 28, The Hague",
+      "pageCount": 6,
+      "sourcePages": "149-154",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-nato-enlargement-us-decision-new-members-1997-06-13",
+      "date": "1997-06-13",
+      "title": "NATO Enlargement -- U.S. Decision on New Members",
+      "pageCount": 7,
+      "sourcePages": "155-161",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0782-m-2-denver-yeltsin-1997-06-20",
       "date": "1997-06-20",
       "title": "Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado",
@@ -1887,6 +2156,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-romanian-pm-secretary-talbot-1997-07-17",
+      "date": "1997-07-17",
+      "title": "Romanian Prime Minister's Meeting with the Secretary, Deputy Secretary",
+      "pageCount": 5,
+      "sourcePages": "123-127",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0755-m-herzog-working-lunch-1997-07-24",
@@ -2059,6 +2338,16 @@
       "packetIdentifier": "2024-0540-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-chirac-solana-nato-adaptation-1996-09-26",
+      "date": "1996-09-26",
+      "title": "President Chirac and NATO SYG Solana Discuss NATO Adaptation, Post-IFOR, NATO Summit",
+      "pageCount": 4,
+      "sourcePages": "116-119",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-possible-foreign-policy-events-nato-speech-1996-09-27",
       "date": "1996-09-27",
       "title": "Possible Foreign Policy Events for POTUS in October",
@@ -2067,6 +2356,26 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-french-reaction-clinton-letter-chirac-nato-1996-09-30",
+      "date": "1996-09-30",
+      "title": "Initial French Reaction to President's September 26 Letter to Chirac on NATO",
+      "pageCount": 2,
+      "sourcePages": "120-121",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-chirac-visit-bucharest-1997-02-27",
+      "date": "1997-02-27",
+      "title": "Chirac Visit to Bucharest",
+      "pageCount": 4,
+      "sourcePages": "135-138",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2015-0755-m-clinton-drnovsek-open-door-1997-06",
@@ -2079,6 +2388,16 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0771-m-kohl-romania-nato-candidacy-1997-06-12",
+      "date": "1997-06-12",
+      "title": "Chancellor Kohl and Romania's NATO Candidacy",
+      "pageCount": 2,
+      "sourcePages": "147-148",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0755-m-drnovsek-clinton-nato-enlargement-1997-06-26",
       "date": "1997-06-26",
       "title": "Prime Minister Drnovsek to President Clinton on Slovenia and NATO Enlargement",
@@ -2087,6 +2406,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
       "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0771-m-constantinescu-kohl-nato-1997-07-03",
+      "date": "1997-07-03",
+      "title": "President Constantinescu's Meeting with Chancellor Kohl",
+      "pageCount": 3,
+      "sourcePages": "162-164",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/100538",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/ad30d667d8a7801aa376b34a405c46c6.pdf",
+      "packetIdentifier": "2015-0771-M"
     },
     {
       "id": "clinton-library-doc-2013-0804-m-nato-adaptation-gibraltar-1998-01-22",
@@ -2484,8 +2813,8 @@
       "order": 7,
       "recordId": "strobe-hardgap-june2024-C09000017",
       "localRecordId": "clinton-nato-strobe-hardgap-june2024-C09000017",
-      "packageStatus": "selected",
-      "packageSelected": true,
+      "packageStatus": "package-ready deferred",
+      "packageSelected": false,
       "packageReady": true,
       "promotionLane": "Promote first",
       "directGapCredit": "NAC direct; Kosovo/Russia",
@@ -2658,8 +2987,8 @@
       "order": 13,
       "recordId": "strobe-hardgap-feb2024-C09000122",
       "localRecordId": "clinton-nato-strobe-hardgap-feb2024-C09000122",
-      "packageStatus": "selected",
-      "packageSelected": true,
+      "packageStatus": "package-ready deferred",
+      "packageSelected": false,
       "packageReady": true,
       "promotionLane": "Annotation/context",
       "directGapCredit": "NAC/NATO-Russia interpretation",

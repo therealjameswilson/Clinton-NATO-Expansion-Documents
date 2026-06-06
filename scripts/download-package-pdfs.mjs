@@ -8,6 +8,7 @@ const repoRoot = path.resolve(__dirname, "..");
 const manifestPath = path.join(repoRoot, "data", "package-manifest.json");
 const outputRoot = path.join(repoRoot, "private", "package-pdfs");
 const sourceRoot = path.join(outputRoot, "sources");
+const sliceRoot = path.join(outputRoot, "slices");
 const packagePdfPath = path.join(outputRoot, "clinton-nato-expansion-bernstein-1000-page-package.pdf");
 const normalizedPackagePdfPath = path.join(outputRoot, "clinton-nato-expansion-bernstein-1000-page-package.normalized.pdf");
 const localAuditPath = path.join(repoRoot, "reports", "package-local-build-audit.md");
@@ -56,11 +57,12 @@ const manifest = JSON.parse(fs.readFileSync(manifestPath, "utf8"));
 fs.mkdirSync(sourceRoot, { recursive: true });
 
 const audit = [];
-const qpdfArgs = ["--warning-exit-0", "--empty", "--pages"];
 for (const record of manifest.selected) {
   const url = record.pdfUrl || record.sourceUrl;
   const filename = `${String(record.packageOrder).padStart(3, "0")}-${safeName(record.id)}.pdf`;
+  const sliceFilename = `${String(record.packageOrder).padStart(3, "0")}-${safeName(record.id)}.slice.pdf`;
   const target = path.join(sourceRoot, filename);
+  const sliceTarget = path.join(sliceRoot, sliceFilename);
   const range = pageRange(record);
   const item = {
     packageOrder: record.packageOrder,
@@ -68,6 +70,7 @@ for (const record of manifest.selected) {
     title: record.title,
     url,
     localPath: path.relative(repoRoot, target),
+    slicePath: path.relative(repoRoot, sliceTarget),
     pageRange: range,
     expectedPages: record.pageCount,
     status: "pending"
@@ -83,7 +86,6 @@ for (const record of manifest.selected) {
       if (!fs.existsSync(target)) await download(url, target);
       item.status = "downloaded";
       item.bytes = fs.statSync(target).size;
-      qpdfArgs.push(target, range);
     } catch (error) {
       item.status = "error";
       item.error = error.message;
@@ -91,28 +93,70 @@ for (const record of manifest.selected) {
   }
   audit.push(item);
 }
-qpdfArgs.push("--", packagePdfPath);
 
-fs.writeFileSync(path.join(outputRoot, "download-audit.json"), `${JSON.stringify({
-  generatedAt: new Date().toISOString(),
-  dryRun,
-  assemble,
-  packagePdfPath: path.relative(repoRoot, packagePdfPath),
-  items: audit
-}, null, 2)}\n`);
+function shellQuote(value) {
+  return `'${String(value).replace(/'/g, "'\\''")}'`;
+}
+
+function writeAuditFile() {
+  fs.writeFileSync(path.join(outputRoot, "download-audit.json"), `${JSON.stringify({
+    generatedAt: new Date().toISOString(),
+    dryRun,
+    assemble,
+    packagePdfPath: path.relative(repoRoot, packagePdfPath),
+    items: audit
+  }, null, 2)}\n`);
+}
+
+const downloaded = audit.filter((item) => item.status === "downloaded");
+const sliceCommands = downloaded.map((item) => [
+  "qpdf",
+  "--warning-exit-0",
+  "--empty",
+  "--pages",
+  path.join(repoRoot, item.localPath),
+  item.pageRange,
+  "--",
+  path.join(repoRoot, item.slicePath)
+]);
+const pdfUniteArgs = downloaded.map((item) => path.join(repoRoot, item.slicePath)).concat(packagePdfPath);
 
 fs.writeFileSync(path.join(outputRoot, "qpdf-assemble.sh"), `#!/usr/bin/env bash
 set -euo pipefail
-qpdf ${qpdfArgs.map((arg) => `'${String(arg).replace(/'/g, "'\\''")}'`).join(" ")}
+rm -rf ${shellQuote(sliceRoot)}
+mkdir -p ${shellQuote(sliceRoot)}
+${sliceCommands.map((args) => args.map(shellQuote).join(" ")).join("\n")}
+pdfunite ${pdfUniteArgs.map(shellQuote).join(" ")}
+qpdf --warning-exit-0 --object-streams=generate ${shellQuote(packagePdfPath)} ${shellQuote(normalizedPackagePdfPath)}
+mv ${shellQuote(normalizedPackagePdfPath)} ${shellQuote(packagePdfPath)}
+qpdf --warning-exit-0 --check ${shellQuote(packagePdfPath)}
 `);
 fs.chmodSync(path.join(outputRoot, "qpdf-assemble.sh"), 0o755);
 
 if (assemble && !dryRun) {
-  const downloaded = audit.filter((item) => item.status === "downloaded");
   if (downloaded.length !== manifest.selected.length) {
     throw new Error(`Refusing to assemble: downloaded ${downloaded.length} of ${manifest.selected.length} records.`);
   }
-  execFileSync("qpdf", qpdfArgs, { stdio: "inherit" });
+  fs.rmSync(sliceRoot, { recursive: true, force: true });
+  fs.mkdirSync(sliceRoot, { recursive: true });
+  for (const item of downloaded) {
+    const slicePath = path.join(repoRoot, item.slicePath);
+    execFileSync("qpdf", [
+      "--warning-exit-0",
+      "--empty",
+      "--pages",
+      path.join(repoRoot, item.localPath),
+      item.pageRange,
+      "--",
+      slicePath
+    ], { stdio: "inherit" });
+    const sliceInfo = pdfInfo(slicePath);
+    item.slicePages = sliceInfo.pages;
+    if (Number(item.expectedPages) && sliceInfo.pages !== Number(item.expectedPages)) {
+      throw new Error(`Slice page mismatch for ${item.id}: expected ${item.expectedPages}, got ${sliceInfo.pages}`);
+    }
+  }
+  execFileSync("pdfunite", pdfUniteArgs, { stdio: "inherit" });
   execFileSync("qpdf", ["--warning-exit-0", "--object-streams=generate", packagePdfPath, normalizedPackagePdfPath], { stdio: "inherit" });
   fs.renameSync(normalizedPackagePdfPath, packagePdfPath);
   execFileSync("qpdf", ["--warning-exit-0", "--check", packagePdfPath], { stdio: "inherit" });
@@ -143,6 +187,7 @@ recipe.
 - Selected records: ${manifest.selectedCount}
 - Expected selected pages: ${manifest.selectedPageTotal}
 - Downloaded source PDFs: ${downloaded.length}
+- Assembled slice PDFs: ${downloaded.length}
 - Downloaded source bytes: ${sourceBytes}
 - Assembled PDF pages: ${info.pages}
 - Assembled PDF bytes: ${info.fileSizeBytes}
@@ -152,12 +197,15 @@ recipe.
 
 ## Notes
 
-- \`qpdf --warning-exit-0\` is intentional. A small number of archival PDFs can
-  emit repairable cross-reference warnings during assembly even when the final
-  file validates and \`pdfinfo\` reads the expected page count.
+- The build first extracts one slice PDF per selected manifest row, then joins
+  those slices with \`pdfunite\`. This avoids malformed resource dictionaries
+  that some archival Clinton Library PDFs can produce during one-shot qpdf
+  assembly.
 - The assembled package is normalized with \`qpdf --object-streams=generate\`
-  before the final integrity check to clear repairable stream warnings inherited
-  from archival source PDFs.
+  after \`pdfunite\` and before the final integrity check.
+- \`qpdf --warning-exit-0\` remains intentional. Some archival PDFs can emit
+  repairable warnings even when the final file validates and \`pdfinfo\` reads
+  the expected page count.
 - Re-run \`npm run download:package -- --assemble\` after any manifest change.
 - Do not commit files under \`private/\`.
 
@@ -166,6 +214,8 @@ recipe.
 ${issueRows.length ? table(issueRows, ["#", "Status", "Record", "Detail"]) : "No download errors in this local build."}
 `);
 }
+
+writeAuditFile();
 
 const counts = audit.reduce((acc, item) => {
   acc[item.status] = (acc[item.status] || 0) + 1;

@@ -70,5 +70,14 @@
     "coverageStatus": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
     "status": "reviewed residual pages; no additional package-ready NATO-expansion document text",
     "notes": "Pages were reviewed against the packet text after document-level promotion. Residual pages include Clinton Library markers, withdrawal/redaction sheets, RMO/action/routing controls, Havel scheduling and Holocaust Museum opening material, Czech background/speech packets, duplicate or incomplete copies of promoted Havel telcons and memcons, 1994 RFE/Prague-call material, and later Havel/Kosovo telephone-call materials outside the NATO-expansion package focus. No NSC minutes or Summaries of Conclusions were present in the reviewed residual pages."
+  },
+  {
+    "packetRecordId": "clinton-library-packet-2015-0771-m",
+    "packetIdentifier": "2015-0771-M",
+    "reviewedResidualPages": "1, 30, 44, 48-49, 71, 76, 122",
+    "reviewedResidualPageCount": 8,
+    "coverageStatus": "review complete; residual pages are withdrawal/control sheets or withheld markers",
+    "status": "reviewed residual pages; no additional package-ready declassified document text",
+    "notes": "Pages 1, 48-49, and 122 are Clinton Library withdrawal/redaction sheets. Pages 30, 44, 71, and 76 are withdrawal/redaction markers for withheld packet items. The released cable texts on pages 2-29, 31-43, 45-47, 50-70, 72-75, 77-121, and 123-164 are promoted as document-level rows. No NSC minutes or Summaries of Conclusions were present in the reviewed residual pages."
   }
 ]

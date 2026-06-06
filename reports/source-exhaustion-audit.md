@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T07:01:20.734Z
+Generated: 2026-06-06T07:11:27.529Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,11 +9,11 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 177 | 1000 | assembled locally
-Package-ready public candidates | 522 | 2580 | available for reselection
-NSC/SOC/minutes attention queue | 261 |  | special review lane
-Strobe FOIA hard-gap triage rows | 13 | 57 | 9 selected; 4 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 152 | 778 | document-level rows
+Selected package records | 178 | 1000 | assembled locally
+Package-ready public candidates | 554 | 2723 | available for reselection
+NSC/SOC/minutes attention queue | 292 |  | special review lane
+Strobe FOIA hard-gap triage rows | 13 | 57 | 7 selected; 6 package-ready deferred; 0 not ready or not ingested
+Clinton Library promoted document rows | 184 | 921 | document-level rows
 NARA promoted document rows | 11 | 42 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -38,6 +38,7 @@ Date | Pages | Count | Record | Packet | Link
 1993-09-20 | 16-18 | 3 | Yeltsin: NATO Expansion | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-23 | 17-18 | 2 | The Visegrad Four and NATO Expansion | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1993-09-29 | 9-15 | 7 | Russia, NATO and the Two January Summits | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-09-30 | 5-6 | 2 | Meeting with Chancellor Kohl | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1993-10 | 19-20 | 2 | Phased NATO Expansion: Draft Declaration Language | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-10-08 | 3-8 | 6 | NATO Expansion: Now Is Not the Time | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-10-19 | 24-25 | 2 | NSC Memos for Meeting with Secretary Christopher | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
@@ -51,17 +52,23 @@ Date | Pages | Count | Record | Packet | Link
 1994-01 | 29-30 | 2 | Visegrad | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01 | 21-28 | 8 | Your Plenary Lunch with Visegrad Leaders | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-07 | 60-63 | 4 | Prime Minister's Agenda for President's Visit to Prague | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1994-01-12 | 13-21 | 9 | Draft Memcon - President's Bilateral with Polish President Walesa, Premier Pawlak | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1994-01-13 | 64-67 | 4 | Prague Assessment: Hungarians Very Upbeat | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-14 | 68-75 | 8 | Czechs Give PFP an Enthusiastic Reception During Albright/Shalikashvili Visit | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-18 | 76-77 | 2 | Follow-Up to the President's Visit to Prague: Building on a Good Foundation for the Future | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-19 | 78-84 | 7 | Czech MFA Assessment of the President's Visit, Partnership for Peace and Visegrad Cooperation | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-26 | 44-50 | 7 | PFP and Central and Eastern Europe | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1994-04-18 | 22-26 | 5 | Deputy Secretary's Meeting in Warsaw with President Walesa | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+1994-05-13 | 27-29 | 3 | May 12 Kohl/Yeltsin Talks | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1994-05-26 | 31-34 | 4 | Yeltsin's May 11-13 Visit to Germany: Kozyrev's Comments on PFP | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+1994-06-24 | 35-39 | 5 | Foreign Minister Urges President Clinton to Focus on Polish Security During Visit | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+1994-09-10 | 40-43 | 4 | Chancellor Kohl: NATO and EU Enlargement: The Future of Europe | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1994-09-17 | 1-4 | 4 | NATO Expansion: Concept and Strategy | 2017-0193-M | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 1994-09-21 | 5-12 | 8 | Next Steps on NATO Expansion: Hard Questions | 2017-0193-M | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 1994-10-04 | 55-63 | 9 | Moving Toward NATO Expansion | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1994-10-13 | 71-76 | 6 | NATO Expansion | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1994-10-14 | 93-100 | 8 | Moving Toward NATO Expansion | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1994-11-03 | 45-47 | 3 | Inter-Agency Presentation on NATO - Germany | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1994-12-21 | 103-107 | 5 | Meeting with the Vice President on Russia and NATO Expansion | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-12-22 | 116-121 | 6 | European Security Architecture, NATO Expansion and Russia | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1994-12-29 | 64-66 | 3 | President Yeltsin to President Clinton on NATO Enlargement | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
@@ -69,7 +76,9 @@ Date | Pages | Count | Record | Packet | Link
 1995-01-06 | 68-69 | 2 | President Clinton to President Yeltsin on NATO Expansion and Chechnya | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-23 | 3-8 | 6 | Secretary's Meeting with UK Foreign Secretary | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-01-25 | 9-14 | 6 | NATO Expansion: Getting From Here to There | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-01-30 | 50-53 | 4 | A/S Holbrooke Briefs PM Pawlak on NATO Expansion; Urges Greater Political Stability | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1995-02-01 | 15-23 | 9 | The Secretary's Meeting with EU Presidency/French Foreign Minister Juppe and European Commissioner Brittan, January 26, 1995 at the State Department | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-02-07 | 54-57 | 4 | The Secretary's Meeting with Polish PM Pawlak | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1995-02-11 | 85-104 | 20 | Working Lunch with Prime Minister Jean-Luc Dehaene of Belgium | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1995-02-15 | 24-26 | 3 | Ukrainian Views on NATO Expansion; Ukraine and PFP | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-02-28 | 126-137 | 12 | The President's Working Lunch with Wim Kok, Prime Minister of the Netherlands | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
@@ -77,13 +86,17 @@ Date | Pages | Count | Record | Packet | Link
 1995-03 | 81 | 1 | Elements of a Russian Reply | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-03 | 79-80 | 2 | Possible Content of a Letter from the Russian Side | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-03 | 74-76 | 3 | President Clinton to President Yeltsin on NATO-Russia Relations | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03-02 | 58-67 | 10 | EUR Assistant Secretary A/S Holbrooke's Meeting with President Iliescu | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1995-03-02 | 72-73 | 2 | Status of NATO-Russia Process | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-03-03 | 32-35 | 4 | Holbrooke and Kovacs: A Meeting of the Minds | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-03-03 | 28-31 | 4 | NATO Expansion: U.S. Views on Military Implications | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-03-03 | 68-70 | 3 | PM Horn Welcomes NATO Expansion Plans and Asks That Russia's Concerns Be Considered | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1995-03-06 | 36-39 | 4 | DFM Tarasyuk Discusses PFP, GOU Internal Problems | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-03-06 | 72-75 | 4 | Dialogue with Prime Minister Horn at Spanish Embassy | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1995-03-07 | 145-150 | 6 | Meeting with NATO Secretary General Willy Claes | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1995-03-14 | 41-47 | 7 | Mamedov Visit: February 22 Sessions of the U.S.-Russian Strategic Stability Group | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-03-18 | 48-51 | 4 | Mamedov Reiterates Russian Sensitivities over NATO Expansion | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1995-03-21 | 77-80 | 4 | Presidential Aide Says Yeltsin Angered Over MFA Mishandling of NATO Expansion Issue | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1995-03-22 | 52-53 | 2 | Night Note from Geneva, Wednesday, March 22, 1995 | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-03-29 | 54-57 | 4 | Czech Foreign Minister Zieleniec Addresses NATO Membership with PermReps | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-04-03 | 84-89 | 6 | Elements of a NATO-Russia Relationship | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
@@ -97,15 +110,22 @@ Date | Pages | Count | Record | Packet | Link
 1995-07-19 | 90-93 | 4 | Bartoszewski and the Clinton Administration: What the Foreign Minister Meant to Say | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-07-19 | 87-89 | 3 | Demarche: Polish FonMin Bartoszewski on NATO | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1995-07-27 | 169-170 | 2 | West European Attitudes Toward NATO Enlargement | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1995-09-30 | 81-85 | 5 | Clinton-Kohl Telcon of September 23, 1995 | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1995-10-02 | 195 | 1 | The NATO Enlargement Study | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1995-10-03 | 86-91 | 6 | Memcon: President Clinton's Meeting with President Iliescu | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1995-10-21 | 113-117 | 5 | Meeting with Vaclav Havel, President of the Czech Republic | 2015-0773-M | [open](https://clinton.presidentiallibraries.us/items/show/101427)
 1995-11-28 | 205-207 | 3 | Germans Causing Problems on NATO Enlargement | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1995-12-08 | 92-96 | 5 | Change in Style not Substance in Poland's Campaign for NATO Membership | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1996-03-24 | 97-106 | 10 | Secretary's Lunch with Central European Foreign Ministers, March 20, 1996, Prague | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-04-16 | 107-114 | 8 | Foreign Minister Rosati's U.S. Visit: Heavy on Security Questions | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-04-17 | 115-118 | 4 | Your Meetings with President Yeltsin | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1996-05-04 | 97-99 | 3 | Responding to President Chirac's Call for an Agreement with Russia Prior to NATO Enlargement | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1996-05-11 | 119-123 | 5 | Polish FonMin Rosati and Acting Secretary Talbott Discuss NATO Enlargement and Regional Relations | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1996-06-03 | 113-115 | 3 | Latvian President Discusses NATO Enlargement, Urges President Clinton to Meet Baltic Leaders in June | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1996-06-03 | 124-129 | 6 | Memorandum of Conversation with Former President of Poland Lech Walesa | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-06-06 | 2-14 | 13 | C-P-L Item: NATO Enlargement | 2015-0770-M | [open](https://clinton.presidentiallibraries.us/items/show/57565)
+1996-06-17 | 106-112 | 7 | Slovak President to A/S Kramer: Don't Punish the Country for the Government's Flaws | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+1996-06-17 | 100-105 | 6 | Slovakia: Kramer Tells Kuchar No Benefit of Doubt for Slovakia on NATO Enlargement | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1996-06-21 | 213-216 | 4 | Your Meeting with NATO Secretary General Javier Solana | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-07-05 | 49-51 | 3 | Telephone Conversation with Russian President Yeltsin | 2015-0782-M-2 | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1996-07-09 | 165-167 | 3 | The President's Meeting with Deputy Foreign Minister Georgiy Mamedov of Russia | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
@@ -133,6 +153,8 @@ Date | Pages | Count | Record | Packet | Link
 1997-02-07 | 222-228 | 7 | Meeting with Russian Prime Minister Viktor Chernomyrdin: March Summit, GCC Results, European Security, START, Economics | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1997-02-07 | 286-290 | 5 | Points to Be Made for Meeting with Russian Prime Minister Chernomyrdin | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-02-11 | 330-333 | 4 | Meeting with Foreign Policy Team on Russia | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-02-14 | 128-131 | 4 | GOR Publicly Commits to Negotiations with NATO | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+1997-02-26 | 132-134 | 3 | Guidance: NATO-Russia Discussion at the February 25 Permanent Representatives Lunch | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1997-02-26 | 344-345 | 2 | Update on Preparations for Helsinki | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-02-27 | 87-89 | 3 | Telephone call with President Boris Yeltsin of Russia, February 27, 1997, White House | 2015-0782-M-2 | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-02-27 | 353-365 | 13 | Your Informal Meeting on NATO-Russia Charter | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
@@ -141,6 +163,8 @@ Date | Pages | Count | Record | Packet | Link
 1997-03-21 | 124-127 | 4 | Helsinki Afternoon Meeting with President Boris Yeltsin | 2015-0782-M-2 | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-03-21 | 105-115 | 11 | Helsinki Morning Meeting with President Boris Yeltsin | 2015-0782-M-2 | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-03-21 | 239-242 | 4 | Joint U.S.-Russian Statement on European Security | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1997-03-25 | 139-142 | 4 | Russian Reactions to Helsinki | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+1997-03-26 | 143-146 | 4 | The Morning After: Russian/Finnish Post-Summit Bilaterals Focus on the Baltics | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1997-04-15 | 389-390 | 2 | Inviting Partners to Madrid | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-04-24 | 396-414 | 19 | Strategy and Timelines in the Run-Up to Madrid | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-05-15 | 421-422 | 2 | The NATO-Russia Founding Act | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
@@ -149,10 +173,13 @@ Date | Pages | Count | Record | Packet | Link
 1997-06-09 | 29-36 | 8 | A Diplomatic and Congressional Strategy for Madrid and Beyond | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1997-06-09 | 445-450 | 6 | Deciding Which Countries to Support for NATO Membership at the Madrid Summit | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-06-10 | 464-476 | 13 | Meeting with Senate NATO Observer Group (SNOG) | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-06-12 | 149-154 | 6 | Memcon of Deputy Secretary Talbott's Meeting with Estonian President Lennart Meri and Latvian President Guntis Ulmanis, May 28, The Hague | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+1997-06-13 | 155-161 | 7 | NATO Enlargement -- U.S. Decision on New Members | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1997-06-20 | 165-172 | 8 | Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado | 2015-0782-M-2 | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-06-23 | 488-492 | 5 | Achieving Allied Consensus on NATO Enlargement: Whether to Set a Date or Name Names for the Second Round | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-06-23 | 497-502 | 6 | NATO Summit - Communications Objectives, Themes, Events, Roll Out | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-06-30 | 508-512 | 5 | Communications Plan for the NATO Summit | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-07-17 | 123-127 | 5 | Romanian Prime Minister's Meeting with the Secretary, Deputy Secretary | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1997-07-24 | 274-283 | 10 | The President's Working Lunch with President Roman Herzog of Germany | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1997-12-17 | 303-306 | 4 | Strategy for Completing Ratification of NATO Enlargement | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1998-01-21 | 27-29 | 3 | NATO's Open Door Policy | 2013-0804-M | [open](https://clinton.presidentiallibraries.us/items/show/49412)
@@ -170,9 +197,14 @@ Date | Pages | Count | Record | Packet | Link
 1993-08-26 | 2-5 | 4 | East European and CIS Forces for Peacekeeping | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/49430)
 1993-09-13 | 61 | 1 | Effects of Expanding Membership on NATO Military Activities | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1994-01 | 19-20 | 2 | Informal Evening in Prague with President Havel | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1996-09-26 | 116-119 | 4 | President Chirac and NATO SYG Solana Discuss NATO Adaptation, Post-IFOR, NATO Summit | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1996-09-27 | 241-242 | 2 | Possible Foreign Policy Events for POTUS in October | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1996-09-30 | 120-121 | 2 | Initial French Reaction to President's September 26 Letter to Chirac on NATO | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+1997-02-27 | 135-138 | 4 | Chirac Visit to Bucharest | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1997-06 | 265-266 | 2 | President Clinton to Prime Minister Drnovsek on NATO Enlargement and the Open Door | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1997-06-12 | 147-148 | 2 | Chancellor Kohl and Romania's NATO Candidacy | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1997-06-26 | 261-263 | 3 | Prime Minister Drnovsek to President Clinton on Slovenia and NATO Enlargement | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1997-07-03 | 162-164 | 3 | President Constantinescu's Meeting with Chancellor Kohl | 2015-0771-M | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 1998-01-22 | 21-23 | 3 | NATO Adaptation/Gibraltar | 2013-0804-M | [open](https://clinton.presidentiallibraries.us/items/show/49412)
 1993-04-15 | 48-52 | 5 | Czech Foreign Minister on Havel's Washington Agenda, Invitation to the Secretary to Visit Prague, Debate Looming in Czech Government over Foreign Policy | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1993-04-15 | 42-47 | 6 | Vaclav Havel: Same Man, Different Role | 2024-0540-M | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
@@ -250,7 +282,7 @@ Packet | Control Pages | Promoted Rows | Promoted Pages | Reviewed Residual Page
 2024-0540-M | 91 | 17 | 75 | 16 |  | review complete; residual pages are off-topic RFE/RL, UNSC, schedule, or Czech domestic-politics material | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 2015-0773-M | 239 | 7 | 31 | 208 |  | review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
 2015-0755-M | 340 | 18 | 135 | 205 |  | review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments | [open](https://clinton.presidentiallibraries.us/items/show/57563)
-2015-0771-M | 164 | 3 | 13 |  | 151 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+2015-0771-M | 164 | 35 | 156 | 8 |  | review complete; residual pages are withdrawal/control sheets or withheld markers | [open](https://clinton.presidentiallibraries.us/items/show/100538)
 2015-0768-M | 5 | 1 | 4 | 1 |  | review complete; residual page is an administrative release marker | [open](https://clinton.presidentiallibraries.us/items/show/49430)
 2017-0193-M | 12 | 2 | 12 |  |  | promoted rows cover packet page count | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 2015-0792-M | 203 | 34 | 196 | 7 |  | review complete; residual pages are withdrawal/control sheets or withheld markers | [open](https://clinton.presidentiallibraries.us/items/show/101829)
@@ -279,13 +311,13 @@ Order | Package | Score | Record | Pages | Decision | Link
 4 | package-ready deferred | 55 | CFE TREATY | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000026/C09000026.pdf)
 5 | selected | 74 | DEPUTY SECRETARY TALBOTT BRIEFING TOTHE NAC ON MOSCOW SUMMIT, THE WAY AHEAD WITH RUSIA | 8 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000060/C09000060.pdf)
 6 | selected | 74 | DEPUTY SECRETARY BRIEFS THE NAC ON MOSCOW SUMMIT | 8 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2022/FL-2017-13804/DOC_0C09000063/C09000063.pdf)
-7 | selected | 66 | NAC INTERVENTION 4/29/99 | 6 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000017/C09000017.pdf)
+7 | package-ready deferred | 66 | NAC INTERVENTION 4/29/99 | 6 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_June2024/FL-2017-13804/DOC_0C09000017/C09000017.pdf)
 8 | selected | 79 | DRAFT LETTER FROM THE SECRETARY TO CENTRAL EUROPEAN COUNTERPARTS w/Attached Facsimile Transmission | 4 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Mar2023/FL-2017-13804/DOC_0C09000060/C09000060.pdf)
 9 | selected | 71 | Checklist For GEM 4/10/97 | 2 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000044/C09000044.pdf)
 10 | package-ready deferred | 55 | Note from Strobe to Chris | 6 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2023/FL-2017-13804/DOC_0C09000073/C09000073.pdf)
 11 | package-ready deferred | 55 | CFE Rollout Meeting | 1 | Include candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Sep2022/FL-2017-13804/DOC_0C09000027/C09000027.pdf)
 12 | selected | 90 | On Course for Madrid | 2 | Context candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_July2024/FL-2017-13804/DOC_0C09000038/C09000038.pdf)
-13 | selected | 66 | ST notes on Kissinger piece | 5 | Context candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf)
+13 | package-ready deferred | 66 | ST notes on Kissinger piece | 5 | Context candidate | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2024/FL-2017-13804/DOC_0C09000122/C09000122.pdf)
 
 ## Private Drive Matching Clues
 
@@ -309,7 +341,7 @@ Summary Conclusions NATO | 1
   and 2015-0772-M.
 - Promote NARA Scout leads only after source-image inspection supplies actual
   document dates, page spans, markings, and source-note paths.
-- Track deferred package-ready Strobe hard-gap rows (currently 4) for
+- Track deferred package-ready Strobe hard-gap rows (currently 6) for
   any reselection if later Clinton Library or NARA image review displaces lower
   value State FOIA rows.
 - Keep Drive copies private unless each one is matched to an official public
