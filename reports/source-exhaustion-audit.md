@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T06:20:09.020Z
+Generated: 2026-06-06T06:23:42.342Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -239,7 +239,7 @@ Packet | Control Pages | Promoted Rows | Promoted Pages | Reviewed Residual Page
 2015-0768-M | 5 | 0 |  |  | 5 | no promoted document rows yet | [open](https://clinton.presidentiallibraries.us/items/show/49430)
 2017-0193-M | 12 | 2 | 12 |  |  | promoted rows cover packet page count | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 2015-0792-M | 203 | 34 | 196 | 7 |  | review complete; residual pages are withdrawal/control sheets or withheld markers | [open](https://clinton.presidentiallibraries.us/items/show/101829)
-2015-0770-M | 14 | 1 | 13 |  | 1 | near complete; review residual control or withdrawal page | [open](https://clinton.presidentiallibraries.us/items/show/57565)
+2015-0770-M | 14 | 1 | 13 | 1 |  | review complete; residual pages are withdrawal/control sheets or withheld markers | [open](https://clinton.presidentiallibraries.us/items/show/57565)
 
 ## Known Gap Signals From Upstream FRUS Workbench
 

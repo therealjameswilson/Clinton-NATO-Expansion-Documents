@@ -1,6 +1,6 @@
 # Bernstein 1000-Page Package Manifest
 
-Generated: 2026-06-06T06:20:09.020Z
+Generated: 2026-06-06T06:23:42.342Z
 
 This is the focused package candidate set for Professor Barton Bernstein. It is
 separate from the broader public source register: records here are selected for

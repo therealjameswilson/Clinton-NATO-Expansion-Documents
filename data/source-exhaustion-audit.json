@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T06:20:09.020Z",
+  "generatedAt": "2026-06-06T06:23:42.342Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -396,9 +396,9 @@
       "Control Pages": 14,
       "Promoted Rows": 1,
       "Promoted Pages": 13,
-      "Reviewed Residual Pages": "",
-      "Backlog Pages": 1,
-      "Status": "near complete; review residual control or withdrawal page",
+      "Reviewed Residual Pages": 1,
+      "Backlog Pages": "",
+      "Status": "review complete; residual pages are withdrawal/control sheets or withheld markers",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/57565)"
     }
   ],
@@ -410,6 +410,14 @@
       "reviewedResidualPageCount": 7,
       "status": "reviewed residual pages; no package-ready declassified document text",
       "notes": "Pages 1-2 and 95-96 are Clinton Library withdrawal/redaction sheets for packet control. Pages 27, 40, and 94 are withdrawal/redaction markers for fully withheld documents: 'NATO Enlargement Study: Where Are We?', 'NATO: NMA Contributions to Chapter III, V', and 'NATO Enlargement: September 28 Collective Briefing to Partners.'"
+    },
+    {
+      "packetRecordId": "clinton-library-packet-2015-0770-m",
+      "packetIdentifier": "2015-0770-M",
+      "reviewedResidualPages": "1",
+      "reviewedResidualPageCount": 1,
+      "status": "reviewed residual page; no package-ready declassified document text",
+      "notes": "Page 1 is the Clinton Library withdrawal/redaction sheet for the C-P-L Item: NATO Enlargement record. The released document text is already promoted as PDF pages 2-14."
     }
   ],
   "clintonLibraryMeetingControls": [
