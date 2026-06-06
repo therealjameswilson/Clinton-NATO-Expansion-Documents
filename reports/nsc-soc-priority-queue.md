@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T03:22:18.580Z
+Generated: 2026-06-06T03:34:36.191Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -58,6 +58,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [5] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482487)
 1994-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1994 Meetings [8] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482490)
 1994-01-07 | P0 | Cable | Prime Minister's Agenda for President's Visit to Prague | NSC | 4 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+1994-01-12 | P0 | Briefing paper | Background: Business-Related Event at K-Mart | NSC | 2 | nara-catalog | [open](https://catalog.archives.gov/id/368557013)
 1994-01-13 | P0 | Memcon | President's dinner with President Yeltsin, January 13/14, 1994 | NSC | 11 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/101370)
 1994-01-14 | P0 | Cable | Czechs Give PFP an Enthusiastic Reception During Albright/Shalikashvili Visit | NSC | 8 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-18 | P0 | Cable | Follow-Up to the President's Visit to Prague: Building on a Good Foundation for the Future | NSC | 2 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
@@ -153,9 +154,11 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1996-01-01 | P0 | Scout Lead | PC/DC [Principals Committee/Deputies Committee] Meetings on Bosnia, March 1996 [5] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/41051293)
 1996-01-01 | P0 | Scout Lead | PC/DC [Principals Committee/Deputies Committee] Meetings on Bosnia, March 1996 [6] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/41051294)
 1996-02-23 | P0 | Context | Presidential Daily Diary reference: conference call with Boris Yeltsin | NSC |  | nara-catalog | [open](https://catalog.archives.gov/id/147870853)
+1996-03-05 | P0 | Summary of Conclusions transmittal | Transmittal: Summary of Conclusions, Principals Committee Meeting on Bosnia, March 1, 1996 | Principals Committee | 1 | nara-catalog | [open](https://catalog.archives.gov/id/41051478)
 1996-04-15 | P0 | TE | SECRETARY CHRISTOPHER'S PARTICIPATION IN THE WORKING LUNCH AND PLENARY MINISTERIAL, MARCH 22, 1996, MOSCOW, RUSSIA | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697301/C06697301.pdf)
 1996-05-14 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH SLOVENIAN PM DRNOVSEK | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697839/C06697839.pdf)
 1996-06-06 | P0 | NSC email with attached policy paper | C-P-L Item: NATO Enlargement | NSC | 13 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57565)
+1996-06-25 | P0 | Summary of Conclusions transmittal | Transmittal: Summary of Conclusions, Deputies Committee Meeting on Bosnia, June 20, 1996 | Deputies Committee | 1 | nara-catalog | [open](https://catalog.archives.gov/id/41051385)
 1996-06-29 | P0 | ME | MEETING WITH PRIME MINISTER CHERNOMYRDIN | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697694/C06697694.pdf)
 1996-07-01 | P0 | TE | MEETING WITH PRESIDENTS MERI OF ESTONIA, ULMANIS OF LATVIA AND BRAZAUSKAS OF LITHUANIA | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698302/C06698302.pdf)
 1996-07-09 | P0 | TE | "CHANGED" KARIMOV ASKS FOR USG SUPPORT | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698306/C06698306.pdf)
@@ -165,6 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1996-07-30 | P0 | TE | DEPUTY SECRETARY REVIEWS SECURITY, ECONOMIC ISSUES WITH UKRAINIAN FOREIGN MINISTER, JULY 26, 1996 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698247/C06698247.pdf)
 1996-09-07 | P0 | TE | ACTING SECRETARY BRIEFS BALTICS ON ACTION PLAN | Interagency | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698268/C06698268.pdf)
 1996-09-11 | P0 | MI | PARIS ST-MAMEDOV | Interagency | 22 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698220/C06698220.pdf)
-1996-09-13 | P0 | GC | THE BRIEF THAT JIM AND I WILL GIVE TO YOU ON OUR RETURN TO THE DEPARTMENT | Interagency | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698215/C06698215.pdf)
-1996-09-24 | P0 | ME | MEETING WHIT FOREIGN MINISTER OF RUSSIA YEVGENIY PRIMAKOV | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699025/C06699025.pdf)
-1996-10-07 | P0 | TE | DEPUTY SECRETARY EXPLAINS U.S. CONCERNS TO BELARUSIAN FOREIGN MINISTER SENKO, OCTOBER 3, 1996 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698741/C06698741.pdf)

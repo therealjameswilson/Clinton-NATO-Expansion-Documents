@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T03:22:25.743Z",
+  "generatedAt": "2026-06-06T03:34:36.373Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 173,
+      "Count": 177,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 435,
-      "Pages": 2151,
+      "Count": 443,
+      "Pages": 2171,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 168,
+      "Count": 176,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -30,6 +30,12 @@
       "Count": 67,
       "Pages": 342,
       "Status": "document-level rows"
+    },
+    {
+      "Lane": "NARA promoted document rows",
+      "Count": 8,
+      "Pages": 20,
+      "Status": "document-level rows after source-image inspection"
     },
     {
       "Lane": "Clinton Library withheld meeting/SOC controls",
@@ -1075,6 +1081,88 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
+    }
+  ],
+  "naraPromotedDocuments": [
+    {
+      "id": "nara-doc-368557013-prague-business-event-nato-pfp",
+      "date": "1994-01-12",
+      "title": "Background: Business-Related Event at K-Mart",
+      "pageCount": 2,
+      "sourcePages": "37-38",
+      "sourceUrl": "https://catalog.archives.gov/id/368557013",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/7585709-20170413F-002-008-2024.pdf",
+      "naid": "368557013"
+    },
+    {
+      "id": "nara-doc-41051478-pc-soc-transmittal-bosnia",
+      "date": "1996-03-05",
+      "title": "Transmittal: Summary of Conclusions, Principals Committee Meeting on Bosnia, March 1, 1996",
+      "pageCount": 1,
+      "sourcePages": "19",
+      "sourceUrl": "https://catalog.archives.gov/id/41051478",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20120798F-009-055-2016.pdf",
+      "naid": "41051478"
+    },
+    {
+      "id": "nara-doc-41051385-dc-soc-transmittal-bosnia",
+      "date": "1996-06-25",
+      "title": "Transmittal: Summary of Conclusions, Deputies Committee Meeting on Bosnia, June 20, 1996",
+      "pageCount": 1,
+      "sourcePages": "15",
+      "sourceUrl": "https://catalog.archives.gov/id/41051385",
+      "pdfUrl": "https://s3.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/7585709/42-t-7585709-20120798F-006-009-2016.pdf",
+      "naid": "41051385"
+    },
+    {
+      "id": "nara-doc-23902181-adamkus-memcon-nato-enlargement",
+      "date": "1998-10-21",
+      "title": "Memorandum of Conversation: Meeting with President Adamkus of Lithuania",
+      "pageCount": 3,
+      "sourcePages": "78-80",
+      "sourceUrl": "https://catalog.archives.gov/id/23902181",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscea/7585493/42-t-7585493-20111038F-003-005-2015.pdf",
+      "naid": "23902181"
+    },
+    {
+      "id": "nara-doc-23902181-vagnorius-nato-summit",
+      "date": "1999-03-16",
+      "title": "Meeting with Lithuanian Prime Minister Gediminas Vagnorius",
+      "pageCount": 6,
+      "sourcePages": "45-50",
+      "sourceUrl": "https://catalog.archives.gov/id/23902181",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscea/7585493/42-t-7585493-20111038F-003-005-2015.pdf",
+      "naid": "23902181"
+    },
+    {
+      "id": "nara-doc-23902170-lithuania-new-government-nato",
+      "date": "2000-11-09",
+      "title": "A Steady Foreign Policy and the Promise of Reforms Mark the New Government Program in Lithuania",
+      "pageCount": 4,
+      "sourcePages": "8-11",
+      "sourceUrl": "https://catalog.archives.gov/id/23902170",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscea/7585471/42-t-7585471-20111038F-002-019-2015.pdf",
+      "naid": "23902170"
+    },
+    {
+      "id": "nara-doc-23902170-usackas-open-door-points",
+      "date": "2000-11-13",
+      "title": "Lithuanian Deputy FM Usackas: Points to Be Made",
+      "pageCount": 1,
+      "sourcePages": "5",
+      "sourceUrl": "https://catalog.archives.gov/id/23902170",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscea/7585471/42-t-7585471-20111038F-002-019-2015.pdf",
+      "naid": "23902170"
+    },
+    {
+      "id": "nara-doc-23902170-visit-usackas-nato-enlargement",
+      "date": "2000-11-13",
+      "title": "Visit of Lithuanian Deputy Foreign Minister Usackas",
+      "pageCount": 2,
+      "sourcePages": "6-7",
+      "sourceUrl": "https://catalog.archives.gov/id/23902170",
+      "pdfUrl": "https://s3.us-east-1.amazonaws.com/NARAprodstorage/lz/presidential-libraries/clinton/wjc-nscea/7585471/42-t-7585471-20111038F-002-019-2015.pdf",
+      "naid": "23902170"
     }
   ],
   "upstreamCoverageGapSignals": [

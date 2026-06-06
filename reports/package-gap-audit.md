@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T03:22:25.743Z
+Generated: 2026-06-06T03:34:36.373Z
 
 ## What This Pass Proves
 
@@ -34,14 +34,16 @@ Generated: 2026-06-06T03:22:25.743Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1996-09-26 | 51 | 19 | HERE IS A DRAFT MEMCON, FOR YOUR EYES ONLY. | state-foia | nato-expansion, nato-russia, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698205/C06698205.pdf)
+1997-01-09 | 51 | 3 | MEMORANDUM OF CONVERSATION BETWEEN VICE PRESIDENT GORE AND PORTUGUESE PRIME MINISTER GUTERRES | state-foia | nato-expansion, nato-russia, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698843/C06698843.pdf)
 1993-06-30 | 50 | 3 | The NATO Summit: Timing and Venue | clinton-library-mdr | nato-russia, cfe-osce, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1995-10-23 | 50 | 5 | Memorandum of Conversation - Lunch with President Boris Yeltsin | nara-catalog | nato-russia, nsc-soc | [open](https://catalog.archives.gov/id/163545436)
 1999-02-19 | 50 | 8 | DEPSEC MEETING WITH GERMAN STATE SECRETARY ISCHINGER ON 2/4 | state-foia | open-door-map, nac-usnato, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771540/C06771540.pdf)
 1994-10-12 | 50 | 3 | UNGA BILATERAL: DEPUTY SECRETARY TALBOTT'S MEETING WITH HUNGARIAN FOREIGN MINISTER KOVACS | state-foia | nato-expansion, pfp, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694730/C06694730.pdf)
 1996-05-30 | 50 | 3 | DEPUTY SECRETARY'S CONVERSATION WITH SLOVERNIAN PM DRNOVSEK | state-foia | nato-expansion, pfp, nac-usnato | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697767/C06697767.pdf)
+1994-01 | 49 | 2 | U.S. Initiatives for Prague | clinton-library-mdr | pfp, candidate-states, nsc-soc | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
 1994-01-26 | 49 | 5 | January 26, 1994 Letter to Chris | state-foia | nato-expansion, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000170/C09000170.pdf)
 1997-03-07 | 49 | 8 | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | state-foia | nato-russia, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703179/C06703179.pdf)
-1997-03-07 | 49 | 6 | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | state-foia | nato-russia, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703610/C06703610.pdf)
 1995-03-07 | 48 | 6 | Memorandum of Conversation - NATO Secretary General Willy Claes | clinton-digital-library | nato-russia, pfp | [open](https://clinton.presidentiallibraries.us/items/show/101431)
 1995-12-07 | 48 | 3 | DEPUTY SECRETARY'S DECEMBER 6 MEETING WITH HINGARIAN PRIME MINISTER HORN | state-foia | nato-expansion, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698143/C06698143.pdf)
 1993-08-26 | 47 | 3 | Agreement on a Euro-Atlantic Partnership for Peace | clinton-library-mdr | pfp, architecture, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/118449)
@@ -92,8 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1995-05-27 | 36 | 4 | Memorandum of Telephone Conversation - President Jacques Chirac of France | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/118528)
 1995-10-22 | 36 | 2 | Your meeting with Boris Yeltsin (II) | state-foia | nato-expansion, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835150/C06835150.pdf)
 1995-10-24 | 36 | 7 | Memorandum of Conversation - Presidents Izetbegovic and Tudjman | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/36589)
-1995-12-14 | 36 | 6 | Memorandum of Conversation - President Jacques Chirac of France | clinton-digital-library | nato-russia | [open](https://clinton.presidentiallibraries.us/items/show/118556)
-1996-09-17 | 36 | 8 | PRIMAKOV: RUSSIAN DIFFERENCES WITH THE U.S. | state-foia | nato-expansion, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698212/C06698212.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 

@@ -57,6 +57,8 @@ Target corpus:
   packet controls awaiting document-level extraction.
 - `data/clinton-library-promoted-documents.json` - document-level rows promoted
   from Clinton Library MDR packets after page-boundary inspection.
+- `data/nara-promoted-documents.json` - document-level rows promoted from NARA
+  Scout leads after source-image inspection.
 - `data/source-exhaustion-audit.json` - structured source-lane and gap audit.
 - `reports/package-manifest.md` - readable selected package sequence.
 - `reports/package-gap-audit.md` - remaining gaps before final handoff.

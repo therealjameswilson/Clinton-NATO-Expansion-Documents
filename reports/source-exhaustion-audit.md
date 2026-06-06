@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T03:22:25.743Z
+Generated: 2026-06-06T03:34:36.373Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,11 +9,12 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 173 | 1000 | assembled locally
-Package-ready public candidates | 435 | 2151 | available for reselection
-NSC/SOC/minutes attention queue | 168 |  | special review lane
+Selected package records | 177 | 1000 | assembled locally
+Package-ready public candidates | 443 | 2171 | available for reselection
+NSC/SOC/minutes attention queue | 176 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 13 selected; 0 package-ready deferred; 0 not ready or not ingested
 Clinton Library promoted document rows | 67 | 342 | document-level rows
+NARA promoted document rows | 8 | 20 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
 NARA Scout promotion leads | 123 |  | needs source-image inspection
@@ -90,6 +91,23 @@ Date | Pages | Count | Record | Packet | Link
 1993-08-25 | 21-22 | 2 | Strawman Summit Declaration: Section on ESDI and Force Structure | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-08-26 | 40-42 | 3 | Agreement on a Euro-Atlantic Partnership for Peace | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-09-13 | 61 | 1 | Effects of Expanding Membership on NATO Military Activities | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+
+## NARA Promoted Document Rows
+
+These rows started as NARA Scout file-unit leads but were promoted only after
+local source-image inspection identified visible document text, dates, page
+spans, and stable public NARA PDF URLs.
+
+Date | Pages | Count | Record | NAID | Link
+--- | --- | --- | --- | --- | ---
+1994-01-12 | 37-38 | 2 | Background: Business-Related Event at K-Mart | 368557013 | [open](https://catalog.archives.gov/id/368557013)
+1996-03-05 | 19 | 1 | Transmittal: Summary of Conclusions, Principals Committee Meeting on Bosnia, March 1, 1996 | 41051478 | [open](https://catalog.archives.gov/id/41051478)
+1996-06-25 | 15 | 1 | Transmittal: Summary of Conclusions, Deputies Committee Meeting on Bosnia, June 20, 1996 | 41051385 | [open](https://catalog.archives.gov/id/41051385)
+1998-10-21 | 78-80 | 3 | Memorandum of Conversation: Meeting with President Adamkus of Lithuania | 23902181 | [open](https://catalog.archives.gov/id/23902181)
+1999-03-16 | 45-50 | 6 | Meeting with Lithuanian Prime Minister Gediminas Vagnorius | 23902181 | [open](https://catalog.archives.gov/id/23902181)
+2000-11-09 | 8-11 | 4 | A Steady Foreign Policy and the Promise of Reforms Mark the New Government Program in Lithuania | 23902170 | [open](https://catalog.archives.gov/id/23902170)
+2000-11-13 | 5 | 1 | Lithuanian Deputy FM Usackas: Points to Be Made | 23902170 | [open](https://catalog.archives.gov/id/23902170)
+2000-11-13 | 6-7 | 2 | Visit of Lithuanian Deputy Foreign Minister Usackas | 23902170 | [open](https://catalog.archives.gov/id/23902170)
 
 ## Clinton Library Withheld Meeting And SOC Controls
 

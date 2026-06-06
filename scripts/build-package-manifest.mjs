@@ -219,6 +219,7 @@ const hardGapTriage = readJson(hardGapTriagePath, { rows: [] });
 const hardGapLocalIds = new Set((hardGapTriage.rows || []).map((row) => `clinton-nato-${row.record_id}`));
 const hardGapPdfUrls = new Set((hardGapTriage.rows || []).map((row) => row.pdf_url).filter(Boolean));
 const promotedClintonDocs = publicRecords.filter((record) => record.upstream?.workspace === "live-clinton-library-document-extraction");
+const promotedNaraDocs = publicRecords.filter((record) => record.upstream?.workspace === "live-nara-scout-document-extraction");
 const evaluated = publicRecords.map((record) => ({ ...record, package: scoreRecord(record) }));
 const candidates = evaluated.filter((record) => record.package.packageReady).sort(sortCandidates);
 const attentionQueue = evaluated
@@ -521,6 +522,15 @@ const promotedRows = promotedClintonDocs.map((record) => ({
   Link: linkFor(record)
 }));
 
+const naraPromotedRows = promotedNaraDocs.map((record) => ({
+  Date: record.date,
+  Pages: record.sourcePages,
+  Count: record.pageCount,
+  Record: record.title,
+  NAID: record.upstream?.naid || "",
+  Link: linkFor(record)
+}));
+
 const meetingControlRows = clintonMeetingControls.map((record) => ({
   Date: record.date,
   Pages: record.pageCount || "",
@@ -538,6 +548,7 @@ const exhaustionRows = [
   { Lane: "NSC/SOC/minutes attention queue", Count: manifest.nscSocCandidateCount, Pages: "", Status: "special review lane" },
   { Lane: "Strobe FOIA hard-gap triage rows", Count: manifest.hardGapStrobeTriageCount, Pages: hardGapStatus.reduce((sum, record) => sum + Number(record.pageCount || 0), 0), Status: `${hardGapSelectedCount} selected; ${hardGapDeferredCount} package-ready deferred; ${hardGapNotReadyCount} not ready or not ingested` },
   { Lane: "Clinton Library promoted document rows", Count: promotedClintonDocs.length, Pages: promotedClintonDocs.reduce((sum, record) => sum + Number(record.pageCount || 0), 0), Status: "document-level rows" },
+  { Lane: "NARA promoted document rows", Count: promotedNaraDocs.length, Pages: promotedNaraDocs.reduce((sum, record) => sum + Number(record.pageCount || 0), 0), Status: "document-level rows after source-image inspection" },
   { Lane: "Clinton Library withheld meeting/SOC controls", Count: clintonMeetingControls.length, Pages: clintonMeetingControls.reduce((sum, record) => sum + Number(record.pageCount || 0), 0), Status: "not package-eligible; retrieval/redaction leads" },
   { Lane: "Clinton Library MDR packet controls", Count: manifest.clintonLibraryPacketControlCount, Pages: manifest.clintonLibraryPacketControlPages, Status: "needs document-level extraction" },
   { Lane: "NARA Scout promotion leads", Count: manifest.naraScoutPromotionLeadCount, Pages: "", Status: "needs source-image inspection" },
@@ -666,6 +677,14 @@ ${table(exhaustionRows, ["Lane", "Count", "Pages", "Status"])}
 
 ${promotedRows.length ? table(promotedRows, ["Date", "Pages", "Count", "Record", "Packet", "Link"]) : "No Clinton Library packet documents have been promoted in this build yet."}
 
+## NARA Promoted Document Rows
+
+These rows started as NARA Scout file-unit leads but were promoted only after
+local source-image inspection identified visible document text, dates, page
+spans, and stable public NARA PDF URLs.
+
+${naraPromotedRows.length ? table(naraPromotedRows, ["Date", "Pages", "Count", "Record", "NAID", "Link"]) : "No NARA Scout file-unit leads have been promoted in this build yet."}
+
 ## Clinton Library Withheld Meeting And SOC Controls
 
 These rows are not package-ready declassified documents. They are explicit
@@ -725,6 +744,16 @@ writeJson("data/source-exhaustion-audit.json", {
     sourceUrl: record.sourceUrl,
     pdfUrl: record.pdfUrl,
     packetIdentifier: record.upstream?.packetIdentifier || ""
+  })),
+  naraPromotedDocuments: promotedNaraDocs.map((record) => ({
+    id: record.id,
+    date: record.date,
+    title: record.title,
+    pageCount: record.pageCount,
+    sourcePages: record.sourcePages,
+    sourceUrl: record.sourceUrl,
+    pdfUrl: record.pdfUrl,
+    naid: record.upstream?.naid || ""
   })),
   upstreamCoverageGapSignals: gapRows.map((row) => ({
     id: row.id,
