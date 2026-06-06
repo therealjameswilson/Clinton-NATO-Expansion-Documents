@@ -2720,6 +2720,40 @@
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum explains how the Founding Act preserved NATO decision-making while giving Russia a consultative forum during the enlargement process."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-costs-of-nato-enlargement-1997-05-30",
+    "title": "Costs of NATO Enlargement",
+    "date": "1997-05-30",
+    "year": 1997,
+    "documentType": "Presidential information memorandum with attached congressional report summary",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 432-437. Unclassified.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "432-437",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["nato enlargement", "costs", "ratification", "congress", "madrid summit", "nato-russia"],
+    "topics": ["NATO enlargement costs", "Congressional report", "Madrid Summit", "Ratification strategy", "New member accession", "Defense planning", "NATO-Russia Charter", "Burden sharing"],
+    "people": ["Bill Clinton", "Samuel Berger", "Daniel Fried", "Alexander Vershbow"],
+    "countries": ["United States", "Russia", "Central and Eastern Europe"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. NSC record ID 9703616; Berger answers the President's question about NATO enlargement costs and attaches the executive summary of the February 1997 report to Congress. The packet links cost estimates, Senate ratification, Madrid accession talks, and the NATO-Russia Charter. Packet pages 428-431 are marker/RMO/routing controls and are not promoted separately."
+  },
+  {
     "id": "clinton-library-doc-2015-0772-m-madrid-membership-decision-1997-06-09",
     "title": "Deciding Which Countries to Support for NATO Membership at the Madrid Summit",
     "date": "1997-06-09",
@@ -2752,6 +2786,40 @@
       "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The action memorandum records the Principals' recommendation that Clinton support Poland, Hungary, and the Czech Republic as the first invitees at Madrid while holding a robust open door."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-snog-meeting-nato-enlargement-1997-06-10",
+    "title": "Meeting with Senate NATO Observer Group (SNOG)",
+    "date": "1997-06-10",
+    "year": 1997,
+    "documentType": "Presidential briefing memorandum with talking points and Q&A",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 464-476. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "464-476",
+    "pageCount": 13,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["senate nato observer group", "madrid summit", "ratification", "open door", "first tranche", "nato-russia founding act", "costs"],
+    "topics": ["Senate NATO Observer Group", "Madrid Summit", "NATO enlargement", "First tranche", "Open Door policy", "Ratification strategy", "NATO-Russia Founding Act", "Costs", "Burden sharing", "Kissinger critique", "Romania", "Slovenia", "Baltic states"],
+    "people": ["Bill Clinton", "Samuel Berger", "John Schmidt", "Alexander Vershbow", "Daniel Fried", "Steve Pifer", "Madeleine Albright", "William Cohen", "Strobe Talbott", "Bill Danvers", "William Roth", "Joseph Biden", "Trent Lott", "Tom Daschle", "Henry Kissinger", "Jacques Chirac", "Tony Blair", "Helmut Kohl"],
+    "countries": ["United States", "Poland", "Czech Republic", "Hungary", "Romania", "Slovenia", "Russia", "Baltic states", "France", "United Kingdom", "Germany"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC/Senate NATO Observer Group",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. NSC record ID 9704000; the briefing prepares Clinton for the June 11, 1997 SNOG consultation on Poland, the Czech Republic, and Hungary as the first invitees, the open-door package, costs, alliance dilution, Russia, and the NATO-Russia Founding Act. Packet pages 455-462 and 477-482 contain duplicate or marked talking-point copies; page 452 is the withdrawal sheet; pages 453-454 and 463 are RMO/routing controls."
   },
   {
     "id": "clinton-library-doc-2015-0772-m-second-round-open-door-1997-06-23",

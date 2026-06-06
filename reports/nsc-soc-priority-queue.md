@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T04:58:01.842Z
+Generated: 2026-06-06T05:03:26.030Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 180
+- NATO-relevant NSC/SOC records: 182
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -151,8 +151,10 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-04-24 | P0 | NSC information memorandum with strategy papers | Strategy and Timelines in the Run-Up to Madrid | NSC/Deputies Committee | 19 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-05-15 | P0 | Presidential information memorandum | The NATO-Russia Founding Act | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-05-27 | P0 | Memorandum of conversation | Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France | NSC Records Management | 8 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
+1997-05-30 | P0 | Presidential information memorandum with attached congressional report summary | Costs of NATO Enlargement | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-06-09 | P0 | Strategy paper | A Diplomatic and Congressional Strategy for Madrid and Beyond | Principals Committee | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1997-06-09 | P0 | Presidential action memorandum | Deciding Which Countries to Support for NATO Membership at the Madrid Summit | Principals Committee | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+1997-06-10 | P0 | Presidential briefing memorandum with talking points and Q&A | Meeting with Senate NATO Observer Group (SNOG) | NSC/Senate NATO Observer Group | 13 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-06-20 | P0 | Memorandum of conversation | Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado | NSC Records Management | 8 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-06-23 | P0 | Presidential information memorandum | Achieving Allied Consensus on NATO Enlargement: Whether to Set a Date or Name Names for the Second Round | NSC | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-06-23 | P0 | NSC information memorandum | NATO Summit - Communications Objectives, Themes, Events, Roll Out | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
@@ -175,8 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN NSA STEINER ON 2/4 | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771555/C06771555.pdf)
 1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN STATE SECRETARY ISCHINGER ON 2/4 | NSC | 8 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771540/C06771540.pdf)
 1999-03-16 | P0 | Briefing paper | Meeting with Lithuanian Prime Minister Gediminas Vagnorius | NSC | 6 | nara-catalog | [open](https://catalog.archives.gov/id/23902181)
-1999-04-07 | P0 | TE | DEPUTY SECRETARY TALBOTT'S MEETING WITH GREEK DEFENSE MINISTER | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf)
-1999-09-29 | P0 | GC | Executive Secretariat Sensitive Tasker - To Bratislava E.O. for Change and Acting DCM with attachments | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814750/C06814750.pdf)
 
 ## Public Packet Controls Requiring Extraction
 

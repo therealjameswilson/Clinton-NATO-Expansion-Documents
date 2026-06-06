@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T04:58:02.036Z",
+  "generatedAt": "2026-06-06T05:03:26.225Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 172,
+      "Count": 171,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 460,
-      "Pages": 2276,
+      "Count": 462,
+      "Pages": 2295,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 198,
+      "Count": 200,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -23,12 +23,12 @@
       "Lane": "Strobe FOIA hard-gap triage rows",
       "Count": 13,
       "Pages": 57,
-      "Status": "12 selected; 1 package-ready deferred; 0 not ready or not ingested"
+      "Status": "10 selected; 3 package-ready deferred; 0 not ready or not ingested"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 88,
-      "Pages": 465,
+      "Count": 90,
+      "Pages": 484,
       "Status": "document-level rows"
     },
     {
@@ -1103,6 +1103,16 @@
       "packetIdentifier": "2015-0782-M-2"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-costs-of-nato-enlargement-1997-05-30",
+      "date": "1997-05-30",
+      "title": "Costs of NATO Enlargement",
+      "pageCount": 6,
+      "sourcePages": "432-437",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0768-m-madrid-diplomatic-congressional-strategy",
       "date": "1997-06-09",
       "title": "A Diplomatic and Congressional Strategy for Madrid and Beyond",
@@ -1118,6 +1128,16 @@
       "title": "Deciding Which Countries to Support for NATO Membership at the Madrid Summit",
       "pageCount": 8,
       "sourcePages": "440-447",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-snog-meeting-nato-enlargement-1997-06-10",
+      "date": "1997-06-10",
+      "title": "Meeting with Senate NATO Observer Group (SNOG)",
+      "pageCount": 13,
+      "sourcePages": "464-476",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
@@ -1552,8 +1572,8 @@
       "order": 4,
       "recordId": "strobe-hardgap-feb2024-C09000026",
       "localRecordId": "clinton-nato-strobe-hardgap-feb2024-C09000026",
-      "packageStatus": "selected",
-      "packageSelected": true,
+      "packageStatus": "package-ready deferred",
+      "packageSelected": false,
       "packageReady": true,
       "promotionLane": "Promote first",
       "directGapCredit": "CFE direct; Kyiv/Ukraine cable",
@@ -1728,8 +1748,8 @@
       "order": 10,
       "recordId": "strobe-hardgap-apr2023-C09000073",
       "localRecordId": "clinton-nato-strobe-hardgap-apr2023-C09000073",
-      "packageStatus": "selected",
-      "packageSelected": true,
+      "packageStatus": "package-ready deferred",
+      "packageSelected": false,
       "packageReady": true,
       "promotionLane": "Promote after date/source check",
       "directGapCredit": "CFE support; Christopher/Yeltsin prep",
