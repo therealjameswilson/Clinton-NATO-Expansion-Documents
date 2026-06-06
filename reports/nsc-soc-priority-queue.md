@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T06:11:45.826Z
+Generated: 2026-06-06T06:19:59.370Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 230
+- NATO-relevant NSC/SOC records: 231
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -131,6 +131,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1996-07-16 | P0 | TE | MEMORANDUM OF CONVERSATION WITH PRESIDENT KWASNIESKI OF POLAND | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698307/C06698307.pdf)
 1996-07-19 | P0 | TE | OFFICIAL - INFORMAL FOR D STAFF ONLY | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698224/C06698224.pdf)
 1996-07-30 | P0 | TE | DEPUTY SECRETARY REVIEWS SECURITY, ECONOMIC ISSUES WITH UKRAINIAN FOREIGN MINISTER, JULY 26, 1996 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698247/C06698247.pdf)
+1996-08-27 | P0 | Cable | Consultations with the French MFA on European Security, August 22 | NSC | 9 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-09-05 | P0 | Cable | Secretary Christopher's Working Luncheon with Foreign Minister de Charette | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-09-07 | P0 | Cable | Acting Secretary Briefs Baltics on Action Plan | NSC | 4 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-09-07 | P0 | TE | ACTING SECRETARY BRIEFS BALTICS ON ACTION PLAN | Interagency | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698268/C06698268.pdf)
@@ -176,7 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-03-06 | P0 | TE | OFFICIAL INFORMAL: FOR OFFICE OF THE DEPUTY SECRETARY (ERIC EDELMAN) | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703169/C06703169.pdf)
 1997-03-07 | P0 | TE | OFFICIAL INFORMAL | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703164/C06703164.pdf)
 1997-03-07 | P0 | TE | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | NSC | 8 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703179/C06703179.pdf)
-1997-03-07 | P0 | TE | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703610/C06703610.pdf)
 
 ## Public Packet Controls Requiring Extraction
 

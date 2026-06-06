@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T06:12:55.972Z",
+  "generatedAt": "2026-06-06T06:20:09.020Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -9,13 +9,13 @@
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 506,
-      "Pages": 2523,
+      "Count": 507,
+      "Pages": 2532,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 246,
+      "Count": 247,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 136,
-      "Pages": 721,
+      "Count": 137,
+      "Pages": 730,
       "Status": "document-level rows"
     },
     {
@@ -296,7 +296,8 @@
       "Control Pages": 539,
       "Promoted Rows": 22,
       "Promoted Pages": 124,
-      "Remaining Pages": 415,
+      "Reviewed Residual Pages": "",
+      "Backlog Pages": 415,
       "Status": "partial; continue document-level extraction",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/101137)"
     },
@@ -305,7 +306,8 @@
       "Control Pages": 89,
       "Promoted Rows": 19,
       "Promoted Pages": 66,
-      "Remaining Pages": 23,
+      "Reviewed Residual Pages": "",
+      "Backlog Pages": 23,
       "Status": "partial; continue document-level extraction",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/118449)"
     },
@@ -314,7 +316,8 @@
       "Control Pages": 148,
       "Promoted Rows": 4,
       "Promoted Pages": 11,
-      "Remaining Pages": 137,
+      "Reviewed Residual Pages": "",
+      "Backlog Pages": 137,
       "Status": "partial; continue document-level extraction",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/49412)"
     },
@@ -323,7 +326,8 @@
       "Control Pages": 91,
       "Promoted Rows": 12,
       "Promoted Pages": 57,
-      "Remaining Pages": 34,
+      "Reviewed Residual Pages": "",
+      "Backlog Pages": 34,
       "Status": "partial; continue document-level extraction",
       "Link": "[open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)"
     },
@@ -332,7 +336,8 @@
       "Control Pages": 239,
       "Promoted Rows": 7,
       "Promoted Pages": 31,
-      "Remaining Pages": 208,
+      "Reviewed Residual Pages": "",
+      "Backlog Pages": 208,
       "Status": "partial; continue document-level extraction",
       "Link": "[open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)"
     },
@@ -341,7 +346,8 @@
       "Control Pages": 340,
       "Promoted Rows": 15,
       "Promoted Pages": 126,
-      "Remaining Pages": 214,
+      "Reviewed Residual Pages": "",
+      "Backlog Pages": 214,
       "Status": "partial; continue document-level extraction",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/57563)"
     },
@@ -350,7 +356,8 @@
       "Control Pages": 164,
       "Promoted Rows": 3,
       "Promoted Pages": 13,
-      "Remaining Pages": 151,
+      "Reviewed Residual Pages": "",
+      "Backlog Pages": 151,
       "Status": "partial; continue document-level extraction",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/100538)"
     },
@@ -359,7 +366,8 @@
       "Control Pages": 5,
       "Promoted Rows": 0,
       "Promoted Pages": "",
-      "Remaining Pages": 5,
+      "Reviewed Residual Pages": "",
+      "Backlog Pages": 5,
       "Status": "no promoted document rows yet",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/49430)"
     },
@@ -368,17 +376,19 @@
       "Control Pages": 12,
       "Promoted Rows": 2,
       "Promoted Pages": 12,
-      "Remaining Pages": "",
+      "Reviewed Residual Pages": "",
+      "Backlog Pages": "",
       "Status": "promoted rows cover packet page count",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/118731)"
     },
     {
       "Packet": "2015-0792-M",
       "Control Pages": 203,
-      "Promoted Rows": 33,
-      "Promoted Pages": 187,
-      "Remaining Pages": 16,
-      "Status": "partial; continue document-level extraction",
+      "Promoted Rows": 34,
+      "Promoted Pages": 196,
+      "Reviewed Residual Pages": 7,
+      "Backlog Pages": "",
+      "Status": "review complete; residual pages are withdrawal/control sheets or withheld markers",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/101829)"
     },
     {
@@ -386,9 +396,20 @@
       "Control Pages": 14,
       "Promoted Rows": 1,
       "Promoted Pages": 13,
-      "Remaining Pages": 1,
+      "Reviewed Residual Pages": "",
+      "Backlog Pages": 1,
       "Status": "near complete; review residual control or withdrawal page",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/57565)"
+    }
+  ],
+  "clintonLibraryPacketResiduals": [
+    {
+      "packetRecordId": "clinton-library-packet-2015-0792-m",
+      "packetIdentifier": "2015-0792-M",
+      "reviewedResidualPages": "1-2, 27, 40, 94-96",
+      "reviewedResidualPageCount": 7,
+      "status": "reviewed residual pages; no package-ready declassified document text",
+      "notes": "Pages 1-2 and 95-96 are Clinton Library withdrawal/redaction sheets for packet control. Pages 27, 40, and 94 are withdrawal/redaction markers for fully withheld documents: 'NATO Enlargement Study: Where Are We?', 'NATO: NMA Contributions to Chapter III, V', and 'NATO Enlargement: September 28 Collective Briefing to Partners.'"
     }
   ],
   "clintonLibraryMeetingControls": [
@@ -1332,6 +1353,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
       "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-french-mfa-european-security-1996-08-27",
+      "date": "1996-08-27",
+      "title": "Consultations with the French MFA on European Security, August 22",
+      "pageCount": 9,
+      "sourcePages": "130-138",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
     },
     {
       "id": "clinton-library-doc-2015-0792-m-christopher-de-charette-working-luncheon-1996-09-05",

@@ -3060,6 +3060,40 @@
     "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Clinton tells Walesa that the United States must enlarge NATO without provoking a bad Russian reaction or allowing a Russian veto, and that the timetable will continue regardless of Russia's election outcome."
   },
   {
+    "id": "clinton-library-doc-2015-0792-m-french-mfa-european-security-1996-08-27",
+    "title": "Consultations with the French MFA on European Security, August 22",
+    "date": "1996-08-27",
+    "year": 1996,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 130-138. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "130-138",
+    "pageCount": 9,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": ["france", "nato internal adaptation", "nato enlargement", "esdi", "osce", "baltics"],
+    "topics": ["NATO enlargement", "NATO internal adaptation", "ESDI", "European security architecture", "OSCE Lisbon Summit", "Baltic states", "Ukraine", "NATO-Russia"],
+    "people": ["John Kornblum", "Donald Bandler", "Alexander Vershbow", "Robert Hunter", "Franklin Kramer", "Jacques Chirac", "Regis de Belenet", "Jean-David Levitte"],
+    "countries": ["United States", "France", "Russia", "Ukraine", "Baltic states", "Romania", "Poland", "NATO allies"],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. A U.S. interagency team in Paris discusses NATO adaptation, ESDI, enlargement timing, non-entrants including Ukraine and the Baltics, the OSCE Lisbon track, Romania, and avoiding Russian co-decision over Central and Eastern Europeans."
+  },
+  {
     "id": "clinton-library-doc-2015-0792-m-acting-secretary-briefs-baltics-action-plan-1996-09-07",
     "title": "Acting Secretary Briefs Baltics on Action Plan",
     "date": "1996-09-07",

@@ -9,6 +9,7 @@ const targetPages = 1000;
 const publicRegisterPath = path.join(repoRoot, "data", "source-register.json");
 const privateDrivePath = path.join(repoRoot, "private", "google-drive-intake.json");
 const clintonMeetingControlsPath = path.join(repoRoot, "data", "clinton-library-meeting-controls.json");
+const clintonPacketResidualsPath = path.join(repoRoot, "data", "clinton-library-packet-residuals.json");
 const coverageMatrixPath = path.join(repoRoot, "..", "Clinton-NATO-European-Security", "reports", "coverage-matrix.json");
 const promotionQueuePath = path.join(repoRoot, "..", "Clinton-NATO-European-Security", "reports", "promotion-queue.json");
 const hardGapTriagePath = path.join(repoRoot, "..", "Clinton-NATO-European-Security", "reports", "hard-gap-pdf-triage.json");
@@ -204,11 +205,13 @@ function driveQueryCounts(items) {
   return Object.fromEntries(Object.entries(counts).sort((a, b) => a[0].localeCompare(b[0])));
 }
 
-function packetCoverageStatus(promotedPages, controlPages) {
+function packetCoverageStatus(promotedPages, controlPages, reviewedResidualPages = 0) {
+  const backlogPages = Math.max(0, controlPages - promotedPages - reviewedResidualPages);
   if (!promotedPages) return "no promoted document rows yet";
   if (!controlPages) return "promoted rows present; control page count unknown";
-  if (promotedPages >= controlPages) return "promoted rows cover packet page count";
-  if (controlPages - promotedPages <= 1) return "near complete; review residual control or withdrawal page";
+  if (!backlogPages && reviewedResidualPages) return "review complete; residual pages are withdrawal/control sheets or withheld markers";
+  if (!backlogPages) return "promoted rows cover packet page count";
+  if (backlogPages <= 1) return "near complete; review residual control or withdrawal page";
   return "partial; continue document-level extraction";
 }
 
@@ -223,6 +226,7 @@ function table(rows, headers) {
 const publicRecords = readJson(publicRegisterPath, []);
 const privateDriveItems = readJson(privateDrivePath, []);
 const clintonMeetingControls = readJson(clintonMeetingControlsPath, []);
+const clintonPacketResiduals = readJson(clintonPacketResidualsPath, []);
 const coverageMatrix = readJson(coverageMatrixPath, { rows: [] });
 const upstreamPromotionQueue = readJson(promotionQueuePath, { rows: [] });
 const hardGapTriage = readJson(hardGapTriagePath, { rows: [] });
@@ -525,16 +529,19 @@ const packetRows = manifest.clintonLibraryPacketExtractionQueue.map((record) => 
 
 const packetCoverageRows = packetExtractionQueue.map((record) => {
   const promotedForPacket = promotedClintonDocs.filter((doc) => doc.upstream?.packetRecordId === record.id);
+  const residualForPacket = clintonPacketResiduals.find((residual) => residual.packetRecordId === record.id);
   const promotedPages = promotedForPacket.reduce((sum, doc) => sum + Number(doc.pageCount || 0), 0);
+  const reviewedResidualPages = Number(residualForPacket?.reviewedResidualPageCount || 0);
   const controlPages = Number(record.pageCount || 0);
-  const remainingPages = Math.max(0, controlPages - promotedPages);
+  const backlogPages = Math.max(0, controlPages - promotedPages - reviewedResidualPages);
   return {
     Packet: record.upstream?.identifier || record.id,
     "Control Pages": controlPages || "",
     "Promoted Rows": promotedForPacket.length,
     "Promoted Pages": promotedPages || "",
-    "Remaining Pages": remainingPages || "",
-    Status: packetCoverageStatus(promotedPages, controlPages),
+    "Reviewed Residual Pages": reviewedResidualPages || "",
+    "Backlog Pages": backlogPages || "",
+    Status: packetCoverageStatus(promotedPages, controlPages, reviewedResidualPages),
     Link: linkFor(record)
   };
 });
@@ -731,11 +738,12 @@ ${table(packetRows, ["Date", "Pages", "Record", "Link", "Action"])}
 ## Clinton Library Packet Extraction Coverage
 
 This table compares each packet control with the document-level rows already
-promoted from that same control. A small residual count can be a withdrawal
-sheet, cover page, or duplicate fragment; larger residuals are still extraction
-backlog.
+promoted from that same control. Reviewed residual pages are public packet pages
+that have been inspected and found to be withdrawal/control sheets, withheld
+markers, or other non-package-ready fragments; the backlog column is the
+remaining extraction queue.
 
-${table(packetCoverageRows, ["Packet", "Control Pages", "Promoted Rows", "Promoted Pages", "Remaining Pages", "Status", "Link"])}
+${table(packetCoverageRows, ["Packet", "Control Pages", "Promoted Rows", "Promoted Pages", "Reviewed Residual Pages", "Backlog Pages", "Status", "Link"])}
 
 ## Known Gap Signals From Upstream FRUS Workbench
 
@@ -771,6 +779,7 @@ writeJson("data/source-exhaustion-audit.json", {
   lanes: exhaustionRows,
   clintonLibraryPacketControls: manifest.clintonLibraryPacketExtractionQueue,
   clintonLibraryPacketExtractionCoverage: packetCoverageRows,
+  clintonLibraryPacketResiduals: clintonPacketResiduals,
   clintonLibraryMeetingControls: clintonMeetingControls,
   clintonLibraryPromotedDocuments: promotedClintonDocs.map((record) => ({
     id: record.id,

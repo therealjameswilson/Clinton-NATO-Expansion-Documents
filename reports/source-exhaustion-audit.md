@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T06:12:55.972Z
+Generated: 2026-06-06T06:20:09.020Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -10,10 +10,10 @@ the major declassified source lanes, not merely reaching 1000 pages.
 Lane | Count | Pages | Status
 --- | --- | --- | ---
 Selected package records | 171 | 1000 | assembled locally
-Package-ready public candidates | 506 | 2523 | available for reselection
-NSC/SOC/minutes attention queue | 246 |  | special review lane
+Package-ready public candidates | 507 | 2532 | available for reselection
+NSC/SOC/minutes attention queue | 247 |  | special review lane
 Strobe FOIA hard-gap triage rows | 13 | 57 | 9 selected; 4 package-ready deferred; 0 not ready or not ingested
-Clinton Library promoted document rows | 136 | 721 | document-level rows
+Clinton Library promoted document rows | 137 | 730 | document-level rows
 NARA promoted document rows | 11 | 42 | document-level rows after source-image inspection
 Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
@@ -106,6 +106,7 @@ Date | Pages | Count | Record | Packet | Link
 1996-06-21 | 213-216 | 4 | Your Meeting with NATO Secretary General Javier Solana | 2015-0772-M | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-07-05 | 49-51 | 3 | Telephone Conversation with Russian President Yeltsin | 2015-0782-M-2 | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1996-07-09 | 165-167 | 3 | The President's Meeting with Deputy Foreign Minister Georgiy Mamedov of Russia | 2015-0755-M | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1996-08-27 | 130-138 | 9 | Consultations with the French MFA on European Security, August 22 | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-09-05 | 143-148 | 6 | Secretary Christopher's Working Luncheon with Foreign Minister de Charette | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-09-07 | 139-142 | 4 | Acting Secretary Briefs Baltics on Action Plan | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-09-10 | 149-154 | 6 | Scenesetter for Deputy Secretary Talbott's September 11-13 Visit to Paris | 2015-0792-M | [open](https://clinton.presidentiallibraries.us/items/show/101829)
@@ -221,23 +222,24 @@ Date | Pages | Record | Link | Action
 ## Clinton Library Packet Extraction Coverage
 
 This table compares each packet control with the document-level rows already
-promoted from that same control. A small residual count can be a withdrawal
-sheet, cover page, or duplicate fragment; larger residuals are still extraction
-backlog.
+promoted from that same control. Reviewed residual pages are public packet pages
+that have been inspected and found to be withdrawal/control sheets, withheld
+markers, or other non-package-ready fragments; the backlog column is the
+remaining extraction queue.
 
-Packet | Control Pages | Promoted Rows | Promoted Pages | Remaining Pages | Status | Link
---- | --- | --- | --- | --- | --- | ---
-2015-0772-M | 539 | 22 | 124 | 415 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/101137)
-2015-0768-M | 89 | 19 | 66 | 23 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/118449)
-2013-0804-M | 148 | 4 | 11 | 137 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/49412)
-2024-0540-M | 91 | 12 | 57 | 34 | partial; continue document-level extraction | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
-2015-0773-M | 239 | 7 | 31 | 208 | partial; continue document-level extraction | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
-2015-0755-M | 340 | 15 | 126 | 214 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/57563)
-2015-0771-M | 164 | 3 | 13 | 151 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/100538)
-2015-0768-M | 5 | 0 |  | 5 | no promoted document rows yet | [open](https://clinton.presidentiallibraries.us/items/show/49430)
-2017-0193-M | 12 | 2 | 12 |  | promoted rows cover packet page count | [open](https://clinton.presidentiallibraries.us/items/show/118731)
-2015-0792-M | 203 | 33 | 187 | 16 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/101829)
-2015-0770-M | 14 | 1 | 13 | 1 | near complete; review residual control or withdrawal page | [open](https://clinton.presidentiallibraries.us/items/show/57565)
+Packet | Control Pages | Promoted Rows | Promoted Pages | Reviewed Residual Pages | Backlog Pages | Status | Link
+--- | --- | --- | --- | --- | --- | --- | ---
+2015-0772-M | 539 | 22 | 124 |  | 415 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/101137)
+2015-0768-M | 89 | 19 | 66 |  | 23 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+2013-0804-M | 148 | 4 | 11 |  | 137 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/49412)
+2024-0540-M | 91 | 12 | 57 |  | 34 | partial; continue document-level extraction | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
+2015-0773-M | 239 | 7 | 31 |  | 208 | partial; continue document-level extraction | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
+2015-0755-M | 340 | 15 | 126 |  | 214 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+2015-0771-M | 164 | 3 | 13 |  | 151 | partial; continue document-level extraction | [open](https://clinton.presidentiallibraries.us/items/show/100538)
+2015-0768-M | 5 | 0 |  |  | 5 | no promoted document rows yet | [open](https://clinton.presidentiallibraries.us/items/show/49430)
+2017-0193-M | 12 | 2 | 12 |  |  | promoted rows cover packet page count | [open](https://clinton.presidentiallibraries.us/items/show/118731)
+2015-0792-M | 203 | 34 | 196 | 7 |  | review complete; residual pages are withdrawal/control sheets or withheld markers | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+2015-0770-M | 14 | 1 | 13 |  | 1 | near complete; review residual control or withdrawal page | [open](https://clinton.presidentiallibraries.us/items/show/57565)
 
 ## Known Gap Signals From Upstream FRUS Workbench
 

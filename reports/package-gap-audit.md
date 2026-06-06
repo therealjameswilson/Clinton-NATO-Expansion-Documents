@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T06:12:55.972Z
+Generated: 2026-06-06T06:20:09.020Z
 
 ## What This Pass Proves
 
@@ -34,8 +34,9 @@ Generated: 2026-06-06T06:12:55.972Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1996-04-17 | 65 | 6 | THE DEPUTY SECRETARY MEETS SPD CHAIRMAN LAFONTA1 NE | state-foia | nato-expansion, pfp, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697977/C06697977.pdf)
 1994-01-13 | 64 | 11 | President's dinner with President Yeltsin, January 13/14, 1994 | clinton-digital-library | nato-russia, pfp, candidate-states, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101370)
-1996-05-14 | 64 | 4 | DEPUTY SECRETARY'S MEETING WITH SLOVENIAN PM DRNOVSEK | state-foia | nato-expansion, pfp, nac-usnato, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697839/C06697839.pdf)
+1996-07-16 | 64 | 7 | MEMORANDUM OF CONVERSATION WITH PRESIDENT KWASNIESKI OF POLAND | state-foia | nato-expansion, pfp, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698307/C06698307.pdf)
 1996-10-07 | 64 | 5 | DEPUTY SECRETARY EXPLAINS U.S. CONCERNS TO BELARUSIAN FOREIGN MINISTER SENKO, OCTOBER 3, 1996 | state-foia | nato-expansion, open-door-map, architecture, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698741/C06698741.pdf)
 1994-12-05 | 64 | 5 | December 5, 1994 Letter From Strobe To Chris | state-foia | nato-expansion, open-door-map, pfp, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000138/C09000138.pdf)
 1994-12-19 | 64 | 9 | The Vice President's Trip to Russia | state-foia | nato-expansion, nato-russia, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000148/C09000148.pdf)
@@ -93,7 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1994-10-20 | 53 | 4 | October 20, 1994 Eyes only To The Secretary From Strobe Talbott | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000140/C09000140.pdf)
 1994-10-20 | 53 | 3 | October 20, 1994 Letter from Strobe Talbott to Chris | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000141/C09000141.pdf)
 1996-10-02 | 53 | 5 | DEPUTY SECRETATY'S 9/16 AND 9/19 MEETING WITH UKRAINIAN NSDC SECRETARY HORBULYN | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698651/C06698651.pdf)
-1996-10-29 | 53 | 4 | THE DEPUTY SECRETARY'S MEETING WITH SLOVAK FOREIGN MINISTER PAVOL HAMZIK | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698702/C06698702.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 
