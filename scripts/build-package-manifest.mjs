@@ -8,6 +8,7 @@ const targetPages = 1000;
 
 const publicRegisterPath = path.join(repoRoot, "data", "source-register.json");
 const privateDrivePath = path.join(repoRoot, "private", "google-drive-intake.json");
+const clintonMeetingControlsPath = path.join(repoRoot, "data", "clinton-library-meeting-controls.json");
 const coverageMatrixPath = path.join(repoRoot, "..", "Clinton-NATO-European-Security", "reports", "coverage-matrix.json");
 const promotionQueuePath = path.join(repoRoot, "..", "Clinton-NATO-European-Security", "reports", "promotion-queue.json");
 const hardGapTriagePath = path.join(repoRoot, "..", "Clinton-NATO-European-Security", "reports", "hard-gap-pdf-triage.json");
@@ -206,6 +207,7 @@ function table(rows, headers) {
 
 const publicRecords = readJson(publicRegisterPath, []);
 const privateDriveItems = readJson(privateDrivePath, []);
+const clintonMeetingControls = readJson(clintonMeetingControlsPath, []);
 const coverageMatrix = readJson(coverageMatrixPath, { rows: [] });
 const upstreamPromotionQueue = readJson(promotionQueuePath, { rows: [] });
 const hardGapTriage = readJson(hardGapTriagePath, { rows: [] });
@@ -470,11 +472,23 @@ const promotedRows = promotedClintonDocs.map((record) => ({
   Link: linkFor(record)
 }));
 
+const meetingControlRows = clintonMeetingControls.map((record) => ({
+  Date: record.date,
+  Pages: record.pageCount || "",
+  Record: record.title,
+  Committee: record.committee || "",
+  Packet: record.packetIdentifier || "",
+  Status: record.releaseStatus || "",
+  Restriction: record.restriction || "",
+  Link: linkFor(record)
+}));
+
 const exhaustionRows = [
   { Lane: "Selected package records", Count: manifest.selectedCount, Pages: manifest.selectedPageTotal, Status: "assembled locally" },
   { Lane: "Package-ready public candidates", Count: manifest.candidateCount, Pages: manifest.candidatePageTotal, Status: "available for reselection" },
   { Lane: "NSC/SOC/minutes attention queue", Count: manifest.nscSocCandidateCount, Pages: "", Status: "special review lane" },
   { Lane: "Clinton Library promoted document rows", Count: promotedClintonDocs.length, Pages: promotedClintonDocs.reduce((sum, record) => sum + Number(record.pageCount || 0), 0), Status: "document-level rows" },
+  { Lane: "Clinton Library withheld meeting/SOC controls", Count: clintonMeetingControls.length, Pages: clintonMeetingControls.reduce((sum, record) => sum + Number(record.pageCount || 0), 0), Status: "not package-eligible; retrieval/redaction leads" },
   { Lane: "Clinton Library MDR packet controls", Count: manifest.clintonLibraryPacketControlCount, Pages: manifest.clintonLibraryPacketControlPages, Status: "needs document-level extraction" },
   { Lane: "NARA Scout promotion leads", Count: manifest.naraScoutPromotionLeadCount, Pages: "", Status: "needs source-image inspection" },
   { Lane: "Private Google Drive matching clues", Count: manifest.privateGoogleDriveIntakeCount, Pages: "", Status: "ignored local intake only" }
@@ -596,6 +610,14 @@ ${table(exhaustionRows, ["Lane", "Count", "Pages", "Status"])}
 
 ${promotedRows.length ? table(promotedRows, ["Date", "Pages", "Count", "Record", "Packet", "Link"]) : "No Clinton Library packet documents have been promoted in this build yet."}
 
+## Clinton Library Withheld Meeting And SOC Controls
+
+These rows are not package-ready declassified documents. They are explicit
+retrieval and redaction-status controls for NSC/PC/DC minutes and Summaries of
+Conclusions found in packet withdrawal sheets.
+
+${meetingControlRows.length ? table(meetingControlRows, ["Date", "Pages", "Record", "Committee", "Packet", "Status", "Restriction", "Link"]) : "No Clinton Library meeting-control rows have been curated in this build yet."}
+
 ## Clinton Library MDR Packet Controls
 
 These official packets are public and page-counted, but they remain controls
@@ -636,6 +658,7 @@ writeJson("data/source-exhaustion-audit.json", {
   generatedAt: manifest.generatedAt,
   lanes: exhaustionRows,
   clintonLibraryPacketControls: manifest.clintonLibraryPacketExtractionQueue,
+  clintonLibraryMeetingControls: clintonMeetingControls,
   clintonLibraryPromotedDocuments: promotedClintonDocs.map((record) => ({
     id: record.id,
     date: record.date,

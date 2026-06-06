@@ -1,6 +1,6 @@
 # Source Exhaustion Audit
 
-Generated: 2026-06-06T02:27:25.058Z
+Generated: 2026-06-06T02:37:30.425Z
 
 This audit tracks whether the Bernstein NATO expansion package is exhausting
 the major declassified source lanes, not merely reaching 1000 pages.
@@ -9,10 +9,11 @@ the major declassified source lanes, not merely reaching 1000 pages.
 
 Lane | Count | Pages | Status
 --- | --- | --- | ---
-Selected package records | 173 | 1000 | assembled locally
-Package-ready public candidates | 380 | 1875 | available for reselection
-NSC/SOC/minutes attention queue | 116 |  | special review lane
-Clinton Library promoted document rows | 12 | 66 | document-level rows
+Selected package records | 178 | 1000 | assembled locally
+Package-ready public candidates | 389 | 1897 | available for reselection
+NSC/SOC/minutes attention queue | 125 |  | special review lane
+Clinton Library promoted document rows | 21 | 88 | document-level rows
+Clinton Library withheld meeting/SOC controls | 7 | 17 | not package-eligible; retrieval/redaction leads
 Clinton Library MDR packet controls | 11 | 1844 | needs document-level extraction
 NARA Scout promotion leads | 123 |  | needs source-image inspection
 Private Google Drive matching clues | 17 |  | ignored local intake only
@@ -28,11 +29,36 @@ Date | Pages | Count | Record | Packet | Link
 1993-10-08 | 3-8 | 6 | NATO Expansion: Now Is Not the Time | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1994-09-17 | 1-4 | 4 | NATO Expansion: Concept and Strategy | 2017-0193-M | [open](https://clinton.presidentiallibraries.us/items/show/118731)
 1994-09-21 | 5-12 | 8 | Next Steps on NATO Expansion: Hard Questions | 2017-0193-M | [open](https://clinton.presidentiallibraries.us/items/show/118731)
+1994-12-29 | 64-66 | 3 | President Yeltsin to President Clinton on NATO Enlargement | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-01-06 | 68-69 | 2 | President Clinton to President Yeltsin on NATO Expansion and Chechnya | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03 | 77-78 | 2 | Annex to Clinton-Yeltsin Letter: NATO's Evolution Since 1990 | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03 | 81 | 1 | Elements of a Russian Reply | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03 | 79-80 | 2 | Possible Content of a Letter from the Russian Side | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03 | 74-76 | 3 | President Clinton to President Yeltsin on NATO-Russia Relations | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03-02 | 72-73 | 2 | Status of NATO-Russia Process | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-04-03 | 84-89 | 6 | Elements of a NATO-Russia Relationship | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1996-06-06 | 2-14 | 13 | C-P-L Item: NATO Enlargement | 2015-0770-M | [open](https://clinton.presidentiallibraries.us/items/show/57565)
 1997-06-09 | 29-36 | 8 | A Diplomatic and Congressional Strategy for Madrid and Beyond | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-08-20 | 24 | 1 | Embedded CJTF Concept | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-08-25 | 21-22 | 2 | Strawman Summit Declaration: Section on ESDI and Force Structure | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1993-08-26 | 40-42 | 3 | Agreement on a Euro-Atlantic Partnership for Peace | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-09-13 | 61 | 1 | Effects of Expanding Membership on NATO Military Activities | 2015-0768-M | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+
+## Clinton Library Withheld Meeting And SOC Controls
+
+These rows are not package-ready declassified documents. They are explicit
+retrieval and redaction-status controls for NSC/PC/DC minutes and Summaries of
+Conclusions found in packet withdrawal sheets.
+
+Date | Pages | Record | Committee | Packet | Status | Restriction | Link
+--- | --- | --- | --- | --- | --- | --- | ---
+1993-10-18 | 2 | Summary of Conclusions of PC Meeting on NATO Summit | Principals Committee | 2015-0768-M | withheld | P1/b(1) | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1993-09-08 | 2 | Summary of Conclusions of DC Meeting on NATO Summit | Deputies Committee | 2015-0768-M | withheld | P1/b(1) | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-01-09 | 2 | Summary of Conclusions of DC Meeting on NATO-Russia Relationship | Deputies Committee | 2015-0768-M | withheld | P1/b(1) | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03-03 | 3 | Summary of Conclusions of DC Meeting on NATO Expansion and NATO-Russia Relations | Deputies Committee | 2015-0768-M | withheld | P1/b(1) | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-01-09 | 2 | Summary of Conclusions of DC Meeting on NATO-Russia Relationship | Deputies Committee | 2015-0768-M | withheld duplicate control | P1/b(1) | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-04-04 | 3 | Summary of Conclusions of DC Meeting on NATO Enlargement and NATO-Russia Relations | Deputies Committee | 2015-0768-M | withheld | P1/b(1) | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03-03 | 3 | Summary of Conclusions of DC Meeting on NATO Expansion and NATO-Russia Relations | Deputies Committee | 2015-0768-M | withheld duplicate control | P1/b(1) | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 
 ## Clinton Library MDR Packet Controls
 

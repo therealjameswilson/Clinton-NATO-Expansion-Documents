@@ -7,6 +7,7 @@ const repoRoot = path.resolve(__dirname, "..");
 const registerPath = path.join(repoRoot, "data", "source-register.json");
 const packageManifestPath = path.join(repoRoot, "data", "package-manifest.json");
 const sourceExhaustionPath = path.join(repoRoot, "data", "source-exhaustion-audit.json");
+const clintonMeetingControlsPath = path.join(repoRoot, "data", "clinton-library-meeting-controls.json");
 const requiredReports = [
   "reports/upstream-ingest-audit.md",
   "reports/nsc-soc-priority-queue.md",
@@ -25,6 +26,7 @@ function fail(message) {
 const records = JSON.parse(fs.readFileSync(registerPath, "utf8"));
 const packageManifest = JSON.parse(fs.readFileSync(packageManifestPath, "utf8"));
 const sourceExhaustion = JSON.parse(fs.readFileSync(sourceExhaustionPath, "utf8"));
+const clintonMeetingControls = JSON.parse(fs.readFileSync(clintonMeetingControlsPath, "utf8"));
 
 if (!Array.isArray(records)) fail("source-register.json must be an array");
 if (records.length < 100) fail(`expected at least 100 seed records, found ${records.length}`);
@@ -72,6 +74,12 @@ if (!Array.isArray(sourceExhaustion.clintonLibraryPacketControls) || sourceExhau
 }
 if (!Array.isArray(sourceExhaustion.clintonLibraryPromotedDocuments) || sourceExhaustion.clintonLibraryPromotedDocuments.length < 2) {
   fail("source-exhaustion audit missing promoted Clinton Library document rows");
+}
+if (!Array.isArray(clintonMeetingControls) || clintonMeetingControls.length < 5) {
+  fail(`expected Clinton Library meeting/SOC controls, found ${clintonMeetingControls.length}`);
+}
+if (!Array.isArray(sourceExhaustion.clintonLibraryMeetingControls) || sourceExhaustion.clintonLibraryMeetingControls.length !== clintonMeetingControls.length) {
+  fail("source-exhaustion audit missing Clinton Library meeting/SOC controls");
 }
 
 for (const relativePath of requiredReports) {

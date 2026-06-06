@@ -6993,6 +6993,61 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 38."
   },
   {
+    "id": "clinton-library-doc-2015-0768-m-yeltsin-to-clinton-1994-12-29",
+    "title": "President Yeltsin to President Clinton on NATO Enlargement",
+    "date": "1994-12-29",
+    "year": 1994,
+    "documentType": "Presidential correspondence",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0161 DC Meeting on NATO-Russia Relationship, January 9, 1995, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library, PDF pages 64-66.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "64-66",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato enlargement",
+      "yeltsin",
+      "nato-russia",
+      "parallelism",
+      "brussels communique"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "NATO-Russia",
+      "Brussels Communique",
+      "Partnership for Peace",
+      "European security architecture"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Boris Yeltsin",
+      "Al Gore",
+      "Andrei Kozyrev",
+      "Warren Christopher"
+    ],
+    "countries": [
+      "Russia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
+    },
+    "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The DC0161 folder withdrawal sheet also lists a withheld Summary of Conclusions for the January 9, 1995 Deputies Committee meeting."
+  },
+  {
     "id": "clinton-nato-nara-scout-120361703",
     "title": "Bosnia - August 1995: Late [3]",
     "date": "1995-01-01",
@@ -8153,6 +8208,62 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF."
   },
   {
+    "id": "clinton-library-doc-2015-0768-m-clinton-to-yeltsin-1995-01-06",
+    "title": "President Clinton to President Yeltsin on NATO Expansion and Chechnya",
+    "date": "1995-01-06",
+    "year": 1995,
+    "documentType": "Presidential message cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0161 DC Meeting on NATO-Russia Relationship, January 9, 1995, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library, PDF pages 68-69. Confidential; declassified in part.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "68-69",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato expansion",
+      "yeltsin",
+      "nato-russia",
+      "parallelism",
+      "presidential message"
+    ],
+    "topics": [
+      "NATO expansion",
+      "NATO-Russia",
+      "Parallelism",
+      "Partnership for Peace",
+      "Chechnya",
+      "European security architecture"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Boris Yeltsin",
+      "Al Gore",
+      "Warren Christopher",
+      "Andrei Kozyrev"
+    ],
+    "countries": [
+      "Russia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
+    },
+    "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. Packet page 67 is the withdrawal marker for this partial release."
+  },
+  {
     "id": "state-foia-C06694647",
     "title": "DEPUTY SECRETARY'S MEETING WITH BELARUSIAN FOREIGN MINISTER -- JANUARY 11 1995",
     "date": "1995-01-12",
@@ -8347,6 +8458,270 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source marking extraction: Confidential found by PDF text extraction. Source page span retained outside displayed FRUS note: 6 pages counted."
   },
   {
+    "id": "clinton-library-doc-2015-0768-m-annex-clinton-yeltsin-letter",
+    "title": "Annex to Clinton-Yeltsin Letter: NATO's Evolution Since 1990",
+    "date": "1995-03",
+    "year": 1995,
+    "documentType": "Annex",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0180 DC Meeting on NATO Expansion and NATO-Russia Relations, March 8, 1995, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library, PDF pages 77-78.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "77-78",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato-russia",
+      "nato evolution",
+      "partnership for peace",
+      "nacc"
+    ],
+    "topics": [
+      "NATO-Russia",
+      "NATO evolution",
+      "Partnership for Peace",
+      "NACC",
+      "Strategic Concept",
+      "Crisis management"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "Russia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
+    },
+    "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The withdrawal sheet identifies this two-page released span as the annex to the Clinton-Yeltsin letter."
+  },
+  {
+    "id": "clinton-library-doc-2015-0768-m-elements-russian-reply",
+    "title": "Elements of a Russian Reply",
+    "date": "1995-03",
+    "year": 1995,
+    "documentType": "Talking points",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0180 DC Meeting on NATO Expansion and NATO-Russia Relations, March 8, 1995, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library, PDF page 81. Confidential/Nodis.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "81",
+    "pageCount": 1,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato-russia",
+      "russian reply",
+      "security guarantees",
+      "partnership for peace"
+    ],
+    "topics": [
+      "NATO-Russia",
+      "Russian reply",
+      "Security guarantees",
+      "Partnership for Peace",
+      "NATO expansion"
+    ],
+    "people": [
+      "Boris Yeltsin",
+      "Bill Clinton",
+      "Andrei Kozyrev"
+    ],
+    "countries": [
+      "Russia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
+    },
+    "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection."
+  },
+  {
+    "id": "clinton-library-doc-2015-0768-m-possible-russian-letter-content",
+    "title": "Possible Content of a Letter from the Russian Side",
+    "date": "1995-03",
+    "year": 1995,
+    "documentType": "Translation",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0180 DC Meeting on NATO Expansion and NATO-Russia Relations, March 8, 1995, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library, PDF pages 79-80. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "79-80",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato-russia",
+      "russian reply",
+      "nato expansion",
+      "security guarantees"
+    ],
+    "topics": [
+      "NATO-Russia",
+      "Russian reply",
+      "NATO expansion",
+      "Security guarantees",
+      "Russia-NATO agreement"
+    ],
+    "people": [
+      "Boris Yeltsin",
+      "Bill Clinton"
+    ],
+    "countries": [
+      "Russia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
+    },
+    "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The title follows the translated document heading."
+  },
+  {
+    "id": "clinton-library-doc-2015-0768-m-clinton-to-yeltsin-1995-03",
+    "title": "President Clinton to President Yeltsin on NATO-Russia Relations",
+    "date": "1995-03",
+    "year": 1995,
+    "documentType": "Draft presidential correspondence",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0180 DC Meeting on NATO Expansion and NATO-Russia Relations, March 8, 1995, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library, PDF pages 74-76. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "74-76",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato-russia",
+      "nato expansion",
+      "presidential correspondence",
+      "european security architecture"
+    ],
+    "topics": [
+      "NATO-Russia",
+      "NATO expansion",
+      "Partnership for Peace",
+      "European security architecture",
+      "OSCE",
+      "NACC"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Boris Yeltsin",
+      "Warren Christopher"
+    ],
+    "countries": [
+      "Russia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
+    },
+    "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. Month-level date follows the folder withdrawal sheet; packet page image carries a March 1, 1995 fax timestamp."
+  },
+  {
+    "id": "clinton-library-doc-2015-0768-m-status-nato-russia-process",
+    "title": "Status of NATO-Russia Process",
+    "date": "1995-03-02",
+    "year": 1995,
+    "documentType": "Decision paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0180 DC Meeting on NATO Expansion and NATO-Russia Relations, March 8, 1995, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library, PDF pages 72-73. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "72-73",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato-russia",
+      "nato expansion",
+      "mamedov",
+      "standing consultative commission",
+      "yeltsin letter"
+    ],
+    "topics": [
+      "NATO-Russia",
+      "NATO expansion",
+      "Standing Consultative Commission",
+      "Nuclear weapons",
+      "New members",
+      "Partnership for Peace"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Boris Yeltsin",
+      "Georgiy Mamedov",
+      "William Perry",
+      "Warren Christopher"
+    ],
+    "countries": [
+      "Russia",
+      "United States"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
+    },
+    "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The DC0180 folder withdrawal sheet also lists a withheld Summary of Conclusions for a NATO expansion/NATO-Russia Deputies Committee meeting."
+  },
+  {
     "id": "clinton-nato-pdd-17368179-19950307",
     "title": "Presidential Daily Diary reference: meeting with U.S. and NATO officials",
     "date": "1995-03-07",
@@ -8393,6 +8768,64 @@
       "id": "pdd-17368179-19950307"
     },
     "notes": "Presidential Daily Diary context record; use for chronology and to identify likely memcon, telcon, briefing, trip, or summit files rather than as a substitute for the substantive conversation text. Source page span retained outside displayed FRUS note: pages 65 and 70."
+  },
+  {
+    "id": "clinton-library-doc-2015-0768-m-elements-nato-russia-relationship",
+    "title": "Elements of a NATO-Russia Relationship",
+    "date": "1995-04-03",
+    "year": 1995,
+    "documentType": "Options paper",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0193 DC Meeting on NATO Expansion and NATO-Russia Relations, April 4, 1995, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library, PDF pages 84-89. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "84-89",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato-russia",
+      "nato expansion",
+      "political declaration",
+      "consultations",
+      "russian membership"
+    ],
+    "topics": [
+      "NATO-Russia",
+      "NATO expansion",
+      "Political declaration",
+      "Consultations",
+      "Standing Consultative Committee",
+      "Russian membership",
+      "Military relations"
+    ],
+    "people": [
+      "Samuel Berger",
+      "Alexander Vershbow",
+      "Boris Yeltsin",
+      "Andrei Kozyrev"
+    ],
+    "countries": [
+      "Russia",
+      "United States",
+      "France",
+      "Germany"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
+    },
+    "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The DC0193 folder withdrawal sheet also lists withheld Summary of Conclusions records for NATO enlargement/NATO-Russia Deputies Committee meetings."
   },
   {
     "id": "state-foia-C06699525",
@@ -24839,6 +25272,56 @@
       "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
     },
     "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The withdrawal sheet places this released statement in the September 8, 1993 NATO Summit Deputies Committee folder, which also lists a withheld Summary of Conclusions."
+  },
+  {
+    "id": "clinton-library-doc-2015-0768-m-effects-expanding-membership",
+    "title": "Effects of Expanding Membership on NATO Military Activities",
+    "date": "1993-09-13",
+    "year": 1993,
+    "documentType": "List",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Records Management, DC0056 DC Meeting on NATO Summit, 1993, Mandatory Declassification Review 2015-0768-M, Clinton Digital Library, PDF page 61. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "61",
+    "pageCount": 1,
+    "pageCountStatus": "known",
+    "priority": "P1",
+    "priorityReasons": [
+      "nato expansion",
+      "military activities",
+      "cee militaries",
+      "integrated command"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Military integration",
+      "Central and Eastern Europe",
+      "Integrated command",
+      "NATO infrastructure"
+    ],
+    "people": [],
+    "countries": [
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "Central and Eastern Europe"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "Deputies Committee",
+      "queuePriority": "review"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0768-M",
+      "packetRecordId": "clinton-library-packet-2015-0768-m-rmo-2022"
+    },
+    "notes": "Promoted from the official 2015-0768-M packet after local page-boundary inspection. The one-page released list follows the DC0056 NATO Summit folder documents."
   },
   {
     "id": "clinton-nato-pdd-147870769-19930929",

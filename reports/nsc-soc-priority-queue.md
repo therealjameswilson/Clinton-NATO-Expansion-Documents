@@ -1,6 +1,6 @@
 # NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T02:27:21.438Z
+Generated: 2026-06-06T02:33:57.245Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language. They are the
@@ -73,6 +73,7 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1994-12-12 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1994-12-16 | P0 | TE | DECEMBER 15 TALBOTT-RYURIKOV MEETING ON | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694734/C06694734.pdf)
 1994-12-19 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1994-12-29 | P0 | Presidential correspondence | President Yeltsin to President Clinton on NATO Enlargement | Deputies Committee | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-01 | P0 | Scout Lead | Bosnia Principals Committee/Deputies Committee 1995 Meetings [2] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/40482494)
 1995-01-01 | P0 | Scout Lead | PC/DC [Principals Committee/Deputies Committee] Meetings on Bosnia, April 1995 [1] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/41051297)
 1995-01-01 | P0 | Scout Lead | PC/DC [Principals Committee/Deputies Committee] Meetings on Bosnia, April 1995 [2] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/41051298)
@@ -88,7 +89,14 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1995-01-01 | P0 | Scout Lead | PC/DC [Principals Committee/Deputies Committee] Meetings on Bosnia, May 1995 [4] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/41051304)
 1995-01-01 | P0 | Scout Lead | PC/DC [Principals Committee/Deputies Committee] Meetings on Bosnia, May 1995 [5] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/41051305)
 1995-01-01 | P0 | Scout Lead | PC/DC [Principals Committee/Deputies Committee] Meetings on Bosnia, May 1995 [6] | Principals Committee |  | nara-scout-lead | [open](https://catalog.archives.gov/id/41051306)
+1995-01-06 | P0 | Presidential message cable | President Clinton to President Yeltsin on NATO Expansion and Chechnya | Deputies Committee | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-01-20 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Former Yugoslavia | Principals Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
+1995-03 | P0 | Annex | Annex to Clinton-Yeltsin Letter: NATO's Evolution Since 1990 | Deputies Committee | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03 | P0 | Talking points | Elements of a Russian Reply | Deputies Committee | 1 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03 | P0 | Translation | Possible Content of a Letter from the Russian Side | Deputies Committee | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03 | P0 | Draft presidential correspondence | President Clinton to President Yeltsin on NATO-Russia Relations | Deputies Committee | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-03-02 | P0 | Decision paper | Status of NATO-Russia Process | Deputies Committee | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
+1995-04-03 | P0 | Options paper | Elements of a NATO-Russia Relationship | Deputies Committee | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1995-05-09 | P0 | Release Packet | Summary of Conclusions, NSC Deputies Committee Meeting on Bosnia | Deputies Committee | 3 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1995-05-23 | P0 | Release Packet | Summary of Conclusions, NSC Principals Committee Meeting on Bosnia | Principals Committee | 2 | clinton-digital-library | [open](https://clinton.presidentiallibraries.us/items/show/36614)
 1995-06-12 | P0 | ME | Your Meeting with Yeltsin in Halifax | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2021_C/F-2017-13804/DOC_0C06835149/C06835149.pdf)
@@ -160,11 +168,3 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-03-17 | P0 | ME | MEMRANDUM OF CONVERSATION BETWEEN THE SECRETARY AND FM Y. M. PRIMAKOV | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703634/C06703634.pdf)
 1997-06-09 | P0 | Strategy paper | A Diplomatic and Congressional Strategy for Madrid and Beyond | Principals Committee | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
 1999-01-11 | P0 | TE | ARMENIAN FM OSKANIAN MEETING WITH DEPUTY SECRETARY, JANUARY 8 | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771561/C06771561.pdf)
-1999-02-16 | P0 | TE | DEPSEC'S CONSULTATIONS WITH ELYSEE OFFICIALS, FEBRUARY 3, 1999 | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06770333/C06770333.pdf)
-1999-02-16 | P0 | TE | DEPUTY SECRETARY'S MEETING WITH FRENCH MOD OFFICIALS, FEBRUARY 3, 1999 | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771518/C06771518.pdf)
-1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN FORMIN FISCHER ON 2/4 | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771551/C06771551.pdf)
-1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN MOD STATE SECRETARY STUETZLE ON 2/4 | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771547/C06771547.pdf)
-1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN NSA STEINER ON 2/4 | NSC | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771555/C06771555.pdf)
-1999-02-19 | P0 | TE | DEPSEC MEETING WITH GERMAN STATE SECRETARY ISCHINGER ON 2/4 | NSC | 8 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771540/C06771540.pdf)
-1999-04-06 | P0 | TE | DEPUTY SECRETARY TALBOTT'S VISIT TO ALBANIA | NSC | 3 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814664/C06814664.pdf)
-1999-04-07 | P0 | TE | DEPUTY SECRETARY TALBOTT'S MEETING WITH GREEK DEFENSE MINISTER | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06814670/C06814670.pdf)

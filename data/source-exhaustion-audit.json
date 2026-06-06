@@ -1,29 +1,35 @@
 {
-  "generatedAt": "2026-06-06T02:27:25.058Z",
+  "generatedAt": "2026-06-06T02:37:30.425Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 173,
+      "Count": 178,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 380,
-      "Pages": 1875,
+      "Count": 389,
+      "Pages": 1897,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 116,
+      "Count": 125,
       "Pages": "",
       "Status": "special review lane"
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 12,
-      "Pages": 66,
+      "Count": 21,
+      "Pages": 88,
       "Status": "document-level rows"
+    },
+    {
+      "Lane": "Clinton Library withheld meeting/SOC controls",
+      "Count": 7,
+      "Pages": 17,
+      "Status": "not package-eligible; retrieval/redaction leads"
     },
     {
       "Lane": "Clinton Library MDR packet controls",
@@ -272,6 +278,127 @@
       "nextAction": "Split this official MDR packet into document-level rows with dates, page spans, markings, and duplicate controls before package selection."
     }
   ],
+  "clintonLibraryMeetingControls": [
+    {
+      "id": "clinton-library-control-2015-0768-m-pc0037-soc-nato-summit",
+      "packetIdentifier": "2015-0768-M",
+      "date": "1993-10-18",
+      "year": 1993,
+      "committee": "Principals Committee",
+      "documentType": "Summary of Conclusions",
+      "title": "Summary of Conclusions of PC Meeting on NATO Summit",
+      "folderTitle": "PC0037 PC Meeting on NATO Summit, October 18, 1993",
+      "pageCount": 2,
+      "releaseStatus": "withheld",
+      "restriction": "P1/b(1)",
+      "withdrawalSheetPages": "2",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "notes": "Withdrawal sheet lists this Summary of Conclusions as withheld. The same folder produced released NATO summit papers and cables now promoted separately."
+    },
+    {
+      "id": "clinton-library-control-2015-0768-m-dc0054-soc-nato-summit",
+      "packetIdentifier": "2015-0768-M",
+      "date": "1993-09-08",
+      "year": 1993,
+      "committee": "Deputies Committee",
+      "documentType": "Summary of Conclusions",
+      "title": "Summary of Conclusions of DC Meeting on NATO Summit",
+      "folderTitle": "DC0054 DC Meeting on NATO Summit, September 8, 1993",
+      "pageCount": 2,
+      "releaseStatus": "withheld",
+      "restriction": "P1/b(1)",
+      "withdrawalSheetPages": "38-39",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "notes": "Withdrawal sheet lists this Summary of Conclusions as withheld. Released DC0054 attachments include the Partnership for Peace draft, ESDI/CJTF papers, and NATO summit talking points."
+    },
+    {
+      "id": "clinton-library-control-2015-0768-m-dc0161-soc-nato-russia",
+      "packetIdentifier": "2015-0768-M",
+      "date": "1995-01-09",
+      "year": 1995,
+      "committee": "Deputies Committee",
+      "documentType": "Summary of Conclusions",
+      "title": "Summary of Conclusions of DC Meeting on NATO-Russia Relationship",
+      "folderTitle": "DC0161 DC Meeting on NATO-Russia Relationship, January 9, 1995",
+      "pageCount": 2,
+      "releaseStatus": "withheld",
+      "restriction": "P1/b(1)",
+      "withdrawalSheetPages": "63",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "notes": "Withdrawal sheet lists this Summary of Conclusions as withheld. Released items in the folder include the December 29, 1994 Yeltsin letter and January 6, 1995 Clinton reply."
+    },
+    {
+      "id": "clinton-library-control-2015-0768-m-dc0180-soc-nato-expansion-russia",
+      "packetIdentifier": "2015-0768-M",
+      "date": "1995-03-03",
+      "year": 1995,
+      "committee": "Deputies Committee",
+      "documentType": "Summary of Conclusions",
+      "title": "Summary of Conclusions of DC Meeting on NATO Expansion and NATO-Russia Relations",
+      "folderTitle": "DC0180 DC Meeting on NATO Expansion and NATO-Russia Relations, March 8, 1995",
+      "pageCount": 3,
+      "releaseStatus": "withheld",
+      "restriction": "P1/b(1)",
+      "withdrawalSheetPages": "71",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "notes": "Withdrawal sheet lists this Summary of Conclusions as withheld. The folder also carries released March 1995 Clinton-Yeltsin letter materials and NATO-Russia process papers."
+    },
+    {
+      "id": "clinton-library-control-2015-0768-m-dc0180-duplicate-soc-nato-russia",
+      "packetIdentifier": "2015-0768-M",
+      "date": "1995-01-09",
+      "year": 1995,
+      "committee": "Deputies Committee",
+      "documentType": "Summary of Conclusions",
+      "title": "Summary of Conclusions of DC Meeting on NATO-Russia Relationship",
+      "folderTitle": "DC0180 DC Meeting on NATO Expansion and NATO-Russia Relations, March 8, 1995",
+      "pageCount": 2,
+      "releaseStatus": "withheld duplicate control",
+      "restriction": "P1/b(1)",
+      "withdrawalSheetPages": "71",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "notes": "Duplicate packet control for the January 9, 1995 NATO-Russia Summary of Conclusions. Kept visible for accounting and duplicate review."
+    },
+    {
+      "id": "clinton-library-control-2015-0768-m-dc0193-soc-nato-enlargement",
+      "packetIdentifier": "2015-0768-M",
+      "date": "1995-04-04",
+      "year": 1995,
+      "committee": "Deputies Committee",
+      "documentType": "Summary of Conclusions",
+      "title": "Summary of Conclusions of DC Meeting on NATO Enlargement and NATO-Russia Relations",
+      "folderTitle": "DC0193 DC Meeting on NATO Expansion and NATO-Russia Relations, April 4, 1995",
+      "pageCount": 3,
+      "releaseStatus": "withheld",
+      "restriction": "P1/b(1)",
+      "withdrawalSheetPages": "83",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "notes": "Withdrawal sheet lists this Summary of Conclusions as withheld. Released material in the folder includes the six-page Elements of a NATO-Russia Relationship paper."
+    },
+    {
+      "id": "clinton-library-control-2015-0768-m-dc0193-duplicate-soc-nato-expansion",
+      "packetIdentifier": "2015-0768-M",
+      "date": "1995-03-03",
+      "year": 1995,
+      "committee": "Deputies Committee",
+      "documentType": "Summary of Conclusions",
+      "title": "Summary of Conclusions of DC Meeting on NATO Expansion and NATO-Russia Relations",
+      "folderTitle": "DC0193 DC Meeting on NATO Expansion and NATO-Russia Relations, April 4, 1995",
+      "pageCount": 3,
+      "releaseStatus": "withheld duplicate control",
+      "restriction": "P1/b(1)",
+      "withdrawalSheetPages": "83",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "notes": "Duplicate packet control for the March 3, 1995 NATO expansion/NATO-Russia Summary of Conclusions. Kept visible for accounting and duplicate review."
+    }
+  ],
   "clintonLibraryPromotedDocuments": [
     {
       "id": "clinton-library-doc-2015-0768-m-nato-transformation-expansion-strategy",
@@ -344,6 +471,86 @@
       "packetIdentifier": "2017-0193-M"
     },
     {
+      "id": "clinton-library-doc-2015-0768-m-yeltsin-to-clinton-1994-12-29",
+      "date": "1994-12-29",
+      "title": "President Yeltsin to President Clinton on NATO Enlargement",
+      "pageCount": 3,
+      "sourcePages": "64-66",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-clinton-to-yeltsin-1995-01-06",
+      "date": "1995-01-06",
+      "title": "President Clinton to President Yeltsin on NATO Expansion and Chechnya",
+      "pageCount": 2,
+      "sourcePages": "68-69",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-annex-clinton-yeltsin-letter",
+      "date": "1995-03",
+      "title": "Annex to Clinton-Yeltsin Letter: NATO's Evolution Since 1990",
+      "pageCount": 2,
+      "sourcePages": "77-78",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-elements-russian-reply",
+      "date": "1995-03",
+      "title": "Elements of a Russian Reply",
+      "pageCount": 1,
+      "sourcePages": "81",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-possible-russian-letter-content",
+      "date": "1995-03",
+      "title": "Possible Content of a Letter from the Russian Side",
+      "pageCount": 2,
+      "sourcePages": "79-80",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-clinton-to-yeltsin-1995-03",
+      "date": "1995-03",
+      "title": "President Clinton to President Yeltsin on NATO-Russia Relations",
+      "pageCount": 3,
+      "sourcePages": "74-76",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-status-nato-russia-process",
+      "date": "1995-03-02",
+      "title": "Status of NATO-Russia Process",
+      "pageCount": 2,
+      "sourcePages": "72-73",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-elements-nato-russia-relationship",
+      "date": "1995-04-03",
+      "title": "Elements of a NATO-Russia Relationship",
+      "pageCount": 6,
+      "sourcePages": "84-89",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0770-m-nato-enlargement-game-plan",
       "date": "1996-06-06",
       "title": "C-P-L Item: NATO Enlargement",
@@ -389,6 +596,16 @@
       "title": "Agreement on a Euro-Atlantic Partnership for Peace",
       "pageCount": 3,
       "sourcePages": "40-42",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
+      "packetIdentifier": "2015-0768-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0768-m-effects-expanding-membership",
+      "date": "1993-09-13",
+      "title": "Effects of Expanding Membership on NATO Military Activities",
+      "pageCount": 1,
+      "sourcePages": "61",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/118449",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/30a20581e145dde08f2fa55c745c04f2.pdf",
       "packetIdentifier": "2015-0768-M"
