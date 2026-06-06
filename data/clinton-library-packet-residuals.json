@@ -43,5 +43,14 @@
     "coverageStatus": "review complete; residual pages are off-topic RFE/RL, UNSC, schedule, or Czech domestic-politics material",
     "status": "reviewed residual pages; no package-ready NATO-expansion document text",
     "notes": "Pages 36-37 are RFE/RL background; pages 53-57 are the Czech UNSC seat candidacy cable; pages 58-59 are the January 1994 presidential trip schedule cable; pages 85-91 are the 'Czech It Out - I' domestic-politics cable. These released pages were reviewed and are not package-ready NATO-expansion document text."
+  },
+  {
+    "packetRecordId": "clinton-library-packet-2015-0772-m",
+    "packetIdentifier": "2015-0772-M",
+    "reviewedResidualPages": "1-7, 13-16, 19-23, 28-35, 39-92, 101-102, 108-115, 122-126, 129-130, 148-168, 171-183, 188-194, 196-204, 208-212, 217-221, 225-230, 234-237, 243-257, 261-267, 271-276, 279-285, 291-302, 306-329, 334-343, 346-352, 366-370, 373-378, 381-388, 391-395, 415-420, 423-431, 438-444, 451-463, 477-487, 493-496, 503-507, 513-526, 532-539",
+    "reviewedResidualPageCount": 354,
+    "coverageStatus": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
+    "status": "reviewed residual pages; no additional package-ready NATO-expansion document text",
+    "notes": "Pages were reviewed against the packet text after document-level promotion. Residual pages include Clinton Library markers, withdrawal/redaction sheets, RMO/action/routing controls, alternate or duplicate copies of promoted NATO-enlargement records, January 1994 trip material on Belarus, Ukraine nuclear issues, trade, troop strength, Bosnia, and Geneva mission remarks, unrelated crime-alert attachments, and biographical/report attachments to the February 1998 Committee to Expand NATO dinner packet. No NSC minutes or Summaries of Conclusions were present in the reviewed residual pages."
   }
 ]

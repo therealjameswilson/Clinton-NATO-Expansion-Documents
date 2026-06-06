@@ -1,21 +1,21 @@
 {
-  "generatedAt": "2026-06-06T06:35:32.186Z",
+  "generatedAt": "2026-06-06T06:50:22.455Z",
   "lanes": [
     {
       "Lane": "Selected package records",
-      "Count": 172,
+      "Count": 175,
       "Pages": 1000,
       "Status": "assembled locally"
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 513,
-      "Pages": 2554,
+      "Count": 519,
+      "Pages": 2571,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 252,
+      "Count": 258,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 143,
-      "Pages": 752,
+      "Count": 149,
+      "Pages": 769,
       "Status": "document-level rows"
     },
     {
@@ -294,11 +294,11 @@
     {
       "Packet": "2015-0772-M",
       "Control Pages": 539,
-      "Promoted Rows": 22,
-      "Promoted Pages": 124,
-      "Reviewed Residual Pages": "",
-      "Backlog Pages": 415,
-      "Status": "partial; continue document-level extraction",
+      "Promoted Rows": 40,
+      "Promoted Pages": 185,
+      "Reviewed Residual Pages": 354,
+      "Backlog Pages": "",
+      "Status": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
       "Link": "[open](https://clinton.presidentiallibraries.us/items/show/101137)"
     },
     {
@@ -447,6 +447,15 @@
       "coverageStatus": "review complete; residual pages are off-topic RFE/RL, UNSC, schedule, or Czech domestic-politics material",
       "status": "reviewed residual pages; no package-ready NATO-expansion document text",
       "notes": "Pages 36-37 are RFE/RL background; pages 53-57 are the Czech UNSC seat candidacy cable; pages 58-59 are the January 1994 presidential trip schedule cable; pages 85-91 are the 'Czech It Out - I' domestic-politics cable. These released pages were reviewed and are not package-ready NATO-expansion document text."
+    },
+    {
+      "packetRecordId": "clinton-library-packet-2015-0772-m",
+      "packetIdentifier": "2015-0772-M",
+      "reviewedResidualPages": "1-7, 13-16, 19-23, 28-35, 39-92, 101-102, 108-115, 122-126, 129-130, 148-168, 171-183, 188-194, 196-204, 208-212, 217-221, 225-230, 234-237, 243-257, 261-267, 271-276, 279-285, 291-302, 306-329, 334-343, 346-352, 366-370, 373-378, 381-388, 391-395, 415-420, 423-431, 438-444, 451-463, 477-487, 493-496, 503-507, 513-526, 532-539",
+      "reviewedResidualPageCount": 354,
+      "coverageStatus": "review complete; residual pages are withdrawal/control sheets, duplicate copies, or off-topic/non-package fragments",
+      "status": "reviewed residual pages; no additional package-ready NATO-expansion document text",
+      "notes": "Pages were reviewed against the packet text after document-level promotion. Residual pages include Clinton Library markers, withdrawal/redaction sheets, RMO/action/routing controls, alternate or duplicate copies of promoted NATO-enlargement records, January 1994 trip material on Belarus, Ukraine nuclear issues, trade, troop strength, Bosnia, and Geneva mission remarks, unrelated crime-alert attachments, and biographical/report attachments to the February 1998 Committee to Expand NATO dinner packet. No NSC minutes or Summaries of Conclusions were present in the reviewed residual pages."
     }
   ],
   "clintonLibraryMeetingControls": [
@@ -942,6 +951,16 @@
       "packetIdentifier": "2015-0755-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-moving-toward-nato-expansion-1994-10-14",
+      "date": "1994-10-14",
+      "title": "Moving Toward NATO Expansion",
+      "pageCount": 8,
+      "sourcePages": "93-100",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-gore-russia-nato-expansion-1994-12-21",
       "date": "1994-12-21",
       "title": "Meeting with the Vice President on Russia and NATO Expansion",
@@ -1292,6 +1311,16 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-nato-enlargement-study-1995-10-02",
+      "date": "1995-10-02",
+      "title": "The NATO Enlargement Study",
+      "pageCount": 1,
+      "sourcePages": "195",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0773-m-havel-1995-10-21",
       "date": "1995-10-21",
       "title": "Meeting with Vaclav Havel, President of the Czech Republic",
@@ -1410,6 +1439,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
       "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-clinton-yeltsin-nato-russia-1996-09",
+      "date": "1996-09",
+      "title": "President Clinton to President Yeltsin on NATO and Russia",
+      "pageCount": 3,
+      "sourcePages": "222-224",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
     },
     {
       "id": "clinton-library-doc-2015-0792-m-christopher-de-charette-working-luncheon-1996-09-05",
@@ -1592,6 +1631,16 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0772-m-chernomyrdin-meeting-brief-1997-02-06",
+      "date": "1997-02-06",
+      "title": "Meeting with Russian Prime Minister Viktor Chernomyrdin",
+      "pageCount": 3,
+      "sourcePages": "303-305",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0755-m-chernomyrdin-1997-02-07",
       "date": "1997-02-07",
       "title": "Meeting with Russian Prime Minister Viktor Chernomyrdin: March Summit, GCC Results, European Security, START, Economics",
@@ -1600,6 +1649,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
       "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-chernomyrdin-meeting-points-1997-02-07",
+      "date": "1997-02-07",
+      "title": "Points to Be Made for Meeting with Russian Prime Minister Chernomyrdin",
+      "pageCount": 5,
+      "sourcePages": "286-290",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-foreign-policy-team-russia-1997-02-11",
@@ -1745,8 +1804,8 @@
       "id": "clinton-library-doc-2015-0772-m-madrid-membership-decision-1997-06-09",
       "date": "1997-06-09",
       "title": "Deciding Which Countries to Support for NATO Membership at the Madrid Summit",
-      "pageCount": 8,
-      "sourcePages": "440-447",
+      "pageCount": 6,
+      "sourcePages": "445-450",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
@@ -1775,8 +1834,8 @@
       "id": "clinton-library-doc-2015-0772-m-second-round-open-door-1997-06-23",
       "date": "1997-06-23",
       "title": "Achieving Allied Consensus on NATO Enlargement: Whether to Set a Date or Name Names for the Second Round",
-      "pageCount": 8,
-      "sourcePages": "485-492",
+      "pageCount": 5,
+      "sourcePages": "488-492",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
       "packetIdentifier": "2015-0772-M"
@@ -1970,6 +2029,16 @@
       "sourceUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
       "pdfUrl": "https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf",
       "packetIdentifier": "2024-0540-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0772-m-possible-foreign-policy-events-nato-speech-1996-09-27",
+      "date": "1996-09-27",
+      "title": "Possible Foreign Policy Events for POTUS in October",
+      "pageCount": 2,
+      "sourcePages": "241-242",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+      "packetIdentifier": "2015-0772-M"
     },
     {
       "id": "clinton-library-doc-2013-0804-m-nato-adaptation-gibraltar-1998-01-22",

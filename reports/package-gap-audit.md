@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T06:35:32.186Z
+Generated: 2026-06-06T06:50:22.455Z
 
 ## What This Pass Proves
 
@@ -34,7 +34,10 @@ Generated: 2026-06-06T06:35:32.186Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1994-01-26 | 65 | 7 | PFP and Central and Eastern Europe | clinton-library-mdr | nato-russia, pfp, candidate-states, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/57563)
 1997-03-07 | 65 | 7 | TALBOTT/CHUBAYS MEETING MARCH 6 | state-foia | nato-expansion, nato-russia, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702859/C06702859.pdf)
+1994-10-21 | 65 | 4 | THE DEPUTY SECRETARY'S OCTOBER 19 MEETING WITH FCO MINISTER OF STATE DAVID DAVIS | state-foia | nato-expansion, pfp, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06694673/C06694673.pdf)
+1996-04-17 | 65 | 6 | THE DEPUTY SECRETARY MEETS SPD CHAIRMAN LAFONTA1 NE | state-foia | nato-expansion, pfp, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697977/C06697977.pdf)
 1994-01-13 | 64 | 11 | President's dinner with President Yeltsin, January 13/14, 1994 | clinton-digital-library | nato-russia, pfp, candidate-states, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101370)
 1996-05-14 | 64 | 4 | DEPUTY SECRETARY'S MEETING WITH SLOVENIAN PM DRNOVSEK | state-foia | nato-expansion, pfp, nac-usnato, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06697839/C06697839.pdf)
 1996-07-16 | 64 | 7 | MEMORANDUM OF CONVERSATION WITH PRESIDENT KWASNIESKI OF POLAND | state-foia | nato-expansion, pfp, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698307/C06698307.pdf)
@@ -44,7 +47,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1996-10-01 | 64 | 6 | CONVERSATION BETWEEN THE DEPUTY SECRETARY AND SLOVEN IAN FOEIGN MINISTER KRACUN | state-foia | nato-expansion, nato-russia, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698772/C06698772.pdf)
 1997-03-11 | 64 | 4 | NATO/RUSSIA: DEPUTY SECRETARY'S MARCH 10 CONVERSATION WITH UK FRG POLDIRS | state-foia | madrid-summit, nato-russia, nac-usnato, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702850/C06702850.pdf)
 1994-01 | 63 | 8 | Your Plenary Lunch with Visegrad Leaders | clinton-library-mdr | nato-expansion, pfp, nsc-soc | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2024-0540-M.pdf)
-1994-01-12 | 63 | 2 | Background: Business-Related Event at K-Mart | nara-catalog | nato-expansion, pfp, nsc-soc | [open](https://catalog.archives.gov/id/368557013)
 1996-07-30 | 62 | 5 | DEPUTY SECRETARY REVIEWS SECURITY, ECONOMIC ISSUES WITH UKRAINIAN FOREIGN MINISTER, JULY 26, 1996 | state-foia | nato-expansion, nac-usnato, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698247/C06698247.pdf)
 1997-02-08 | 62 | 5 | THE DEPUTY SECRETARY'S FEBRUARY 5 MEETING WITH GERMAN MFA STATE MINISTER WERNER HOYER | state-foia | nato-expansion, nato-russia, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702847/C06702847.pdf)
 1997-03-17 | 62 | 3 | DEPUTY SECRETARY'S CONVERSATION WITH NATO SYG SOLANA | state-foia | nato-expansion, nato-russia, nac-usnato, architecture | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702882/C06702882.pdf)
@@ -62,6 +64,7 @@ Date | Score | Pages | Record | Source | Themes | Link
 1996-09-19 | 60 | 5 | ACTING SECRETARY TALBOTT'S MEETING WITH SLOVAK PARLIAMENT CHAIRMAN IVAN GASPAROVIC | state-foia | nato-expansion, pfp, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698252/C06698252.pdf)
 1999-03-26 | 60 | 5 | DEPUTY SECRETARY'S MEETING WITH LITHUANIAN PRIME MINISTER VAGNORIUS | state-foia | nato-expansion, open-door-map, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771225/C06771225.pdf)
 1999-03-29 | 60 | 5 | DEPUTY SECRETARY'S MEETING WITH LITHUANIAN PRIME MINISTER VAGNORIUS | state-foia | nato-expansion, open-door-map, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771016/C06771016.pdf)
+1996-09-27 | 59 | 2 | Possible Foreign Policy Events for POTUS in October | clinton-library-mdr | nato-expansion, nato-russia, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-11-01 | 59 | 6 | GEORGIAN FOREIGN MINISTER MENAGHARAISHVILL'S MEETING IN WASHINGTON | state-foia | nato-expansion, cfe-osce, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698684/C06698684.pdf)
 1999-09-29 | 59 | 7 | Executive Secretariat Sensitive Tasker - To Bratislava E.O. for Change and Acting DCM with attachments | state-foia | nato-expansion, cfe-osce, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814750/C06814750.pdf)
 1996-10-30 | 59 | 5 | DEPUTY SECRETARY'S MEETING WITH CZECH AND POLISH SECURITY DIALOGUE DELEGATIONS | state-foia | nato-expansion, nato-russia, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698679/C06698679.pdf)
@@ -91,9 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1997-01-21 | 54 | 5 | DEPUTY SECRETARY'S VISIT TO OSLO | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703046/C06703046.pdf)
 1997-01-23 | 54 | 12 | TALBOTT-FUERTH DELEGATION MEETING WITH ANATOLIY CHUBAIS, CHIEF OF THE RUSSIAN PRESIDENTIAL ADMINISTRATION | state-foia | nato-expansion, nato-russia, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703698/C06703698.pdf)
 1993-04-14 | 53 | 5 | Meeting with Vaclav Havel, President of the Czech Republic | clinton-library-mdr | nato-russia, candidate-states, nsc-soc | [open](https://www.clintonlibrary.gov/sites/default/files/finding_aids_a_z/2026-02/2015-0773-M.pdf)
-1994-09-23 | 53 | 3 | MAMEDOV'S THOUGHTS ON YOUR CONVERSATION WITH YELTSIN | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jun2019_2020/F-2017-13804/DOC_0C06695261/C06695261.pdf)
-1994-10-20 | 53 | 4 | October 20, 1994 Eyes only To The Secretary From Strobe Talbott | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000140/C09000140.pdf)
-1994-10-20 | 53 | 3 | October 20, 1994 Letter from Strobe Talbott to Chris | state-foia | nato-expansion, architecture, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jan2022V2/F-2017-13804/DOC_0C09000141/C09000141.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 

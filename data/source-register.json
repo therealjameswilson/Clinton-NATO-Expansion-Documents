@@ -7851,6 +7851,75 @@
     "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The cover says the President has seen the memorandum; it forwards an NSC staff paper reflecting Clinton's recent discussions with Yeltsin and NATO leaders. Packet pages 77-78 are email/action routing copies and are not promoted separately."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-moving-toward-nato-expansion-1994-10-14",
+    "title": "Moving Toward NATO Expansion",
+    "date": "1994-10-14",
+    "year": 1994,
+    "documentType": "NSC staff paper with transmittal memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 93-100. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "93-100",
+    "pageCount": 8,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato expansion",
+      "policy framework",
+      "russia",
+      "ukraine",
+      "baltic states",
+      "december nac ministerial"
+    ],
+    "topics": [
+      "NATO expansion",
+      "Policy framework",
+      "Partnership for Peace",
+      "NATO-Russia relationship",
+      "Ukraine",
+      "Baltic states",
+      "Central and Eastern Europe",
+      "December 1994 NAC Ministerial"
+    ],
+    "people": [
+      "Anthony Lake",
+      "Warren Christopher",
+      "William Perry",
+      "Madeleine Albright",
+      "John Shalikashvili",
+      "Nicholas Burns",
+      "Alexander Vershbow",
+      "Daniel Fried"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "Ukraine",
+      "Poland",
+      "Czech Republic",
+      "Hungary",
+      "Romania",
+      "Bulgaria",
+      "Baltic states"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The NSC staff paper sets out objectives, rationale, criteria, timing, and fall 1994 strategy for moving NATO expansion from PFP toward a formal Alliance policy framework while preserving a NATO-Russia track and avoiding a gray zone for Ukraine and the Baltic states."
+  },
+  {
     "id": "state-foia-C09000154",
     "title": "NESA (that's \"New European Security Architecture\")",
     "date": "1994-10-18",
@@ -13433,6 +13502,62 @@
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source-packet extraction retained outside displayed FRUS note: Extracted from source packet PDF pages 105; 1 document page counted. Review PDF includes a packet annotation sheet."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-nato-enlargement-study-1995-10-02",
+    "title": "The NATO Enlargement Study",
+    "date": "1995-10-02",
+    "year": 1995,
+    "documentType": "Presidential information memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 195. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "195",
+    "pageCount": 1,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "nato enlargement study",
+      "partnership for peace",
+      "russia",
+      "nac ministerial"
+    ],
+    "topics": [
+      "NATO Enlargement Study",
+      "Partnership for Peace",
+      "NATO enlargement criteria",
+      "Russia",
+      "NAC Ministerial",
+      "NATO basing"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Anthony Lake",
+      "John Schmidt",
+      "Alexander Vershbow"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "NATO allies",
+      "Partnership for Peace members"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Lake summarizes the Alliance-approved NATO Enlargement Study for the President, including the why/how framework, PFP briefings, membership standards, and Russia/basing issues. Packet page 198 is a duplicate copy and is not promoted separately."
+  },
+  {
     "id": "state-foia-C06698076",
     "title": "TALBOTT-KOZYREV ONE-ON-ONES IN MOSCOW",
     "date": "1995-10-17",
@@ -14260,7 +14385,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum tracks German efforts to downplay NATO enlargement in NAC ministerial communique drafting and gives Lake talking points for pressing Bitterlich to support the balanced U.S. enlargement and NATO-Russia approach."
   },
@@ -15961,7 +16086,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The briefing memo describes Solana as a strong supporter of enlargement, frames expectations for 1997 accession talks, and links enlargement to NATO adaptation and French leverage."
   },
@@ -16895,6 +17020,64 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 43."
   },
   {
+    "id": "clinton-library-doc-2015-0772-m-clinton-yeltsin-nato-russia-1996-09",
+    "title": "President Clinton to President Yeltsin on NATO and Russia",
+    "date": "1996-09",
+    "year": 1996,
+    "documentType": "Presidential letter draft",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 222-224. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "222-224",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "clinton-yeltsin",
+      "nato-russia charter",
+      "nato expansion",
+      "summit planning"
+    ],
+    "topics": [
+      "NATO-Russia Charter",
+      "NATO expansion",
+      "NATO adaptation",
+      "Partnership for Peace",
+      "Atlantic Partnership Council",
+      "European security architecture"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Boris Yeltsin",
+      "Warren Christopher",
+      "Yevgeny Primakov",
+      "Strobe Talbott",
+      "Georgiy Mamedov"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "Ukraine",
+      "Central and Eastern Europe"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The Clinton letter draft explains the proposed NATO-Russia Charter, frames NATO expansion as compatible with Russian security interests, and previews a NATO summit to issue first invitations while strengthening PFP and an Atlantic Partnership Council."
+  },
+  {
     "id": "clinton-library-doc-2015-0792-m-christopher-de-charette-working-luncheon-1996-09-05",
     "title": "Secretary Christopher's Working Luncheon with Foreign Minister de Charette",
     "date": "1996-09-05",
@@ -17418,7 +17601,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Fried reports on an interagency trip to the Baltic capitals, explains that the Baltic Action Plan and charter were meant as a path forward rather than an alternative to NATO membership, and flags Russian pressure on Estonia and Latvia."
   },
@@ -18168,7 +18351,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memo frames the 'non-first tranche' problem as the intersection of no new lines, no veto, and Russia equities, and lays out options for keeping the Baltic track open."
   },
@@ -18968,7 +19151,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Pifer recommends disaggregating START, NATO nuclear deployments, infrastructure, and CFE adaptation rather than making a grand bargain that would invite Russian trade-offs against enlargement."
   },
@@ -20630,7 +20813,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Berger reports the results of a Principals Committee meeting on managing NATO-Russia, CFE, START, and the bilateral agenda before the Gore-Chernomyrdin and Helsinki tracks."
   },
@@ -20692,7 +20875,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memo warns against Russian linkage of START, economics, and NATO-Russia to satisfaction on enlargement, while stating that enlargement will proceed with or without a NATO-Russia deal."
   },
@@ -20748,6 +20931,67 @@
       "manifestPath": "data/manifest.json"
     },
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 45."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-chernomyrdin-meeting-brief-1997-02-06",
+    "title": "Meeting with Russian Prime Minister Viktor Chernomyrdin",
+    "date": "1997-02-06",
+    "year": 1997,
+    "documentType": "Presidential meeting memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 303-305. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "303-305",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "chernomyrdin",
+      "nato-russia",
+      "nato enlargement",
+      "helsinki preparation",
+      "cfe"
+    ],
+    "topics": [
+      "NATO-Russia relationship",
+      "NATO enlargement",
+      "Helsinki preparation",
+      "CFE adaptation",
+      "START II",
+      "START III",
+      "U.S.-Russia relations"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Samuel Berger",
+      "Viktor Chernomyrdin",
+      "Al Gore",
+      "Boris Yeltsin",
+      "Steve Pifer",
+      "Alexander Vershbow",
+      "Dan Fried"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "NATO allies"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The meeting memorandum frames Clinton's February 7 Chernomyrdin meeting around preparing the March Clinton-Yeltsin meeting, including NATO-Russia, enlargement, START, ABM/TMD, CFE, and economics. Packet pages 306-310 and 315-323 contain alternate or duplicate talking-point and briefing copies and are not promoted separately."
   },
   {
     "id": "clinton-library-doc-2015-0755-m-chernomyrdin-1997-02-07",
@@ -20817,6 +21061,65 @@
       "packetRecordId": "clinton-library-packet-2015-0755-m"
     },
     "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The memcon records Clinton, Gore, and Chernomyrdin discussing NATO enlargement, the two-year accession lag after Madrid invitations, NATO-Russia reassurances, CFE, START, and the March Helsinki summit."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-chernomyrdin-meeting-points-1997-02-07",
+    "title": "Points to Be Made for Meeting with Russian Prime Minister Chernomyrdin",
+    "date": "1997-02-07",
+    "year": 1997,
+    "documentType": "Presidential talking points",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 286-290. Secret.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "286-290",
+    "pageCount": 5,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "chernomyrdin",
+      "nato-russia",
+      "nato enlargement",
+      "helsinki preparation",
+      "start"
+    ],
+    "topics": [
+      "NATO-Russia relationship",
+      "NATO enlargement",
+      "Helsinki preparation",
+      "START II",
+      "START III",
+      "ABM/TMD",
+      "Madrid Summit",
+      "Quint summit"
+    ],
+    "people": [
+      "Bill Clinton",
+      "Viktor Chernomyrdin",
+      "Boris Yeltsin",
+      "Al Gore",
+      "Madeleine Albright"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "NATO allies"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The President-seen talking points tell Chernomyrdin that a NATO-Russia charter could be signed before Madrid but that NATO enlargement would proceed independently of the NATO-Russia negotiations. Packet pages 293-302 are a clean duplicate of the same card set and are not promoted separately."
   },
   {
     "id": "state-foia-C06702847",
@@ -20978,7 +21281,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The President-seen meeting brief defines success at Helsinki as a NATO-Russia accord that lets Yeltsin acquiesce in enlargement without holding back START, and lays out U.S. red lines of no delay and no veto."
   },
@@ -21288,7 +21591,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Berger reports that Moscow appears to have crossed a threshold by engaging seriously on NATO-Russia and explains the plan for Solana to carry the U.S.-drafted charter text as NATO cover."
   },
@@ -21509,7 +21812,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memo and attached draft charter show the U.S. effort to produce a NATO-acceptable and Russia-signable text without compromising Alliance integrity, including no veto, the Joint Council, CFE adaptation, and nuclear deployment language."
   },
@@ -22167,7 +22470,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. Berger reports that Primakov and Yeltsin aides want a deal on NATO-Russia while still seeking assurances on forces, CFE adaptation, and a route to a late-May NATO-Russia signing before Madrid."
   },
@@ -23045,7 +23348,7 @@
     "upstream": {
       "workspace": "live-clinton-library-document-extraction",
       "packetIdentifier": "2015-0772-M",
-      "packetRecordId": "clinton-library-nato-2015-0772-m"
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
     "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The pre-brief sets up Clinton's approach to Yeltsin on European security, including finalizing NATO-Russia, avoiding inflammatory anti-NATO rhetoric, and holding the line on no further assurances about forces on new member territory."
   },
@@ -24030,10 +24333,10 @@
     "sourceClass": "clinton-library-mdr",
     "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
     "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
-    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 440-447. Secret.",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 445-450. Secret.",
     "sourceNoteStatus": "Document-level provenance",
-    "sourcePages": "440-447",
-    "pageCount": 8,
+    "sourcePages": "445-450",
+    "pageCount": 6,
     "pageCountStatus": "known",
     "priority": "P0",
     "priorityReasons": [
@@ -24091,7 +24394,7 @@
       "packetIdentifier": "2015-0772-M",
       "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
-    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The action memorandum records the Principals' recommendation that Clinton support Poland, Hungary, and the Czech Republic as the first invitees at Madrid while holding a robust open door."
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The action memorandum records the Principals' recommendation that Clinton support Poland, Hungary, and the Czech Republic as the first invitees at Madrid while holding a robust open door. Packet pages 440-444 are RMO/routing and internal forwarding controls and are not promoted as part of the presidential memorandum."
   },
   {
     "id": "clinton-library-doc-2015-0772-m-snog-meeting-nato-enlargement-1997-06-10",
@@ -24247,10 +24550,10 @@
     "sourceClass": "clinton-library-mdr",
     "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
     "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
-    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 485-492. Confidential.",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 488-492. Confidential.",
     "sourceNoteStatus": "Document-level provenance",
-    "sourcePages": "485-492",
-    "pageCount": 8,
+    "sourcePages": "488-492",
+    "pageCount": 5,
     "pageCountStatus": "known",
     "priority": "P0",
     "priorityReasons": [
@@ -24299,7 +24602,7 @@
       "packetIdentifier": "2015-0772-M",
       "packetRecordId": "clinton-library-packet-2015-0772-m"
     },
-    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum weighs naming Romania and Slovenia, setting a second-round review date, or preserving the no-names Open Door formula for Madrid."
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The memorandum weighs naming Romania and Slovenia, setting a second-round review date, or preserving the no-names Open Door formula for Madrid. Packet pages 485-487 are RMO/action/routing controls and are not promoted as part of the presidential memorandum."
   },
   {
     "id": "clinton-library-doc-2015-0772-m-nato-summit-communications-objectives-1997-06-23",
@@ -35756,6 +36059,66 @@
       "id": "strobe-C09000058"
     },
     "notes": "Compiler should verify classification, handling markings, drafting, clearance, attachments, marginalia, and excisions against the original source image or PDF. Source marking extraction: Secret; Nodis; Eyes Only found by PDF text extraction."
+  },
+  {
+    "id": "clinton-library-doc-2015-0772-m-possible-foreign-policy-events-nato-speech-1996-09-27",
+    "title": "Possible Foreign Policy Events for POTUS in October",
+    "date": "1996-09-27",
+    "year": 1996,
+    "documentType": "NSC planning memorandum",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101137",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/daba4e1e86126f7392f28f4619aa711a.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cable, Email, and Records Management System, Mandatory Declassification Review 2015-0772-M, Clinton Digital Library PDF pages 241-242. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "241-242",
+    "pageCount": 2,
+    "pageCountStatus": "known",
+    "priority": "P1",
+    "priorityReasons": [
+      "nato enlargement speech",
+      "presidential messaging",
+      "second term",
+      "nato-russia"
+    ],
+    "topics": [
+      "NATO enlargement speech",
+      "Presidential scheduling",
+      "NATO summit timing",
+      "NATO-Russia relationship",
+      "Public diplomacy"
+    ],
+    "people": [
+      "Anthony Lake",
+      "Samuel Berger",
+      "Nancy Soderberg",
+      "Don Baer",
+      "Antony Blinken",
+      "Julia Moffett",
+      "Steve Pifer",
+      "Alexander Vershbow",
+      "Daniel Fried",
+      "Boris Yeltsin"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "NATO allies"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "attention-queue"
+    },
+    "inclusionStatus": "context-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0772-M",
+      "packetRecordId": "clinton-library-packet-2015-0772-m"
+    },
+    "notes": "Promoted from the official 2015-0772-M packet after local page-boundary inspection. The planning memo identifies a possible October 1996 NATO enlargement speech to announce next steps, summit timing, and the President's intent to welcome first new members in his second term/by 1999; the remaining attachments on pages 243-249 concern unrelated crime-alert material and are not promoted."
   },
   {
     "id": "state-foia-C06698810",
