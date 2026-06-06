@@ -51,8 +51,18 @@ Target corpus:
   Conclusions priority queue.
 - `reports/assembly-plan.md` - current page-budget plan toward the 1000-page
   package.
+- `data/package-manifest.json` and `data/package-manifest.csv` - focused
+  1000-page Bernstein package manifest.
+- `reports/package-manifest.md` - readable selected package sequence.
+- `reports/package-gap-audit.md` - remaining gaps before final handoff.
+- `reports/package-local-build-audit.md` - local private PDF assembly result
+  for the selected 1000-page package.
 - `scripts/build-seed-register.mjs` - imports the existing Clinton NATO
   workbench and the local Strobe Talbott FOIA manifest.
+- `scripts/build-package-manifest.mjs` - builds the focused package manifest
+  from the committed public register.
+- `scripts/download-package-pdfs.mjs` - local-only downloader/assembler for the
+  selected public PDFs under ignored `private/package-pdfs/`.
 - `scripts/validate-package.mjs` - validates the generated register and
   reports.
 - `private/` - ignored local intake for Google Drive exports or researcher
@@ -65,7 +75,17 @@ npm run build
 npm test
 ```
 
-The build reads sibling workspaces when present:
+The public build works from the committed source register and regenerates the
+focused Bernstein package manifest. To refresh the broader source register from
+local sibling workspaces, run:
+
+```bash
+npm run refresh:source-register
+npm run build
+npm test
+```
+
+The source-register refresh reads sibling workspaces when present:
 
 - `../Clinton-NATO-European-Security/data/records.json`
 - `../strobe-talbott-foia/data/manifest.json`
@@ -74,6 +94,22 @@ The build reads sibling workspaces when present:
 The public register stores official links and working provenance. Private Drive
 links remain local until each item is matched to a public declassified source or
 the user explicitly approves publication of that metadata.
+
+To download the selected public PDFs locally and prepare a merge command:
+
+```bash
+npm run download:package -- --dry-run
+npm run download:package
+```
+
+To assemble the ignored local PDF package after downloads succeed:
+
+```bash
+npm run download:package -- --assemble
+```
+
+The assembly command writes the combined PDF and downloaded sources under
+ignored `private/package-pdfs/` and refreshes the public local-build audit.
 
 ## Editorial Rules
 
@@ -86,4 +122,3 @@ the user explicitly approves publication of that metadata.
    source image.
 4. Count pages only from verified source images or trusted release metadata.
 5. Defer duplicate public copies to the most canonical official source.
-
