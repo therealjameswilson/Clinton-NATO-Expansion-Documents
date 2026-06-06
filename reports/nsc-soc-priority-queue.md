@@ -1,6 +1,6 @@
 # NATO-Relevant NSC and Summaries of Conclusions Priority Queue
 
-Generated: 2026-06-06T05:25:58.276Z
+Generated: 2026-06-06T05:32:57.383Z
 
 Records flagged here contain NSC, Principals Committee, Deputies Committee,
 interagency, meeting-minutes, or Summary of Conclusions language and a direct
@@ -8,7 +8,7 @@ NATO-expansion, NATO-Russia, Partnership for Peace, accession, European
 security, CFE/OSCE/ESDI, or candidate-state signal. They are the front of the
 Barton Bernstein package review queue.
 
-- NATO-relevant NSC/SOC records: 202
+- NATO-relevant NSC/SOC records: 207
 - NATO-relevant NSC/SOC packet controls needing document extraction: 9
 - Non-NATO, crisis-only, or date-out-of-scope NSC/SOC records held out of this queue: 85
 - Clinton Library withheld NATO meeting/SOC controls tracked separately: 7
@@ -113,17 +113,22 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1996-09-05 | P0 | Cable | Secretary Christopher's Working Luncheon with Foreign Minister de Charette | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-09-07 | P0 | Cable | Acting Secretary Briefs Baltics on Action Plan | NSC | 4 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-09-07 | P0 | TE | ACTING SECRETARY BRIEFS BALTICS ON ACTION PLAN | Interagency | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698268/C06698268.pdf)
+1996-09-10 | P0 | Cable | Scenesetter for Deputy Secretary Talbott's September 11-13 Visit to Paris | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-09-11 | P0 | MI | PARIS ST-MAMEDOV | Interagency | 22 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698220/C06698220.pdf)
 1996-09-13 | P0 | GC | THE BRIEF THAT JIM AND I WILL GIVE TO YOU ON OUR RETURN TO THE DEPARTMENT | Interagency | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698215/C06698215.pdf)
 1996-09-17 | P0 | NSC information memorandum | Baltic States: Baltic Action Plan and NATO Enlargement | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-09-24 | P0 | ME | MEETING WHIT FOREIGN MINISTER OF RUSSIA YEVGENIY PRIMAKOV | NSC | 4 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06699025/C06699025.pdf)
+1996-09-27 | P0 | Cable | Informal Defense Ministers Meeting in Bergen, Norway: SecDef Bilat with SYG Solana | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1996-09-27 | P0 | Cable | Informal Defense Ministers Meeting in Bergen, Norway: SecDef Bilateral with French MOD Millon | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-10-01 | P0 | Cable | Copenhagen Seminar: Secretary Perry, UK and German Defense Ministers Say "Not Yet" to Baltic NATO Membership; Russians Don't Show | NSC | 10 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
+1996-10-02 | P0 | Cable | Deputy Secretary's September 16 and 19 Meetings with Ukrainian NSDC Secretary Horbulyn | NSC | 5 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-10-04 | P0 | NSC information memorandum | Your Meeting with the Troika on NATO Enlargement Issues | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-10-07 | P0 | TE | DEPUTY SECRETARY EXPLAINS U.S. CONCERNS TO BELARUSIAN FOREIGN MINISTER SENKO, OCTOBER 3, 1996 | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698741/C06698741.pdf)
 1996-10-29 | P0 | Cable | Ambassador's Farewell Call on Presidential Foreign Policy Advisor Ryurikov | NSC | 4 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-10-29 | P0 | TE | DEPUTY SECRETARY TALBOTT'S OCTOBER 1 MEETING WITH HUNGARIAN FOREIGN MINISTER KOVACS | NSC | 5 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698715/C06698715.pdf)
 1996-11-01 | P0 | TE | GEORGIAN FOREIGN MINISTER MENAGHARAISHVILL'S MEETING IN WASHINGTON | Interagency | 6 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698684/C06698684.pdf)
 1996-11-01 | P0 | Memorandum of conversation | Lake Meeting with President Jacques Chirac of France | NSC | 21 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/57563)
+1996-11-05 | P0 | Cable | SYG Solana on AFSOUTH, Ministerials, Bosnia | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-11-06 | P0 | NSC information memorandum | NATO Enlargement, NATO-Russia and START | NSC | 3 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1996-11-06 | P0 | Cable | Ukrainian Ambassador Offers Draft Agreement on "Special Partnership" Between NATO and Ukraine | NSC | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101829)
 1996-11-15 | P0 | TE | DEPUTY SECRETARY MEETING WITH UKRAINIAN FOREIGN MINISTER UDOVENKO | NSC | 7 | state-foia | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698688/C06698688.pdf)
@@ -172,11 +177,6 @@ Date | Priority | Type | Record | Committee | Pages | Source | Link
 1997-05-15 | P0 | Presidential information memorandum | The NATO-Russia Founding Act | NSC | 2 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 1997-05-27 | P0 | Memorandum of conversation | Meeting with President Boris Yeltsin of Russia, May 27, 1997, Paris, France | NSC Records Management | 8 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
 1997-05-30 | P0 | Presidential information memorandum with attached congressional report summary | Costs of NATO Enlargement | NSC | 6 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
-1997-06-09 | P0 | Strategy paper | A Diplomatic and Congressional Strategy for Madrid and Beyond | Principals Committee | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/118449)
-1997-06-09 | P0 | Presidential action memorandum | Deciding Which Countries to Support for NATO Membership at the Madrid Summit | Principals Committee | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
-1997-06-10 | P0 | Presidential briefing memorandum with talking points and Q&A | Meeting with Senate NATO Observer Group (SNOG) | NSC/Senate NATO Observer Group | 13 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
-1997-06-20 | P0 | Memorandum of conversation | Meeting with President Boris Yeltsin of Russia, June 20, 1997, Denver, Colorado | NSC Records Management | 8 | clinton-library-mdr | [open](https://www.clintonlibrary.gov/research/archives/finding-aids/declassified-documents-concerning-russian-president-boris-yeltsin-0)
-1997-06-23 | P0 | Presidential information memorandum | Achieving Allied Consensus on NATO Enlargement: Whether to Set a Date or Name Names for the Second Round | NSC | 8 | clinton-library-mdr | [open](https://clinton.presidentiallibraries.us/items/show/101137)
 
 ## Public Packet Controls Requiring Extraction
 

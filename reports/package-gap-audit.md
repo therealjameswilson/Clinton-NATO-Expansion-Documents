@@ -1,6 +1,6 @@
 # Package Gap Audit
 
-Generated: 2026-06-06T05:26:05.750Z
+Generated: 2026-06-06T05:32:57.575Z
 
 ## What This Pass Proves
 
@@ -34,6 +34,10 @@ Generated: 2026-06-06T05:26:05.750Z
 
 Date | Score | Pages | Record | Source | Themes | Link
 --- | --- | --- | --- | --- | --- | ---
+1996-09-19 | 60 | 5 | ACTING SECRETARY TALBOTT'S MEETING WITH SLOVAK PARLIAMENT CHAIRMAN IVAN GASPAROVIC | state-foia | nato-expansion, pfp, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698252/C06698252.pdf)
+1999-03-26 | 60 | 5 | DEPUTY SECRETARY'S MEETING WITH LITHUANIAN PRIME MINISTER VAGNORIUS | state-foia | nato-expansion, open-door-map, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771225/C06771225.pdf)
+1999-03-29 | 60 | 5 | DEPUTY SECRETARY'S MEETING WITH LITHUANIAN PRIME MINISTER VAGNORIUS | state-foia | nato-expansion, open-door-map, architecture, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771016/C06771016.pdf)
+1996-11-01 | 59 | 6 | GEORGIAN FOREIGN MINISTER MENAGHARAISHVILL'S MEETING IN WASHINGTON | state-foia | nato-expansion, cfe-osce, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698684/C06698684.pdf)
 1999-09-29 | 59 | 7 | Executive Secretariat Sensitive Tasker - To Bratislava E.O. for Change and Acting DCM with attachments | state-foia | nato-expansion, cfe-osce, candidate-states, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Feb2020/F-2017-13804/DOC_0C06814750/C06814750.pdf)
 1996-10-30 | 59 | 5 | DEPUTY SECRETARY'S MEETING WITH CZECH AND POLISH SECURITY DIALOGUE DELEGATIONS | state-foia | nato-expansion, nato-russia, architecture, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06698679/C06698679.pdf)
 1997-02-27 | 59 | 13 | SECRETARY'S MEETING WITH NORTH ATLANTIC COUNCIL OF MINISTERS IN SPECIAL SESSION, 2/18/97. BRUSSEL | state-foia | nato-russia, pfp, nac-usnato, cfe-osce, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06702738/C06702738.pdf)
@@ -90,10 +94,6 @@ Date | Score | Pages | Record | Source | Themes | Link
 1997-03-07 | 49 | 6 | OFFICIAL INFORMAL - DEPUTY SECRETARY'S MEETING WITH PRESIDENTIAL FOREIGN POLICY ADVISOR RYURIKOV | state-foia | nato-russia, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_Aug2019_2020/F-2017-13804/DOC_0C06703610/C06703610.pdf)
 1995-03-07 | 48 | 6 | Memorandum of Conversation - NATO Secretary General Willy Claes | clinton-digital-library | nato-russia, pfp | [open](https://clinton.presidentiallibraries.us/items/show/101431)
 1995-12-07 | 48 | 3 | DEPUTY SECRETARY'S DECEMBER 6 MEETING WITH HINGARIAN PRIME MINISTER HORN | state-foia | nato-expansion, nac-usnato, candidate-states | [open](https://foia.state.gov/DOCUMENTS/FOIA_Jul2019_2020/F-2017-13804/DOC_0C06698143/C06698143.pdf)
-1993-08-26 | 47 | 3 | Agreement on a Euro-Atlantic Partnership for Peace | clinton-library-mdr | pfp, architecture, nsc-soc | [open](https://clinton.presidentiallibraries.us/items/show/118449)
-1999-02-19 | 47 | 6 | DEPSEC MEETING WITH GERMAN FORMIN FISCHER ON 2/4 | state-foia | open-door-map, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771551/C06771551.pdf)
-1999-02-19 | 47 | 7 | DEPSEC MEETING WITH GERMAN MOD STATE SECRETARY STUETZLE ON 2/4 | state-foia | open-door-map, architecture, cfe-osce, nsc-soc | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Apr2021_C/F-2017-13804/DOC_0C06771547/C06771547.pdf)
-1996-10-29 | 47 | 5 | ACTING SECRETARY TALBOTT MEETING WITH KYRGYZ FM OTUNBAYEVA | state-foia | nato-expansion, pfp, cfe-osce | [open](https://foia.state.gov/DOCUMENTS/FOIA_L_Jun2021_LC/F-2017-13804/DOC_0C06698733/C06698733.pdf)
 
 ## Strobe FOIA Hard-Gap Triage
 

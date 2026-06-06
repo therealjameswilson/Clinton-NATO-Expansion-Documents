@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-06T05:26:05.750Z",
+  "generatedAt": "2026-06-06T05:32:57.575Z",
   "lanes": [
     {
       "Lane": "Selected package records",
@@ -9,13 +9,13 @@
     },
     {
       "Lane": "Package-ready public candidates",
-      "Count": 481,
-      "Pages": 2385,
+      "Count": 485,
+      "Pages": 2406,
       "Status": "available for reselection"
     },
     {
       "Lane": "NSC/SOC/minutes attention queue",
-      "Count": 220,
+      "Count": 225,
       "Pages": "",
       "Status": "special review lane"
     },
@@ -27,8 +27,8 @@
     },
     {
       "Lane": "Clinton Library promoted document rows",
-      "Count": 110,
-      "Pages": 578,
+      "Count": 115,
+      "Pages": 604,
       "Status": "document-level rows"
     },
     {
@@ -1063,6 +1063,16 @@
       "packetIdentifier": "2015-0792-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-talbott-paris-scenesetter-1996-09-10",
+      "date": "1996-09-10",
+      "title": "Scenesetter for Deputy Secretary Talbott's September 11-13 Visit to Paris",
+      "pageCount": 6,
+      "sourcePages": "149-154",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0772-m-baltic-action-plan-nato-enlargement-1996-09-17",
       "date": "1996-09-17",
       "title": "Baltic States: Baltic Action Plan and NATO Enlargement",
@@ -1073,11 +1083,41 @@
       "packetIdentifier": "2015-0772-M"
     },
     {
+      "id": "clinton-library-doc-2015-0792-m-perry-solana-bergen-1996-09-27",
+      "date": "1996-09-27",
+      "title": "Informal Defense Ministers Meeting in Bergen, Norway: SecDef Bilat with SYG Solana",
+      "pageCount": 6,
+      "sourcePages": "161-166",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-perry-millon-bergen-1996-09-27",
+      "date": "1996-09-27",
+      "title": "Informal Defense Ministers Meeting in Bergen, Norway: SecDef Bilateral with French MOD Millon",
+      "pageCount": 6,
+      "sourcePages": "155-160",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
       "id": "clinton-library-doc-2015-0792-m-copenhagen-seminar-baltic-nato-1996-10-01",
       "date": "1996-10-01",
       "title": "Copenhagen Seminar: Secretary Perry, UK and German Defense Ministers Say \"Not Yet\" to Baltic NATO Membership; Russians Don't Show",
       "pageCount": 10,
       "sourcePages": "167-176",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-horbulyn-talbott-meetings-1996-10-02",
+      "date": "1996-10-02",
+      "title": "Deputy Secretary's September 16 and 19 Meetings with Ukrainian NSDC Secretary Horbulyn",
+      "pageCount": 5,
+      "sourcePages": "177-181",
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
       "packetIdentifier": "2015-0792-M"
@@ -1111,6 +1151,16 @@
       "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/57563",
       "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/369537c192017e6b05f68d908f1a75e8.pdf",
       "packetIdentifier": "2015-0755-M"
+    },
+    {
+      "id": "clinton-library-doc-2015-0792-m-solana-afsouth-ministerials-bosnia-1996-11-05",
+      "date": "1996-11-05",
+      "title": "SYG Solana on AFSOUTH, Ministerials, Bosnia",
+      "pageCount": 3,
+      "sourcePages": "186-188",
+      "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+      "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+      "packetIdentifier": "2015-0792-M"
     },
     {
       "id": "clinton-library-doc-2015-0772-m-nato-enlargement-russia-start-1996-11-06",

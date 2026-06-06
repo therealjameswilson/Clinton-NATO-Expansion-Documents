@@ -15832,6 +15832,66 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 26."
   },
   {
+    "id": "clinton-library-doc-2015-0792-m-talbott-paris-scenesetter-1996-09-10",
+    "title": "Scenesetter for Deputy Secretary Talbott's September 11-13 Visit to Paris",
+    "date": "1996-09-10",
+    "year": 1996,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 149-154. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "149-154",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "france",
+      "talbott",
+      "nato enlargement",
+      "nato-russia",
+      "internal adaptation"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "NATO-Russia",
+      "France",
+      "NATO internal adaptation",
+      "European security",
+      "Bosnia"
+    ],
+    "people": [
+      "Strobe Talbott",
+      "Jacques Chirac",
+      "Herve de Charette",
+      "Yevgeniy Primakov",
+      "Warren Christopher",
+      "Donald Bandler"
+    ],
+    "countries": [
+      "United States",
+      "France",
+      "Russia",
+      "Germany",
+      "NATO allies"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Embassy Paris briefs Talbott on French movement toward the Stuttgart parallel-track approach, French concerns over Russia and NATO internal adaptation, and the risk of Franco-Russian improvisation if allies appear divided."
+  },
+  {
     "id": "state-foia-C06698220",
     "title": "PARIS ST-MAMEDOV",
     "date": "1996-09-11",
@@ -16281,6 +16341,126 @@
     "notes": "Imported from the local Strobe Talbott FOIA manifest. Public package selection still needs document-level review and duplicate control. Relevance score: 48."
   },
   {
+    "id": "clinton-library-doc-2015-0792-m-perry-solana-bergen-1996-09-27",
+    "title": "Informal Defense Ministers Meeting in Bergen, Norway: SecDef Bilat with SYG Solana",
+    "date": "1996-09-27",
+    "year": 1996,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 161-166. Confidential; declassified in part.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "161-166",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "perry",
+      "solana",
+      "nato-russia",
+      "pfp-plus",
+      "nato enlargement"
+    ],
+    "topics": [
+      "NATO-Russia",
+      "NATO enlargement",
+      "Partnership for Peace Plus",
+      "NATO internal adaptation",
+      "IFOR",
+      "Bergen defense ministers"
+    ],
+    "people": [
+      "William Perry",
+      "Javier Solana",
+      "Robert Hunter",
+      "Walter Slocombe",
+      "Alexander Vershbow",
+      "Leon Fuerth",
+      "Yevgeniy Primakov"
+    ],
+    "countries": [
+      "United States",
+      "Russia",
+      "Ukraine",
+      "NATO allies"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Perry and Solana discuss NATO-Russia, PFP-Plus, IFOR follow-on planning, and keeping NATO united while rejecting Russian attempts to make enlargement merely political or subject to a de facto veto."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-perry-millon-bergen-1996-09-27",
+    "title": "Informal Defense Ministers Meeting in Bergen, Norway: SecDef Bilateral with French MOD Millon",
+    "date": "1996-09-27",
+    "year": 1996,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 155-160. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "155-160",
+    "pageCount": 6,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "perry",
+      "france",
+      "nato enlargement",
+      "nato-russia",
+      "internal adaptation"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "NATO-Russia",
+      "NATO internal adaptation",
+      "AFSOUTH",
+      "IFOR",
+      "Bergen defense ministers"
+    ],
+    "people": [
+      "William Perry",
+      "Charles Millon",
+      "Robert Hunter",
+      "Walter Slocombe",
+      "Franklin Kramer",
+      "Alexander Vershbow",
+      "Leon Fuerth"
+    ],
+    "countries": [
+      "United States",
+      "France",
+      "Russia",
+      "NATO allies"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Perry rejects Millon's effort to condition enlargement discussions on prior NATO adaptation and a NATO-Russia relationship, stressing that Russia should not receive an indirect veto over enlargement."
+  },
+  {
     "id": "state-foia-C06698121",
     "title": "SECRETARY'S PLENARY MEETING WITH RUSSIAN FOREIGN MINISTER PRIMAKOV, 1800-1835 SEPTEMBER23, 1996 NEW YORK",
     "date": "1996-09-27",
@@ -16440,6 +16620,68 @@
       "packetRecordId": "clinton-library-packet-2015-0792-m"
     },
     "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. A Copenhagen seminar records Perry, Portillo, Ruehe, Baltic, Nordic, Polish, and NATO views on Baltic readiness, Article V guarantees, PFP preparation, and Russian absence from the meeting."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-horbulyn-talbott-meetings-1996-10-02",
+    "title": "Deputy Secretary's September 16 and 19 Meetings with Ukrainian NSDC Secretary Horbulyn",
+    "date": "1996-10-02",
+    "year": 1996,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 177-181. Secret; Exdis.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "177-181",
+    "pageCount": 5,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "ukraine",
+      "horbulyn",
+      "nato enlargement",
+      "nato-russia",
+      "duplicate-control"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "Ukraine",
+      "NATO-Ukraine",
+      "NATO-Russia",
+      "Nuclear deployments",
+      "European security"
+    ],
+    "people": [
+      "Strobe Talbott",
+      "Volodymyr Horbulyn",
+      "James Collins",
+      "Yuriy Shcherbak",
+      "Jack Segal",
+      "Erik Edelman"
+    ],
+    "countries": [
+      "United States",
+      "Ukraine",
+      "Russia",
+      "Poland",
+      "Hungary",
+      "Czech Republic",
+      "Baltic states"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "duplicate-control",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection, but held as a duplicate-control row because State FOIA document C06698651 already supplies the package-ready public copy. The cable records Talbott and Horbulyn on NATO enlargement, Ukraine's future eligibility, nuclear deployments, and parallel NATO-Ukraine and NATO-Russia charter ideas."
   },
   {
     "id": "state-foia-C06698651",
@@ -17283,6 +17525,66 @@
       "packetRecordId": "clinton-library-packet-2015-0755-m"
     },
     "notes": "Promoted from the official 2015-0755-M packet after local page-boundary inspection. The long Lake-Chirac memcon includes a major discussion of a 1997 NATO summit, NATO enlargement, a NATO-Russia agreement, France's NATO reintegration, and how not to let Russian delay tactics derail enlargement."
+  },
+  {
+    "id": "clinton-library-doc-2015-0792-m-solana-afsouth-ministerials-bosnia-1996-11-05",
+    "title": "SYG Solana on AFSOUTH, Ministerials, Bosnia",
+    "date": "1996-11-05",
+    "year": 1996,
+    "documentType": "Cable",
+    "sourceClass": "clinton-library-mdr",
+    "sourceUrl": "https://clinton.presidentiallibraries.us/items/show/101829",
+    "pdfUrl": "https://clinton.presidentiallibraries.us/files/original/1fbacf781cad23434c0c3e3f52367c90.pdf",
+    "sourceNote": "Source: Clinton Presidential Records, NSC Cables, Mandatory Declassification Review 2015-0792-M, Clinton Digital Library PDF pages 186-188. Confidential.",
+    "sourceNoteStatus": "Document-level provenance",
+    "sourcePages": "186-188",
+    "pageCount": 3,
+    "pageCountStatus": "known",
+    "priority": "P0",
+    "priorityReasons": [
+      "solana",
+      "afsouth",
+      "nato enlargement",
+      "ministerials",
+      "russia"
+    ],
+    "topics": [
+      "NATO enlargement",
+      "AFSOUTH",
+      "NATO ministerials",
+      "NATO internal adaptation",
+      "Russia",
+      "Bosnia"
+    ],
+    "people": [
+      "Javier Solana",
+      "Robert Hunter",
+      "Anthony Lake",
+      "Jacques Chirac",
+      "Yevgeniy Primakov"
+    ],
+    "countries": [
+      "United States",
+      "France",
+      "Germany",
+      "Russia",
+      "Netherlands",
+      "NATO allies"
+    ],
+    "nscSoc": {
+      "isNscRecord": true,
+      "isSummaryOfConclusions": false,
+      "committee": "NSC",
+      "queuePriority": "front-of-queue"
+    },
+    "inclusionStatus": "include-candidate",
+    "verificationStatus": "ready-for-page-count",
+    "upstream": {
+      "workspace": "live-clinton-library-document-extraction",
+      "packetIdentifier": "2015-0792-M",
+      "packetRecordId": "clinton-library-packet-2015-0792-m"
+    },
+    "notes": "Promoted from the official 2015-0792-M packet after local page-boundary inspection. Hunter briefs Solana on Lake's Paris visit; Solana warns that allied parliamentary support for enlargement is thin, Russia will exploit those hesitations, and December ministerials need positive deliverables despite AFSOUTH and NATO-Russia delays."
   },
   {
     "id": "clinton-library-doc-2015-0772-m-nato-enlargement-russia-start-1996-11-06",
