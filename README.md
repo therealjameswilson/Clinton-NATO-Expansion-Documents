@@ -60,6 +60,9 @@ Target corpus:
 - `data/bernstein-handoff.json` and `data/bernstein-handoff.csv` - version
   2.0 personalization layer for Professor Bernstein, with decisionmaking tags,
   start-here records, reading paths, and withheld NSC/SOC evidence gaps.
+- `data/historiography-print-manifest.json` - offline print manifest for the
+  attached Project MUSE article and public historiography by Goldgeier,
+  Shifrinson, Kramer, Sarotte, Trachtenberg, and related scholars.
 - `data/clinton-library-packet-controls.json` - official Clinton Library MDR
   packet controls awaiting document-level extraction.
 - `data/clinton-library-promoted-documents.json` - document-level rows promoted
@@ -77,6 +80,9 @@ Target corpus:
   rule set, and review queue.
 - `reports/bernstein-handoff.md` - profile-basis report and Bernstein
   reading-path handoff.
+- `reports/bernstein-print-package.md` - local offline PDF build audit,
+  including full-text historiography included locally and citation-only pieces
+  located but not reproduced.
 - `scripts/build-seed-register.mjs` - imports the existing Clinton NATO
   workbench and the local Strobe Talbott FOIA manifest.
 - `scripts/build-package-manifest.mjs` - builds the focused package manifest
@@ -85,6 +91,9 @@ Target corpus:
   membership-expansion dossier from the committed public register.
 - `scripts/build-bernstein-handoff.mjs` - builds the Professor Bernstein
   decisionmaking desk from the version 2.0 dossier and meeting-control audit.
+- `scripts/build-print-package.mjs` - builds the ignored local offline print
+  PDF by merging the 1000-page primary-document package, the Project MUSE
+  attachment, and public historiography PDFs.
 - `scripts/download-package-pdfs.mjs` - local-only downloader/assembler for the
   selected public PDFs under ignored `private/package-pdfs/`.
 - `scripts/validate-package.mjs` - validates the generated register and
@@ -138,6 +147,32 @@ npm run download:package -- --assemble
 
 The assembly command writes the combined PDF and downloaded sources under
 ignored `private/package-pdfs/` and refreshes the public local-build audit.
+
+## Offline Print Packet for Barton Bernstein
+
+Professor Bernstein should be able to read the package without using the
+internet. After the primary 1000-page PDF exists locally, build the print packet
+with:
+
+```bash
+npm run build:print
+```
+
+The command expects:
+
+- `private/package-pdfs/clinton-nato-expansion-bernstein-1000-page-package.pdf`
+- `/Users/jameswilson/Downloads/project_muse_781047.pdf`
+
+It writes:
+
+- `private/print-package/bernstein-nato-expansion-print-packet.pdf`
+- `private/print-package/print-package-audit.json`
+- `reports/bernstein-print-package.md`
+
+The merged PDF and downloaded article PDFs are intentionally ignored by Git.
+The public repo keeps the source manifest and rebuild instructions. Web-only,
+paywalled, or access-controlled historiography is listed in the printed front
+matter with citations and access notes instead of being reproduced in full.
 
 ## Editorial Rules
 

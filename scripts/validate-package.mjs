@@ -8,6 +8,7 @@ const registerPath = path.join(repoRoot, "data", "source-register.json");
 const packageManifestPath = path.join(repoRoot, "data", "package-manifest.json");
 const version2ManifestPath = path.join(repoRoot, "data", "version-2-explicit-expansion.json");
 const bernsteinHandoffPath = path.join(repoRoot, "data", "bernstein-handoff.json");
+const historiographyPrintManifestPath = path.join(repoRoot, "data", "historiography-print-manifest.json");
 const sourceExhaustionPath = path.join(repoRoot, "data", "source-exhaustion-audit.json");
 const clintonMeetingControlsPath = path.join(repoRoot, "data", "clinton-library-meeting-controls.json");
 const requiredReports = [
@@ -19,7 +20,8 @@ const requiredReports = [
   "reports/package-local-build-audit.md",
   "reports/source-exhaustion-audit.md",
   "reports/version-2-explicit-expansion.md",
-  "reports/bernstein-handoff.md"
+  "reports/bernstein-handoff.md",
+  "reports/bernstein-print-package.md"
 ];
 
 function fail(message) {
@@ -31,6 +33,7 @@ const records = JSON.parse(fs.readFileSync(registerPath, "utf8"));
 const packageManifest = JSON.parse(fs.readFileSync(packageManifestPath, "utf8"));
 const version2Manifest = JSON.parse(fs.readFileSync(version2ManifestPath, "utf8"));
 const bernsteinHandoff = JSON.parse(fs.readFileSync(bernsteinHandoffPath, "utf8"));
+const historiographyPrintManifest = JSON.parse(fs.readFileSync(historiographyPrintManifestPath, "utf8"));
 const sourceExhaustion = JSON.parse(fs.readFileSync(sourceExhaustionPath, "utf8"));
 const clintonMeetingControls = JSON.parse(fs.readFileSync(clintonMeetingControlsPath, "utf8"));
 
@@ -108,6 +111,45 @@ for (const record of bernsteinHandoff.records || []) {
   if (!Number.isFinite(Number(record.bernstein?.score))) fail(`Bernstein record lacks numeric score: ${record.id}`);
   if (!record.bernstein?.note) fail(`Bernstein record lacks handoff note: ${record.id}`);
 }
+if (historiographyPrintManifest.version !== "print-1.0") {
+  fail(`expected historiography print manifest print-1.0, found ${historiographyPrintManifest.version}`);
+}
+if (!Array.isArray(historiographyPrintManifest.printPolicy) || historiographyPrintManifest.printPolicy.length < 3) {
+  fail("historiography print manifest missing print policy");
+}
+if (!historiographyPrintManifest.primaryDocumentPackage?.localPath?.startsWith("private/")) {
+  fail("historiography print manifest primary package must point to ignored private path");
+}
+if (!Array.isArray(historiographyPrintManifest.includedFullText) || historiographyPrintManifest.includedFullText.length < 10) {
+  fail("historiography print manifest included full-text set is unexpectedly small");
+}
+if (!Array.isArray(historiographyPrintManifest.citationOnly) || historiographyPrintManifest.citationOnly.length < 10) {
+  fail("historiography print manifest citation-only set is unexpectedly small");
+}
+const printIds = new Set();
+for (const item of historiographyPrintManifest.includedFullText || []) {
+  if (!item.id || printIds.has(item.id)) fail(`bad or duplicate print manifest id: ${item.id}`);
+  printIds.add(item.id);
+  if (!Number(item.order)) fail(`print manifest item missing order: ${item.id}`);
+  if (!item.authors || !item.title || !item.citation) fail(`print manifest item missing citation fields: ${item.id}`);
+  if (!item.rightsMode) fail(`print manifest item missing rightsMode: ${item.id}`);
+  if (!Number(item.expectedPages)) fail(`print manifest item missing expected pages: ${item.id}`);
+  if (!item.pdfUrl && !item.localPath) fail(`print manifest item missing pdfUrl/localPath: ${item.id}`);
+  if (item.localPath && !item.rightsMode.includes("local")) fail(`print manifest local item lacks local rights mode: ${item.id}`);
+}
+for (const requiredId of [
+  "trachtenberg-project-muse-non-extension-2021",
+  "goldgeier-shifrinson-evaluating-nato-enlargement-2020",
+  "shifrinson-deal-or-no-deal-2016",
+  "kramer-myth-no-nato-enlargement-pledge-2009"
+]) {
+  if (!printIds.has(requiredId)) fail(`historiography print manifest missing required item: ${requiredId}`);
+}
+for (const item of historiographyPrintManifest.citationOnly || []) {
+  if (!item.id || !item.authors || !item.title || !item.citation || !item.url || !item.accessNote) {
+    fail(`citation-only print manifest item missing fields: ${item.id || "(missing id)"}`);
+  }
+}
 if (!Array.isArray(sourceExhaustion.clintonLibraryPacketControls) || sourceExhaustion.clintonLibraryPacketControls.length < 5) {
   fail("source-exhaustion audit missing Clinton Library packet controls");
 }
@@ -129,5 +171,5 @@ for (const relativePath of requiredReports) {
 }
 
 if (!process.exitCode) {
-  console.log(`Validated ${records.length} records, ${nscSocCount} NSC/SOC flags, ${knownPages} known pages, ${packageManifest.selectedPageTotal} selected package pages, ${version2Manifest.selectedCount} v2.0 records, and ${bernsteinHandoff.records.length} Bernstein handoff records.`);
+  console.log(`Validated ${records.length} records, ${nscSocCount} NSC/SOC flags, ${knownPages} known pages, ${packageManifest.selectedPageTotal} selected package pages, ${version2Manifest.selectedCount} v2.0 records, ${bernsteinHandoff.records.length} Bernstein handoff records, and ${historiographyPrintManifest.includedFullText.length} print historiography PDFs.`);
 }
