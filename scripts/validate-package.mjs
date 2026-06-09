@@ -7,6 +7,7 @@ const repoRoot = path.resolve(__dirname, "..");
 const registerPath = path.join(repoRoot, "data", "source-register.json");
 const packageManifestPath = path.join(repoRoot, "data", "package-manifest.json");
 const version2ManifestPath = path.join(repoRoot, "data", "version-2-explicit-expansion.json");
+const bernsteinHandoffPath = path.join(repoRoot, "data", "bernstein-handoff.json");
 const sourceExhaustionPath = path.join(repoRoot, "data", "source-exhaustion-audit.json");
 const clintonMeetingControlsPath = path.join(repoRoot, "data", "clinton-library-meeting-controls.json");
 const requiredReports = [
@@ -17,7 +18,8 @@ const requiredReports = [
   "reports/package-gap-audit.md",
   "reports/package-local-build-audit.md",
   "reports/source-exhaustion-audit.md",
-  "reports/version-2-explicit-expansion.md"
+  "reports/version-2-explicit-expansion.md",
+  "reports/bernstein-handoff.md"
 ];
 
 function fail(message) {
@@ -28,6 +30,7 @@ function fail(message) {
 const records = JSON.parse(fs.readFileSync(registerPath, "utf8"));
 const packageManifest = JSON.parse(fs.readFileSync(packageManifestPath, "utf8"));
 const version2Manifest = JSON.parse(fs.readFileSync(version2ManifestPath, "utf8"));
+const bernsteinHandoff = JSON.parse(fs.readFileSync(bernsteinHandoffPath, "utf8"));
 const sourceExhaustion = JSON.parse(fs.readFileSync(sourceExhaustionPath, "utf8"));
 const clintonMeetingControls = JSON.parse(fs.readFileSync(clintonMeetingControlsPath, "utf8"));
 
@@ -85,6 +88,26 @@ for (const record of version2Manifest.selected || []) {
   if (record.sourceClass === "clinton-library-mdr-packet") fail(`Clinton Library packet control entered version 2.0 without extraction: ${record.id}`);
   if (!record.version2?.matches?.length) fail(`version 2.0 record lacks direct expansion match: ${record.id}`);
 }
+if (bernsteinHandoff.version !== "2.0-bernstein") fail(`expected Bernstein handoff version 2.0-bernstein, found ${bernsteinHandoff.version}`);
+if (!Array.isArray(bernsteinHandoff.profileSources) || bernsteinHandoff.profileSources.length < 3) fail("Bernstein handoff missing profile sources");
+for (const source of bernsteinHandoff.profileSources || []) {
+  if (!source.url || !/^https?:\/\//.test(source.url)) fail(`Bernstein profile source missing public URL: ${source.id || source.label}`);
+}
+if (!Array.isArray(bernsteinHandoff.profileSignals) || bernsteinHandoff.profileSignals.length < 3) fail("Bernstein handoff missing profile signals");
+if (!Array.isArray(bernsteinHandoff.researchQuestions) || bernsteinHandoff.researchQuestions.length < 5) fail("Bernstein handoff missing research questions");
+if (!Array.isArray(bernsteinHandoff.records) || bernsteinHandoff.records.length !== version2Manifest.selected.length) {
+  fail(`Bernstein handoff record count ${bernsteinHandoff.records?.length || 0} does not match v2.0 ${version2Manifest.selected.length}`);
+}
+if (!Array.isArray(bernsteinHandoff.startHere) || bernsteinHandoff.startHere.length < 10) fail("Bernstein handoff start-here sequence is unexpectedly small");
+if (!Array.isArray(bernsteinHandoff.readingPaths) || bernsteinHandoff.readingPaths.length < 5) fail("Bernstein handoff missing reading paths");
+if (!Array.isArray(bernsteinHandoff.withheldMeetingControls) || bernsteinHandoff.withheldMeetingControls.length < 5) {
+  fail("Bernstein handoff missing withheld meeting/SOC controls");
+}
+for (const record of bernsteinHandoff.records || []) {
+  if (!record.bernstein?.tags?.length) fail(`Bernstein record lacks tags: ${record.id}`);
+  if (!Number.isFinite(Number(record.bernstein?.score))) fail(`Bernstein record lacks numeric score: ${record.id}`);
+  if (!record.bernstein?.note) fail(`Bernstein record lacks handoff note: ${record.id}`);
+}
 if (!Array.isArray(sourceExhaustion.clintonLibraryPacketControls) || sourceExhaustion.clintonLibraryPacketControls.length < 5) {
   fail("source-exhaustion audit missing Clinton Library packet controls");
 }
@@ -106,5 +129,5 @@ for (const relativePath of requiredReports) {
 }
 
 if (!process.exitCode) {
-  console.log(`Validated ${records.length} records, ${nscSocCount} NSC/SOC flags, ${knownPages} known pages, ${packageManifest.selectedPageTotal} selected package pages, and ${version2Manifest.selectedCount} v2.0 records.`);
+  console.log(`Validated ${records.length} records, ${nscSocCount} NSC/SOC flags, ${knownPages} known pages, ${packageManifest.selectedPageTotal} selected package pages, ${version2Manifest.selectedCount} v2.0 records, and ${bernsteinHandoff.records.length} Bernstein handoff records.`);
 }

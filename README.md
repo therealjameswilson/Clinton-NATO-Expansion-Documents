@@ -57,6 +57,9 @@ Target corpus:
   `data/version-2-explicit-expansion.csv` - version 2.0 dossier isolating
   document rows where policymakers explicitly discuss whether, whom, when, or
   how to expand NATO membership.
+- `data/bernstein-handoff.json` and `data/bernstein-handoff.csv` - version
+  2.0 personalization layer for Professor Bernstein, with decisionmaking tags,
+  start-here records, reading paths, and withheld NSC/SOC evidence gaps.
 - `data/clinton-library-packet-controls.json` - official Clinton Library MDR
   packet controls awaiting document-level extraction.
 - `data/clinton-library-promoted-documents.json` - document-level rows promoted
@@ -72,12 +75,16 @@ Target corpus:
   requiring extraction or promotion.
 - `reports/version-2-explicit-expansion.md` - readable version 2.0 manifest,
   rule set, and review queue.
+- `reports/bernstein-handoff.md` - profile-basis report and Bernstein
+  reading-path handoff.
 - `scripts/build-seed-register.mjs` - imports the existing Clinton NATO
   workbench and the local Strobe Talbott FOIA manifest.
 - `scripts/build-package-manifest.mjs` - builds the focused package manifest
   from the committed public register.
 - `scripts/build-version-2.mjs` - builds the narrower version 2.0 explicit
   membership-expansion dossier from the committed public register.
+- `scripts/build-bernstein-handoff.mjs` - builds the Professor Bernstein
+  decisionmaking desk from the version 2.0 dossier and meeting-control audit.
 - `scripts/download-package-pdfs.mjs` - local-only downloader/assembler for the
   selected public PDFs under ignored `private/package-pdfs/`.
 - `scripts/validate-package.mjs` - validates the generated register and
@@ -90,6 +97,7 @@ Target corpus:
 ```bash
 npm run build
 npm run build:v2
+npm run build:bernstein
 npm test
 ```
 
@@ -101,6 +109,7 @@ local sibling workspaces, run:
 npm run refresh:source-register
 npm run build
 npm run build:v2
+npm run build:bernstein
 npm test
 ```
 

@@ -72,6 +72,10 @@ main {
   padding: 24px 28px 36px;
 }
 
+.handoff-main {
+  width: min(1600px, 100%);
+}
+
 .metrics {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -110,6 +114,57 @@ main {
   gap: 12px;
   align-items: end;
   margin-bottom: 14px;
+}
+
+.bernstein-toolbar {
+  grid-template-columns: minmax(220px, 1.4fr) minmax(210px, 1fr) minmax(160px, 0.8fr) minmax(180px, 0.8fr) 130px 120px;
+}
+
+.section-block {
+  margin-bottom: 22px;
+}
+
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 0 0 10px;
+}
+
+h2 {
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+
+.section-count {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.questions-block {
+  padding: 16px 18px;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: #fbfcfb;
+}
+
+.question-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 24px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.question-list li {
+  padding-left: 4px;
+  color: #33404a;
+  font-size: 14px;
+  line-height: 1.45;
 }
 
 label {
@@ -201,6 +256,44 @@ tbody tr:hover {
   font-size: 12px;
 }
 
+.compact-table table {
+  min-width: 760px;
+}
+
+.tag-list {
+  display: flex;
+  max-width: 360px;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  padding: 2px 7px;
+  border: 1px solid #cbd6dc;
+  border-radius: 999px;
+  background: #f2f5f4;
+  color: #33404a;
+  font-size: 11px;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.score {
+  display: inline-flex;
+  min-width: 36px;
+  justify-content: center;
+  padding: 4px 7px;
+  border-radius: 6px;
+  background: var(--blue);
+  color: white;
+  font-size: 12px;
+  font-weight: 850;
+  font-variant-numeric: tabular-nums;
+}
+
 .pill {
   display: inline-flex;
   min-width: 36px;
@@ -239,5 +332,8 @@ tbody tr:hover {
   .toolbar {
     grid-template-columns: 1fr;
   }
-}
 
+  .question-list {
+    grid-template-columns: 1fr;
+  }
+}

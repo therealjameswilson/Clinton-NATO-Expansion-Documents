@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Barton Bernstein Handoff</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Barton Bernstein decisionmaking desk</p>
+        <h1>Clinton NATO Expansion Documents: Bernstein Handoff</h1>
+      </div>
+      <nav class="links" aria-label="Handoff links">
+        <a href="../">Version 1.0</a>
+        <a href="../v2/">Version 2.0</a>
+        <a href="../reports/bernstein-handoff.md">Handoff Report</a>
+        <a href="../data/bernstein-handoff.csv">CSV</a>
+        <a href="../data/bernstein-handoff.json">JSON</a>
+      </nav>
+    </header>
+
+    <main class="handoff-main">
+      <section class="metrics" aria-label="Bernstein handoff metrics">
+        <div class="metric">
+          <span class="metric-value" id="coreRecords">0</span>
+          <span class="metric-label">explicit records</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value" id="corePages">0</span>
+          <span class="metric-label">explicit pages</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value" id="startHereCount">0</span>
+          <span class="metric-label">start-here records</span>
+        </div>
+        <div class="metric">
+          <span class="metric-value" id="withheldCount">0</span>
+          <span class="metric-label">withheld SOC/minutes</span>
+        </div>
+      </section>
+
+      <section class="section-block" aria-label="Profile basis">
+        <div class="section-head">
+          <h2>Profile Basis</h2>
+        </div>
+        <div class="table-wrap compact-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Signal</th>
+                <th>Handoff Use</th>
+                <th>Source</th>
+              </tr>
+            </thead>
+            <tbody id="profileRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section-block questions-block" aria-label="Research questions">
+        <div class="section-head">
+          <h2>Research Questions</h2>
+        </div>
+        <ol class="question-list" id="questionList"></ol>
+      </section>
+
+      <section class="section-block" aria-label="Start here sequence">
+        <div class="section-head">
+          <h2>Start Here</h2>
+        </div>
+        <div class="table-wrap compact-table">
+          <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Date</th>
+                <th>Lane</th>
+                <th>Record</th>
+                <th>Tags</th>
+                <th>Pages</th>
+              </tr>
+            </thead>
+            <tbody id="startRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="toolbar bernstein-toolbar" aria-label="Bernstein filters">
+        <label>
+          Search
+          <input id="searchInput" type="search" autocomplete="off">
+        </label>
+        <label>
+          Path
+          <select id="pathFilter">
+            <option value="">All paths</option>
+          </select>
+        </label>
+        <label>
+          Tag
+          <select id="tagFilter">
+            <option value="">All tags</option>
+          </select>
+        </label>
+        <label>
+          Source
+          <select id="sourceFilter">
+            <option value="">All sources</option>
+          </select>
+        </label>
+        <label class="toggle">
+          <input id="startOnly" type="checkbox">
+          Start here
+        </label>
+        <label class="toggle">
+          <input id="nscOnly" type="checkbox">
+          NSC/SOC
+        </label>
+      </section>
+
+      <section class="section-block" aria-label="Bernstein weighted records">
+        <div class="section-head">
+          <h2>Weighted Records</h2>
+          <span id="filteredCount" class="section-count">0 records</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Score</th>
+                <th>Date</th>
+                <th>Lane</th>
+                <th>Record</th>
+                <th>Tags</th>
+                <th>Source</th>
+                <th>Pages</th>
+              </tr>
+            </thead>
+            <tbody id="recordRows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section-block" aria-label="Withheld minutes and summaries of conclusions">
+        <div class="section-head">
+          <h2>Withheld SOC/Minutes</h2>
+        </div>
+        <div class="table-wrap compact-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Committee</th>
+                <th>Record</th>
+                <th>Packet</th>
+                <th>Status</th>
+                <th>Withdrawal Pages</th>
+              </tr>
+            </thead>
+            <tbody id="gapRows"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

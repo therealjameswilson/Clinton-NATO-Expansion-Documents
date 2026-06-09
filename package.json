@@ -9,9 +9,10 @@
     "refresh:source-register": "node scripts/build-seed-register.mjs",
     "build:package": "node scripts/build-package-manifest.mjs",
     "build:v2": "node scripts/build-version-2.mjs",
+    "build:bernstein": "node scripts/build-bernstein-handoff.mjs",
     "download:package": "node scripts/download-package-pdfs.mjs",
     "test": "node scripts/validate-package.mjs",
-    "check": "npm run build && npm test"
+    "check": "npm run build && npm run build:v2 && npm run build:bernstein && npm test"
   },
   "license": "CC0-1.0"
 }
