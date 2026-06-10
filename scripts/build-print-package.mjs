@@ -283,6 +283,7 @@ async function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
   let officialAnnotationPages = 0;
   let detectedOfficialAnnotationRecords = 0;
   let missingOfficialAnnotationRecords = 0;
+  const missingOfficialAnnotationBySourceClass = new Map();
   let documentPages = 0;
   for (const [index, record] of records.entries()) {
     const order = String(index + 1).padStart(3, "0");
@@ -340,6 +341,8 @@ async function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
       slices.push(officialAnnotationPath);
     } else {
       missingOfficialAnnotationRecords += 1;
+      const sourceClass = record.sourceClass || "unknown";
+      missingOfficialAnnotationBySourceClass.set(sourceClass, (missingOfficialAnnotationBySourceClass.get(sourceClass) || 0) + 1);
     }
 
     execFileSync("qpdf", [
@@ -399,6 +402,7 @@ async function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
     officialAnnotationPages,
     detectedOfficialAnnotationRecords,
     missingOfficialAnnotationRecords,
+    missingOfficialAnnotationBySourceClass: Object.fromEntries([...missingOfficialAnnotationBySourceClass.entries()].sort()),
     totalPrimaryPages: info.pages
   };
 }
@@ -518,7 +522,8 @@ async function main() {
       generatedAnnotationPages: chronologicalPrimary.generatedAnnotationPages,
       officialAnnotationPages: chronologicalPrimary.officialAnnotationPages,
       detectedOfficialAnnotationRecords: chronologicalPrimary.detectedOfficialAnnotationRecords,
-      missingOfficialAnnotationRecords: chronologicalPrimary.missingOfficialAnnotationRecords
+      missingOfficialAnnotationRecords: chronologicalPrimary.missingOfficialAnnotationRecords,
+      missingOfficialAnnotationBySourceClass: chronologicalPrimary.missingOfficialAnnotationBySourceClass
     },
     included: included.map((item) => ({
       id: item.id,
@@ -600,6 +605,7 @@ async function main() {
       officialAnnotationPages: chronologicalPrimary.officialAnnotationPages,
       detectedOfficialAnnotationRecords: chronologicalPrimary.detectedOfficialAnnotationRecords,
       missingOfficialAnnotationRecords: chronologicalPrimary.missingOfficialAnnotationRecords,
+      missingOfficialAnnotationBySourceClass: chronologicalPrimary.missingOfficialAnnotationBySourceClass,
       records: chronologicalPrimary.records
     },
     includedFullText: included.map((item) => ({
@@ -645,6 +651,9 @@ async function main() {
     "Page URL": item.pageUrl || "",
     "PDF URL": item.pdfUrl || "local user-provided PDF"
   }));
+  const missingAnnotationBreakdown = Object.entries(audit.primary.missingOfficialAnnotationBySourceClass || {})
+    .map(([sourceClass, count]) => `${sourceClass}: ${count}`)
+    .join("; ") || "none";
 
   fs.mkdirSync(path.dirname(reportPath), { recursive: true });
   fs.writeFileSync(reportPath, `# Bernstein Offline Print Package
@@ -667,6 +676,7 @@ and downloaded article PDFs remain under ignored \`private/\`.
 - Official source-packet annotation/control/withdrawal pages included: ${audit.primary.officialAnnotationPages}
 - Primary records with detected official sheets: ${audit.primary.detectedOfficialAnnotationRecords}
 - Primary records with generated provenance sheet only: ${audit.primary.missingOfficialAnnotationRecords}
+- Generated-only source-class breakdown: ${missingAnnotationBreakdown}
 - Primary-document order: chronological by document date (${audit.primary.firstDate} to ${audit.primary.lastDate})
 - Primary-document order check: ${audit.primary.sortedViolations} chronological violations after rebuild; ${audit.primary.originalOrderViolations} date-order reversals in the prior package-order sequence
 - Full-text historiography PDFs appended: ${audit.includedFullText.length}
@@ -687,6 +697,7 @@ offline without separating a document from its provenance sheet.
 - Document-text pages: ${audit.primary.documentPages}
 - Generated annotation sheets: ${audit.primary.generatedAnnotationPages}
 - Official source-packet annotation/control/withdrawal pages: ${audit.primary.officialAnnotationPages}
+- Generated-only source-class breakdown: ${missingAnnotationBreakdown}
 - First primary document date: ${audit.primary.firstDate}
 - Last primary document date: ${audit.primary.lastDate}
 - Chronological order violations after rebuild: ${audit.primary.sortedViolations}

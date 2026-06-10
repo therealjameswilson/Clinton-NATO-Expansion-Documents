@@ -1,6 +1,6 @@
 # Bernstein Offline Print Package
 
-Generated: 2026-06-10T02:18:30.212Z
+Generated: 2026-06-10T02:23:48.992Z
 
 This report records the local print build for Professor Barton Bernstein. The
 public repository tracks the manifest, source URLs, and scripts. The merged PDF
@@ -18,6 +18,7 @@ and downloaded article PDFs remain under ignored `private/`.
 - Official source-packet annotation/control/withdrawal pages included: 305
 - Primary records with detected official sheets: 133
 - Primary records with generated provenance sheet only: 45
+- Generated-only source-class breakdown: clinton-library-mdr: 8; nara-iscap: 1; state-foia: 36
 - Primary-document order: chronological by document date (1993-04-19 to 2000-11-13)
 - Primary-document order check: 0 chronological violations after rebuild; 34 date-order reversals in the prior package-order sequence
 - Full-text historiography PDFs appended: 12
@@ -38,6 +39,7 @@ offline without separating a document from its provenance sheet.
 - Document-text pages: 1000
 - Generated annotation sheets: 178
 - Official source-packet annotation/control/withdrawal pages: 305
+- Generated-only source-class breakdown: clinton-library-mdr: 8; nara-iscap: 1; state-foia: 36
 - First primary document date: 1993-04-19
 - Last primary document date: 2000-11-13
 - Chronological order violations after rebuild: 0
