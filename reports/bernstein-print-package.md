@@ -1,6 +1,6 @@
 # Bernstein Offline Print Package
 
-Generated: 2026-06-10T01:56:34.635Z
+Generated: 2026-06-10T02:18:30.212Z
 
 This report records the local print build for Professor Barton Bernstein. The
 public repository tracks the manifest, source URLs, and scripts. The merged PDF
@@ -9,10 +9,15 @@ and downloaded article PDFs remain under ignored `private/`.
 ## Result
 
 - Local print PDF: `private/print-package/bernstein-nato-expansion-print-packet.pdf`
-- Final pages: 2001
-- Final bytes: 63416078
+- Final pages: 2484
+- Final bytes: 75823963
 - Front-matter pages: 8
-- Primary-document pages: 1000
+- Primary-section pages: 1483
+- Primary document-text pages: 1000
+- Generated per-document annotation sheets: 178
+- Official source-packet annotation/control/withdrawal pages included: 305
+- Primary records with detected official sheets: 133
+- Primary records with generated provenance sheet only: 45
 - Primary-document order: chronological by document date (1993-04-19 to 2000-11-13)
 - Primary-document order check: 0 chronological violations after rebuild; 34 date-order reversals in the prior package-order sequence
 - Full-text historiography PDFs appended: 12
@@ -21,14 +26,18 @@ and downloaded article PDFs remain under ignored `private/`.
 
 ## Primary Document Order
 
-The print build slices the existing 1000-page primary-document PDF by the page
-spans in `data/package-manifest.json`, sorts the 178 document slices by
-document date, and re-merges them before appending the historiographical reader.
-This preserves the exact selected corpus while making the primary-document
-section chronological for offline reading.
+The print build keeps the same 178 selected primary records and 1000 pages of
+document text. It then rebuilds the primary section chronologically. Each
+record is printed as a mini-bundle: a generated package annotation sheet,
+official source-packet annotation/control/withdrawal sheet pages when detected,
+and the selected document text. This makes the primary-document section usable
+offline without separating a document from its provenance sheet.
 
 - Chronological primary PDF: `private/print-package/working/primary-documents-chronological.pdf`
 - Baseline source PDF: `private/package-pdfs/clinton-nato-expansion-bernstein-1000-page-package.pdf`
+- Document-text pages: 1000
+- Generated annotation sheets: 178
+- Official source-packet annotation/control/withdrawal pages: 305
 - First primary document date: 1993-04-19
 - Last primary document date: 2000-11-13
 - Chronological order violations after rebuild: 0

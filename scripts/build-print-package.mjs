@@ -9,15 +9,21 @@ const manifestPath = path.join(repoRoot, "data", "historiography-print-manifest.
 const bernsteinPath = path.join(repoRoot, "data", "bernstein-handoff.json");
 const packageManifestPath = path.join(repoRoot, "data", "package-manifest.json");
 const renderScriptPath = path.join(repoRoot, "scripts", "render-print-frontmatter.py");
+const renderPrimaryAnnotationScriptPath = path.join(repoRoot, "scripts", "render-primary-annotation-sheets.py");
 const outputRoot = path.join(repoRoot, "private", "print-package");
 const sourceRoot = path.join(outputRoot, "sources");
 const workingRoot = path.join(outputRoot, "working");
 const dividerRoot = path.join(workingRoot, "dividers");
+const packageSourceRoot = path.join(repoRoot, "private", "package-pdfs", "sources");
 const reportPath = path.join(repoRoot, "reports", "bernstein-print-package.md");
 const auditPath = path.join(outputRoot, "print-package-audit.json");
 const frontmatterDataPath = path.join(workingRoot, "frontmatter-data.json");
+const primaryAnnotationInputPath = path.join(workingRoot, "primary-annotation-input.json");
 const frontmatterPdfPath = path.join(workingRoot, "000-frontmatter.pdf");
 const chronologicalPrimaryRoot = path.join(workingRoot, "primary-chronological");
+const primaryAnnotationRoot = path.join(workingRoot, "primary-annotation-sheets");
+const officialAnnotationRoot = path.join(workingRoot, "primary-official-annotation-sheets");
+const primaryDocumentRoot = path.join(workingRoot, "primary-documents");
 const chronologicalPrimaryPdfPath = path.join(workingRoot, "primary-documents-chronological.pdf");
 const normalizedChronologicalPrimaryPdfPath = path.join(workingRoot, "primary-documents-chronological.normalized.pdf");
 const finalPdfPath = path.join(outputRoot, "bernstein-nato-expansion-print-packet.pdf");
@@ -36,6 +42,13 @@ function safeName(value) {
     .replace(/[^a-zA-Z0-9._-]+/g, "-")
     .replace(/^-|-$/g, "")
     .slice(0, 130);
+}
+
+function packageSourceSafeName(value) {
+  return String(value || "record")
+    .replace(/[^a-zA-Z0-9._-]+/g, "-")
+    .replace(/^-|-$/g, "")
+    .slice(0, 120);
 }
 
 function markdownEscape(value) {
@@ -92,6 +105,30 @@ function shellQuote(value) {
   return `'${String(value).replace(/'/g, "'\\''")}'`;
 }
 
+function selectedSourcePath(record) {
+  return path.join(packageSourceRoot, `${String(record.packageOrder).padStart(3, "0")}-${packageSourceSafeName(record.id)}.pdf`);
+}
+
+const sourcePathByUrl = new Map();
+
+async function ensureSelectedSource(record) {
+  const key = record.pdfUrl || record.sourceUrl || record.id;
+  if (sourcePathByUrl.has(key)) return sourcePathByUrl.get(key);
+  const target = selectedSourcePath(record);
+  if (fs.existsSync(target)) {
+    sourcePathByUrl.set(key, target);
+    return target;
+  }
+  const url = record.pdfUrl || record.sourceUrl;
+  if (!url || !/^https?:\/\//i.test(url)) {
+    fail(`Missing local source PDF and public PDF URL for selected record: ${record.id}`);
+  }
+  fs.mkdirSync(path.dirname(target), { recursive: true });
+  await download(url, target);
+  sourcePathByUrl.set(key, target);
+  return target;
+}
+
 function recordDateKey(record) {
   return [
     record.date || "9999-99-99",
@@ -128,11 +165,111 @@ function packagePageRange(record) {
   return `${record.packagePageStart}-${record.packagePageEnd}`;
 }
 
-function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
+function sourcePageRange(record) {
+  const pages = String(record.sourcePages || "").trim();
+  if (!pages) return "1-z";
+  const match = pages.match(/\d+(?:-\d+)?(?:\s*,\s*\d+(?:-\d+)?)*/);
+  if (!match) return "1-z";
+  return match[0].replace(/\s+/g, "");
+}
+
+function firstPageFromRange(range) {
+  const match = String(range || "").match(/\d+/);
+  return match ? Number(match[0]) : 1;
+}
+
+function pagesToRange(pages) {
+  const values = [...new Set(pages)].sort((a, b) => a - b);
+  const parts = [];
+  let start = null;
+  let previous = null;
+  for (const page of values) {
+    if (start === null) {
+      start = page;
+      previous = page;
+    } else if (page === previous + 1) {
+      previous = page;
+    } else {
+      parts.push(start === previous ? String(start) : `${start}-${previous}`);
+      start = page;
+      previous = page;
+    }
+  }
+  if (start !== null) parts.push(start === previous ? String(start) : `${start}-${previous}`);
+  return parts.join(",");
+}
+
+const pageTextCache = new Map();
+
+function pageText(filePath, page) {
+  const key = `${filePath}#${page}`;
+  if (pageTextCache.has(key)) return pageTextCache.get(key);
+  let text = "";
+  try {
+    text = execFileSync("pdftotext", ["-f", String(page), "-l", String(page), filePath, "-"], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+      timeout: 1500
+    });
+  } catch {
+    text = "";
+  }
+  pageTextCache.set(key, text);
+  return text;
+}
+
+function isWithdrawalOrMarkerPage(text) {
+  return /Withdrawal\/Redaction Sheet|Withdrawal Sheet|Redaction Sheet|DOCUMENT NO\. AND TYPE|MR MARKER|Case Number:|This is not a textual record|Folder Title|Original OA\/ID Number/i.test(text);
+}
+
+function isRoutingOrControlPage(text) {
+  return /RECORD ID:|ACTION DATA SUMMARY REPORT|NSC\/RMO PROFILE|DOCLOG|DOC ACTION OFFICER|National Security Council\s+The White House|RECEIVED:\s+\d|SOURCE REF:|KEYWORDS:/i.test(text);
+}
+
+function isOfficialAnnotationPage(text) {
+  return isWithdrawalOrMarkerPage(text) || isRoutingOrControlPage(text);
+}
+
+function findOfficialAnnotationPages(sourcePdf, startPage) {
+  const immediate = [];
+  for (let page = startPage - 1; page >= Math.max(1, startPage - 8); page -= 1) {
+    if (!isOfficialAnnotationPage(pageText(sourcePdf, page))) break;
+    immediate.unshift(page);
+  }
+  if (immediate.length) return immediate;
+
+  let lastBlock = [];
+  let currentBlock = [];
+  for (let page = Math.max(1, startPage - 80); page < startPage; page += 1) {
+    if (isWithdrawalOrMarkerPage(pageText(sourcePdf, page))) {
+      currentBlock.push(page);
+    } else if (currentBlock.length) {
+      lastBlock = currentBlock;
+      currentBlock = [];
+    }
+  }
+  if (currentBlock.length) lastBlock = currentBlock;
+  return lastBlock;
+}
+
+function annotationNoteFor(record, officialPages) {
+  if (officialPages.length) {
+    return `This generated sheet is followed by official source-packet annotation/control material extracted from PDF page(s) ${pagesToRange(officialPages)}, then by the selected document text.`;
+  }
+  return "No separate official withdrawal/control sheet was detected immediately before or in the current source-packet block for this record. This generated sheet supplies the package provenance before the selected document text.";
+}
+
+async function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
   const selected = packageManifest.selected || [];
   if (!selected.length) fail("Package manifest has no selected primary documents.");
   fs.rmSync(chronologicalPrimaryRoot, { recursive: true, force: true });
   fs.mkdirSync(chronologicalPrimaryRoot, { recursive: true });
+  fs.rmSync(primaryAnnotationRoot, { recursive: true, force: true });
+  fs.mkdirSync(primaryAnnotationRoot, { recursive: true });
+  fs.rmSync(officialAnnotationRoot, { recursive: true, force: true });
+  fs.mkdirSync(officialAnnotationRoot, { recursive: true });
+  fs.rmSync(primaryDocumentRoot, { recursive: true, force: true });
+  fs.mkdirSync(primaryDocumentRoot, { recursive: true });
 
   const originalOrderViolations = countDateOrderViolations(selected);
   const records = [...selected].sort(compareRecordsByDate);
@@ -141,40 +278,110 @@ function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
 
   const slices = [];
   const chronology = [];
+  const annotationInputs = [];
+  let generatedAnnotationPages = 0;
+  let officialAnnotationPages = 0;
+  let detectedOfficialAnnotationRecords = 0;
+  let missingOfficialAnnotationRecords = 0;
+  let documentPages = 0;
   for (const [index, record] of records.entries()) {
     const order = String(index + 1).padStart(3, "0");
-    const slicePath = path.join(chronologicalPrimaryRoot, `${order}-${safeName(record.id)}.pdf`);
+    const range = sourcePageRange(record);
+    const useBaselineDocumentSlice = record.sourceClass === "state-foia";
+    const selectedSourcePdf = useBaselineDocumentSlice ? "" : await ensureSelectedSource(record);
+    const documentSourcePdf = useBaselineDocumentSlice ? primaryLocalPath : selectedSourcePdf;
+    const documentRange = useBaselineDocumentSlice ? packagePageRange(record) : range;
+    const startPage = firstPageFromRange(range);
+    const officialPages = useBaselineDocumentSlice
+      ? []
+      : findOfficialAnnotationPages(selectedSourcePdf, startPage);
+    const generatedAnnotationPath = path.join(primaryAnnotationRoot, `${order}-${safeName(record.id)}.annotation.pdf`);
+    const officialAnnotationPath = path.join(officialAnnotationRoot, `${order}-${safeName(record.id)}.official-annotation.pdf`);
+    const documentPath = path.join(primaryDocumentRoot, `${order}-${safeName(record.id)}.document.pdf`);
+
+    annotationInputs.push({
+      outputPath: generatedAnnotationPath,
+      chronologicalOrder: index + 1,
+      originalPackageOrder: record.packageOrder,
+      id: record.id,
+      date: record.date,
+      title: record.title,
+      documentPages: record.pageCount,
+      sourceClass: record.sourceClass,
+      sourcePages: useBaselineDocumentSlice ? `${range} (document text extracted from baseline package pages ${documentRange})` : range,
+      officialAnnotationPages: officialPages.length ? pagesToRange(officialPages) : "not detected in source PDF",
+      officialAnnotationStatus: officialPages.length ? "official source-packet sheet(s) included after this generated annotation sheet" : "generated provenance sheet only",
+      sourceUrl: record.sourceUrl || "",
+      pdfUrl: record.pdfUrl || "",
+      sourceNote: record.sourceNote || "",
+      annotationNote: annotationNoteFor(record, officialPages)
+    });
+    generatedAnnotationPages += 1;
+
+    slices.push(generatedAnnotationPath);
+
+    let officialAnnotationRange = "";
+    let officialAnnotationPageCount = 0;
+    if (officialPages.length) {
+      officialAnnotationRange = pagesToRange(officialPages);
+      execFileSync("qpdf", [
+        "--warning-exit-0",
+        "--empty",
+        "--pages",
+        selectedSourcePdf,
+        officialAnnotationRange,
+        "--",
+        officialAnnotationPath
+      ], { stdio: "ignore" });
+      const officialInfo = pdfInfo(officialAnnotationPath);
+      officialAnnotationPageCount = officialInfo.pages;
+      officialAnnotationPages += officialAnnotationPageCount;
+      detectedOfficialAnnotationRecords += 1;
+      slices.push(officialAnnotationPath);
+    } else {
+      missingOfficialAnnotationRecords += 1;
+    }
+
     execFileSync("qpdf", [
       "--warning-exit-0",
       "--empty",
       "--pages",
-      primaryLocalPath,
-      packagePageRange(record),
+      documentSourcePdf,
+      documentRange,
       "--",
-      slicePath
+      documentPath
     ], { stdio: "ignore" });
-    const sliceInfo = pdfInfo(slicePath);
+    const sliceInfo = pdfInfo(documentPath);
     if (sliceInfo.pages !== Number(record.pageCount)) {
       fail(`Chronological slice page mismatch for ${record.id}: expected ${record.pageCount}, got ${sliceInfo.pages}`);
     }
-    slices.push(slicePath);
+    documentPages += sliceInfo.pages;
+    slices.push(documentPath);
     chronology.push({
       chronologicalOrder: index + 1,
       originalPackageOrder: record.packageOrder,
       id: record.id,
       date: record.date,
       title: record.title,
-      pages: record.pageCount,
-      sourcePackagePages: packagePageRange(record)
+      documentPages: record.pageCount,
+      generatedAnnotationPages: 1,
+      officialAnnotationPages: officialAnnotationPageCount,
+      officialAnnotationSourcePages: officialAnnotationRange || "",
+      sourcePdfPages: useBaselineDocumentSlice ? documentRange : range,
+      sourcePackagePages: packagePageRange(record),
+      sourceClass: record.sourceClass
     });
   }
+
+  writeJson(primaryAnnotationInputPath, annotationInputs);
+  execFileSync(python, [renderPrimaryAnnotationScriptPath, primaryAnnotationInputPath], { stdio: "inherit" });
 
   execFileSync("pdfunite", slices.concat(chronologicalPrimaryPdfPath), { stdio: "inherit" });
   normalizePdf(chronologicalPrimaryPdfPath, normalizedChronologicalPrimaryPdfPath);
   fs.renameSync(normalizedChronologicalPrimaryPdfPath, chronologicalPrimaryPdfPath);
   execFileSync("qpdf", ["--warning-exit-0", "--check", chronologicalPrimaryPdfPath], { stdio: "inherit" });
   const info = pdfInfo(chronologicalPrimaryPdfPath);
-  const expectedPages = selected.reduce((sum, record) => sum + Number(record.pageCount || 0), 0);
+  const expectedPages = documentPages + generatedAnnotationPages + officialAnnotationPages;
   if (info.pages !== expectedPages) {
     fail(`Chronological primary page mismatch: expected ${expectedPages}, got ${info.pages}`);
   }
@@ -186,7 +393,13 @@ function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
     originalOrderViolations,
     sortedViolations,
     firstDate: chronology[0]?.date || "",
-    lastDate: chronology.at(-1)?.date || ""
+    lastDate: chronology.at(-1)?.date || "",
+    documentPages,
+    generatedAnnotationPages,
+    officialAnnotationPages,
+    detectedOfficialAnnotationRecords,
+    missingOfficialAnnotationRecords,
+    totalPrimaryPages: info.pages
   };
 }
 
@@ -279,7 +492,7 @@ async function main() {
     return;
   }
 
-  const chronologicalPrimary = buildChronologicalPrimary(primaryLocalPath, packageManifest);
+  const chronologicalPrimary = await buildChronologicalPrimary(primaryLocalPath, packageManifest);
 
   const frontmatterData = {
     manifest,
@@ -300,7 +513,12 @@ async function main() {
       firstDate: chronologicalPrimary.firstDate,
       lastDate: chronologicalPrimary.lastDate,
       originalOrderViolations: chronologicalPrimary.originalOrderViolations,
-      sortedViolations: chronologicalPrimary.sortedViolations
+      sortedViolations: chronologicalPrimary.sortedViolations,
+      documentPages: chronologicalPrimary.documentPages,
+      generatedAnnotationPages: chronologicalPrimary.generatedAnnotationPages,
+      officialAnnotationPages: chronologicalPrimary.officialAnnotationPages,
+      detectedOfficialAnnotationRecords: chronologicalPrimary.detectedOfficialAnnotationRecords,
+      missingOfficialAnnotationRecords: chronologicalPrimary.missingOfficialAnnotationRecords
     },
     included: included.map((item) => ({
       id: item.id,
@@ -377,6 +595,11 @@ async function main() {
       lastDate: chronologicalPrimary.lastDate,
       originalOrderViolations: chronologicalPrimary.originalOrderViolations,
       sortedViolations: chronologicalPrimary.sortedViolations,
+      documentPages: chronologicalPrimary.documentPages,
+      generatedAnnotationPages: chronologicalPrimary.generatedAnnotationPages,
+      officialAnnotationPages: chronologicalPrimary.officialAnnotationPages,
+      detectedOfficialAnnotationRecords: chronologicalPrimary.detectedOfficialAnnotationRecords,
+      missingOfficialAnnotationRecords: chronologicalPrimary.missingOfficialAnnotationRecords,
       records: chronologicalPrimary.records
     },
     includedFullText: included.map((item) => ({
@@ -438,7 +661,12 @@ and downloaded article PDFs remain under ignored \`private/\`.
 - Final pages: ${audit.finalPages}
 - Final bytes: ${audit.finalBytes}
 - Front-matter pages: ${audit.frontMatterPages}
-- Primary-document pages: ${audit.primary.pages}
+- Primary-section pages: ${audit.primary.pages}
+- Primary document-text pages: ${audit.primary.documentPages}
+- Generated per-document annotation sheets: ${audit.primary.generatedAnnotationPages}
+- Official source-packet annotation/control/withdrawal pages included: ${audit.primary.officialAnnotationPages}
+- Primary records with detected official sheets: ${audit.primary.detectedOfficialAnnotationRecords}
+- Primary records with generated provenance sheet only: ${audit.primary.missingOfficialAnnotationRecords}
 - Primary-document order: chronological by document date (${audit.primary.firstDate} to ${audit.primary.lastDate})
 - Primary-document order check: ${audit.primary.sortedViolations} chronological violations after rebuild; ${audit.primary.originalOrderViolations} date-order reversals in the prior package-order sequence
 - Full-text historiography PDFs appended: ${audit.includedFullText.length}
@@ -447,14 +675,18 @@ and downloaded article PDFs remain under ignored \`private/\`.
 
 ## Primary Document Order
 
-The print build slices the existing 1000-page primary-document PDF by the page
-spans in \`data/package-manifest.json\`, sorts the 178 document slices by
-document date, and re-merges them before appending the historiographical reader.
-This preserves the exact selected corpus while making the primary-document
-section chronological for offline reading.
+The print build keeps the same 178 selected primary records and 1000 pages of
+document text. It then rebuilds the primary section chronologically. Each
+record is printed as a mini-bundle: a generated package annotation sheet,
+official source-packet annotation/control/withdrawal sheet pages when detected,
+and the selected document text. This makes the primary-document section usable
+offline without separating a document from its provenance sheet.
 
 - Chronological primary PDF: \`${audit.primary.localPath}\`
 - Baseline source PDF: \`${audit.primary.baselineLocalPath}\`
+- Document-text pages: ${audit.primary.documentPages}
+- Generated annotation sheets: ${audit.primary.generatedAnnotationPages}
+- Official source-packet annotation/control/withdrawal pages: ${audit.primary.officialAnnotationPages}
 - First primary document date: ${audit.primary.firstDate}
 - Last primary document date: ${audit.primary.lastDate}
 - Chronological order violations after rebuild: ${audit.primary.sortedViolations}

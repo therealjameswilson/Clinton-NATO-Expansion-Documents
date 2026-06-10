@@ -175,6 +175,12 @@ for (const relativePath of requiredReports) {
     if (!reportText.includes("Chronological order violations after rebuild: 0")) {
       fail("print package report does not verify zero chronological order violations");
     }
+    if (!reportText.includes("Generated per-document annotation sheets: 178")) {
+      fail("print package report does not verify one generated annotation sheet per primary record");
+    }
+    if (!reportText.includes("Official source-packet annotation/control/withdrawal pages included:")) {
+      fail("print package report does not record official annotation/control/withdrawal page inclusion");
+    }
   }
 }
 

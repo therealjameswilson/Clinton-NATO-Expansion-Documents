@@ -162,7 +162,7 @@ def build_frontmatter(data, output_path):
     story.append(Spacer(1, 0.35 * inch))
     story.append(
         para(
-            "This packet is designed for print and offline reading. It begins with the 1000-page primary-document package, then appends a historiographical reader built from public or user-provided PDF sources. Copyrighted or access-controlled works that were located but not suitable for reproduction are listed in the front matter.",
+            "This packet is designed for print and offline reading. It begins with the primary-document section: the selected 1000 pages of document text, rebuilt chronologically and paired with annotation/control/withdrawal sheets. It then appends a historiographical reader built from public or user-provided PDF sources. Copyrighted or access-controlled works that were located but not suitable for reproduction are listed in the front matter.",
             styles["Normal"],
         )
     )
@@ -185,7 +185,7 @@ def build_frontmatter(data, output_path):
         ],
         [
             "Primary documents",
-            f"The Clinton NATO expansion primary-document package, rebuilt in chronological document-date order ({primary.get('firstDate', '')} to {primary.get('lastDate', '')}).",
+            f"The Clinton NATO expansion primary records, rebuilt chronologically with one generated annotation sheet per document and official source-packet sheets when detected ({primary.get('firstDate', '')} to {primary.get('lastDate', '')}).",
             str(primary.get("pages", primary.get("expectedPages", ""))),
         ],
     ]
@@ -341,8 +341,11 @@ def main():
             ("Baseline source", data["primary"].get("baselineLocalPath")),
             ("Order", data["primary"].get("orderMode")),
             ("Date span", f"{data['primary'].get('firstDate')} to {data['primary'].get('lastDate')}"),
-            ("Pages", data["primary"].get("pages") or data["primary"].get("expectedPages")),
-            ("Reader note", "This section contains the same 178 selected declassified primary records, reassembled chronologically for offline reading."),
+            ("Primary section pages", data["primary"].get("pages") or data["primary"].get("expectedPages")),
+            ("Document-text pages", data["primary"].get("documentPages")),
+            ("Generated annotation sheets", data["primary"].get("generatedAnnotationPages")),
+            ("Official source-packet sheets", data["primary"].get("officialAnnotationPages")),
+            ("Reader note", "This section contains the same 178 selected declassified primary records, reassembled chronologically with a provenance sheet before each document."),
         ],
     )
     for item in data["included"]:
