@@ -342,10 +342,13 @@ def main():
             ("Order", data["primary"].get("orderMode")),
             ("Date span", f"{data['primary'].get('firstDate')} to {data['primary'].get('lastDate')}"),
             ("Primary section pages", data["primary"].get("pages") or data["primary"].get("expectedPages")),
-            ("Document-text pages", data["primary"].get("documentPages")),
+            ("Original selected document pages", data["primary"].get("originalDocumentPages") or data["primary"].get("documentPages")),
+            ("Retained document-text pages", data["primary"].get("documentPages")),
+            ("Sparse/nontext document pages removed", data["primary"].get("removedSparseDocumentPages")),
+            ("Document-text filter", "Retain main-document pages with at least 30% extracted-text coverage; annotation/provenance sheets are exempt."),
             ("Generated annotation sheets", data["primary"].get("generatedAnnotationPages")),
             ("Official source-packet sheets", data["primary"].get("officialAnnotationPages")),
-            ("Reader note", "This section contains the same 178 selected declassified primary records, reassembled chronologically with a provenance sheet before each document."),
+            ("Reader note", "This section contains the same 178 selected declassified primary records, reassembled chronologically with provenance sheets and retained main-document pages."),
         ],
     )
     for item in data["included"]:

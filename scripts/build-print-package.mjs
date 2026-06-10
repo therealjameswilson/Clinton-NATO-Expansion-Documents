@@ -30,6 +30,9 @@ const finalPdfPath = path.join(outputRoot, "bernstein-nato-expansion-print-packe
 const normalizedFinalPdfPath = path.join(outputRoot, "bernstein-nato-expansion-print-packet.normalized.pdf");
 const dryRun = process.argv.includes("--dry-run");
 const skipDownload = process.argv.includes("--skip-download");
+const documentTextCoverageThreshold = 0.3;
+const documentTextLineMinimumWords = 20;
+const documentTextSpanMinimumWords = 40;
 const bundledPython = "/Users/jameswilson/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3";
 const python = process.env.PRINT_PACKAGE_PYTHON || (fs.existsSync(bundledPython) ? bundledPython : "python3");
 
@@ -199,6 +202,31 @@ function pagesToRange(pages) {
   return parts.join(",");
 }
 
+const pdfInfoCache = new Map();
+
+function cachedPdfInfo(filePath) {
+  if (!pdfInfoCache.has(filePath)) pdfInfoCache.set(filePath, pdfInfo(filePath));
+  return pdfInfoCache.get(filePath);
+}
+
+function pageNumbersFromRange(range, filePath) {
+  const maxPage = cachedPdfInfo(filePath).pages;
+  const pages = [];
+  for (const rawPart of String(range || "").split(",")) {
+    const part = rawPart.trim();
+    if (!part) continue;
+    const match = part.match(/^(\d+)(?:-(\d+|z))?$/i);
+    if (!match) fail(`Unsupported page range "${range}" for ${filePath}`);
+    const start = Number(match[1]);
+    const end = match[2] ? (match[2].toLowerCase() === "z" ? maxPage : Number(match[2])) : start;
+    if (start < 1 || end < start || end > maxPage) {
+      fail(`Page range "${range}" is outside ${filePath}, which has ${maxPage} pages`);
+    }
+    for (let page = start; page <= end; page += 1) pages.push(page);
+  }
+  return [...new Set(pages)].sort((a, b) => a - b);
+}
+
 const pageTextCache = new Map();
 
 function pageText(filePath, page) {
@@ -259,6 +287,84 @@ function annotationNoteFor(record, officialPages) {
   return "No separate official withdrawal/control sheet was detected immediately before or in the current source-packet block for this record. This generated sheet supplies the package provenance before the selected document text.";
 }
 
+const pageTextCoverageCache = new Map();
+
+function cleanWordText(text) {
+  return String(text || "")
+    .replace(/&(?:#\d+|#x[0-9a-f]+|[a-z]+);/gi, "")
+    .replace(/[^A-Za-z0-9]/g, "");
+}
+
+function unionIntervalCoverage(intervals, denominator) {
+  const union = [];
+  for (const [start, end] of intervals.sort((a, b) => a[0] - b[0])) {
+    if (!union.length || start > union.at(-1)[1]) {
+      union.push([start, end]);
+    } else {
+      union.at(-1)[1] = Math.max(union.at(-1)[1], end);
+    }
+  }
+  return denominator ? union.reduce((sum, [start, end]) => sum + end - start, 0) / denominator : 0;
+}
+
+function pageTextCoverage(filePath, page) {
+  const key = `${filePath}#${page}`;
+  if (pageTextCoverageCache.has(key)) return pageTextCoverageCache.get(key);
+  let html = "";
+  try {
+    html = execFileSync("pdftotext", ["-bbox", "-f", String(page), "-l", String(page), filePath, "-"], {
+      encoding: "utf8",
+      stdio: ["ignore", "pipe", "ignore"],
+      timeout: 3000
+    });
+  } catch {
+    html = "";
+  }
+  const pageTag = html.match(/<page\b[^>]*>/i)?.[0] || "";
+  const pageHeight = Number(pageTag.match(/\bheight="([0-9.]+)"/i)?.[1] || 792);
+  const intervals = [];
+  const verticalExtents = [];
+  let wordCount = 0;
+  for (const match of html.matchAll(/<word\b[^>]*>(.*?)<\/word>/gis)) {
+    const tag = match[0];
+    if (cleanWordText(match[1]).length < 2) continue;
+    const yMin = Number(tag.match(/\byMin="([0-9.]+)"/i)?.[1]);
+    const yMax = Number(tag.match(/\byMax="([0-9.]+)"/i)?.[1]);
+    if (!Number.isFinite(yMin) || !Number.isFinite(yMax) || yMax <= yMin) continue;
+    wordCount += 1;
+    intervals.push([Math.max(0, yMin - 2), Math.min(pageHeight, yMax + 2)]);
+    verticalExtents.push(yMin, yMax);
+  }
+  const lineCoverage = unionIntervalCoverage(intervals, pageHeight);
+  const spanCoverage = verticalExtents.length
+    ? (Math.max(...verticalExtents) - Math.min(...verticalExtents)) / pageHeight
+    : 0;
+  const retained = (
+    (wordCount >= documentTextLineMinimumWords && lineCoverage >= documentTextCoverageThreshold)
+    || (wordCount >= documentTextSpanMinimumWords && spanCoverage >= documentTextCoverageThreshold)
+  );
+  const result = {
+    page,
+    wordCount,
+    lineCoverage: Number(lineCoverage.toFixed(4)),
+    spanCoverage: Number(spanCoverage.toFixed(4)),
+    retained
+  };
+  pageTextCoverageCache.set(key, result);
+  return result;
+}
+
+function filterDocumentPages(filePath, range) {
+  const pages = pageNumbersFromRange(range, filePath);
+  const pageMetrics = pages.map((page) => pageTextCoverage(filePath, page));
+  return {
+    pages,
+    retainedPages: pageMetrics.filter((item) => item.retained).map((item) => item.page),
+    removedPages: pageMetrics.filter((item) => !item.retained).map((item) => item.page),
+    removedPageMetrics: pageMetrics.filter((item) => !item.retained)
+  };
+}
+
 async function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
   const selected = packageManifest.selected || [];
   if (!selected.length) fail("Package manifest has no selected primary documents.");
@@ -284,7 +390,10 @@ async function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
   let detectedOfficialAnnotationRecords = 0;
   let missingOfficialAnnotationRecords = 0;
   const missingOfficialAnnotationBySourceClass = new Map();
+  let originalDocumentPages = 0;
   let documentPages = 0;
+  let removedSparseDocumentPages = 0;
+  const removedSparseDocumentRecords = [];
   for (const [index, record] of records.entries()) {
     const order = String(index + 1).padStart(3, "0");
     const range = sourcePageRange(record);
@@ -292,13 +401,43 @@ async function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
     const selectedSourcePdf = useBaselineDocumentSlice ? "" : await ensureSelectedSource(record);
     const documentSourcePdf = useBaselineDocumentSlice ? primaryLocalPath : selectedSourcePdf;
     const documentRange = useBaselineDocumentSlice ? packagePageRange(record) : range;
+    const sourceDocumentPages = pageNumbersFromRange(documentRange, documentSourcePdf);
     const startPage = firstPageFromRange(range);
     const officialPages = useBaselineDocumentSlice
       ? []
       : findOfficialAnnotationPages(selectedSourcePdf, startPage);
     const generatedAnnotationPath = path.join(primaryAnnotationRoot, `${order}-${safeName(record.id)}.annotation.pdf`);
     const officialAnnotationPath = path.join(officialAnnotationRoot, `${order}-${safeName(record.id)}.official-annotation.pdf`);
+    const candidateDocumentPath = path.join(primaryDocumentRoot, `${order}-${safeName(record.id)}.candidate.pdf`);
     const documentPath = path.join(primaryDocumentRoot, `${order}-${safeName(record.id)}.document.pdf`);
+
+    execFileSync("qpdf", [
+      "--warning-exit-0",
+      "--empty",
+      "--pages",
+      documentSourcePdf,
+      documentRange,
+      "--",
+      candidateDocumentPath
+    ], { stdio: "ignore" });
+    const candidateInfo = pdfInfo(candidateDocumentPath);
+    if (candidateInfo.pages !== Number(record.pageCount)) {
+      fail(`Unfiltered chronological slice page mismatch for ${record.id}: expected ${record.pageCount}, got ${candidateInfo.pages}`);
+    }
+    const documentFilter = filterDocumentPages(candidateDocumentPath, "1-z");
+    const retainedCandidateRange = pagesToRange(documentFilter.retainedPages);
+    const retainedSourcePages = documentFilter.retainedPages.map((page) => sourceDocumentPages[page - 1]).filter(Boolean);
+    const removedSourcePages = documentFilter.removedPages.map((page) => sourceDocumentPages[page - 1]).filter(Boolean);
+    const retainedSourceRange = pagesToRange(retainedSourcePages);
+    const removedSourceRange = pagesToRange(removedSourcePages);
+    const removedPageMetrics = documentFilter.removedPageMetrics.map((item) => ({
+      candidatePage: item.page,
+      sourcePage: sourceDocumentPages[item.page - 1] || "",
+      wordCount: item.wordCount,
+      lineCoverage: item.lineCoverage,
+      spanCoverage: item.spanCoverage,
+      retained: item.retained
+    }));
 
     annotationInputs.push({
       outputPath: generatedAnnotationPath,
@@ -307,9 +446,14 @@ async function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
       id: record.id,
       date: record.date,
       title: record.title,
-      documentPages: record.pageCount,
+      originalDocumentPages: record.pageCount,
+      retainedDocumentPages: documentFilter.retainedPages.length,
+      removedSparseDocumentPages: documentFilter.removedPages.length,
       sourceClass: record.sourceClass,
       sourcePages: useBaselineDocumentSlice ? `${range} (document text extracted from baseline package pages ${documentRange})` : range,
+      retainedSourcePages: retainedSourceRange || "none retained",
+      removedSourcePages: removedSourceRange || "none",
+      textCoverageFilter: `30% minimum text coverage; annotation/provenance pages are exempt`,
       officialAnnotationPages: officialPages.length ? pagesToRange(officialPages) : "not detected in source PDF",
       officialAnnotationStatus: officialPages.length ? "official source-packet sheet(s) included after this generated annotation sheet" : "generated provenance sheet only",
       sourceUrl: record.sourceUrl || "",
@@ -345,32 +489,53 @@ async function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
       missingOfficialAnnotationBySourceClass.set(sourceClass, (missingOfficialAnnotationBySourceClass.get(sourceClass) || 0) + 1);
     }
 
-    execFileSync("qpdf", [
-      "--warning-exit-0",
-      "--empty",
-      "--pages",
-      documentSourcePdf,
-      documentRange,
-      "--",
-      documentPath
-    ], { stdio: "ignore" });
-    const sliceInfo = pdfInfo(documentPath);
-    if (sliceInfo.pages !== Number(record.pageCount)) {
-      fail(`Chronological slice page mismatch for ${record.id}: expected ${record.pageCount}, got ${sliceInfo.pages}`);
+    originalDocumentPages += Number(record.pageCount);
+    removedSparseDocumentPages += documentFilter.removedPages.length;
+    if (documentFilter.removedPages.length) {
+      removedSparseDocumentRecords.push({
+        chronologicalOrder: index + 1,
+        id: record.id,
+        date: record.date,
+        title: record.title,
+        sourceClass: record.sourceClass,
+        removedSourcePages: removedSourceRange,
+        removedPages: removedPageMetrics
+      });
     }
-    documentPages += sliceInfo.pages;
-    slices.push(documentPath);
+
+    let retainedDocumentPageCount = 0;
+    if (retainedCandidateRange) {
+      execFileSync("qpdf", [
+        "--warning-exit-0",
+        "--empty",
+        "--pages",
+        candidateDocumentPath,
+        retainedCandidateRange,
+        "--",
+        documentPath
+      ], { stdio: "ignore" });
+      const sliceInfo = pdfInfo(documentPath);
+      if (sliceInfo.pages !== documentFilter.retainedPages.length) {
+        fail(`Chronological slice page mismatch for ${record.id}: expected ${documentFilter.retainedPages.length}, got ${sliceInfo.pages}`);
+      }
+      retainedDocumentPageCount = sliceInfo.pages;
+      slices.push(documentPath);
+    }
+    documentPages += retainedDocumentPageCount;
     chronology.push({
       chronologicalOrder: index + 1,
       originalPackageOrder: record.packageOrder,
       id: record.id,
       date: record.date,
       title: record.title,
-      documentPages: record.pageCount,
+      originalDocumentPages: record.pageCount,
+      documentPages: retainedDocumentPageCount,
       generatedAnnotationPages: 1,
       officialAnnotationPages: officialAnnotationPageCount,
       officialAnnotationSourcePages: officialAnnotationRange || "",
       sourcePdfPages: useBaselineDocumentSlice ? documentRange : range,
+      retainedSourcePdfPages: retainedSourceRange || "",
+      removedSparseSourcePdfPages: removedSourceRange || "",
       sourcePackagePages: packagePageRange(record),
       sourceClass: record.sourceClass
     });
@@ -397,7 +562,10 @@ async function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
     sortedViolations,
     firstDate: chronology[0]?.date || "",
     lastDate: chronology.at(-1)?.date || "",
+    originalDocumentPages,
     documentPages,
+    removedSparseDocumentPages,
+    removedSparseDocumentRecords,
     generatedAnnotationPages,
     officialAnnotationPages,
     detectedOfficialAnnotationRecords,
@@ -518,7 +686,10 @@ async function main() {
       lastDate: chronologicalPrimary.lastDate,
       originalOrderViolations: chronologicalPrimary.originalOrderViolations,
       sortedViolations: chronologicalPrimary.sortedViolations,
+      originalDocumentPages: chronologicalPrimary.originalDocumentPages,
       documentPages: chronologicalPrimary.documentPages,
+      removedSparseDocumentPages: chronologicalPrimary.removedSparseDocumentPages,
+      textCoverageThreshold: documentTextCoverageThreshold,
       generatedAnnotationPages: chronologicalPrimary.generatedAnnotationPages,
       officialAnnotationPages: chronologicalPrimary.officialAnnotationPages,
       detectedOfficialAnnotationRecords: chronologicalPrimary.detectedOfficialAnnotationRecords,
@@ -600,12 +771,21 @@ async function main() {
       lastDate: chronologicalPrimary.lastDate,
       originalOrderViolations: chronologicalPrimary.originalOrderViolations,
       sortedViolations: chronologicalPrimary.sortedViolations,
+      originalDocumentPages: chronologicalPrimary.originalDocumentPages,
       documentPages: chronologicalPrimary.documentPages,
+      removedSparseDocumentPages: chronologicalPrimary.removedSparseDocumentPages,
+      textCoverageThreshold: documentTextCoverageThreshold,
+      textCoverageRule: {
+        minimumCoverage: documentTextCoverageThreshold,
+        lineMinimumWords: documentTextLineMinimumWords,
+        spanMinimumWords: documentTextSpanMinimumWords
+      },
       generatedAnnotationPages: chronologicalPrimary.generatedAnnotationPages,
       officialAnnotationPages: chronologicalPrimary.officialAnnotationPages,
       detectedOfficialAnnotationRecords: chronologicalPrimary.detectedOfficialAnnotationRecords,
       missingOfficialAnnotationRecords: chronologicalPrimary.missingOfficialAnnotationRecords,
       missingOfficialAnnotationBySourceClass: chronologicalPrimary.missingOfficialAnnotationBySourceClass,
+      removedSparseDocumentRecords: chronologicalPrimary.removedSparseDocumentRecords,
       records: chronologicalPrimary.records
     },
     includedFullText: included.map((item) => ({
@@ -671,7 +851,9 @@ and downloaded article PDFs remain under ignored \`private/\`.
 - Final bytes: ${audit.finalBytes}
 - Front-matter pages: ${audit.frontMatterPages}
 - Primary-section pages: ${audit.primary.pages}
-- Primary document-text pages: ${audit.primary.documentPages}
+- Original selected primary document-text pages: ${audit.primary.originalDocumentPages}
+- Retained primary document-text pages after 30% text filter: ${audit.primary.documentPages}
+- Sparse/nontext document pages removed: ${audit.primary.removedSparseDocumentPages}
 - Generated per-document annotation sheets: ${audit.primary.generatedAnnotationPages}
 - Official source-packet annotation/control/withdrawal pages included: ${audit.primary.officialAnnotationPages}
 - Primary records with detected official sheets: ${audit.primary.detectedOfficialAnnotationRecords}
@@ -686,15 +868,20 @@ and downloaded article PDFs remain under ignored \`private/\`.
 ## Primary Document Order
 
 The print build keeps the same 178 selected primary records and 1000 pages of
-document text. It then rebuilds the primary section chronologically. Each
-record is printed as a mini-bundle: a generated package annotation sheet,
+source document text as the baseline selection. It then rebuilds the primary
+section chronologically and removes source-document pages that do not meet the
+30% text-coverage rule. Annotation/provenance pages are exempt from that filter.
+Each record is printed as a mini-bundle: a generated package annotation sheet,
 official source-packet annotation/control/withdrawal sheet pages when detected,
-and the selected document text. This makes the primary-document section usable
+and retained document text. This makes the primary-document section usable
 offline without separating a document from its provenance sheet.
 
 - Chronological primary PDF: \`${audit.primary.localPath}\`
 - Baseline source PDF: \`${audit.primary.baselineLocalPath}\`
-- Document-text pages: ${audit.primary.documentPages}
+- Original selected document-text pages: ${audit.primary.originalDocumentPages}
+- Retained document-text pages: ${audit.primary.documentPages}
+- Sparse/nontext document pages removed: ${audit.primary.removedSparseDocumentPages}
+- Document-text page filter: keep pages with at least ${Math.round(audit.primary.textCoverageThreshold * 100)}% extracted-text coverage; annotation/provenance pages are kept separately
 - Generated annotation sheets: ${audit.primary.generatedAnnotationPages}
 - Official source-packet annotation/control/withdrawal pages: ${audit.primary.officialAnnotationPages}
 - Generated-only source-class breakdown: ${missingAnnotationBreakdown}

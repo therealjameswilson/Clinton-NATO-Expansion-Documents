@@ -174,11 +174,13 @@ The public repo keeps the source manifest and rebuild instructions. Web-only,
 paywalled, or access-controlled historiography is listed in the printed front
 matter with citations and access notes instead of being reproduced in full.
 
-The print build preserves the same 178 selected primary records and 1000 pages
-of document text, but the printed primary section is larger because each record
-is rebuilt chronologically as a mini-bundle: generated package annotation sheet,
-official source-packet annotation/control/withdrawal pages when detected, then
-the document text.
+The print build preserves the same 178 selected primary records and uses the
+same 1000 selected document-text pages as its baseline. Before final assembly,
+it removes primary-document pages that are not annotation/provenance material
+and do not meet the 30% extracted-text coverage rule. Each record is rebuilt
+chronologically as a mini-bundle: generated package annotation sheet, official
+source-packet annotation/control/withdrawal pages when detected, then retained
+document text.
 
 ## Editorial Rules
 

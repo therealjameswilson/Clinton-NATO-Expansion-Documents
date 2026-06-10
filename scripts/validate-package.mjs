@@ -181,6 +181,12 @@ for (const relativePath of requiredReports) {
     if (!reportText.includes("Official source-packet annotation/control/withdrawal pages included:")) {
       fail("print package report does not record official annotation/control/withdrawal page inclusion");
     }
+    if (!reportText.includes("Retained primary document-text pages after 30% text filter:")) {
+      fail("print package report does not record the primary-document 30% text filter");
+    }
+    if (!reportText.includes("Sparse/nontext document pages removed:")) {
+      fail("print package report does not record sparse/nontext primary-document removals");
+    }
   }
 }
 

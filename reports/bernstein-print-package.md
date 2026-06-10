@@ -1,6 +1,6 @@
 # Bernstein Offline Print Package
 
-Generated: 2026-06-10T02:23:48.992Z
+Generated: 2026-06-10T12:55:41.156Z
 
 This report records the local print build for Professor Barton Bernstein. The
 public repository tracks the manifest, source URLs, and scripts. The merged PDF
@@ -9,11 +9,13 @@ and downloaded article PDFs remain under ignored `private/`.
 ## Result
 
 - Local print PDF: `private/print-package/bernstein-nato-expansion-print-packet.pdf`
-- Final pages: 2484
-- Final bytes: 75823963
+- Final pages: 2457
+- Final bytes: 75502255
 - Front-matter pages: 8
-- Primary-section pages: 1483
-- Primary document-text pages: 1000
+- Primary-section pages: 1456
+- Original selected primary document-text pages: 1000
+- Retained primary document-text pages after 30% text filter: 973
+- Sparse/nontext document pages removed: 27
 - Generated per-document annotation sheets: 178
 - Official source-packet annotation/control/withdrawal pages included: 305
 - Primary records with detected official sheets: 133
@@ -28,15 +30,20 @@ and downloaded article PDFs remain under ignored `private/`.
 ## Primary Document Order
 
 The print build keeps the same 178 selected primary records and 1000 pages of
-document text. It then rebuilds the primary section chronologically. Each
-record is printed as a mini-bundle: a generated package annotation sheet,
+source document text as the baseline selection. It then rebuilds the primary
+section chronologically and removes source-document pages that do not meet the
+30% text-coverage rule. Annotation/provenance pages are exempt from that filter.
+Each record is printed as a mini-bundle: a generated package annotation sheet,
 official source-packet annotation/control/withdrawal sheet pages when detected,
-and the selected document text. This makes the primary-document section usable
+and retained document text. This makes the primary-document section usable
 offline without separating a document from its provenance sheet.
 
 - Chronological primary PDF: `private/print-package/working/primary-documents-chronological.pdf`
 - Baseline source PDF: `private/package-pdfs/clinton-nato-expansion-bernstein-1000-page-package.pdf`
-- Document-text pages: 1000
+- Original selected document-text pages: 1000
+- Retained document-text pages: 973
+- Sparse/nontext document pages removed: 27
+- Document-text page filter: keep pages with at least 30% extracted-text coverage; annotation/provenance pages are kept separately
 - Generated annotation sheets: 178
 - Official source-packet annotation/control/withdrawal pages: 305
 - Generated-only source-class breakdown: clinton-library-mdr: 8; nara-iscap: 1; state-foia: 36
