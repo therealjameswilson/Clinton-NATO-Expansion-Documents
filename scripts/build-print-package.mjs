@@ -17,6 +17,9 @@ const reportPath = path.join(repoRoot, "reports", "bernstein-print-package.md");
 const auditPath = path.join(outputRoot, "print-package-audit.json");
 const frontmatterDataPath = path.join(workingRoot, "frontmatter-data.json");
 const frontmatterPdfPath = path.join(workingRoot, "000-frontmatter.pdf");
+const chronologicalPrimaryRoot = path.join(workingRoot, "primary-chronological");
+const chronologicalPrimaryPdfPath = path.join(workingRoot, "primary-documents-chronological.pdf");
+const normalizedChronologicalPrimaryPdfPath = path.join(workingRoot, "primary-documents-chronological.normalized.pdf");
 const finalPdfPath = path.join(outputRoot, "bernstein-nato-expansion-print-packet.pdf");
 const normalizedFinalPdfPath = path.join(outputRoot, "bernstein-nato-expansion-print-packet.normalized.pdf");
 const dryRun = process.argv.includes("--dry-run");
@@ -87,6 +90,104 @@ function ensureTool(name) {
 
 function shellQuote(value) {
   return `'${String(value).replace(/'/g, "'\\''")}'`;
+}
+
+function recordDateKey(record) {
+  return [
+    record.date || "9999-99-99",
+    String(record.packageOrder || "").padStart(5, "0"),
+    record.title || "",
+    record.id || ""
+  ];
+}
+
+function compareRecordsByDate(a, b) {
+  const left = recordDateKey(a);
+  const right = recordDateKey(b);
+  for (let i = 0; i < left.length; i += 1) {
+    if (left[i] < right[i]) return -1;
+    if (left[i] > right[i]) return 1;
+  }
+  return 0;
+}
+
+function countDateOrderViolations(records) {
+  let violations = 0;
+  let previous = null;
+  for (const record of records) {
+    if (previous && compareRecordsByDate(previous, record) > 0) violations += 1;
+    previous = record;
+  }
+  return violations;
+}
+
+function packagePageRange(record) {
+  if (!Number(record.packagePageStart) || !Number(record.packagePageEnd)) {
+    fail(`Package record lacks page span: ${record.id}`);
+  }
+  return `${record.packagePageStart}-${record.packagePageEnd}`;
+}
+
+function buildChronologicalPrimary(primaryLocalPath, packageManifest) {
+  const selected = packageManifest.selected || [];
+  if (!selected.length) fail("Package manifest has no selected primary documents.");
+  fs.rmSync(chronologicalPrimaryRoot, { recursive: true, force: true });
+  fs.mkdirSync(chronologicalPrimaryRoot, { recursive: true });
+
+  const originalOrderViolations = countDateOrderViolations(selected);
+  const records = [...selected].sort(compareRecordsByDate);
+  const sortedViolations = countDateOrderViolations(records);
+  if (sortedViolations) fail(`Chronological sort still has ${sortedViolations} date-order violations.`);
+
+  const slices = [];
+  const chronology = [];
+  for (const [index, record] of records.entries()) {
+    const order = String(index + 1).padStart(3, "0");
+    const slicePath = path.join(chronologicalPrimaryRoot, `${order}-${safeName(record.id)}.pdf`);
+    execFileSync("qpdf", [
+      "--warning-exit-0",
+      "--empty",
+      "--pages",
+      primaryLocalPath,
+      packagePageRange(record),
+      "--",
+      slicePath
+    ], { stdio: "ignore" });
+    const sliceInfo = pdfInfo(slicePath);
+    if (sliceInfo.pages !== Number(record.pageCount)) {
+      fail(`Chronological slice page mismatch for ${record.id}: expected ${record.pageCount}, got ${sliceInfo.pages}`);
+    }
+    slices.push(slicePath);
+    chronology.push({
+      chronologicalOrder: index + 1,
+      originalPackageOrder: record.packageOrder,
+      id: record.id,
+      date: record.date,
+      title: record.title,
+      pages: record.pageCount,
+      sourcePackagePages: packagePageRange(record)
+    });
+  }
+
+  execFileSync("pdfunite", slices.concat(chronologicalPrimaryPdfPath), { stdio: "inherit" });
+  normalizePdf(chronologicalPrimaryPdfPath, normalizedChronologicalPrimaryPdfPath);
+  fs.renameSync(normalizedChronologicalPrimaryPdfPath, chronologicalPrimaryPdfPath);
+  execFileSync("qpdf", ["--warning-exit-0", "--check", chronologicalPrimaryPdfPath], { stdio: "inherit" });
+  const info = pdfInfo(chronologicalPrimaryPdfPath);
+  const expectedPages = selected.reduce((sum, record) => sum + Number(record.pageCount || 0), 0);
+  if (info.pages !== expectedPages) {
+    fail(`Chronological primary page mismatch: expected ${expectedPages}, got ${info.pages}`);
+  }
+
+  return {
+    path: chronologicalPrimaryPdfPath,
+    info,
+    records: chronology,
+    originalOrderViolations,
+    sortedViolations,
+    firstDate: chronology[0]?.date || "",
+    lastDate: chronology.at(-1)?.date || ""
+  };
 }
 
 async function main() {
@@ -178,6 +279,8 @@ async function main() {
     return;
   }
 
+  const chronologicalPrimary = buildChronologicalPrimary(primaryLocalPath, packageManifest);
+
   const frontmatterData = {
     manifest,
     handoff,
@@ -188,9 +291,16 @@ async function main() {
     },
     primary: {
       ...manifest.primaryDocumentPackage,
-      pages: primaryInfo.pages,
-      fileSizeBytes: primaryInfo.fileSizeBytes,
-      localPath: manifest.primaryDocumentPackage.localPath
+      pages: chronologicalPrimary.info.pages,
+      fileSizeBytes: chronologicalPrimary.info.fileSizeBytes,
+      baselineLocalPath: manifest.primaryDocumentPackage.localPath,
+      localPath: relative(chronologicalPrimary.path),
+      orderMode: "chronological-by-document-date",
+      recordCount: chronologicalPrimary.records.length,
+      firstDate: chronologicalPrimary.firstDate,
+      lastDate: chronologicalPrimary.lastDate,
+      originalOrderViolations: chronologicalPrimary.originalOrderViolations,
+      sortedViolations: chronologicalPrimary.sortedViolations
     },
     included: included.map((item) => ({
       id: item.id,
@@ -224,7 +334,7 @@ async function main() {
   const mergeInputs = [
     frontmatterPdfPath,
     path.join(dividerRoot, "000-primary-documents-divider.pdf"),
-    primaryLocalPath
+    chronologicalPrimary.path
   ];
   for (const item of included) {
     mergeInputs.push(path.join(dividerRoot, `${String(item.order).padStart(3, "0")}-${item.id}-divider.pdf`));
@@ -238,7 +348,7 @@ async function main() {
 
   const finalInfo = pdfInfo(finalPdfPath);
   const textProbe = execFileSync("pdftotext", ["-f", "1", "-l", "8", finalPdfPath, "-"], { encoding: "utf8" });
-  const expectedPages = frontmatterInfo.pages + 1 + primaryInfo.pages + included.reduce((sum, item) => sum + 1 + Number(item.pages || 0), 0);
+  const expectedPages = frontmatterInfo.pages + 1 + chronologicalPrimary.info.pages + included.reduce((sum, item) => sum + 1 + Number(item.pages || 0), 0);
   if (finalInfo.pages !== expectedPages) {
     fail(`Final page mismatch: expected ${expectedPages}, got ${finalInfo.pages}`);
   }
@@ -257,9 +367,17 @@ async function main() {
     frontMatterPages: frontmatterInfo.pages,
     primary: {
       id: manifest.primaryDocumentPackage.id,
-      pages: primaryInfo.pages,
-      fileSizeBytes: primaryInfo.fileSizeBytes,
-      localPath: manifest.primaryDocumentPackage.localPath
+      pages: chronologicalPrimary.info.pages,
+      fileSizeBytes: chronologicalPrimary.info.fileSizeBytes,
+      baselineLocalPath: manifest.primaryDocumentPackage.localPath,
+      localPath: relative(chronologicalPrimary.path),
+      orderMode: "chronological-by-document-date",
+      recordCount: chronologicalPrimary.records.length,
+      firstDate: chronologicalPrimary.firstDate,
+      lastDate: chronologicalPrimary.lastDate,
+      originalOrderViolations: chronologicalPrimary.originalOrderViolations,
+      sortedViolations: chronologicalPrimary.sortedViolations,
+      records: chronologicalPrimary.records
     },
     includedFullText: included.map((item) => ({
       id: item.id,
@@ -321,9 +439,26 @@ and downloaded article PDFs remain under ignored \`private/\`.
 - Final bytes: ${audit.finalBytes}
 - Front-matter pages: ${audit.frontMatterPages}
 - Primary-document pages: ${audit.primary.pages}
+- Primary-document order: chronological by document date (${audit.primary.firstDate} to ${audit.primary.lastDate})
+- Primary-document order check: ${audit.primary.sortedViolations} chronological violations after rebuild; ${audit.primary.originalOrderViolations} date-order reversals in the prior package-order sequence
 - Full-text historiography PDFs appended: ${audit.includedFullText.length}
 - Citation-only historiography entries: ${audit.citationOnlyCount}
 - Integrity checks: ${audit.checks.join("; ")}
+
+## Primary Document Order
+
+The print build slices the existing 1000-page primary-document PDF by the page
+spans in \`data/package-manifest.json\`, sorts the 178 document slices by
+document date, and re-merges them before appending the historiographical reader.
+This preserves the exact selected corpus while making the primary-document
+section chronological for offline reading.
+
+- Chronological primary PDF: \`${audit.primary.localPath}\`
+- Baseline source PDF: \`${audit.primary.baselineLocalPath}\`
+- First primary document date: ${audit.primary.firstDate}
+- Last primary document date: ${audit.primary.lastDate}
+- Chronological order violations after rebuild: ${audit.primary.sortedViolations}
+- Date-order reversals in the prior package-order sequence: ${audit.primary.originalOrderViolations}
 
 ## Full-Text Historiography Appended Locally
 

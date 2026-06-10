@@ -185,7 +185,7 @@ def build_frontmatter(data, output_path):
         ],
         [
             "Primary documents",
-            "The existing Clinton NATO expansion 1000-page declassified-document package.",
+            f"The Clinton NATO expansion primary-document package, rebuilt in chronological document-date order ({primary.get('firstDate', '')} to {primary.get('lastDate', '')}).",
             str(primary.get("pages", primary.get("expectedPages", ""))),
         ],
     ]
@@ -338,8 +338,11 @@ def main():
         "Clinton NATO Expansion Bernstein 1000-Page Package",
         [
             ("Local source", data["primary"].get("localPath")),
+            ("Baseline source", data["primary"].get("baselineLocalPath")),
+            ("Order", data["primary"].get("orderMode")),
+            ("Date span", f"{data['primary'].get('firstDate')} to {data['primary'].get('lastDate')}"),
             ("Pages", data["primary"].get("pages") or data["primary"].get("expectedPages")),
-            ("Reader note", "This section contains the declassified primary records selected for the 1000-page baseline package."),
+            ("Reader note", "This section contains the same 178 selected declassified primary records, reassembled chronologically for offline reading."),
         ],
     )
     for item in data["included"]:

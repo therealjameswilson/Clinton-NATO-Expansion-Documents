@@ -168,6 +168,14 @@ for (const relativePath of requiredReports) {
   if (!fs.existsSync(reportPath)) fail(`missing report: ${relativePath}`);
   const reportText = fs.readFileSync(reportPath, "utf8");
   if (reportText.includes("Run `npm run build`")) fail(`stale report: ${relativePath}`);
+  if (relativePath === "reports/bernstein-print-package.md") {
+    if (!reportText.includes("Primary-document order: chronological by document date")) {
+      fail("print package report no longer records chronological primary-document order");
+    }
+    if (!reportText.includes("Chronological order violations after rebuild: 0")) {
+      fail("print package report does not verify zero chronological order violations");
+    }
+  }
 }
 
 if (!process.exitCode) {

@@ -1,6 +1,6 @@
 # Bernstein Offline Print Package
 
-Generated: 2026-06-09T16:12:13.466Z
+Generated: 2026-06-10T01:56:34.635Z
 
 This report records the local print build for Professor Barton Bernstein. The
 public repository tracks the manifest, source URLs, and scripts. The merged PDF
@@ -10,12 +10,29 @@ and downloaded article PDFs remain under ignored `private/`.
 
 - Local print PDF: `private/print-package/bernstein-nato-expansion-print-packet.pdf`
 - Final pages: 2001
-- Final bytes: 63422617
+- Final bytes: 63416078
 - Front-matter pages: 8
 - Primary-document pages: 1000
+- Primary-document order: chronological by document date (1993-04-19 to 2000-11-13)
+- Primary-document order check: 0 chronological violations after rebuild; 34 date-order reversals in the prior package-order sequence
 - Full-text historiography PDFs appended: 12
 - Citation-only historiography entries: 13
 - Integrity checks: pdfinfo read final PDF; qpdf --warning-exit-0 --check found no fatal syntax or stream errors; pdftotext first-eight-page probe found cover text
+
+## Primary Document Order
+
+The print build slices the existing 1000-page primary-document PDF by the page
+spans in `data/package-manifest.json`, sorts the 178 document slices by
+document date, and re-merges them before appending the historiographical reader.
+This preserves the exact selected corpus while making the primary-document
+section chronological for offline reading.
+
+- Chronological primary PDF: `private/print-package/working/primary-documents-chronological.pdf`
+- Baseline source PDF: `private/package-pdfs/clinton-nato-expansion-bernstein-1000-page-package.pdf`
+- First primary document date: 1993-04-19
+- Last primary document date: 2000-11-13
+- Chronological order violations after rebuild: 0
+- Date-order reversals in the prior package-order sequence: 34
 
 ## Full-Text Historiography Appended Locally
 
