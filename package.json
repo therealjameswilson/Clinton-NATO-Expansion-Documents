@@ -11,6 +11,7 @@
     "build:v2": "node scripts/build-version-2.mjs",
     "build:bernstein": "node scripts/build-bernstein-handoff.mjs",
     "build:print": "node scripts/build-print-package.mjs",
+    "package:send": "node scripts/package-print-send.mjs",
     "download:package": "node scripts/download-package-pdfs.mjs",
     "test": "node scripts/validate-package.mjs",
     "check": "npm run build && npm run build:v2 && npm run build:bernstein && npm test"

@@ -21,7 +21,8 @@ const requiredReports = [
   "reports/source-exhaustion-audit.md",
   "reports/version-2-explicit-expansion.md",
   "reports/bernstein-handoff.md",
-  "reports/bernstein-print-package.md"
+  "reports/bernstein-print-package.md",
+  "reports/bernstein-print-send-package.md"
 ];
 
 function fail(message) {
@@ -186,6 +187,14 @@ for (const relativePath of requiredReports) {
     }
     if (!reportText.includes("Sparse/nontext document pages removed:")) {
       fail("print package report does not record sparse/nontext primary-document removals");
+    }
+  }
+  if (relativePath === "reports/bernstein-print-send-package.md") {
+    if (!reportText.includes("Delivery folder: `private/delivery/bernstein-nato-expansion-print-send-package`")) {
+      fail("print/send package report does not record the delivery folder");
+    }
+    if (!reportText.includes("Volume count: 7")) {
+      fail("print/send package report does not record the seven-volume package");
     }
   }
 }

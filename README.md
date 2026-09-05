@@ -169,6 +169,18 @@ It writes:
 - `private/print-package/print-package-audit.json`
 - `reports/bernstein-print-package.md`
 
+To package the rebuilt PDF into print/send files with a cover memo, print-shop
+instructions, volume PDFs, manifest, and zip archive, run:
+
+```bash
+npm run package:send
+```
+
+That command writes the local delivery set under
+`private/delivery/bernstein-nato-expansion-print-send-package/` and the zip
+archive at
+`private/delivery/bernstein-nato-expansion-print-send-package.zip`.
+
 The merged PDF and downloaded article PDFs are intentionally ignored by Git.
 The public repo keeps the source manifest and rebuild instructions. Web-only,
 paywalled, or access-controlled historiography is listed in the printed front
